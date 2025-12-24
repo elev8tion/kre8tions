@@ -659,209 +659,250 @@ flutter:
   }
 
   Widget _buildWebAppBar(ThemeData theme) {
-    return Container(
-      height: 60,
-      decoration: BoxDecoration(
-        color: theme.colorScheme.surface,
-        border: Border(
-          bottom: BorderSide(
-            color: Kre8tionsColors.border,
-            width: 1,
-          ),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: theme.colorScheme.shadow.withValues(alpha: 0.1),
-            blurRadius: 8,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: Row(
-        children: [
-          // KRE8TIONS Logo and Title
-          Row(
-            children: [
-              Kre8tionsLogoCompact(
-                size: 40,
-                showText: true,
-                useSvg: true,
-                isDark: theme.brightness == Brightness.dark,
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final screenWidth = constraints.maxWidth;
+        final isCompact = screenWidth < 1600;
+        final isVeryCompact = screenWidth < 1400;
+
+        return Container(
+          height: 60,
+          decoration: BoxDecoration(
+            color: theme.colorScheme.surface,
+            border: Border(
+              bottom: BorderSide(
+                color: Kre8tionsColors.border,
+                width: 1,
               ),
-              if (_currentProject != null) ...[
-                const SizedBox(width: 8),
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                  decoration: BoxDecoration(
-                    color: theme.colorScheme.primaryContainer,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Text(
-                    _currentProject!.name,
-                    style: theme.textTheme.labelMedium?.copyWith(
-                      color: theme.colorScheme.onPrimaryContainer,
-                      fontWeight: FontWeight.w600,
-                    ),
-                    overflow: TextOverflow.ellipsis,
-                    maxLines: 1,
-                  ),
-                ),
-              ],
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: theme.colorScheme.shadow.withValues(alpha: 0.1),
+                blurRadius: 8,
+                offset: const Offset(0, 2),
+              ),
             ],
           ),
-          const Spacer(),
-          // Panel Toggle Buttons  
-          if (_currentProject != null) ...[
-            Tooltip(
-              message: 'Toggle Explorer (Ctrl+1)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.folder_open,
-                label: _showFileTree ? 'Hide Explorer' : 'Show Explorer',
-                isActive: _showFileTree,
-                onPressed: () => _stateManager.toggleFileTree(),
-              ),
-            ),
-            const SizedBox(width: 8),
-            Tooltip(
-              message: 'Toggle Editor (Ctrl+2)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.code,
-                label: _showEditor ? 'Hide Editor' : 'Show Editor',
-                isActive: _showEditor,
-                onPressed: () => _stateManager.toggleEditor(),
-              ),
-            ),
-            const SizedBox(width: 8),
-            Tooltip(
-              message: 'Toggle Preview (Ctrl+3)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.visibility,
-                label: _showUIPreview ? 'Hide Preview' : 'Show Preview',
-                isActive: _showUIPreview,
-                onPressed: () => _stateManager.toggleUIPreview(),
-              ),
-            ),
-            const SizedBox(width: 8),
-            Tooltip(
-              message: 'Toggle AI Assistant (Ctrl+4)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.auto_awesome,
-                label: _showAIPanel ? 'Hide AI Assistant' : 'Show AI Assistant',
-                isActive: _showAIPanel,
-                onPressed: () => _stateManager.toggleAIPanel(),
-              ),
-            ),
-            const SizedBox(width: 8),
-            Tooltip(
-              message: 'Toggle Terminal (Ctrl+5)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.terminal,
-                label: _stateManager.showTerminal ? 'Hide Terminal' : 'Show Terminal',
-                isActive: _stateManager.showTerminal,
-                onPressed: () => _stateManager.toggleTerminal(),
-              ),
-            ),
-            const SizedBox(width: 16),
-            // Bulk collapse/expand toggle
-            Tooltip(
-              message: 'Collapse/Expand All Panels (Ctrl+B)',
-              child: _buildToolbarButton(
-                theme,
-                icon: Icons.unfold_less,
-                label: 'Collapse All',
-                isActive: false,
-                onPressed: () => _stateManager.toggleAllPanelsCollapsed(),
-              ),
-            ),
-            const SizedBox(width: 8),
-            // Editor collapse toggle
-            if (_showEditor)
-              Tooltip(
-                message: 'Collapse/Expand Editor (Ctrl+E)',
-                child: _buildToolbarButton(
-                  theme,
-                  icon: _isEditorCollapsed ? Icons.unfold_more : Icons.unfold_less,
-                  label: _isEditorCollapsed ? 'Expand Editor' : 'Collapse Editor',
-                  isActive: !_isEditorCollapsed,
-                  onPressed: () => _stateManager.toggleEditorCollapsed(),
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            children: [
+              // KRE8TIONS Logo and Title
+              ConstrainedBox(
+                constraints: BoxConstraints(
+                  maxWidth: isVeryCompact ? 200 : (isCompact ? 280 : 350),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Kre8tionsLogoCompact(
+                      size: 40,
+                      showText: !isVeryCompact,
+                      useSvg: true,
+                      isDark: theme.brightness == Brightness.dark,
+                    ),
+                    if (_currentProject != null) ...[
+                      const SizedBox(width: 8),
+                      Flexible(
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.primaryContainer,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Text(
+                            _currentProject!.name,
+                            style: theme.textTheme.labelMedium?.copyWith(
+                              color: theme.colorScheme.onPrimaryContainer,
+                              fontWeight: FontWeight.w600,
+                            ),
+                            overflow: TextOverflow.ellipsis,
+                            maxLines: 1,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
                 ),
               ),
-            const SizedBox(width: 16),
-            // Divider
-            Container(
-              height: 24,
-              width: 1,
-              color: theme.dividerColor.withValues(alpha: 0.3),
-            ),
-            const SizedBox(width: 16),
-            _buildToolbarButton(
-              theme,
-              icon: Icons.download,
-              label: 'Export Project',
-              isActive: false,
-              onPressed: _exportProject,
-            ),
-            const SizedBox(width: 8),
-            _buildToolbarButton(
-              theme,
-              icon: Icons.share,
-              label: 'Share Project',
-              isActive: false,
-              onPressed: _shareProject,
-            ),
-            const SizedBox(width: 8),
-            _buildToolbarButton(
-              theme,
-              icon: Icons.cloud_download,
-              label: 'Import Project',
-              isActive: false,
-              onPressed: _importSharedProject,
-            ),
-            const SizedBox(width: 8),
-            _buildToolbarButton(
-              theme,
-              icon: Icons.close,
-              label: 'Close Project',
-              isActive: false,
-              onPressed: _closeProject,
-            ),
-          ] else ...[
-            ElevatedButton.icon(
-              onPressed: _createNewProject,
-              icon: const Icon(Icons.create_new_folder, size: 20),
-              label: const Text('New Project'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: theme.colorScheme.tertiary,
-                foregroundColor: theme.colorScheme.onTertiary,
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8),
+              const SizedBox(width: 16),
+              // Panel Toggle Buttons with horizontal scroll on overflow
+              Expanded(
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: _currentProject != null
+                    ? Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Tooltip(
+                            message: 'Toggle Explorer (Ctrl+1)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.folder_open,
+                              label: _showFileTree ? 'Hide Explorer' : 'Show Explorer',
+                              isActive: _showFileTree,
+                              onPressed: () => _stateManager.toggleFileTree(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Tooltip(
+                            message: 'Toggle Editor (Ctrl+2)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.code,
+                              label: _showEditor ? 'Hide Editor' : 'Show Editor',
+                              isActive: _showEditor,
+                              onPressed: () => _stateManager.toggleEditor(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Tooltip(
+                            message: 'Toggle Preview (Ctrl+3)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.visibility,
+                              label: _showUIPreview ? 'Hide Preview' : 'Show Preview',
+                              isActive: _showUIPreview,
+                              onPressed: () => _stateManager.toggleUIPreview(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Tooltip(
+                            message: 'Toggle AI Assistant (Ctrl+4)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.auto_awesome,
+                              label: _showAIPanel ? 'Hide AI Assistant' : 'Show AI Assistant',
+                              isActive: _showAIPanel,
+                              onPressed: () => _stateManager.toggleAIPanel(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Tooltip(
+                            message: 'Toggle Terminal (Ctrl+5)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.terminal,
+                              label: _stateManager.showTerminal ? 'Hide Terminal' : 'Show Terminal',
+                              isActive: _stateManager.showTerminal,
+                              onPressed: () => _stateManager.toggleTerminal(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          const SizedBox(width: 16),
+                          // Bulk collapse/expand toggle
+                          Tooltip(
+                            message: 'Collapse/Expand All Panels (Ctrl+B)',
+                            child: _buildToolbarButton(
+                              theme,
+                              icon: Icons.unfold_less,
+                              label: 'Collapse All',
+                              isActive: false,
+                              onPressed: () => _stateManager.toggleAllPanelsCollapsed(),
+                              showLabel: !isCompact,
+                            ),
+                          ),
+                          if (_showEditor) ...[
+                            const SizedBox(width: 8),
+                            // Editor collapse toggle
+                            Tooltip(
+                              message: 'Collapse/Expand Editor (Ctrl+E)',
+                              child: _buildToolbarButton(
+                                theme,
+                                icon: _isEditorCollapsed ? Icons.unfold_more : Icons.unfold_less,
+                                label: _isEditorCollapsed ? 'Expand Editor' : 'Collapse Editor',
+                                isActive: !_isEditorCollapsed,
+                                onPressed: () => _stateManager.toggleEditorCollapsed(),
+                                showLabel: !isCompact,
+                              ),
+                            ),
+                          ],
+                          const SizedBox(width: 16),
+                          // Divider
+                          Container(
+                            height: 24,
+                            width: 1,
+                            color: theme.dividerColor.withValues(alpha: 0.3),
+                          ),
+                          const SizedBox(width: 16),
+                          _buildToolbarButton(
+                            theme,
+                            icon: Icons.download,
+                            label: 'Export',
+                            isActive: false,
+                            onPressed: _exportProject,
+                            showLabel: !isVeryCompact,
+                          ),
+                          const SizedBox(width: 8),
+                          _buildToolbarButton(
+                            theme,
+                            icon: Icons.share,
+                            label: 'Share',
+                            isActive: false,
+                            onPressed: _shareProject,
+                            showLabel: !isVeryCompact,
+                          ),
+                          const SizedBox(width: 8),
+                          _buildToolbarButton(
+                            theme,
+                            icon: Icons.cloud_download,
+                            label: 'Import',
+                            isActive: false,
+                            onPressed: _importSharedProject,
+                            showLabel: !isVeryCompact,
+                          ),
+                          const SizedBox(width: 8),
+                          _buildToolbarButton(
+                            theme,
+                            icon: Icons.close,
+                            label: 'Close',
+                            isActive: false,
+                            onPressed: _closeProject,
+                            showLabel: !isVeryCompact,
+                          ),
+                        ],
+                      )
+                    : Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          ElevatedButton.icon(
+                            onPressed: _createNewProject,
+                            icon: const Icon(Icons.create_new_folder, size: 20),
+                            label: const Text('New Project'),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: theme.colorScheme.tertiary,
+                              foregroundColor: theme.colorScheme.onTertiary,
+                              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          ElevatedButton.icon(
+                            onPressed: _loadProject,
+                            icon: const Icon(Icons.upload_file, size: 20),
+                            label: Text(_hasUploadedProject ? 'Upload Project' : 'Upload Project'),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: theme.colorScheme.primary,
+                              foregroundColor: theme.colorScheme.onPrimary,
+                              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                 ),
               ),
-            ),
-            const SizedBox(width: 12),
-            ElevatedButton.icon(
-              onPressed: _loadProject,
-              icon: const Icon(Icons.upload_file, size: 20),
-              label: Text(_hasUploadedProject ? 'Upload Project' : 'Upload Project'),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: theme.colorScheme.primary,
-                foregroundColor: theme.colorScheme.onPrimary,
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8),
-                ),
-              ),
-            ),
-          ],
-        ],
-      ),
+            ],
+          ),
+        );
+      },
     );
   }
 
@@ -870,17 +911,21 @@ flutter:
     required String label,
     required bool isActive,
     required VoidCallback onPressed,
+    bool showLabel = true,
   }) {
     return Material(
-      color: isActive 
-        ? theme.colorScheme.primaryContainer 
+      color: isActive
+        ? theme.colorScheme.primaryContainer
         : Colors.transparent,
       borderRadius: BorderRadius.circular(8),
       child: InkWell(
         onTap: onPressed,
         borderRadius: BorderRadius.circular(8),
         child: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+          padding: EdgeInsets.symmetric(
+            horizontal: showLabel ? 12 : 8,
+            vertical: 8,
+          ),
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
@@ -891,16 +936,18 @@ flutter:
                   ? theme.colorScheme.onPrimaryContainer
                   : theme.colorScheme.onSurface.withValues(alpha: 0.7),
               ),
-              const SizedBox(width: 6),
-              Text(
-                label,
-                style: theme.textTheme.labelMedium?.copyWith(
-                  color: isActive
-                    ? theme.colorScheme.onPrimaryContainer
-                    : theme.colorScheme.onSurface.withValues(alpha: 0.7),
-                  fontWeight: isActive ? FontWeight.w600 : FontWeight.normal,
+              if (showLabel) ...[
+                const SizedBox(width: 6),
+                Text(
+                  label,
+                  style: theme.textTheme.labelMedium?.copyWith(
+                    color: isActive
+                      ? theme.colorScheme.onPrimaryContainer
+                      : theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                    fontWeight: isActive ? FontWeight.w600 : FontWeight.normal,
+                  ),
                 ),
-              ),
+              ],
             ],
           ),
         ),
