@@ -1,0 +1,36 @@
+name: kre8tions
+description: "KRE8TIONS - The AI-powered Flutter IDE that transforms your creative vision into reality. Upload, refine with advanced AI, and export professional Flutter applications with unmatched productivity."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  file_picker: '>=8.1.2'
+  http: ^1.0.0
+  archive: ^4.0.0
+  universal_html: ^2.0.0
+  shared_preferences: ^2.0.0
+  device_preview_plus: ^2.5.6
+  url_launcher: ^6.0.0
+  flutter_highlight: 0.7.0
+  path_provider: ^2.0.0
+  web_socket_channel: ^3.0.0
+  uuid: ^4.0.0
+  collection: ^1.0.0
+  flutter_svg: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/

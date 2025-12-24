@@ -1,0 +1,35 @@
+{
+    "name": "KRE8TIONS IDE",
+    "short_name": "KRE8TIONS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FF2D92",
+    "theme_color": "#8B5CF6",
+    "description": "KRE8TIONS IDE - AI-powered Flutter development platform",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
