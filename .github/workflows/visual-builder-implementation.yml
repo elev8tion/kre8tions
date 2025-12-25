@@ -51,8 +51,6 @@ jobs:
       - name: Install Dependencies
         run: |
           flutter pub get
-          flutter pub add analyzer:^6.9.0
-          flutter pub add dart_style:^2.3.7
 
       - name: Create Track A Branch
         run: |
