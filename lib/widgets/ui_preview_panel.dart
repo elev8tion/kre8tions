@@ -580,47 +580,18 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
           children: _selectedDevices.map((device) {
             return Padding(
               padding: const EdgeInsets.only(right: 24),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  // Device label
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: BoxDecoration(
-                      color: theme.colorScheme.primaryContainer,
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        Icon(
-                          Icons.smartphone,
-                          size: 12,
-                          color: theme.colorScheme.onPrimaryContainer,
-                        ),
-                        const SizedBox(width: 4),
-                        Text(
-                          device.name,
-                          style: theme.textTheme.labelSmall?.copyWith(
-                            color: theme.colorScheme.onPrimaryContainer,
-                            fontWeight: FontWeight.w600,
-                          ),
-                        ),
-                      ],
+              child: SizedBox(
+                width: device.screenSize.width,
+                height: device.screenSize.height,
+                child: _buildZoomedAndPannablePreview(
+                  DeviceFrame(
+                    device: device,
+                    screen: _buildInspectModeWrapper(
+                      _buildLiveWidgetPreview(theme),
+                      theme,
                     ),
                   ),
-                  const SizedBox(height: 12),
-                  // Device frame with LIVE WIDGET preview (with zoom and pan)
-                  _buildZoomedAndPannablePreview(
-                    DeviceFrame(
-                      device: device,
-                      screen: _buildInspectModeWrapper(
-                        _buildLiveWidgetPreview(theme),
-                        theme,
-                      ),
-                    ),
-                  ),
-                ],
+                ),
               ),
             );
           }).toList(),
@@ -683,123 +654,20 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
       );
     }
 
-    // Demo widget tree to showcase live reconstruction when no project is loaded
-    final demoTree = WidgetTreeNode(
-      name: 'MaterialApp',
-      type: WidgetType.app,
-      line: 0,
-      properties: {
-        'title': 'Live Widget Demo',
-        'debugShowCheckedModeBanner': false,
-      },
-      children: [
-        WidgetTreeNode(
-          name: 'Scaffold',
-          type: WidgetType.layout,
-          line: 0,
-          properties: {},
-          children: [
-            WidgetTreeNode(
-              name: 'AppBar',
-              type: WidgetType.component,
-              line: 0,
-              properties: {
-                'title': 'Widget Reconstruction Demo',
-                'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
-              },
-              children: [],
-            ),
-            WidgetTreeNode(
-              name: 'Center',
-              type: WidgetType.layout,
-              line: 0,
-              properties: {},
-              children: [
-                WidgetTreeNode(
-                  name: 'Column',
-                  type: WidgetType.layout,
-                  line: 0,
-                  properties: {
-                    'mainAxisAlignment': 'center',
-                    'crossAxisAlignment': 'center',
-                  },
-                  children: [
-                    WidgetTreeNode(
-                      name: 'Icon',
-                      type: WidgetType.display,
-                      line: 0,
-                      properties: {
-                        'icon': 'widgets',
-                        'size': 64.0,
-                        'color': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
-                      },
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'SizedBox',
-                      type: WidgetType.layout,
-                      line: 0,
-                      properties: {'height': 24.0},
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'Text',
-                      type: WidgetType.display,
-                      line: 0,
-                      properties: {
-                        'data': 'Live Widget Reconstruction',
-                        'fontSize': 24.0,
-                        'fontWeight': 'bold',
-                        'color': '0x${theme.colorScheme.onSurface.toARGB32().toRadixString(16)}',
-                      },
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'SizedBox',
-                      type: WidgetType.layout,
-                      line: 0,
-                      properties: {'height': 16.0},
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'Text',
-                      type: WidgetType.display,
-                      line: 0,
-                      properties: {
-                        'data': 'Upload a project to see your widgets rendered live!',
-                        'fontSize': 14.0,
-                        'color': '0x${theme.colorScheme.onSurface.withValues(alpha: 0.7).toARGB32().toRadixString(16)}',
-                      },
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'SizedBox',
-                      type: WidgetType.layout,
-                      line: 0,
-                      properties: {'height': 32.0},
-                      children: [],
-                    ),
-                    WidgetTreeNode(
-                      name: 'ElevatedButton',
-                      type: WidgetType.input,
-                      line: 0,
-                      properties: {
-                        'text': 'Get Started',
-                        'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
-                      },
-                      children: [],
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ],
+    // Empty state - no project loaded
+    return Container(
+      color: theme.scaffoldBackgroundColor,
+      child: Center(
+        child: Text(
+          'No project loaded',
+          style: theme.textTheme.bodyMedium?.copyWith(
+            color: theme.disabledColor,
+          ),
         ),
-      ],
+      ),
     );
-
-    return reconstructor.reconstructWidget(demoTree, theme: theme);
   }
+
 
   void _showDeviceSelectionDialog(ThemeData theme) {
     // Available devices organized by platform

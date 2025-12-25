@@ -17,6 +17,11 @@ import 'package:kre8tions/widgets/file_tree_view.dart';
 import 'package:kre8tions/widgets/import_shared_project_dialog.dart';
 import 'package:kre8tions/widgets/kre8tions_logo.dart';
 import 'package:kre8tions/widgets/new_project_dialog.dart';
+import 'package:kre8tions/widgets/widget_tree_navigator.dart';
+import 'package:kre8tions/widgets/widget_inspector_panel.dart';
+import 'package:kre8tions/widgets/ui_preview_panel.dart';
+import 'package:kre8tions/services/bidirectional_sync_manager.dart';
+import 'package:kre8tions/services/code_sync_service.dart';
 
 enum PanelBorderSide { left, right, none }
 
@@ -32,7 +37,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   late AppStateManager _stateManager;
   late ServiceOrchestrator _orchestrator;
-  
+  late BidirectionalSyncManager _syncManager;
+
   // 🚀 Live Analysis State
   bool _isLiveAnalysisActive = false;
   List<CodeError> _currentErrors = [];
@@ -58,9 +64,13 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     _stateManager = widget.stateManager;
     _orchestrator = ServiceOrchestrator.instance;
-    
+    _syncManager = BidirectionalSyncManager.instance;
+
     // 🎯 Setup Service Orchestrator Listeners
     _setupOrchestratorListeners();
+
+    // 🔄 Setup Bidirectional Sync Manager Listeners
+    _setupSyncManagerListeners();
     
     // Load sample project if no project is loaded and state manager is initialized
     if (_stateManager.isInitialized) {
@@ -83,13 +93,37 @@ class _HomePageState extends State<HomePage> {
         });
       }
     });
-    
+
     // Listen to orchestrator events
     _orchestrator.eventStream.listen((event) {
       if (mounted) {
         _handleOrchestratorEvent(event);
       }
     });
+  }
+
+  /// 🔄 **SETUP BIDIRECTIONAL SYNC MANAGER LISTENERS**
+  void _setupSyncManagerListeners() {
+    // Listen to widget selection changes
+    _syncManager.widgetSelectionStream.listen((widget) {
+      if (mounted) {
+        setState(() {
+          _stateManager.setSelectedWidget(widget);
+        });
+      }
+    });
+
+    // Listen to code changes from sync manager
+    _syncManager.codeChangesStream.listen((newCode) {
+      if (mounted && _selectedFile != null) {
+        _updateFileContent(_selectedFile!.path, newCode);
+      }
+    });
+
+    // Initialize sync manager with current file when it changes
+    if (_selectedFile != null) {
+      _syncManager.setCurrentFile(_selectedFile!);
+    }
   }
   
   void _onStateManagerInitialized() {
@@ -1053,10 +1087,32 @@ flutter:
                               title: 'Explorer',
                               icon: Icons.folder_open,
                               borderSide: PanelBorderSide.right,
-                              content: _isFileTreeCollapsed ? null : FileTreeView(
-                                project: _currentProject!,
-                                selectedFile: _selectedFile,
-                                onFileSelected: (file) => _stateManager.setSelectedFile(file),
+                              content: _isFileTreeCollapsed ? null : Column(
+                                children: [
+                                  Expanded(
+                                    flex: 2,
+                                    child: FileTreeView(
+                                      project: _currentProject!,
+                                      selectedFile: _selectedFile,
+                                      onFileSelected: (file) {
+                                        _stateManager.setSelectedFile(file);
+                                        _syncManager.setCurrentFile(file);
+                                      },
+                                    ),
+                                  ),
+                                  Container(
+                                    height: 1,
+                                    color: theme.dividerColor,
+                                  ),
+                                  Expanded(
+                                    flex: 3,
+                                    child: WidgetTreeNavigator(
+                                      selectedFile: _selectedFile,
+                                      selectedWidget: _selectedWidget,
+                                      onWidgetSelected: (widget) => _syncManager.selectWidget(widget),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
@@ -1194,7 +1250,14 @@ flutter:
                                     title: 'UI Preview',
                                     icon: Icons.visibility,
                                     borderSide: (_showAIPanel && !_isAIPanelCollapsed) ? PanelBorderSide.right : PanelBorderSide.none,
-                                    content: _buildSafeUIPreview(),
+                                    content: _currentProject != null
+                                      ? UIPreviewPanel(
+                                          project: _currentProject!,
+                                          selectedFile: _selectedFile,
+                                          selectedWidget: _selectedWidget,
+                                          onWidgetSelected: (widget) => _syncManager.selectWidget(widget),
+                                        )
+                                      : _buildSafeUIPreview(),
                                   ),
                                 ),
                           ),
@@ -1883,72 +1946,49 @@ flutter:
                 ],
               ),
             ),
-            // Mock Body
+            // Widget Inspector Panel
             Expanded(
-              child: Container(
-                color: Theme.of(context).colorScheme.surface,
-                padding: const EdgeInsets.all(16),
-                child: Column(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        color: Theme.of(context).colorScheme.primaryContainer.withValues(alpha: 0.3),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Row(
+              child: _selectedWidget != null
+                ? WidgetInspectorPanel(
+                    selectedWidget: _selectedWidget!,
+                    onPropertyChanged: (propertyName, propertyValue) {
+                      _syncManager.updateProperty(propertyName, propertyValue);
+                    },
+                    onClose: () {
+                      _syncManager.selectWidget(null);
+                    },
+                  )
+                : Container(
+                    color: Theme.of(context).colorScheme.surface,
+                    padding: const EdgeInsets.all(16),
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            Icons.widgets,
-                            color: Theme.of(context).colorScheme.primary,
+                            Icons.widgets_outlined,
+                            size: 48,
+                            color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.3),
                           ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  'Widget Inspector',
-                                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  'Select widgets to inspect properties',
-                                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.7),
-                                  ),
-                                ),
-                              ],
+                          const SizedBox(height: 16),
+                          Text(
+                            'Select a widget to inspect',
+                            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.5),
                             ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            'Click on widgets in the UI Preview to see their properties',
+                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.4),
+                            ),
+                            textAlign: TextAlign.center,
                           ),
                         ],
                       ),
                     ),
-                    const SizedBox(height: 12),
-                    Expanded(
-                      child: ListView.builder(
-                        itemCount: 3,
-                        itemBuilder: (context, index) {
-                          return Card(
-                            margin: const EdgeInsets.only(bottom: 8),
-                            child: ListTile(
-                              leading: CircleAvatar(
-                                backgroundColor: Theme.of(context).colorScheme.secondaryContainer,
-                                child: Text('${index + 1}'),
-                              ),
-                              title: Text('Sample Item ${index + 1}'),
-                              subtitle: const Text('Tap to inspect this widget'),
-                              trailing: const Icon(Icons.arrow_forward_ios, size: 16),
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+                  ),
             ),
           ],
         ),
