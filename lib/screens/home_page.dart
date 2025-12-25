@@ -23,6 +23,7 @@ import 'package:kre8tions/widgets/ui_preview_panel.dart';
 import 'package:kre8tions/services/bidirectional_sync_manager.dart';
 import 'package:kre8tions/services/code_sync_service.dart';
 import 'package:device_frame/device_frame.dart';
+import 'package:kre8tions/panels/properties_panel.dart' hide WidgetSelection;
 
 enum PanelBorderSide { left, right, none }
 
@@ -57,6 +58,8 @@ class _HomePageState extends State<HomePage> {
   bool get _isUIPreviewCollapsed => _stateManager.isUIPreviewCollapsed;
   bool get _isAIPanelCollapsed => _stateManager.isAIPanelCollapsed;
   bool get _isEditorCollapsed => _stateManager.isEditorCollapsed;
+  bool get _showProperties => _stateManager.showProperties;
+  bool get _isPropertiesCollapsed => _stateManager.isPropertiesCollapsed;
   WidgetSelection? get _selectedWidget => _stateManager.selectedWidget;
   bool get _hasUploadedProject => _stateManager.hasUploadedProject;
 
@@ -356,24 +359,25 @@ flutter:
 
   void _handleKeyEvent(KeyEvent event) {
     if (event is KeyDownEvent) {
-      final isCtrlPressed = HardwareKeyboard.instance.isControlPressed;
-      
+      final isCtrlPressed = HardwareKeyboard.instance.isControlPressed ||
+          HardwareKeyboard.instance.isMetaPressed; // Support Cmd on Mac
+
       if (isCtrlPressed) {
         switch (event.logicalKey) {
           case LogicalKeyboardKey.digit1:
             _stateManager.toggleFileTree();
             break;
           case LogicalKeyboardKey.digit2:
-            _stateManager.toggleUIPreview();
+            _stateManager.toggleEditor();
             break;
           case LogicalKeyboardKey.digit3:
-            _stateManager.toggleAIPanel();
+            _stateManager.toggleUIPreview();
             break;
           case LogicalKeyboardKey.digit4:
-            _stateManager.toggleAIPanel();
+            _stateManager.toggleProperties();
             break;
           case LogicalKeyboardKey.digit5:
-            _stateManager.toggleTerminal();
+            _stateManager.toggleAIPanel();
             break;
           case LogicalKeyboardKey.keyB:
             _stateManager.toggleAllPanelsCollapsed();
@@ -1263,7 +1267,30 @@ flutter:
                                   ),
                                 ),
                           ),
-                            
+
+                        // Properties Panel - Visual widget property editing
+                        if (_showProperties)
+                          AnimatedContainer(
+                            duration: const Duration(milliseconds: 300),
+                            curve: Curves.easeInOut,
+                            width: _isPropertiesCollapsed ? 50.0 : math.min(320.0, safeScreenWidth * 0.18),
+                            child: _buildCollapsiblePanel(
+                              theme: theme,
+                              isCollapsed: _isPropertiesCollapsed,
+                              onToggleCollapse: () => _stateManager.togglePropertiesCollapsed(),
+                              title: 'Properties',
+                              icon: Icons.tune,
+                              borderSide: (_showAIPanel && !_isAIPanelCollapsed) ? PanelBorderSide.right : PanelBorderSide.none,
+                              content: _isPropertiesCollapsed ? null : PropertiesPanel(
+                                selectedWidget: _selectedWidget,
+                                onPropertyChanged: (property, value) {
+                                  // TODO: Implement property change handler
+                                  print('Property changed: $property = $value');
+                                },
+                              ),
+                            ),
+                          ),
+
                         // Far Right Panel - AI Assistant ONLY (Terminal moved to bottom)
                         if (_showAIPanel)
                           AnimatedContainer(
@@ -1836,33 +1863,36 @@ flutter:
       return Container(
         padding: const EdgeInsets.all(16),
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                Icons.visibility,
-                size: 64,
-                color: Theme.of(context).colorScheme.primary,
-              ),
-              const SizedBox(height: 16),
-              Text(
-                'UI Preview',
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  Icons.visibility,
+                  size: 64,
                   color: Theme.of(context).colorScheme.primary,
-                  fontWeight: FontWeight.bold,
                 ),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                'Click on widgets in your app to inspect and modify them with AI assistance.',
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.7),
+                const SizedBox(height: 16),
+                Text(
+                  'UI Preview',
+                  style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 24),
-              _buildMockPreview(),
-            ],
+                const SizedBox(height: 8),
+                Text(
+                  'Click on widgets in your app to inspect and modify them with AI assistance.',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.7),
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                _buildMockPreview(),
+              ],
+            ),
           ),
         ),
       );

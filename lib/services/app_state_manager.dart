@@ -32,11 +32,13 @@ class AppStateManager extends ChangeNotifier {
   bool _showFileTree = true;
   bool _showEditor = true;
   bool _showTerminal = true;
+  bool _showProperties = false; // Properties panel (hidden by default)
   bool _isFileTreeCollapsed = false;
   bool _isUIPreviewCollapsed = false;
   bool _isAIPanelCollapsed = false;
   bool _isEditorCollapsed = false;
   bool _isTerminalCollapsed = false;
+  bool _isPropertiesCollapsed = false;
   Map<String, double> _panelSizes = {};
 
   // Session State
@@ -56,11 +58,13 @@ class AppStateManager extends ChangeNotifier {
   bool get showFileTree => _showFileTree;
   bool get showEditor => _showEditor;
   bool get showTerminal => _showTerminal;
+  bool get showProperties => _showProperties;
   bool get isFileTreeCollapsed => _isFileTreeCollapsed;
   bool get isUIPreviewCollapsed => _isUIPreviewCollapsed;
   bool get isAIPanelCollapsed => _isAIPanelCollapsed;
   bool get isEditorCollapsed => _isEditorCollapsed;
   bool get isTerminalCollapsed => _isTerminalCollapsed;
+  bool get isPropertiesCollapsed => _isPropertiesCollapsed;
   Map<String, double> get panelSizes => Map.unmodifiable(_panelSizes);
 
   // Getters for Session/User State
@@ -435,6 +439,18 @@ class AppStateManager extends ChangeNotifier {
 
   Future<void> toggleTerminalCollapsed() async {
     _isTerminalCollapsed = !_isTerminalCollapsed;
+    notifyListeners();
+    await _saveAllState();
+  }
+
+  Future<void> toggleProperties() async {
+    _showProperties = !_showProperties;
+    notifyListeners();
+    await _saveAllState();
+  }
+
+  Future<void> togglePropertiesCollapsed() async {
+    _isPropertiesCollapsed = !_isPropertiesCollapsed;
     notifyListeners();
     await _saveAllState();
   }
