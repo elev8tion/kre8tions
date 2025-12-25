@@ -466,49 +466,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       ProjectFile(
         path: 'lib/theme/app_theme.dart',
-        content: '''import 'package:flutter/material.dart';
-
-class AppTheme {
-  static ThemeData get lightTheme {
-    return ThemeData(
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: const Color(0xFF6750A4),
-        brightness: Brightness.light,
-      ),
-      useMaterial3: true,
-      appBarTheme: const AppBarTheme(
-        centerTitle: true,
-        elevation: 0,
-      ),
-      cardTheme: CardThemeData(
-        elevation: 4,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-      ),
-    );
-  }
-
-  static ThemeData get darkTheme {
-    return ThemeData(
-      colorScheme: ColorScheme.fromSeed(
-        seedColor: const Color(0xFF6750A4),
-        brightness: Brightness.dark,
-      ),
-      useMaterial3: true,
-      appBarTheme: const AppBarTheme(
-        centerTitle: true,
-        elevation: 0,
-      ),
-      cardTheme: CardThemeData(
-        elevation: 4,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-      ),
-    );
-  }
-}''',
+        content: '''// AppTheme has been moved to lib/models/app_theme.dart
+// Import it in your project files as needed:
+// import 'package:$projectName/models/app_theme.dart';
+''',
         type: FileType.dart,
       ),
       ..._getCommonFiles(projectName),

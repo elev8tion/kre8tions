@@ -22,6 +22,7 @@ import 'package:kre8tions/widgets/widget_inspector_panel.dart';
 import 'package:kre8tions/widgets/ui_preview_panel.dart';
 import 'package:kre8tions/services/bidirectional_sync_manager.dart';
 import 'package:kre8tions/services/code_sync_service.dart';
+import 'package:device_frame/device_frame.dart';
 
 enum PanelBorderSide { left, right, none }
 
@@ -134,10 +135,8 @@ class _HomePageState extends State<HomePage> {
   }
   
   void _checkForSampleProject() {
-    // Only load sample project if no project exists
-    if (_currentProject == null) {
-      _loadSampleProject();
-    }
+    // Don't load any sample project - start with empty workspace
+    // User can create or upload their own projects
   }
 
   void _loadSampleProject() {
@@ -147,9 +146,10 @@ class _HomePageState extends State<HomePage> {
         path: 'lib/main.dart',
         content: '''import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+// Entry point removed to prevent hot reload conflicts
+// void main() {
+//   runApp(const MyApp());
+// }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -1089,23 +1089,25 @@ flutter:
                               borderSide: PanelBorderSide.right,
                               content: _isFileTreeCollapsed ? null : Column(
                                 children: [
-                                  Expanded(
-                                    flex: 2,
-                                    child: FileTreeView(
-                                      project: _currentProject!,
-                                      selectedFile: _selectedFile,
-                                      onFileSelected: (file) {
-                                        _stateManager.setSelectedFile(file);
-                                        _syncManager.setCurrentFile(file);
-                                      },
+                                  if (_currentProject != null) ...[
+                                    Expanded(
+                                      flex: 2,
+                                      child: FileTreeView(
+                                        project: _currentProject!,
+                                        selectedFile: _selectedFile,
+                                        onFileSelected: (file) {
+                                          _stateManager.setSelectedFile(file);
+                                          _syncManager.setCurrentFile(file);
+                                        },
+                                      ),
                                     ),
-                                  ),
-                                  Container(
-                                    height: 1,
-                                    color: theme.dividerColor,
-                                  ),
+                                    Container(
+                                      height: 1,
+                                      color: theme.dividerColor,
+                                    ),
+                                  ],
                                   Expanded(
-                                    flex: 3,
+                                    flex: _currentProject != null ? 3 : 1,
                                     child: WidgetTreeNavigator(
                                       selectedFile: _selectedFile,
                                       selectedWidget: _selectedWidget,
@@ -1534,9 +1536,12 @@ flutter:
   }
 
   void _closeProject() {
-    // Load sample project and reset state
-    _loadSampleProject();
+    // Clear the project and reset state
+    _stateManager.setCurrentProject(null);
     _stateManager.resetToDefaults();
+    setState(() {
+      // Trigger UI update
+    });
   }
 
   /// ⚡ **LIVE CODE UPDATE WITH REAL-TIME ANALYSIS**
@@ -1903,95 +1908,52 @@ flutter:
 
   /// 🎭 **MOCK PREVIEW - SIMPLE AND SAFE**
   Widget _buildMockPreview() {
-    return Container(
-      width: 280,
-      height: 400,
-      decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surface,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.1),
-            blurRadius: 20,
-            offset: const Offset(0, 8),
-          ),
-        ],
-        border: Border.all(
-          color: Theme.of(context).dividerColor.withValues(alpha: 0.2),
-        ),
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(16),
-        child: Column(
-          children: [
-            // Mock App Bar
-            Container(
-              height: 56,
-              color: Theme.of(context).colorScheme.primary,
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                children: [
-                  Icon(Icons.menu, color: Theme.of(context).colorScheme.onPrimary),
-                  const SizedBox(width: 16),
-                  Text(
-                    'Flutter App',
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.onPrimary,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
+    return SizedBox(
+      width: 400,
+      height: 600,
+      child: DeviceFrame(
+        device: Devices.ios.iPhone13,
+        screen: _selectedWidget != null
+          ? WidgetInspectorPanel(
+              selectedWidget: _selectedWidget!,
+              onPropertyChanged: (propertyName, propertyValue) {
+                _syncManager.updateProperty(propertyName, propertyValue);
+              },
+              onClose: () {
+                _syncManager.selectWidget(null);
+              },
+            )
+          : Container(
+              color: Theme.of(context).colorScheme.surface,
+              padding: const EdgeInsets.all(16),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.widgets_outlined,
+                      size: 48,
+                      color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.3),
                     ),
-                  ),
-                  const Spacer(),
-                  Icon(Icons.more_vert, color: Theme.of(context).colorScheme.onPrimary),
-                ],
-              ),
-            ),
-            // Widget Inspector Panel
-            Expanded(
-              child: _selectedWidget != null
-                ? WidgetInspectorPanel(
-                    selectedWidget: _selectedWidget!,
-                    onPropertyChanged: (propertyName, propertyValue) {
-                      _syncManager.updateProperty(propertyName, propertyValue);
-                    },
-                    onClose: () {
-                      _syncManager.selectWidget(null);
-                    },
-                  )
-                : Container(
-                    color: Theme.of(context).colorScheme.surface,
-                    padding: const EdgeInsets.all(16),
-                    child: Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.widgets_outlined,
-                            size: 48,
-                            color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.3),
-                          ),
-                          const SizedBox(height: 16),
-                          Text(
-                            'Select a widget to inspect',
-                            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.5),
-                            ),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            'Click on widgets in the UI Preview to see their properties',
-                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.4),
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        ],
+                    const SizedBox(height: 16),
+                    Text(
+                      'No Project Loaded',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.5),
                       ),
                     ),
-                  ),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Create or upload a Flutter project to begin',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.4),
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                ),
+              ),
             ),
-          ],
-        ),
       ),
     );
   }

@@ -445,38 +445,9 @@ class MyApp extends StatelessWidget {
 ''';
 
   String _getAppThemeContent() => '''
-import 'package:flutter/material.dart';
-
-class AppTheme {
-  static final lightTheme = ThemeData(
-    primarySwatch: Colors.blue,
-    brightness: Brightness.light,
-    appBarTheme: AppBarTheme(
-      elevation: 0,
-      backgroundColor: Colors.blue,
-      foregroundColor: Colors.white,
-    ),
-    elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
-        ),
-      ),
-    ),
-  );
-
-  static final darkTheme = ThemeData(
-    primarySwatch: Colors.blue,
-    brightness: Brightness.dark,
-    appBarTheme: AppBarTheme(
-      elevation: 0,
-      backgroundColor: Colors.grey[900],
-      foregroundColor: Colors.white,
-    ),
-  );
-}
+// AppTheme has been moved to lib/models/app_theme.dart
+// Import it in your project files as needed:
+// import 'package:your_project/models/app_theme.dart';
 ''';
 
   String _getHomeScreenContent() => '''
