@@ -1003,41 +1003,43 @@ class _EnhancedCodeEditorState extends State<EnhancedCodeEditor> {
           ),
         ),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: List.generate(_lineCount, (index) {
-          final lineNumber = index + 1;
-          final hasError = _errors.any((error) => error.line == lineNumber);
-          
-          return Container(
-            height: 19.6, // Match line height
-            alignment: Alignment.centerRight,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                if (hasError) ...[
-                  Icon(
-                    Icons.error,
-                    size: 12,
-                    color: Colors.red[600],
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: List.generate(_lineCount, (index) {
+            final lineNumber = index + 1;
+            final hasError = _errors.any((error) => error.line == lineNumber);
+
+            return Container(
+              height: 19.6, // Match line height
+              alignment: Alignment.centerRight,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  if (hasError) ...[
+                    Icon(
+                      Icons.error,
+                      size: 12,
+                      color: Colors.red[600],
+                    ),
+                    const SizedBox(width: 4),
+                  ],
+                  Text(
+                    '$lineNumber',
+                    style: theme.textTheme.bodySmall?.copyWith(
+                      color: hasError
+                          ? Colors.red[600]
+                          : theme.colorScheme.onSurface.withValues(alpha: 0.4),
+                      fontFamily: 'monospace',
+                      fontSize: 12,
+                      fontWeight: hasError ? FontWeight.w600 : null,
+                    ),
                   ),
-                  const SizedBox(width: 4),
                 ],
-                Text(
-                  '$lineNumber',
-                  style: theme.textTheme.bodySmall?.copyWith(
-                    color: hasError 
-                        ? Colors.red[600]
-                        : theme.colorScheme.onSurface.withValues(alpha: 0.4),
-                    fontFamily: 'monospace',
-                    fontSize: 12,
-                    fontWeight: hasError ? FontWeight.w600 : null,
-                  ),
-                ),
-              ],
-            ),
-          );
-        }),
+              ),
+            );
+          }),
+        ),
       ),
     );
   }

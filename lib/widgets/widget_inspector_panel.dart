@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 import 'package:kre8tions/models/widget_selection.dart';
+import 'package:kre8tions/models/widget_property_schema.dart';
+import 'package:kre8tions/services/visual_property_manager.dart';
 
 class WidgetInspectorPanel extends StatefulWidget {
   final WidgetSelection selectedWidget;
@@ -20,7 +22,8 @@ class WidgetInspectorPanel extends StatefulWidget {
 
 class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with TickerProviderStateMixin {
   late TabController _tabController;
-  
+  final VisualPropertyManager _propertyManager = VisualPropertyManager();
+
   // Current property values (will be populated from widget selection)
   Color _backgroundColor = Colors.white;
   Color _textColor = Colors.black87;
@@ -33,10 +36,16 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
   double _fontSize = 14;
   FontWeight _fontWeight = FontWeight.normal;
 
+  // Advanced properties
+  Alignment _alignment = Alignment.center;
+  BoxConstraints? _constraints;
+  double _rotationAngle = 0;
+  double _scale = 1.0;
+
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 6, vsync: this); // Changed from 5 to 6
     _initializeProperties();
   }
 
@@ -206,6 +215,18 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
             icon: Icon(Icons.text_fields, size: 16),
             text: 'Content',
           ),
+          Tab(
+            icon: Icon(Icons.settings, size: 16),
+            text: 'Constructor',
+          ),
+          Tab(
+            icon: Icon(Icons.touch_app, size: 16),
+            text: 'Interaction',
+          ),
+          Tab(
+            icon: Icon(Icons.tune, size: 16),
+            text: 'Advanced',
+          ),
         ],
       ),
     );
@@ -218,6 +239,9 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
         _buildStyleTab(theme),
         _buildLayoutTab(theme),
         _buildContentTab(theme),
+        _buildConstructorTab(theme),
+        _buildInteractionTab(theme),
+        _buildAdvancedTab(theme),
       ],
     );
   }
@@ -394,6 +418,884 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
     );
   }
 
+  Widget _buildConstructorTab(ThemeData theme) {
+    final schema = WidgetSchemas.getSchema(widget.selectedWidget.widgetType);
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _buildSection(
+            theme,
+            'Widget Type',
+            Icons.category,
+            [
+              _buildWidgetTypeDisplay(theme),
+            ],
+          ),
+          const SizedBox(height: 20),
+          if (schema != null) ...[
+            _buildSection(
+              theme,
+              'Required Parameters',
+              Icons.star,
+              _buildSchemaParameters(theme, schema.constructor.where((p) => p.required).toList()),
+            ),
+            const SizedBox(height: 20),
+            _buildSection(
+              theme,
+              'Optional Parameters',
+              Icons.settings_suggest,
+              _buildSchemaParameters(theme, schema.constructor.where((p) => !p.required).toList()),
+            ),
+          ] else ...[
+            // Fallback for widgets without schema
+            _buildSection(
+              theme,
+              'Constructor Type',
+              Icons.category,
+              [
+                _buildConstructorTypeSelector(theme),
+              ],
+            ),
+            const SizedBox(height: 20),
+            _buildSection(
+              theme,
+              'Required Parameters',
+              Icons.star,
+              _buildRequiredParameters(theme),
+            ),
+            const SizedBox(height: 20),
+            _buildSection(
+              theme,
+              'Optional Parameters',
+              Icons.settings_suggest,
+              _buildOptionalParameters(theme),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _buildInteractionTab(ThemeData theme) {
+    final schema = WidgetSchemas.getSchema(widget.selectedWidget.widgetType);
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          if (schema != null && schema.interaction.isNotEmpty) ...[
+            _buildSection(
+              theme,
+              'Event Handlers',
+              Icons.flash_on,
+              _buildSchemaParameters(theme, schema.interaction),
+            ),
+          ] else ...[
+            // Fallback for widgets without schema
+            _buildSection(
+              theme,
+              'Events',
+              Icons.flash_on,
+              [
+                _buildFunctionEditor(theme, 'onPressed', null),
+                _buildFunctionEditor(theme, 'onLongPress', null),
+                _buildFunctionEditor(theme, 'onTap', null),
+                _buildFunctionEditor(theme, 'onDoubleTap', null),
+                _buildFunctionEditor(theme, 'onHover', null),
+              ],
+            ),
+          ],
+          const SizedBox(height: 20),
+          _buildSection(
+            theme,
+            'State',
+            Icons.toggle_on,
+            [
+              _buildToggleProperty(theme, 'enabled', true),
+              _buildToggleProperty(theme, 'autofocus', false),
+              _buildToggleProperty(theme, 'enableFeedback', true),
+            ],
+          ),
+          const SizedBox(height: 20),
+          _buildSection(
+            theme,
+            'Focus',
+            Icons.filter_center_focus,
+            [
+              _buildWidgetSelector(theme, 'focusNode', null),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildAdvancedTab(ThemeData theme) {
+    final schema = WidgetSchemas.getSchema(widget.selectedWidget.widgetType);
+
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _buildSection(
+            theme,
+            'Alignment',
+            Icons.control_camera,
+            [
+              _buildAlignmentPicker(theme),
+            ],
+          ),
+          const SizedBox(height: 20),
+          _buildSection(
+            theme,
+            'Constraints',
+            Icons.crop,
+            [
+              _buildConstraintsEditor(theme),
+            ],
+          ),
+          const SizedBox(height: 20),
+          _buildSection(
+            theme,
+            'Transform',
+            Icons.transform,
+            [
+              _buildSliderProperty(
+                theme,
+                'Rotation',
+                _rotationAngle,
+                0.0,
+                360.0,
+                (value) {
+                  setState(() => _rotationAngle = value);
+                  widget.onPropertyChanged('rotation', value);
+                  _propertyManager.updateProperty(widget.selectedWidget, 'rotation', value);
+                },
+              ),
+              _buildSliderProperty(
+                theme,
+                'Scale',
+                _scale,
+                0.5,
+                3.0,
+                (value) {
+                  setState(() => _scale = value);
+                  widget.onPropertyChanged('scale', value);
+                  _propertyManager.updateProperty(widget.selectedWidget, 'scale', value);
+                },
+              ),
+            ],
+          ),
+          if (schema != null && schema.advanced.isNotEmpty) ...[
+            const SizedBox(height: 20),
+            _buildSection(
+              theme,
+              'Advanced Properties',
+              Icons.settings_applications,
+              _buildSchemaParameters(theme, schema.advanced),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _buildAlignmentPicker(ThemeData theme) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Visual Alignment Picker',
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 12),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          padding: const EdgeInsets.all(12),
+          child: GridView.count(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            crossAxisCount: 3,
+            mainAxisSpacing: 8,
+            crossAxisSpacing: 8,
+            children: [
+              _buildAlignmentCell(theme, Alignment.topLeft, 'TL'),
+              _buildAlignmentCell(theme, Alignment.topCenter, 'TC'),
+              _buildAlignmentCell(theme, Alignment.topRight, 'TR'),
+              _buildAlignmentCell(theme, Alignment.centerLeft, 'CL'),
+              _buildAlignmentCell(theme, Alignment.center, 'C'),
+              _buildAlignmentCell(theme, Alignment.centerRight, 'CR'),
+              _buildAlignmentCell(theme, Alignment.bottomLeft, 'BL'),
+              _buildAlignmentCell(theme, Alignment.bottomCenter, 'BC'),
+              _buildAlignmentCell(theme, Alignment.bottomRight, 'BR'),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildAlignmentCell(ThemeData theme, Alignment alignment, String label) {
+    final isSelected = _alignment == alignment;
+    return InkWell(
+      onTap: () {
+        setState(() => _alignment = alignment);
+        widget.onPropertyChanged('alignment', alignment);
+        _propertyManager.updateProperty(widget.selectedWidget, 'alignment', alignment);
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          color: isSelected
+              ? theme.colorScheme.primary.withValues(alpha: 0.2)
+              : theme.colorScheme.surface,
+          border: Border.all(
+            color: isSelected
+                ? theme.colorScheme.primary
+                : theme.dividerColor.withValues(alpha: 0.3),
+            width: isSelected ? 2 : 1,
+          ),
+          borderRadius: BorderRadius.circular(4),
+        ),
+        child: Center(
+          child: Text(
+            label,
+            style: theme.textTheme.bodySmall?.copyWith(
+              fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+              color: isSelected
+                  ? theme.colorScheme.primary
+                  : theme.colorScheme.onSurface.withValues(alpha: 0.7),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildConstraintsEditor(ThemeData theme) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: _buildConstraintInput(
+                theme,
+                'Min Width',
+                _constraints?.minWidth ?? 0,
+                (value) => _updateConstraints(minWidth: value),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: _buildConstraintInput(
+                theme,
+                'Max Width',
+                _constraints?.maxWidth ?? double.infinity,
+                (value) => _updateConstraints(maxWidth: value),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 12),
+        Row(
+          children: [
+            Expanded(
+              child: _buildConstraintInput(
+                theme,
+                'Min Height',
+                _constraints?.minHeight ?? 0,
+                (value) => _updateConstraints(minHeight: value),
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: _buildConstraintInput(
+                theme,
+                'Max Height',
+                _constraints?.maxHeight ?? double.infinity,
+                (value) => _updateConstraints(maxHeight: value),
+              ),
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildConstraintInput(ThemeData theme, String label, double value, Function(double) onChanged) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: theme.textTheme.labelSmall,
+        ),
+        const SizedBox(height: 4),
+        Container(
+          height: 36,
+          decoration: BoxDecoration(
+            border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: TextField(
+            controller: TextEditingController(
+              text: value == double.infinity ? '∞' : value.toStringAsFixed(0),
+            ),
+            style: theme.textTheme.bodySmall,
+            textAlign: TextAlign.center,
+            decoration: const InputDecoration(
+              border: InputBorder.none,
+              contentPadding: EdgeInsets.symmetric(horizontal: 4, vertical: 8),
+            ),
+            onChanged: (text) {
+              if (text == '∞' || text.isEmpty) {
+                onChanged(double.infinity);
+              } else {
+                final val = double.tryParse(text) ?? 0;
+                onChanged(val);
+              }
+            },
+          ),
+        ),
+      ],
+    );
+  }
+
+  void _updateConstraints({
+    double? minWidth,
+    double? minHeight,
+    double? maxWidth,
+    double? maxHeight,
+  }) {
+    setState(() {
+      _constraints = BoxConstraints(
+        minWidth: minWidth ?? _constraints?.minWidth ?? 0,
+        minHeight: minHeight ?? _constraints?.minHeight ?? 0,
+        maxWidth: maxWidth ?? _constraints?.maxWidth ?? double.infinity,
+        maxHeight: maxHeight ?? _constraints?.maxHeight ?? double.infinity,
+      );
+    });
+    widget.onPropertyChanged('constraints', _constraints);
+    _propertyManager.updateProperty(widget.selectedWidget, 'constraints', _constraints);
+  }
+
+  Widget _buildWidgetTypeDisplay(ThemeData theme) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.primaryContainer.withValues(alpha: 0.3),
+        border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        children: [
+          Icon(
+            Icons.widgets,
+            size: 20,
+            color: theme.colorScheme.primary,
+          ),
+          const SizedBox(width: 12),
+          Text(
+            widget.selectedWidget.widgetType,
+            style: theme.textTheme.bodyMedium?.copyWith(
+              fontWeight: FontWeight.bold,
+              color: theme.colorScheme.primary,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  List<Widget> _buildSchemaParameters(ThemeData theme, List<PropertyDefinition> properties) {
+    if (properties.isEmpty) {
+      return [
+        Text(
+          'No parameters defined',
+          style: theme.textTheme.bodySmall?.copyWith(
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+            fontStyle: FontStyle.italic,
+          ),
+        ),
+      ];
+    }
+
+    return properties.map((prop) => _buildPropertyInput(theme, prop)).toList();
+  }
+
+  Widget _buildPropertyInput(ThemeData theme, PropertyDefinition prop) {
+    final label = prop.required ? '${prop.name} *' : prop.name;
+
+    switch (prop.type) {
+      case PropertyType.string:
+        return _buildTextInput(theme, label, prop.defaultValue?.toString());
+
+      case PropertyType.int:
+      case PropertyType.double:
+        return _buildSliderProperty(
+          theme,
+          label,
+          (prop.defaultValue as num?)?.toDouble() ?? prop.min ?? 0,
+          prop.min ?? 0,
+          prop.max ?? 100,
+          (value) {
+            widget.onPropertyChanged(prop.name, value);
+            _propertyManager.updateProperty(widget.selectedWidget, prop.name, value);
+          },
+        );
+
+      case PropertyType.bool:
+        return _buildToggleProperty(theme, label, prop.defaultValue ?? false);
+
+      case PropertyType.color:
+        return _buildColorProperty(
+          theme,
+          label,
+          prop.defaultValue ?? Colors.blue,
+          (color) {
+            widget.onPropertyChanged(prop.name, color);
+            _propertyManager.updateProperty(widget.selectedWidget, prop.name, color);
+          },
+        );
+
+      case PropertyType.enumValue:
+        if (prop.enumValues != null && prop.enumValues!.isNotEmpty) {
+          return _buildDropdownProperty(
+            theme,
+            label,
+            prop.defaultValue ?? prop.enumValues!.first,
+            prop.enumValues!,
+            (value) {
+              widget.onPropertyChanged(prop.name, value);
+              _propertyManager.updateProperty(widget.selectedWidget, prop.name, value);
+            },
+          );
+        }
+        return _buildTextInput(theme, label, prop.defaultValue?.toString());
+
+      case PropertyType.function:
+        return _buildFunctionEditor(theme, label, prop.defaultValue?.toString());
+
+      case PropertyType.widget:
+        return _buildWidgetSelector(theme, label, prop.defaultValue?.toString());
+
+      case PropertyType.alignment:
+        return _buildDropdownProperty(
+          theme,
+          label,
+          prop.defaultValue ?? 'Alignment.center',
+          [
+            'Alignment.topLeft',
+            'Alignment.topCenter',
+            'Alignment.topRight',
+            'Alignment.centerLeft',
+            'Alignment.center',
+            'Alignment.centerRight',
+            'Alignment.bottomLeft',
+            'Alignment.bottomCenter',
+            'Alignment.bottomRight',
+          ],
+          (value) {
+            widget.onPropertyChanged(prop.name, value);
+            _propertyManager.updateProperty(widget.selectedWidget, prop.name, value);
+          },
+        );
+
+      default:
+        return _buildTextInput(theme, label, prop.defaultValue?.toString());
+    }
+  }
+
+  Widget _buildConstructorTypeSelector(ThemeData theme) {
+    final constructors = _getConstructorTypes();
+    return _buildDropdownProperty(
+      theme,
+      'Type',
+      constructors.first,
+      constructors,
+      (value) {
+        widget.onPropertyChanged('constructor', value);
+      },
+    );
+  }
+
+  List<String> _getConstructorTypes() {
+    final widgetType = widget.selectedWidget.widgetType;
+    switch (widgetType) {
+      case 'Container':
+        return ['Default', 'Container.fromColor'];
+      case 'FloatingActionButton':
+        return ['Default', 'FloatingActionButton.small', 'FloatingActionButton.large', 'FloatingActionButton.extended'];
+      case 'Text':
+        return ['Default', 'Text.rich'];
+      case 'Icon':
+        return ['Default'];
+      default:
+        return ['Default'];
+    }
+  }
+
+  List<Widget> _buildRequiredParameters(ThemeData theme) {
+    final widgetType = widget.selectedWidget.widgetType;
+    switch (widgetType) {
+      case 'FloatingActionButton':
+        return [
+          _buildFunctionEditor(theme, 'onPressed', '_incrementCounter'),
+          _buildWidgetSelector(theme, 'child', 'Icon(Icons.add)'),
+        ];
+      case 'Text':
+        return [
+          _buildTextInput(theme, 'data', 'Hello World'),
+        ];
+      case 'Icon':
+        return [
+          _buildTextInput(theme, 'icon', 'Icons.star'),
+        ];
+      case 'Container':
+        return [
+          _buildWidgetSelector(theme, 'child', null),
+        ];
+      default:
+        return [
+          Text(
+            'No required parameters',
+            style: theme.textTheme.bodySmall?.copyWith(
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ];
+    }
+  }
+
+  List<Widget> _buildOptionalParameters(ThemeData theme) {
+    final widgetType = widget.selectedWidget.widgetType;
+    switch (widgetType) {
+      case 'FloatingActionButton':
+        return [
+          _buildTextInput(theme, 'tooltip', 'Increment'),
+          _buildTextInput(theme, 'heroTag', 'fab'),
+          _buildSliderProperty(theme, 'elevation', 6.0, 0.0, 24.0, (value) {
+            widget.onPropertyChanged('elevation', value);
+          }),
+          _buildColorProperty(theme, 'backgroundColor', Theme.of(context).colorScheme.secondary, (color) {
+            widget.onPropertyChanged('backgroundColor', color);
+          }),
+          _buildColorProperty(theme, 'foregroundColor', Colors.white, (color) {
+            widget.onPropertyChanged('foregroundColor', color);
+          }),
+        ];
+      case 'Text':
+        return [
+          _buildDropdownProperty(theme, 'textAlign', 'TextAlign.start',
+            ['TextAlign.start', 'TextAlign.center', 'TextAlign.end', 'TextAlign.justify'],
+            (value) {
+              widget.onPropertyChanged('textAlign', value);
+            },
+          ),
+          _buildToggleProperty(theme, 'softWrap', true),
+          _buildDropdownProperty(theme, 'overflow', 'TextOverflow.clip',
+            ['TextOverflow.clip', 'TextOverflow.ellipsis', 'TextOverflow.fade', 'TextOverflow.visible'],
+            (value) {
+              widget.onPropertyChanged('overflow', value);
+            },
+          ),
+        ];
+      case 'Container':
+        return [
+          _buildSliderProperty(theme, 'width', 100.0, 0.0, 500.0, (value) {
+            widget.onPropertyChanged('width', value);
+          }),
+          _buildSliderProperty(theme, 'height', 100.0, 0.0, 500.0, (value) {
+            widget.onPropertyChanged('height', value);
+          }),
+          _buildDropdownProperty(theme, 'alignment', 'Alignment.center',
+            ['Alignment.topLeft', 'Alignment.topCenter', 'Alignment.topRight',
+             'Alignment.centerLeft', 'Alignment.center', 'Alignment.centerRight',
+             'Alignment.bottomLeft', 'Alignment.bottomCenter', 'Alignment.bottomRight'],
+            (value) {
+              widget.onPropertyChanged('alignment', value);
+            },
+          ),
+        ];
+      default:
+        return [
+          Text(
+            'No optional parameters',
+            style: theme.textTheme.bodySmall?.copyWith(
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ];
+    }
+  }
+
+  Widget _buildFunctionEditor(ThemeData theme, String label, String? currentFunction) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: TextField(
+                  controller: TextEditingController(text: currentFunction),
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    fontFamily: 'monospace',
+                  ),
+                  decoration: InputDecoration(
+                    hintText: 'Function name or () => {}',
+                    hintStyle: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
+                    ),
+                    border: InputBorder.none,
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  ),
+                  onChanged: (value) {
+                    widget.onPropertyChanged(label, value.isEmpty ? null : value);
+                  },
+                ),
+              ),
+              IconButton(
+                icon: Icon(Icons.code, size: 18, color: theme.colorScheme.primary),
+                onPressed: () => _showCodeEditor(label, currentFunction),
+                tooltip: 'Open code editor',
+                padding: const EdgeInsets.all(8),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildWidgetSelector(ThemeData theme, String label, String? currentWidget) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: TextField(
+                  controller: TextEditingController(text: currentWidget),
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    fontFamily: 'monospace',
+                  ),
+                  decoration: InputDecoration(
+                    hintText: 'Widget code or select...',
+                    hintStyle: theme.textTheme.bodySmall?.copyWith(
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
+                    ),
+                    border: InputBorder.none,
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  ),
+                  onChanged: (value) {
+                    widget.onPropertyChanged(label, value.isEmpty ? null : value);
+                  },
+                ),
+              ),
+              IconButton(
+                icon: Icon(Icons.widgets, size: 18, color: theme.colorScheme.primary),
+                onPressed: () => _showWidgetPicker(label, currentWidget),
+                tooltip: 'Select widget',
+                padding: const EdgeInsets.all(8),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildTextInput(ThemeData theme, String label, String? defaultValue) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          label,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            border: Border.all(color: theme.dividerColor.withValues(alpha: 0.3)),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: TextField(
+            controller: TextEditingController(text: defaultValue),
+            style: theme.textTheme.bodySmall,
+            decoration: InputDecoration(
+              hintText: 'Enter $label...',
+              hintStyle: theme.textTheme.bodySmall?.copyWith(
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
+              ),
+              border: InputBorder.none,
+              contentPadding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            ),
+            onChanged: (value) {
+              widget.onPropertyChanged(label, value.isEmpty ? null : value);
+            },
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildToggleProperty(ThemeData theme, String label, bool value) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          label,
+          style: theme.textTheme.bodyMedium?.copyWith(
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+        Switch(
+          value: value,
+          onChanged: (newValue) {
+            widget.onPropertyChanged(label, newValue);
+          },
+          activeColor: theme.colorScheme.primary,
+        ),
+      ],
+    );
+  }
+
+  void _showCodeEditor(String propertyName, String? currentCode) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Edit $propertyName'),
+        content: SizedBox(
+          width: 500,
+          height: 300,
+          child: Container(
+            decoration: BoxDecoration(
+              border: Border.all(color: Theme.of(context).dividerColor),
+              borderRadius: BorderRadius.circular(8),
+              color: Colors.grey[900],
+            ),
+            padding: const EdgeInsets.all(12),
+            child: TextField(
+              controller: TextEditingController(text: currentCode ?? ''),
+              style: const TextStyle(
+                fontFamily: 'monospace',
+                fontSize: 13,
+                color: Colors.white,
+              ),
+              maxLines: null,
+              expands: true,
+              decoration: const InputDecoration(
+                hintText: '() {\n  // Your code here\n}',
+                hintStyle: TextStyle(color: Colors.grey),
+                border: InputBorder.none,
+              ),
+              onChanged: (value) {
+                // Update will happen on save
+              },
+            ),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              // Save the code
+              Navigator.of(context).pop();
+            },
+            child: const Text('Save'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showWidgetPicker(String propertyName, String? currentWidget) {
+    final commonWidgets = [
+      'Icon(Icons.add)',
+      'Icon(Icons.edit)',
+      'Icon(Icons.delete)',
+      'Text("Click me")',
+      'CircularProgressIndicator()',
+      'Container()',
+      'SizedBox()',
+    ];
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Select Widget for $propertyName'),
+        content: SizedBox(
+          width: 300,
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: commonWidgets.length,
+            itemBuilder: (context, index) {
+              final widgetCode = commonWidgets[index];
+              return ListTile(
+                title: Text(
+                  widgetCode,
+                  style: const TextStyle(fontFamily: 'monospace', fontSize: 13),
+                ),
+                selected: currentWidget == widgetCode,
+                onTap: () {
+                  widget.onPropertyChanged(propertyName, widgetCode);
+                  Navigator.of(context).pop();
+                },
+              );
+            },
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Cancel'),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _buildSection(ThemeData theme, String title, IconData icon, List<Widget> children) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -450,7 +1352,7 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
             const SizedBox(width: 12),
             Expanded(
               child: Text(
-                '#${value.value.toRadixString(16).substring(2).toUpperCase()}',
+                '#${value.toARGB32().toRadixString(16).substring(2).toUpperCase()}',
                 style: theme.textTheme.bodySmall?.copyWith(
                   fontFamily: 'monospace',
                   color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
