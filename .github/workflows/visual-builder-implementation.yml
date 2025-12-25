@@ -23,8 +23,8 @@ on:
         default: false
 
 env:
-  FLUTTER_VERSION: '3.24.0'
-  DART_VERSION: '3.5.0'
+  FLUTTER_VERSION: '3.24.1'
+  DART_VERSION: '3.5.1'
 
 jobs:
   # ============================================================================
