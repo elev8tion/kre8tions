@@ -137,22 +137,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.11"
-  device_frame_plus:
+  device_frame:
     dependency: transitive
     description:
-      name: device_frame_plus
-      sha256: ccc94abccd4d9f0a9f19ef239001b3a59896e678ad42601371d7065889f2bf78
+      name: device_frame
+      sha256: a58796a9a2efc0fd8a7903cee0eed2e2d111f4a7d81fa2319ab89430b020f624
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.0"
+    version: "1.3.0"
   device_preview_plus:
     dependency: "direct main"
     description:
       name: device_preview_plus
-      sha256: d55e6197bad38b5eb304ba4e3ec3979971d8f69599b5109406022cf978dd2be2
+      sha256: eb3c690cea08ccbcd618533fe5d6623e2319b3e423fbe916384a8f65ec7af88b
       url: "https://pub.dev"
     source: hosted
-    version: "2.5.6"
+    version: "2.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -249,10 +249,10 @@ packages:
     dependency: transitive
     description:
       name: freezed_annotation
-      sha256: "7294967ff0a6d98638e7acb774aac3af2550777accd8149c90af5b014e6d44d8"
+      sha256: c2e2d632dd9b8a2b7751117abcfc2b4888ecfe181bd9fca7170d9ef02e595fe2
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.0"
+    version: "2.4.4"
   glob:
     dependency: transitive
     description:
@@ -261,6 +261,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.3"
+  google_fonts:
+    dependency: "direct main"
+    description:
+      name: google_fonts
+      sha256: ba03d03bcaa2f6cb7bd920e3b5027181db75ab524f8891c8bc3aa603885b8055
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.3.3"
   highlight:
     dependency: transitive
     description:
@@ -811,5 +819,5 @@ packages:
     source: hosted
     version: "3.1.3"
 sdks:
-  dart: ">=3.9.2 <4.0.0"
-  flutter: ">=3.35.7"
+  dart: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
