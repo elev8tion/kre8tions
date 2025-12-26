@@ -415,27 +415,13 @@ class EnhancedNotePanel extends StatelessWidget {
   }
 }
 
-class _WidgetInfoCard extends StatefulWidget {
+class _WidgetInfoCard extends StatelessWidget {
   final IDEWidgetInfo widget;
 
   const _WidgetInfoCard({required this.widget});
 
   @override
-  State<_WidgetInfoCard> createState() => _WidgetInfoCardState();
-}
-
-class _WidgetInfoCardState extends State<_WidgetInfoCard> {
-  bool _showPreciseCode = false;
-  bool _showParentChain = false;
-  bool _showProperties = false;
-
-  @override
   Widget build(BuildContext context) {
-    final hasLineNumber = widget.widget.lineNumber != null;
-    final hasPreciseCode = widget.widget.hasPreciseCode;
-    final hasParentChain = widget.widget.parentChain.isNotEmpty;
-    final hasProperties = widget.widget.properties.isNotEmpty;
-
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
@@ -446,7 +432,6 @@ class _WidgetInfoCardState extends State<_WidgetInfoCard> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Header row with widget type and size
           Row(
             children: [
               Container(
@@ -456,7 +441,7 @@ class _WidgetInfoCardState extends State<_WidgetInfoCard> {
                   borderRadius: BorderRadius.circular(4),
                 ),
                 child: Text(
-                  widget.widget.widgetType,
+                  widget.widgetType,
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
@@ -466,349 +451,17 @@ class _WidgetInfoCardState extends State<_WidgetInfoCard> {
               ),
               const Spacer(),
               Text(
-                '${widget.widget.size.width.toInt()} × ${widget.widget.size.height.toInt()}px',
+                '${widget.size.width.toInt()} × ${widget.size.height.toInt()}px',
                 style: TextStyle(fontSize: 11, color: Colors.grey.shade600),
               ),
             ],
           ),
           const SizedBox(height: 8),
-
-          // Basic info
-          _InfoRow(icon: Icons.location_on, label: 'UI Location', value: widget.widget.location),
-          _InfoRow(
-            icon: Icons.code,
-            label: 'Source',
-            value: hasLineNumber
-                ? '${widget.widget.sourceFile}:${widget.widget.lineNumber}'
-                : widget.widget.sourceFile,
-          ),
-
-          // Properties (if any text/color detected)
-          if (widget.widget.properties.containsKey('text'))
-            _InfoRow(icon: Icons.text_fields, label: 'Text', value: widget.widget.properties['text'].toString()),
-          if (widget.widget.properties.containsKey('color'))
-            _InfoRow(icon: Icons.color_lens, label: 'Color', value: widget.widget.properties['color'].toString()),
-
-          const SizedBox(height: 8),
-
-          // Expandable sections
-          Wrap(
-            spacing: 6,
-            runSpacing: 6,
-            children: [
-              // Precise Code toggle
-              if (hasPreciseCode)
-                _ExpandableChip(
-                  icon: Icons.data_object,
-                  label: 'Widget Code',
-                  isExpanded: _showPreciseCode,
-                  hasData: true,
-                  onTap: () => setState(() => _showPreciseCode = !_showPreciseCode),
-                ),
-
-              // Parent Chain toggle
-              if (hasParentChain)
-                _ExpandableChip(
-                  icon: Icons.account_tree,
-                  label: 'Parent Chain (${widget.widget.parentChain.length})',
-                  isExpanded: _showParentChain,
-                  hasData: true,
-                  onTap: () => setState(() => _showParentChain = !_showParentChain),
-                ),
-
-              // Properties toggle
-              if (hasProperties)
-                _ExpandableChip(
-                  icon: Icons.tune,
-                  label: 'Properties (${widget.widget.properties.length})',
-                  isExpanded: _showProperties,
-                  hasData: true,
-                  onTap: () => setState(() => _showProperties = !_showProperties),
-                ),
-            ],
-          ),
-
-          // Precise widget code (expanded)
-          if (_showPreciseCode && hasPreciseCode) ...[
-            const SizedBox(height: 8),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.grey.shade900,
-                borderRadius: BorderRadius.circular(6),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Icon(Icons.code, size: 12, color: Colors.green.shade400),
-                      const SizedBox(width: 6),
-                      Text(
-                        'Precise Widget Code',
-                        style: TextStyle(
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.green.shade400,
-                        ),
-                      ),
-                      const Spacer(),
-                      Text(
-                        '${widget.widget.preciseWidgetCode!.length} chars',
-                        style: TextStyle(
-                          fontSize: 9,
-                          color: Colors.grey.shade500,
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 6),
-                  ConstrainedBox(
-                    constraints: const BoxConstraints(maxHeight: 150),
-                    child: SingleChildScrollView(
-                      child: Text(
-                        widget.widget.preciseWidgetCode!,
-                        style: TextStyle(
-                          fontSize: 10,
-                          fontFamily: 'monospace',
-                          color: Colors.grey.shade300,
-                          height: 1.4,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-
-          // Parent chain (expanded)
-          if (_showParentChain && hasParentChain) ...[
-            const SizedBox(height: 8),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.purple.shade50,
-                borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.purple.shade200),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Icon(Icons.account_tree, size: 12, color: Colors.purple.shade700),
-                      const SizedBox(width: 6),
-                      Text(
-                        'Widget Hierarchy',
-                        style: TextStyle(
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.purple.shade700,
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 6),
-                  ...widget.widget.parentChain.asMap().entries.map((entry) {
-                    final index = entry.key;
-                    final parent = entry.value;
-                    return Padding(
-                      padding: EdgeInsets.only(left: index * 8.0),
-                      child: Row(
-                        children: [
-                          Text(
-                            index == 0 ? '▶' : '└─',
-                            style: TextStyle(
-                              fontSize: 10,
-                              color: Colors.purple.shade400,
-                              fontFamily: 'monospace',
-                            ),
-                          ),
-                          const SizedBox(width: 4),
-                          Text(
-                            parent,
-                            style: TextStyle(
-                              fontSize: 10,
-                              color: Colors.purple.shade900,
-                              fontFamily: 'monospace',
-                            ),
-                          ),
-                        ],
-                      ),
-                    );
-                  }),
-                  Padding(
-                    padding: EdgeInsets.only(left: widget.widget.parentChain.length * 8.0),
-                    child: Row(
-                      children: [
-                        Text(
-                          '└─',
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Colors.blue.shade400,
-                            fontFamily: 'monospace',
-                          ),
-                        ),
-                        const SizedBox(width: 4),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 1),
-                          decoration: BoxDecoration(
-                            color: Colors.blue.shade100,
-                            borderRadius: BorderRadius.circular(3),
-                          ),
-                          child: Text(
-                            widget.widget.widgetType,
-                            style: TextStyle(
-                              fontSize: 10,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.blue.shade900,
-                              fontFamily: 'monospace',
-                            ),
-                          ),
-                        ),
-                        const Text(' ← selected', style: TextStyle(fontSize: 9, color: Colors.grey)),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-
-          // Properties (expanded)
-          if (_showProperties && hasProperties) ...[
-            const SizedBox(height: 8),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.orange.shade50,
-                borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.orange.shade200),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Icon(Icons.tune, size: 12, color: Colors.orange.shade700),
-                      const SizedBox(width: 6),
-                      Text(
-                        'Detected Properties',
-                        style: TextStyle(
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.orange.shade700,
-                        ),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 6),
-                  ...widget.widget.properties.entries.map((entry) {
-                    return Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 2),
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          SizedBox(
-                            width: 80,
-                            child: Text(
-                              '${entry.key}:',
-                              style: TextStyle(
-                                fontSize: 10,
-                                fontWeight: FontWeight.w500,
-                                color: Colors.orange.shade900,
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              entry.value.toString(),
-                              style: TextStyle(
-                                fontSize: 10,
-                                color: Colors.grey.shade800,
-                                fontFamily: 'monospace',
-                              ),
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                        ],
-                      ),
-                    );
-                  }),
-                ],
-              ),
-            ),
-          ],
+          _InfoRow(icon: Icons.location_on, label: 'Location', value: widget.location),
+          _InfoRow(icon: Icons.code, label: 'File', value: widget.sourceFile),
+          if (widget.properties.containsKey('text'))
+            _InfoRow(icon: Icons.text_fields, label: 'Text', value: widget.properties['text'].toString()),
         ],
-      ),
-    );
-  }
-}
-
-/// Expandable chip button for toggling sections
-class _ExpandableChip extends StatelessWidget {
-  final IconData icon;
-  final String label;
-  final bool isExpanded;
-  final bool hasData;
-  final VoidCallback onTap;
-
-  const _ExpandableChip({
-    required this.icon,
-    required this.label,
-    required this.isExpanded,
-    required this.hasData,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: hasData ? onTap : null,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-        decoration: BoxDecoration(
-          color: isExpanded
-              ? Colors.blue.shade100
-              : hasData
-                  ? Colors.grey.shade200
-                  : Colors.grey.shade100,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(
-            color: isExpanded ? Colors.blue.shade400 : Colors.grey.shade300,
-          ),
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(
-              icon,
-              size: 12,
-              color: isExpanded ? Colors.blue.shade700 : Colors.grey.shade600,
-            ),
-            const SizedBox(width: 4),
-            Text(
-              label,
-              style: TextStyle(
-                fontSize: 10,
-                fontWeight: isExpanded ? FontWeight.bold : FontWeight.normal,
-                color: isExpanded ? Colors.blue.shade900 : Colors.grey.shade700,
-              ),
-            ),
-            const SizedBox(width: 4),
-            Icon(
-              isExpanded ? Icons.expand_less : Icons.expand_more,
-              size: 14,
-              color: isExpanded ? Colors.blue.shade700 : Colors.grey.shade500,
-            ),
-          ],
-        ),
       ),
     );
   }

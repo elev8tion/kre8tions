@@ -4,14 +4,11 @@ import 'package:kre8tions/theme.dart';
 import 'package:kre8tions/screens/home_page.dart';
 import 'package:kre8tions/services/app_state_manager.dart';
 import 'package:kre8tions/services/ide_inspector_service.dart';
-import 'package:kre8tions/services/ide_source_service.dart';
 import 'package:kre8tions/widgets/precise_widget_selector.dart';
 import 'package:kre8tions/utils/performance_monitor.dart';
 
 void main() {
   PerformanceMonitor.initialize();
-  // Load IDE source files for widget inspector (development mode)
-  IDESourceService.instance.loadIDESource();
   runApp(const MyApp());
 }
 
