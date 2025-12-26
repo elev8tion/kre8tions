@@ -1,0 +1,1714 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661136-Dreamflow_-_Product_Tour.en.srt",
+    "total_frames": 213,
+    "total_transcript_segments": 356
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0001.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0002.png",
+      "transcript": "Welcome to the new Dreamflow where you Welcome to the new Dreamflow where you can build, preview, and deploy your apps",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0003.png",
+      "transcript": "Welcome to the new Dreamflow where you Welcome to the new Dreamflow where you can build, preview, and deploy your apps can build, preview, and deploy your apps can build, preview, and deploy your apps all in one place, giving you the freedom",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0004.png",
+      "transcript": "Welcome to the new Dreamflow where you can build, preview, and deploy your apps can build, preview, and deploy your apps can build, preview, and deploy your apps all in one place, giving you the freedom all in one place, giving you the freedom all in one place, giving you the freedom to develop however you want through",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0005.png",
+      "transcript": "can build, preview, and deploy your apps all in one place, giving you the freedom all in one place, giving you the freedom all in one place, giving you the freedom to develop however you want through to develop however you want through to develop however you want through prompting our AI agent, visual",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0006.png",
+      "transcript": "all in one place, giving you the freedom to develop however you want through to develop however you want through to develop however you want through prompting our AI agent, visual prompting our AI agent, visual prompting our AI agent, visual development, or interacting with the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0007.png",
+      "transcript": "to develop however you want through prompting our AI agent, visual prompting our AI agent, visual prompting our AI agent, visual development, or interacting with the development, or interacting with the development, or interacting with the code itself. So, let me give you a tour.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0008.png",
+      "transcript": "prompting our AI agent, visual development, or interacting with the development, or interacting with the development, or interacting with the code itself. So, let me give you a tour. code itself. So, let me give you a tour. code itself. So, let me give you a tour. Let's start with a prompt. Let's build a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0009.png",
+      "transcript": "development, or interacting with the code itself. So, let me give you a tour. code itself. So, let me give you a tour. code itself. So, let me give you a tour. Let's start with a prompt. Let's build a Let's start with a prompt. Let's build a Let's start with a prompt. Let's build a habit tracker. The first thing Dreamflow",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0010.png",
+      "transcript": "code itself. So, let me give you a tour. Let's start with a prompt. Let's build a Let's start with a prompt. Let's build a Let's start with a prompt. Let's build a habit tracker. The first thing Dreamflow",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0011.png",
+      "transcript": "Let's start with a prompt. Let's build a habit tracker. The first thing Dreamflow habit tracker. The first thing Dreamflow habit tracker. The first thing Dreamflow is going to do is formulate a plan that",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0012.png",
+      "transcript": "Let's start with a prompt. Let's build a habit tracker. The first thing Dreamflow habit tracker. The first thing Dreamflow habit tracker. The first thing Dreamflow is going to do is formulate a plan that is going to do is formulate a plan that is going to do is formulate a plan that you can see over here on the left. On",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0013.png",
+      "transcript": "habit tracker. The first thing Dreamflow is going to do is formulate a plan that is going to do is formulate a plan that is going to do is formulate a plan that you can see over here on the left. On you can see over here on the left. On you can see over here on the left. On the right, you're going to see the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0014.png",
+      "transcript": "is going to do is formulate a plan that you can see over here on the left. On you can see over here on the left. On you can see over here on the left. On the right, you're going to see the the right, you're going to see the the right, you're going to see the execution of that plan, including each",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0015.png",
+      "transcript": "you can see over here on the left. On the right, you're going to see the the right, you're going to see the the right, you're going to see the execution of that plan, including each execution of that plan, including each execution of that plan, including each of the tasks it's going to accomplish,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0016.png",
+      "transcript": "the right, you're going to see the execution of that plan, including each execution of that plan, including each execution of that plan, including each of the tasks it's going to accomplish, of the tasks it's going to accomplish, of the tasks it's going to accomplish, the files it's going to edit, and the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0017.png",
+      "transcript": "execution of that plan, including each of the tasks it's going to accomplish, of the tasks it's going to accomplish, of the tasks it's going to accomplish, the files it's going to edit, and the the files it's going to edit, and the the files it's going to edit, and the diffs that you can expand to see what",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0018.png",
+      "transcript": "of the tasks it's going to accomplish, the files it's going to edit, and the the files it's going to edit, and the the files it's going to edit, and the diffs that you can expand to see what diffs that you can expand to see what diffs that you can expand to see what it's actually doing. Additionally,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0019.png",
+      "transcript": "the files it's going to edit, and the diffs that you can expand to see what diffs that you can expand to see what diffs that you can expand to see what it's actually doing. Additionally, it's actually doing. Additionally, it's actually doing. Additionally, you'll see any of the packages that it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0020.png",
+      "transcript": "diffs that you can expand to see what it's actually doing. Additionally, it's actually doing. Additionally, it's actually doing. Additionally, you'll see any of the packages that it you'll see any of the packages that it you'll see any of the packages that it adds, and all of the classes that it's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0021.png",
+      "transcript": "it's actually doing. Additionally, you'll see any of the packages that it you'll see any of the packages that it you'll see any of the packages that it adds, and all of the classes that it's adds, and all of the classes that it's adds, and all of the classes that it's writing. After it writes these files,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0022.png",
+      "transcript": "you'll see any of the packages that it adds, and all of the classes that it's adds, and all of the classes that it's adds, and all of the classes that it's writing. After it writes these files, writing. After it writes these files, writing. After it writes these files, you can click into this view generated",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 44.0,
+      "timestamp_formatted": "00:00:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0023.png",
+      "transcript": "adds, and all of the classes that it's writing. After it writes these files, writing. After it writes these files, writing. After it writes these files, you can click into this view generated you can click into this view generated you can click into this view generated files and select any file you want and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 46.0,
+      "timestamp_formatted": "00:00:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0024.png",
+      "transcript": "writing. After it writes these files, you can click into this view generated you can click into this view generated you can click into this view generated files and select any file you want and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 48.0,
+      "timestamp_formatted": "00:00:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0025.png",
+      "transcript": "you can click into this view generated files and select any file you want and files and select any file you want and files and select any file you want and see all the code that's written. When",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:00:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0026.png",
+      "transcript": "you can click into this view generated files and select any file you want and files and select any file you want and files and select any file you want and see all the code that's written. When see all the code that's written. When see all the code that's written. When the task is completed, you'll see that the task is completed, you'll see that the task is completed, you'll see that DreamFlow checks it off. And if you have",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 52.0,
+      "timestamp_formatted": "00:00:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0027.png",
+      "transcript": "files and select any file you want and see all the code that's written. When see all the code that's written. When see all the code that's written. When the task is completed, you'll see that the task is completed, you'll see that the task is completed, you'll see that DreamFlow checks it off. And if you have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 54.0,
+      "timestamp_formatted": "00:00:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0028.png",
+      "transcript": "the task is completed, you'll see that DreamFlow checks it off. And if you have DreamFlow checks it off. And if you have DreamFlow checks it off. And if you have some extra time, you can play Asteroids.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 56.0,
+      "timestamp_formatted": "00:00:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0029.png",
+      "transcript": "the task is completed, you'll see that DreamFlow checks it off. And if you have DreamFlow checks it off. And if you have DreamFlow checks it off. And if you have some extra time, you can play Asteroids.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 58.0,
+      "timestamp_formatted": "00:00:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0030.png",
+      "transcript": "DreamFlow checks it off. And if you have some extra time, you can play Asteroids. some extra time, you can play Asteroids. some extra time, you can play Asteroids. All right, let's go back and view our",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 60.0,
+      "timestamp_formatted": "00:01:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0031.png",
+      "transcript": "DreamFlow checks it off. And if you have some extra time, you can play Asteroids. some extra time, you can play Asteroids. some extra time, you can play Asteroids. All right, let's go back and view our All right, let's go back and view our All right, let's go back and view our progress. And let's close out these",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 62.0,
+      "timestamp_formatted": "00:01:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0032.png",
+      "transcript": "some extra time, you can play Asteroids. All right, let's go back and view our All right, let's go back and view our All right, let's go back and view our progress. And let's close out these progress. And let's close out these progress. And let's close out these messages right here. And you can see",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 64.0,
+      "timestamp_formatted": "00:01:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0033.png",
+      "transcript": "All right, let's go back and view our progress. And let's close out these progress. And let's close out these progress. And let's close out these messages right here. And you can see messages right here. And you can see messages right here. And you can see that we're almost done. As it's writing",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 66.0,
+      "timestamp_formatted": "00:01:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0034.png",
+      "transcript": "progress. And let's close out these messages right here. And you can see messages right here. And you can see messages right here. And you can see that we're almost done. As it's writing that we're almost done. As it's writing that we're almost done. As it's writing the code, it will compile it and check",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 68.0,
+      "timestamp_formatted": "00:01:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0035.png",
+      "transcript": "messages right here. And you can see that we're almost done. As it's writing that we're almost done. As it's writing that we're almost done. As it's writing the code, it will compile it and check the code, it will compile it and check the code, it will compile it and check for errors. And if there are any errors,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 70.0,
+      "timestamp_formatted": "00:01:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0036.png",
+      "transcript": "that we're almost done. As it's writing the code, it will compile it and check the code, it will compile it and check the code, it will compile it and check for errors. And if there are any errors, for errors. And if there are any errors, for errors. And if there are any errors, it will fix them. All right, it's done.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 72.0,
+      "timestamp_formatted": "00:01:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0037.png",
+      "transcript": "the code, it will compile it and check for errors. And if there are any errors, for errors. And if there are any errors, for errors. And if there are any errors, it will fix them. All right, it's done. it will fix them. All right, it's done. it will fix them. All right, it's done. So now it's opening it in DreamFlow. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 74.0,
+      "timestamp_formatted": "00:01:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0038.png",
+      "transcript": "for errors. And if there are any errors, it will fix them. All right, it's done. it will fix them. All right, it's done. it will fix them. All right, it's done. So now it's opening it in DreamFlow. And So now it's opening it in DreamFlow. And So now it's opening it in DreamFlow. And beautiful. Here's our app. Now, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 76.0,
+      "timestamp_formatted": "00:01:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0039.png",
+      "transcript": "it will fix them. All right, it's done. So now it's opening it in DreamFlow. And So now it's opening it in DreamFlow. And So now it's opening it in DreamFlow. And beautiful. Here's our app. Now, let's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 78.0,
+      "timestamp_formatted": "00:01:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0040.png",
+      "transcript": "So now it's opening it in DreamFlow. And beautiful. Here's our app. Now, let's beautiful. Here's our app. Now, let's beautiful. Here's our app. Now, let's get a little accustomed to this get a little accustomed to this get a little accustomed to this interface. Now up here you can see a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 80.0,
+      "timestamp_formatted": "00:01:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0041.png",
+      "transcript": "So now it's opening it in DreamFlow. And beautiful. Here's our app. Now, let's beautiful. Here's our app. Now, let's beautiful. Here's our app. Now, let's get a little accustomed to this get a little accustomed to this get a little accustomed to this interface. Now up here you can see a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 82.0,
+      "timestamp_formatted": "00:01:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0042.png",
+      "transcript": "get a little accustomed to this get a little accustomed to this interface. Now up here you can see a interface. Now up here you can see a interface. Now up here you can see a couple of different options. And this",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 84.0,
+      "timestamp_formatted": "00:01:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0043.png",
+      "transcript": "get a little accustomed to this interface. Now up here you can see a interface. Now up here you can see a interface. Now up here you can see a couple of different options. And this couple of different options. And this couple of different options. And this left one over here when I select it will",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 86.0,
+      "timestamp_formatted": "00:01:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0044.png",
+      "transcript": "interface. Now up here you can see a couple of different options. And this couple of different options. And this couple of different options. And this left one over here when I select it will left one over here when I select it will left one over here when I select it will be my widget tree. So you can see all",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 88.0,
+      "timestamp_formatted": "00:01:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0045.png",
+      "transcript": "couple of different options. And this left one over here when I select it will left one over here when I select it will left one over here when I select it will be my widget tree. So you can see all be my widget tree. So you can see all be my widget tree. So you can see all the widgets on your page. Next over here",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 90.0,
+      "timestamp_formatted": "00:01:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0046.png",
+      "transcript": "left one over here when I select it will be my widget tree. So you can see all be my widget tree. So you can see all be my widget tree. So you can see all the widgets on your page. Next over here",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 92.0,
+      "timestamp_formatted": "00:01:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0047.png",
+      "transcript": "be my widget tree. So you can see all the widgets on your page. Next over here the widgets on your page. Next over here the widgets on your page. Next over here we have our properties panel. Now we",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 94.0,
+      "timestamp_formatted": "00:01:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0048.png",
+      "transcript": "be my widget tree. So you can see all the widgets on your page. Next over here the widgets on your page. Next over here the widgets on your page. Next over here we have our properties panel. Now we we have our properties panel. Now we we have our properties panel. Now we don't see anything right now because we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 96.0,
+      "timestamp_formatted": "00:01:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0049.png",
+      "transcript": "the widgets on your page. Next over here we have our properties panel. Now we we have our properties panel. Now we we have our properties panel. Now we don't see anything right now because we don't see anything right now because we don't see anything right now because we don't have any widgets selected. So we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 98.0,
+      "timestamp_formatted": "00:01:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0050.png",
+      "transcript": "we have our properties panel. Now we don't see anything right now because we don't see anything right now because we don't see anything right now because we don't have any widgets selected. So we don't have any widgets selected. So we don't have any widgets selected. So we can't see any widgets. But this is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 100.0,
+      "timestamp_formatted": "00:01:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0051.png",
+      "transcript": "don't see anything right now because we don't have any widgets selected. So we don't have any widgets selected. So we don't have any widgets selected. So we can't see any widgets. But this is can't see any widgets. But this is can't see any widgets. But this is getting a little bit cramped right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 102.0,
+      "timestamp_formatted": "00:01:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0052.png",
+      "transcript": "don't have any widgets selected. So we can't see any widgets. But this is can't see any widgets. But this is can't see any widgets. But this is getting a little bit cramped right here. getting a little bit cramped right here. getting a little bit cramped right here. So I could shrink it down. But actually",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 104.0,
+      "timestamp_formatted": "00:01:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0053.png",
+      "transcript": "can't see any widgets. But this is getting a little bit cramped right here. getting a little bit cramped right here. getting a little bit cramped right here. So I could shrink it down. But actually",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 106.0,
+      "timestamp_formatted": "00:01:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0054.png",
+      "transcript": "getting a little bit cramped right here. So I could shrink it down. But actually So I could shrink it down. But actually So I could shrink it down. But actually I'm just going to close this agent panel",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 108.0,
+      "timestamp_formatted": "00:01:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0055.png",
+      "transcript": "getting a little bit cramped right here. So I could shrink it down. But actually So I could shrink it down. But actually So I could shrink it down. But actually I'm just going to close this agent panel I'm just going to close this agent panel I'm just going to close this agent panel right here. And that's this third",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 110.0,
+      "timestamp_formatted": "00:01:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0056.png",
+      "transcript": "So I could shrink it down. But actually I'm just going to close this agent panel I'm just going to close this agent panel I'm just going to close this agent panel right here. And that's this third right here. And that's this third right here. And that's this third option. There we go. That's feeling option. There we go. That's feeling option. There we go. That's feeling better. The last main section is right",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 112.0,
+      "timestamp_formatted": "00:01:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0057.png",
+      "transcript": "I'm just going to close this agent panel right here. And that's this third right here. And that's this third right here. And that's this third option. There we go. That's feeling option. There we go. That's feeling option. There we go. That's feeling better. The last main section is right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 114.0,
+      "timestamp_formatted": "00:01:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0058.png",
+      "transcript": "option. There we go. That's feeling better. The last main section is right better. The last main section is right better. The last main section is right here. A preview of our app. Well, it's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 116.0,
+      "timestamp_formatted": "00:01:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0059.png",
+      "transcript": "option. There we go. That's feeling better. The last main section is right better. The last main section is right better. The last main section is right here. A preview of our app. Well, it's here. A preview of our app. Well, it's here. A preview of our app. Well, it's actually the app itself. This is the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 118.0,
+      "timestamp_formatted": "00:01:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0060.png",
+      "transcript": "better. The last main section is right here. A preview of our app. Well, it's here. A preview of our app. Well, it's here. A preview of our app. Well, it's actually the app itself. This is the actually the app itself. This is the actually the app itself. This is the complete running version of your app.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 120.0,
+      "timestamp_formatted": "00:02:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0061.png",
+      "transcript": "here. A preview of our app. Well, it's actually the app itself. This is the actually the app itself. This is the actually the app itself. This is the complete running version of your app. complete running version of your app. complete running version of your app. Okay. So, let's make some changes here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 122.0,
+      "timestamp_formatted": "00:02:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0062.png",
+      "transcript": "actually the app itself. This is the complete running version of your app. complete running version of your app. complete running version of your app. Okay. So, let's make some changes here.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 124.0,
+      "timestamp_formatted": "00:02:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0063.png",
+      "transcript": "complete running version of your app. Okay. So, let's make some changes here. Okay. So, let's make some changes here. Okay. So, let's make some changes here. So, the first thing I want to do is I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 126.0,
+      "timestamp_formatted": "00:02:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0064.png",
+      "transcript": "complete running version of your app. Okay. So, let's make some changes here. Okay. So, let's make some changes here. Okay. So, let's make some changes here. So, the first thing I want to do is I So, the first thing I want to do is I So, the first thing I want to do is I want to change this title right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 128.0,
+      "timestamp_formatted": "00:02:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0065.png",
+      "transcript": "Okay. So, let's make some changes here. So, the first thing I want to do is I So, the first thing I want to do is I So, the first thing I want to do is I want to change this title right here. want to change this title right here. want to change this title right here. Now, I could click through right here",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 130.0,
+      "timestamp_formatted": "00:02:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0066.png",
+      "transcript": "So, the first thing I want to do is I want to change this title right here. want to change this title right here. want to change this title right here. Now, I could click through right here Now, I could click through right here Now, I could click through right here and try to figure out where this is, but",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 132.0,
+      "timestamp_formatted": "00:02:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0067.png",
+      "transcript": "want to change this title right here. Now, I could click through right here Now, I could click through right here Now, I could click through right here and try to figure out where this is, but",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 134.0,
+      "timestamp_formatted": "00:02:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0068.png",
+      "transcript": "Now, I could click through right here and try to figure out where this is, but and try to figure out where this is, but and try to figure out where this is, but there's an easier way to do it, and there's an easier way to do it, and there's an easier way to do it, and that's to turn on inspect mode right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 136.0,
+      "timestamp_formatted": "00:02:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0069.png",
+      "transcript": "Now, I could click through right here and try to figure out where this is, but and try to figure out where this is, but and try to figure out where this is, but there's an easier way to do it, and there's an easier way to do it, and there's an easier way to do it, and that's to turn on inspect mode right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 138.0,
+      "timestamp_formatted": "00:02:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0070.png",
+      "transcript": "there's an easier way to do it, and that's to turn on inspect mode right that's to turn on inspect mode right that's to turn on inspect mode right here. And that allows me to hover over",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 140.0,
+      "timestamp_formatted": "00:02:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0071.png",
+      "transcript": "there's an easier way to do it, and that's to turn on inspect mode right that's to turn on inspect mode right that's to turn on inspect mode right here. And that allows me to hover over here. And that allows me to hover over here. And that allows me to hover over and select whatever widget I want to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 142.0,
+      "timestamp_formatted": "00:02:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0072.png",
+      "transcript": "that's to turn on inspect mode right here. And that allows me to hover over here. And that allows me to hover over here. And that allows me to hover over and select whatever widget I want to and select whatever widget I want to and select whatever widget I want to change. So, we want this text widget",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 144.0,
+      "timestamp_formatted": "00:02:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0073.png",
+      "transcript": "here. And that allows me to hover over and select whatever widget I want to and select whatever widget I want to and select whatever widget I want to change. So, we want this text widget change. So, we want this text widget change. So, we want this text widget right here. And when I select that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 146.0,
+      "timestamp_formatted": "00:02:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0074.png",
+      "transcript": "and select whatever widget I want to change. So, we want this text widget change. So, we want this text widget change. So, we want this text widget right here. And when I select that right here. And when I select that right here. And when I select that widget, you can see all of the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 148.0,
+      "timestamp_formatted": "00:02:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0075.png",
+      "transcript": "change. So, we want this text widget right here. And when I select that right here. And when I select that right here. And when I select that widget, you can see all of the widget, you can see all of the widget, you can see all of the properties populating over here. And you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 150.0,
+      "timestamp_formatted": "00:02:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0076.png",
+      "transcript": "right here. And when I select that widget, you can see all of the widget, you can see all of the widget, you can see all of the properties populating over here. And you properties populating over here. And you properties populating over here. And you can just go in and change them. So, I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 152.0,
+      "timestamp_formatted": "00:02:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0077.png",
+      "transcript": "widget, you can see all of the properties populating over here. And you properties populating over here. And you properties populating over here. And you can just go in and change them. So, I can just go in and change them. So, I can just go in and change them. So, I want this to be keystone tracker. Okay,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 154.0,
+      "timestamp_formatted": "00:02:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0078.png",
+      "transcript": "properties populating over here. And you can just go in and change them. So, I can just go in and change them. So, I can just go in and change them. So, I want this to be keystone tracker. Okay,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 156.0,
+      "timestamp_formatted": "00:02:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0079.png",
+      "transcript": "can just go in and change them. So, I want this to be keystone tracker. Okay, want this to be keystone tracker. Okay, want this to be keystone tracker. Okay, that's great. Next, this is a little bit",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 158.0,
+      "timestamp_formatted": "00:02:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0080.png",
+      "transcript": "can just go in and change them. So, I want this to be keystone tracker. Okay, want this to be keystone tracker. Okay, want this to be keystone tracker. Okay, that's great. Next, this is a little bit",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 160.0,
+      "timestamp_formatted": "00:02:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0081.png",
+      "transcript": "want this to be keystone tracker. Okay, that's great. Next, this is a little bit that's great. Next, this is a little bit that's great. Next, this is a little bit too big. And you can see this style is",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 162.0,
+      "timestamp_formatted": "00:02:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0082.png",
+      "transcript": "want this to be keystone tracker. Okay, that's great. Next, this is a little bit that's great. Next, this is a little bit that's great. Next, this is a little bit too big. And you can see this style is too big. And you can see this style is too big. And you can see this style is coming from this headline small. That is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 164.0,
+      "timestamp_formatted": "00:02:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0083.png",
+      "transcript": "that's great. Next, this is a little bit too big. And you can see this style is too big. And you can see this style is too big. And you can see this style is coming from this headline small. That is coming from this headline small. That is coming from this headline small. That is from our theme settings that you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 166.0,
+      "timestamp_formatted": "00:02:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0084.png",
+      "transcript": "too big. And you can see this style is coming from this headline small. That is coming from this headline small. That is coming from this headline small. That is from our theme settings that you can from our theme settings that you can from our theme settings that you can edit in this second tab right here. So,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 168.0,
+      "timestamp_formatted": "00:02:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0085.png",
+      "transcript": "coming from this headline small. That is from our theme settings that you can from our theme settings that you can from our theme settings that you can edit in this second tab right here. So,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 170.0,
+      "timestamp_formatted": "00:02:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0086.png",
+      "transcript": "from our theme settings that you can edit in this second tab right here. So, edit in this second tab right here. So, edit in this second tab right here. So, that's headline small right over here.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 172.0,
+      "timestamp_formatted": "00:02:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0087.png",
+      "transcript": "from our theme settings that you can edit in this second tab right here. So, edit in this second tab right here. So, edit in this second tab right here. So, that's headline small right over here. that's headline small right over here. that's headline small right over here. And I'm just going to bump that down.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 174.0,
+      "timestamp_formatted": "00:02:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0088.png",
+      "transcript": "edit in this second tab right here. So, that's headline small right over here. that's headline small right over here. that's headline small right over here. And I'm just going to bump that down.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 176.0,
+      "timestamp_formatted": "00:02:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0089.png",
+      "transcript": "that's headline small right over here. And I'm just going to bump that down. And I'm just going to bump that down. And I'm just going to bump that down. Yeah, that's looking better. I've got Yeah, that's looking better. I've got Yeah, that's looking better. I've got another app here. It's a to-do app. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 178.0,
+      "timestamp_formatted": "00:02:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0090.png",
+      "transcript": "that's headline small right over here. And I'm just going to bump that down. And I'm just going to bump that down. And I'm just going to bump that down. Yeah, that's looking better. I've got Yeah, that's looking better. I've got Yeah, that's looking better. I've got another app here. It's a to-do app. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 180.0,
+      "timestamp_formatted": "00:03:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0091.png",
+      "transcript": "Yeah, that's looking better. I've got another app here. It's a to-do app. And another app here. It's a to-do app. And another app here. It's a to-do app. And if you notice, I've got this error right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 182.0,
+      "timestamp_formatted": "00:03:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0092.png",
+      "transcript": "Yeah, that's looking better. I've got another app here. It's a to-do app. And another app here. It's a to-do app. And another app here. It's a to-do app. And if you notice, I've got this error right if you notice, I've got this error right if you notice, I've got this error right here. It's an overflow error. and I want",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 184.0,
+      "timestamp_formatted": "00:03:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0093.png",
+      "transcript": "another app here. It's a to-do app. And if you notice, I've got this error right if you notice, I've got this error right if you notice, I've got this error right here. It's an overflow error. and I want here. It's an overflow error. and I want here. It's an overflow error. and I want to fix that with our agent. So, I'm",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 186.0,
+      "timestamp_formatted": "00:03:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0094.png",
+      "transcript": "if you notice, I've got this error right here. It's an overflow error. and I want here. It's an overflow error. and I want here. It's an overflow error. and I want to fix that with our agent. So, I'm to fix that with our agent. So, I'm to fix that with our agent. So, I'm going to toggle our agent chat right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 188.0,
+      "timestamp_formatted": "00:03:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0095.png",
+      "transcript": "here. It's an overflow error. and I want to fix that with our agent. So, I'm to fix that with our agent. So, I'm to fix that with our agent. So, I'm going to toggle our agent chat right going to toggle our agent chat right going to toggle our agent chat right here. And there are various ways that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 190.0,
+      "timestamp_formatted": "00:03:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0096.png",
+      "transcript": "to fix that with our agent. So, I'm going to toggle our agent chat right going to toggle our agent chat right going to toggle our agent chat right here. And there are various ways that here. And there are various ways that here. And there are various ways that you can deal with debugging issues like",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 192.0,
+      "timestamp_formatted": "00:03:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0097.png",
+      "transcript": "going to toggle our agent chat right here. And there are various ways that here. And there are various ways that here. And there are various ways that you can deal with debugging issues like",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 194.0,
+      "timestamp_formatted": "00:03:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0098.png",
+      "transcript": "here. And there are various ways that you can deal with debugging issues like you can deal with debugging issues like you can deal with debugging issues like this. But for this one, I'm going to go",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 196.0,
+      "timestamp_formatted": "00:03:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0099.png",
+      "transcript": "here. And there are various ways that you can deal with debugging issues like you can deal with debugging issues like you can deal with debugging issues like this. But for this one, I'm going to go this. But for this one, I'm going to go this. But for this one, I'm going to go down here and take a screenshot and add",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 198.0,
+      "timestamp_formatted": "00:03:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0100.png",
+      "transcript": "you can deal with debugging issues like this. But for this one, I'm going to go this. But for this one, I'm going to go this. But for this one, I'm going to go down here and take a screenshot and add down here and take a screenshot and add down here and take a screenshot and add that to the agent context right there",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 200.0,
+      "timestamp_formatted": "00:03:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0101.png",
+      "transcript": "this. But for this one, I'm going to go down here and take a screenshot and add down here and take a screenshot and add down here and take a screenshot and add that to the agent context right there that to the agent context right there that to the agent context right there and say in the tab bar there's an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 202.0,
+      "timestamp_formatted": "00:03:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0102.png",
+      "transcript": "down here and take a screenshot and add that to the agent context right there that to the agent context right there that to the agent context right there and say in the tab bar there's an",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 204.0,
+      "timestamp_formatted": "00:03:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0103.png",
+      "transcript": "that to the agent context right there and say in the tab bar there's an and say in the tab bar there's an and say in the tab bar there's an overflow error. Please fix. Awesome. And",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 206.0,
+      "timestamp_formatted": "00:03:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0104.png",
+      "transcript": "that to the agent context right there and say in the tab bar there's an and say in the tab bar there's an and say in the tab bar there's an overflow error. Please fix. Awesome. And",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 208.0,
+      "timestamp_formatted": "00:03:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0105.png",
+      "transcript": "and say in the tab bar there's an overflow error. Please fix. Awesome. And",
+      "segment_count": 1
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 210.0,
+      "timestamp_formatted": "00:03:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0106.png",
+      "transcript": "and say in the tab bar there's an overflow error. Please fix. Awesome. And overflow error. Please fix. Awesome. And overflow error. Please fix. Awesome. And that is fixed. and our agent gives us a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 212.0,
+      "timestamp_formatted": "00:03:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0107.png",
+      "transcript": "and say in the tab bar there's an overflow error. Please fix. Awesome. And overflow error. Please fix. Awesome. And overflow error. Please fix. Awesome. And that is fixed. and our agent gives us a that is fixed. and our agent gives us a that is fixed. and our agent gives us a nice summary of the tasks that it's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 214.0,
+      "timestamp_formatted": "00:03:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0108.png",
+      "transcript": "overflow error. Please fix. Awesome. And that is fixed. and our agent gives us a that is fixed. and our agent gives us a that is fixed. and our agent gives us a nice summary of the tasks that it's nice summary of the tasks that it's nice summary of the tasks that it's taken to fix it. The next thing I want",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 216.0,
+      "timestamp_formatted": "00:03:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0109.png",
+      "transcript": "that is fixed. and our agent gives us a nice summary of the tasks that it's nice summary of the tasks that it's nice summary of the tasks that it's taken to fix it. The next thing I want taken to fix it. The next thing I want taken to fix it. The next thing I want to do is I want to connect this to a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 218.0,
+      "timestamp_formatted": "00:03:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0110.png",
+      "transcript": "nice summary of the tasks that it's taken to fix it. The next thing I want taken to fix it. The next thing I want taken to fix it. The next thing I want to do is I want to connect this to a to do is I want to connect this to a to do is I want to connect this to a backend service and we have native",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 220.0,
+      "timestamp_formatted": "00:03:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0111.png",
+      "transcript": "taken to fix it. The next thing I want to do is I want to connect this to a to do is I want to connect this to a to do is I want to connect this to a backend service and we have native backend service and we have native backend service and we have native modules for Superbase and Firebase. Of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 222.0,
+      "timestamp_formatted": "00:03:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0112.png",
+      "transcript": "to do is I want to connect this to a backend service and we have native backend service and we have native backend service and we have native modules for Superbase and Firebase. Of",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 224.0,
+      "timestamp_formatted": "00:03:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0113.png",
+      "transcript": "backend service and we have native modules for Superbase and Firebase. Of modules for Superbase and Firebase. Of modules for Superbase and Firebase. Of course, you have full access to the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 226.0,
+      "timestamp_formatted": "00:03:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0114.png",
+      "transcript": "backend service and we have native modules for Superbase and Firebase. Of modules for Superbase and Firebase. Of modules for Superbase and Firebase. Of course, you have full access to the course, you have full access to the course, you have full access to the code. So, you could use any backend you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 228.0,
+      "timestamp_formatted": "00:03:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0115.png",
+      "transcript": "modules for Superbase and Firebase. Of course, you have full access to the course, you have full access to the course, you have full access to the code. So, you could use any backend you code. So, you could use any backend you code. So, you could use any backend you want, but let's use Superbase. So, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 230.0,
+      "timestamp_formatted": "00:03:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0116.png",
+      "transcript": "course, you have full access to the code. So, you could use any backend you code. So, you could use any backend you code. So, you could use any backend you want, but let's use Superbase. So, let's want, but let's use Superbase. So, let's want, but let's use Superbase. So, let's come over here to our Superbase module",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 232.0,
+      "timestamp_formatted": "00:03:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0117.png",
+      "transcript": "code. So, you could use any backend you want, but let's use Superbase. So, let's want, but let's use Superbase. So, let's want, but let's use Superbase. So, let's come over here to our Superbase module",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 234.0,
+      "timestamp_formatted": "00:03:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0118.png",
+      "transcript": "want, but let's use Superbase. So, let's want, but let's use Superbase. So, let's come over here to our Superbase module come over here to our Superbase module come over here to our Superbase module and connect to Superbase. This will",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 236.0,
+      "timestamp_formatted": "00:03:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0119.png",
+      "transcript": "want, but let's use Superbase. So, let's come over here to our Superbase module come over here to our Superbase module come over here to our Superbase module and connect to Superbase. This will and connect to Superbase. This will and connect to Superbase. This will bring you through the OOTH flow and then",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 238.0,
+      "timestamp_formatted": "00:03:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0120.png",
+      "transcript": "come over here to our Superbase module and connect to Superbase. This will and connect to Superbase. This will and connect to Superbase. This will bring you through the OOTH flow and then bring you through the OOTH flow and then bring you through the OOTH flow and then set up your project in Superbase. Great.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 240.0,
+      "timestamp_formatted": "00:04:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0121.png",
+      "transcript": "and connect to Superbase. This will bring you through the OOTH flow and then bring you through the OOTH flow and then bring you through the OOTH flow and then set up your project in Superbase. Great. set up your project in Superbase. Great. set up your project in Superbase. Great. The project is set up. Now, let's have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 242.0,
+      "timestamp_formatted": "00:04:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0122.png",
+      "transcript": "bring you through the OOTH flow and then set up your project in Superbase. Great. set up your project in Superbase. Great. set up your project in Superbase. Great. The project is set up. Now, let's have The project is set up. Now, let's have The project is set up. Now, let's have the agent generate the client side code.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 244.0,
+      "timestamp_formatted": "00:04:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0123.png",
+      "transcript": "set up your project in Superbase. Great. The project is set up. Now, let's have The project is set up. Now, let's have The project is set up. Now, let's have the agent generate the client side code.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 246.0,
+      "timestamp_formatted": "00:04:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0124.png",
+      "transcript": "The project is set up. Now, let's have the agent generate the client side code. the agent generate the client side code. the agent generate the client side code. And you can see it's added to the thread",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 248.0,
+      "timestamp_formatted": "00:04:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0125.png",
+      "transcript": "The project is set up. Now, let's have the agent generate the client side code. the agent generate the client side code. the agent generate the client side code. And you can see it's added to the thread And you can see it's added to the thread And you can see it's added to the thread right here, and it's planning its",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 250.0,
+      "timestamp_formatted": "00:04:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0126.png",
+      "transcript": "the agent generate the client side code. And you can see it's added to the thread And you can see it's added to the thread And you can see it's added to the thread right here, and it's planning its right here, and it's planning its right here, and it's planning its execution. Now, what's great here is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 252.0,
+      "timestamp_formatted": "00:04:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0127.png",
+      "transcript": "And you can see it's added to the thread right here, and it's planning its right here, and it's planning its right here, and it's planning its execution. Now, what's great here is execution. Now, what's great here is execution. Now, what's great here is that because the agent has a context of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 254.0,
+      "timestamp_formatted": "00:04:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0128.png",
+      "transcript": "right here, and it's planning its execution. Now, what's great here is execution. Now, what's great here is execution. Now, what's great here is that because the agent has a context of that because the agent has a context of that because the agent has a context of your entire app, it sees that it's a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 256.0,
+      "timestamp_formatted": "00:04:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0129.png",
+      "transcript": "execution. Now, what's great here is that because the agent has a context of that because the agent has a context of that because the agent has a context of your entire app, it sees that it's a your entire app, it sees that it's a your entire app, it sees that it's a to-do list. So, it's creating the tables",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 258.0,
+      "timestamp_formatted": "00:04:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0130.png",
+      "transcript": "that because the agent has a context of your entire app, it sees that it's a your entire app, it sees that it's a your entire app, it sees that it's a to-do list. So, it's creating the tables to-do list. So, it's creating the tables to-do list. So, it's creating the tables that make sense for a to-do app. Great,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 260.0,
+      "timestamp_formatted": "00:04:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0131.png",
+      "transcript": "your entire app, it sees that it's a to-do list. So, it's creating the tables to-do list. So, it's creating the tables to-do list. So, it's creating the tables that make sense for a to-do app. Great,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 262.0,
+      "timestamp_formatted": "00:04:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0132.png",
+      "transcript": "to-do list. So, it's creating the tables that make sense for a to-do app. Great, that make sense for a to-do app. Great, that make sense for a to-do app. Great, it's finished. We've got a summary of",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 264.0,
+      "timestamp_formatted": "00:04:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0133.png",
+      "transcript": "to-do list. So, it's creating the tables that make sense for a to-do app. Great, that make sense for a to-do app. Great, that make sense for a to-do app. Great, it's finished. We've got a summary of it's finished. We've got a summary of it's finished. We've got a summary of all the tasks that it took. Now, the all the tasks that it took. Now, the all the tasks that it took. Now, the last step is to deploy these schema",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 266.0,
+      "timestamp_formatted": "00:04:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0134.png",
+      "transcript": "that make sense for a to-do app. Great, it's finished. We've got a summary of it's finished. We've got a summary of it's finished. We've got a summary of all the tasks that it took. Now, the all the tasks that it took. Now, the all the tasks that it took. Now, the last step is to deploy these schema",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 268.0,
+      "timestamp_formatted": "00:04:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0135.png",
+      "transcript": "all the tasks that it took. Now, the last step is to deploy these schema last step is to deploy these schema last step is to deploy these schema changes. Now what's this doing is that",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 270.0,
+      "timestamp_formatted": "00:04:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0136.png",
+      "transcript": "all the tasks that it took. Now, the last step is to deploy these schema last step is to deploy these schema last step is to deploy these schema changes. Now what's this doing is that changes. Now what's this doing is that changes. Now what's this doing is that it wrote all the SQL to create the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 272.0,
+      "timestamp_formatted": "00:04:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0137.png",
+      "transcript": "last step is to deploy these schema changes. Now what's this doing is that changes. Now what's this doing is that changes. Now what's this doing is that it wrote all the SQL to create the it wrote all the SQL to create the it wrote all the SQL to create the tables and the rowle security and now",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 274.0,
+      "timestamp_formatted": "00:04:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0138.png",
+      "transcript": "changes. Now what's this doing is that it wrote all the SQL to create the it wrote all the SQL to create the it wrote all the SQL to create the tables and the rowle security and now tables and the rowle security and now tables and the rowle security and now it's just executing those. All right,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 276.0,
+      "timestamp_formatted": "00:04:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0139.png",
+      "transcript": "it wrote all the SQL to create the tables and the rowle security and now tables and the rowle security and now tables and the rowle security and now it's just executing those. All right, it's just executing those. All right, it's just executing those. All right, that's all looking good. I can see here",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 278.0,
+      "timestamp_formatted": "00:04:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0140.png",
+      "transcript": "tables and the rowle security and now it's just executing those. All right, it's just executing those. All right, it's just executing those. All right, that's all looking good. I can see here that's all looking good. I can see here that's all looking good. I can see here in Superbase that I've got my to-dos and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 280.0,
+      "timestamp_formatted": "00:04:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0141.png",
+      "transcript": "it's just executing those. All right, that's all looking good. I can see here that's all looking good. I can see here that's all looking good. I can see here in Superbase that I've got my to-dos and in Superbase that I've got my to-dos and in Superbase that I've got my to-dos and all the other things and the all and all",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 282.0,
+      "timestamp_formatted": "00:04:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0142.png",
+      "transcript": "that's all looking good. I can see here in Superbase that I've got my to-dos and in Superbase that I've got my to-dos and in Superbase that I've got my to-dos and all the other things and the all and all all the other things and the all and all all the other things and the all and all the other tables. But when I go back to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 284.0,
+      "timestamp_formatted": "00:04:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0143.png",
+      "transcript": "in Superbase that I've got my to-dos and all the other things and the all and all all the other things and the all and all all the other things and the all and all the other tables. But when I go back to the other tables. But when I go back to the other tables. But when I go back to the app, I'm not seeing anything. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 286.0,
+      "timestamp_formatted": "00:04:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0144.png",
+      "transcript": "all the other things and the all and all the other tables. But when I go back to the other tables. But when I go back to the other tables. But when I go back to the app, I'm not seeing anything. And the app, I'm not seeing anything. And the app, I'm not seeing anything. And that's probably because I'm not",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 288.0,
+      "timestamp_formatted": "00:04:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0145.png",
+      "transcript": "the other tables. But when I go back to the app, I'm not seeing anything. And the app, I'm not seeing anything. And the app, I'm not seeing anything. And that's probably because I'm not that's probably because I'm not that's probably because I'm not authenticated as any user. So let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 290.0,
+      "timestamp_formatted": "00:04:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0146.png",
+      "transcript": "the app, I'm not seeing anything. And that's probably because I'm not that's probably because I'm not that's probably because I'm not authenticated as any user. So let's authenticated as any user. So let's authenticated as any user. So let's change the entry page. So I'm just going",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 292.0,
+      "timestamp_formatted": "00:04:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0147.png",
+      "transcript": "that's probably because I'm not authenticated as any user. So let's authenticated as any user. So let's authenticated as any user. So let's change the entry page. So I'm just going change the entry page. So I'm just going change the entry page. So I'm just going to tell it to make sure the off page is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 294.0,
+      "timestamp_formatted": "00:04:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0148.png",
+      "transcript": "authenticated as any user. So let's change the entry page. So I'm just going change the entry page. So I'm just going change the entry page. So I'm just going to tell it to make sure the off page is to tell it to make sure the off page is to tell it to make sure the off page is the entry page. All right, great. That's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 296.0,
+      "timestamp_formatted": "00:04:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0149.png",
+      "transcript": "change the entry page. So I'm just going to tell it to make sure the off page is to tell it to make sure the off page is to tell it to make sure the off page is the entry page. All right, great. That's the entry page. All right, great. That's the entry page. All right, great. That's done. Great. So, we're signed in, but I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 298.0,
+      "timestamp_formatted": "00:04:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0150.png",
+      "transcript": "to tell it to make sure the off page is the entry page. All right, great. That's the entry page. All right, great. That's the entry page. All right, great. That's done. Great. So, we're signed in, but I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 151,
+      "timestamp": 300.0,
+      "timestamp_formatted": "00:05:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0151.png",
+      "transcript": "the entry page. All right, great. That's done. Great. So, we're signed in, but I done. Great. So, we're signed in, but I done. Great. So, we're signed in, but I don't think this button is working right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 152,
+      "timestamp": 302.0,
+      "timestamp_formatted": "00:05:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0152.png",
+      "transcript": "the entry page. All right, great. That's done. Great. So, we're signed in, but I done. Great. So, we're signed in, but I done. Great. So, we're signed in, but I don't think this button is working right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 153,
+      "timestamp": 304.0,
+      "timestamp_formatted": "00:05:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0153.png",
+      "transcript": "done. Great. So, we're signed in, but I don't think this button is working right don't think this button is working right don't think this button is working right here. So, what I'm going to do is I'm here. So, what I'm going to do is I'm here. So, what I'm going to do is I'm going to turn on inspect mode right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 154,
+      "timestamp": 306.0,
+      "timestamp_formatted": "00:05:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0154.png",
+      "transcript": "done. Great. So, we're signed in, but I don't think this button is working right don't think this button is working right don't think this button is working right here. So, what I'm going to do is I'm here. So, what I'm going to do is I'm here. So, what I'm going to do is I'm going to turn on inspect mode right going to turn on inspect mode right going to turn on inspect mode right here. And this button right here, I want",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 155,
+      "timestamp": 308.0,
+      "timestamp_formatted": "00:05:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0155.png",
+      "transcript": "here. So, what I'm going to do is I'm here. So, what I'm going to do is I'm going to turn on inspect mode right going to turn on inspect mode right going to turn on inspect mode right here. And this button right here, I want",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 156,
+      "timestamp": 310.0,
+      "timestamp_formatted": "00:05:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0156.png",
+      "transcript": "going to turn on inspect mode right here. And this button right here, I want here. And this button right here, I want here. And this button right here, I want to rightclick and add it to the agent",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 157,
+      "timestamp": 312.0,
+      "timestamp_formatted": "00:05:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0157.png",
+      "transcript": "going to turn on inspect mode right here. And this button right here, I want here. And this button right here, I want here. And this button right here, I want to rightclick and add it to the agent",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 158,
+      "timestamp": 314.0,
+      "timestamp_formatted": "00:05:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0158.png",
+      "transcript": "here. And this button right here, I want to rightclick and add it to the agent to rightclick and add it to the agent to rightclick and add it to the agent context right here. And say this button",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 159,
+      "timestamp": 316.0,
+      "timestamp_formatted": "00:05:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0159.png",
+      "transcript": "here. And this button right here, I want to rightclick and add it to the agent to rightclick and add it to the agent to rightclick and add it to the agent context right here. And say this button context right here. And say this button context right here. And say this button is always disabled. Make sure it's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 160,
+      "timestamp": 318.0,
+      "timestamp_formatted": "00:05:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0160.png",
+      "transcript": "to rightclick and add it to the agent context right here. And say this button context right here. And say this button context right here. And say this button is always disabled. Make sure it's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 161,
+      "timestamp": 320.0,
+      "timestamp_formatted": "00:05:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0161.png",
+      "transcript": "context right here. And say this button is always disabled. Make sure it's is always disabled. Make sure it's is always disabled. Make sure it's working properly. All right, that's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 162,
+      "timestamp": 322.0,
+      "timestamp_formatted": "00:05:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0162.png",
+      "transcript": "context right here. And say this button is always disabled. Make sure it's is always disabled. Make sure it's is always disabled. Make sure it's working properly. All right, that's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 163,
+      "timestamp": 324.0,
+      "timestamp_formatted": "00:05:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0163.png",
+      "transcript": "is always disabled. Make sure it's working properly. All right, that's working properly. All right, that's working properly. All right, that's done. So, let's test it out here. create",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 164,
+      "timestamp": 326.0,
+      "timestamp_formatted": "00:05:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0164.png",
+      "transcript": "is always disabled. Make sure it's working properly. All right, that's working properly. All right, that's working properly. All right, that's done. So, let's test it out here. create done. So, let's test it out here. create done. So, let's test it out here. create Dreamflow tutorial.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 165,
+      "timestamp": 328.0,
+      "timestamp_formatted": "00:05:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0165.png",
+      "transcript": "working properly. All right, that's done. So, let's test it out here. create done. So, let's test it out here. create done. So, let's test it out here. create Dreamflow tutorial.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 166,
+      "timestamp": 330.0,
+      "timestamp_formatted": "00:05:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0166.png",
+      "transcript": "done. So, let's test it out here. create Dreamflow tutorial. Dreamflow tutorial. Dreamflow tutorial. Beautiful. Now, so far we've used our",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 167,
+      "timestamp": 332.0,
+      "timestamp_formatted": "00:05:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0167.png",
+      "transcript": "done. So, let's test it out here. create Dreamflow tutorial. Dreamflow tutorial. Dreamflow tutorial. Beautiful. Now, so far we've used our Beautiful. Now, so far we've used our Beautiful. Now, so far we've used our agent to make changes to our app. We've",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 168,
+      "timestamp": 334.0,
+      "timestamp_formatted": "00:05:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0168.png",
+      "transcript": "Dreamflow tutorial. Beautiful. Now, so far we've used our Beautiful. Now, so far we've used our Beautiful. Now, so far we've used our agent to make changes to our app. We've agent to make changes to our app. We've agent to make changes to our app. We've selected widgets and modified their",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 169,
+      "timestamp": 336.0,
+      "timestamp_formatted": "00:05:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0169.png",
+      "transcript": "Beautiful. Now, so far we've used our agent to make changes to our app. We've agent to make changes to our app. We've agent to make changes to our app. We've selected widgets and modified their",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 170,
+      "timestamp": 338.0,
+      "timestamp_formatted": "00:05:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0170.png",
+      "transcript": "agent to make changes to our app. We've agent to make changes to our app. We've selected widgets and modified their selected widgets and modified their selected widgets and modified their properties in the property panel. But",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 171,
+      "timestamp": 340.0,
+      "timestamp_formatted": "00:05:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0171.png",
+      "transcript": "agent to make changes to our app. We've selected widgets and modified their selected widgets and modified their selected widgets and modified their properties in the property panel. But properties in the property panel. But properties in the property panel. But there's one other way that you can there's one other way that you can there's one other way that you can interact with your app. And that's",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 172,
+      "timestamp": 342.0,
+      "timestamp_formatted": "00:05:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0172.png",
+      "transcript": "selected widgets and modified their properties in the property panel. But properties in the property panel. But properties in the property panel. But there's one other way that you can there's one other way that you can there's one other way that you can interact with your app. And that's interact with your app. And that's interact with your app. And that's directly with the code. And you can see",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 173,
+      "timestamp": 344.0,
+      "timestamp_formatted": "00:05:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0173.png",
+      "transcript": "there's one other way that you can there's one other way that you can interact with your app. And that's interact with your app. And that's interact with your app. And that's directly with the code. And you can see",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 174,
+      "timestamp": 346.0,
+      "timestamp_formatted": "00:05:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0174.png",
+      "transcript": "interact with your app. And that's directly with the code. And you can see directly with the code. And you can see directly with the code. And you can see that up here. So, if I go into code",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 175,
+      "timestamp": 348.0,
+      "timestamp_formatted": "00:05:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0175.png",
+      "transcript": "interact with your app. And that's directly with the code. And you can see directly with the code. And you can see directly with the code. And you can see that up here. So, if I go into code that up here. So, if I go into code that up here. So, if I go into code view, you can see I have full file",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 176,
+      "timestamp": 350.0,
+      "timestamp_formatted": "00:05:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0176.png",
+      "transcript": "directly with the code. And you can see that up here. So, if I go into code that up here. So, if I go into code that up here. So, if I go into code view, you can see I have full file view, you can see I have full file view, you can see I have full file system access where you can edit any",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 177,
+      "timestamp": 352.0,
+      "timestamp_formatted": "00:05:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0177.png",
+      "transcript": "that up here. So, if I go into code view, you can see I have full file view, you can see I have full file view, you can see I have full file system access where you can edit any",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 178,
+      "timestamp": 354.0,
+      "timestamp_formatted": "00:05:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0178.png",
+      "transcript": "view, you can see I have full file system access where you can edit any system access where you can edit any system access where you can edit any file. But it gets better because I can",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 179,
+      "timestamp": 356.0,
+      "timestamp_formatted": "00:05:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0179.png",
+      "transcript": "view, you can see I have full file system access where you can edit any system access where you can edit any system access where you can edit any file. But it gets better because I can file. But it gets better because I can file. But it gets better because I can go into split view right here and let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 180,
+      "timestamp": 358.0,
+      "timestamp_formatted": "00:05:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0180.png",
+      "transcript": "system access where you can edit any file. But it gets better because I can file. But it gets better because I can file. But it gets better because I can go into split view right here and let's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 181,
+      "timestamp": 360.0,
+      "timestamp_formatted": "00:06:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0181.png",
+      "transcript": "file. But it gets better because I can go into split view right here and let's go into split view right here and let's go into split view right here and let's close our agent to make a little bit close our agent to make a little bit close our agent to make a little bit more room. And if I'm in inspect mode, I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 182,
+      "timestamp": 362.0,
+      "timestamp_formatted": "00:06:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0182.png",
+      "transcript": "file. But it gets better because I can go into split view right here and let's go into split view right here and let's go into split view right here and let's close our agent to make a little bit close our agent to make a little bit close our agent to make a little bit more room. And if I'm in inspect mode, I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 183,
+      "timestamp": 364.0,
+      "timestamp_formatted": "00:06:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0183.png",
+      "transcript": "close our agent to make a little bit close our agent to make a little bit more room. And if I'm in inspect mode, I more room. And if I'm in inspect mode, I more room. And if I'm in inspect mode, I can select whatever widget I want and",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 184,
+      "timestamp": 366.0,
+      "timestamp_formatted": "00:06:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0184.png",
+      "transcript": "close our agent to make a little bit more room. And if I'm in inspect mode, I more room. And if I'm in inspect mode, I more room. And if I'm in inspect mode, I can select whatever widget I want and can select whatever widget I want and can select whatever widget I want and it'll bring me right there to that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 185,
+      "timestamp": 368.0,
+      "timestamp_formatted": "00:06:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0185.png",
+      "transcript": "more room. And if I'm in inspect mode, I can select whatever widget I want and can select whatever widget I want and can select whatever widget I want and it'll bring me right there to that it'll bring me right there to that it'll bring me right there to that widget. I can edit it. So let's just",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 186,
+      "timestamp": 370.0,
+      "timestamp_formatted": "00:06:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0186.png",
+      "transcript": "can select whatever widget I want and it'll bring me right there to that it'll bring me right there to that it'll bring me right there to that widget. I can edit it. So let's just",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 187,
+      "timestamp": 372.0,
+      "timestamp_formatted": "00:06:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0187.png",
+      "transcript": "it'll bring me right there to that it'll bring me right there to that widget. I can edit it. So let's just widget. I can edit it. So let's just widget. I can edit it. So let's just call this task. And when I save it,",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 188,
+      "timestamp": 374.0,
+      "timestamp_formatted": "00:06:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0188.png",
+      "transcript": "it'll bring me right there to that widget. I can edit it. So let's just widget. I can edit it. So let's just widget. I can edit it. So let's just call this task. And when I save it, call this task. And when I save it, call this task. And when I save it, those changes will be propagated in all",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 189,
+      "timestamp": 376.0,
+      "timestamp_formatted": "00:06:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0189.png",
+      "transcript": "widget. I can edit it. So let's just call this task. And when I save it, call this task. And when I save it, call this task. And when I save it, those changes will be propagated in all those changes will be propagated in all those changes will be propagated in all of the development surfaces. Also, if I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 190,
+      "timestamp": 378.0,
+      "timestamp_formatted": "00:06:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0190.png",
+      "transcript": "call this task. And when I save it, those changes will be propagated in all those changes will be propagated in all those changes will be propagated in all of the development surfaces. Also, if I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 191,
+      "timestamp": 380.0,
+      "timestamp_formatted": "00:06:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0191.png",
+      "transcript": "those changes will be propagated in all of the development surfaces. Also, if I of the development surfaces. Also, if I of the development surfaces. Also, if I select a widget in here, each context",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 192,
+      "timestamp": 382.0,
+      "timestamp_formatted": "00:06:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0192.png",
+      "transcript": "those changes will be propagated in all of the development surfaces. Also, if I of the development surfaces. Also, if I of the development surfaces. Also, if I select a widget in here, each context select a widget in here, each context select a widget in here, each context will be highlighted in the preview and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 193,
+      "timestamp": 384.0,
+      "timestamp_formatted": "00:06:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0193.png",
+      "transcript": "of the development surfaces. Also, if I select a widget in here, each context select a widget in here, each context select a widget in here, each context will be highlighted in the preview and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 194,
+      "timestamp": 386.0,
+      "timestamp_formatted": "00:06:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0194.png",
+      "transcript": "select a widget in here, each context will be highlighted in the preview and will be highlighted in the preview and will be highlighted in the preview and in your properties. But I feel good in your properties. But I feel good in your properties. But I feel good about this. So, I think it's time to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 195,
+      "timestamp": 388.0,
+      "timestamp_formatted": "00:06:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0195.png",
+      "transcript": "select a widget in here, each context will be highlighted in the preview and will be highlighted in the preview and will be highlighted in the preview and in your properties. But I feel good in your properties. But I feel good in your properties. But I feel good about this. So, I think it's time to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 196,
+      "timestamp": 390.0,
+      "timestamp_formatted": "00:06:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0196.png",
+      "transcript": "in your properties. But I feel good in your properties. But I feel good about this. So, I think it's time to about this. So, I think it's time to about this. So, I think it's time to publish. So, I'm going to go back into",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 197,
+      "timestamp": 392.0,
+      "timestamp_formatted": "00:06:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0197.png",
+      "transcript": "in your properties. But I feel good about this. So, I think it's time to about this. So, I think it's time to about this. So, I think it's time to publish. So, I'm going to go back into publish. So, I'm going to go back into publish. So, I'm going to go back into preview here and go to publish and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 198,
+      "timestamp": 394.0,
+      "timestamp_formatted": "00:06:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0198.png",
+      "transcript": "about this. So, I think it's time to publish. So, I'm going to go back into publish. So, I'm going to go back into publish. So, I'm going to go back into preview here and go to publish and preview here and go to publish and preview here and go to publish and deploy with one click. And here's our",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 199,
+      "timestamp": 396.0,
+      "timestamp_formatted": "00:06:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0199.png",
+      "transcript": "publish. So, I'm going to go back into preview here and go to publish and preview here and go to publish and preview here and go to publish and deploy with one click. And here's our",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 200,
+      "timestamp": 398.0,
+      "timestamp_formatted": "00:06:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0200.png",
+      "transcript": "preview here and go to publish and deploy with one click. And here's our deploy with one click. And here's our deploy with one click. And here's our live project. Awesome. And here's our",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 201,
+      "timestamp": 400.0,
+      "timestamp_formatted": "00:06:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0201.png",
+      "transcript": "preview here and go to publish and deploy with one click. And here's our deploy with one click. And here's our deploy with one click. And here's our live project. Awesome. And here's our live project. Awesome. And here's our live project. Awesome. And here's our deployed app. You can also deploy",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 202,
+      "timestamp": 402.0,
+      "timestamp_formatted": "00:06:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0202.png",
+      "transcript": "deploy with one click. And here's our live project. Awesome. And here's our live project. Awesome. And here's our live project. Awesome. And here's our deployed app. You can also deploy deployed app. You can also deploy deployed app. You can also deploy straight to the App Store and Play",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 203,
+      "timestamp": 404.0,
+      "timestamp_formatted": "00:06:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0203.png",
+      "transcript": "live project. Awesome. And here's our deployed app. You can also deploy deployed app. You can also deploy deployed app. You can also deploy straight to the App Store and Play straight to the App Store and Play straight to the App Store and Play Store. Now, if you run out of credits",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 204,
+      "timestamp": 406.0,
+      "timestamp_formatted": "00:06:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0204.png",
+      "transcript": "deployed app. You can also deploy straight to the App Store and Play straight to the App Store and Play straight to the App Store and Play Store. Now, if you run out of credits Store. Now, if you run out of credits Store. Now, if you run out of credits while you're building, you can go into",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 205,
+      "timestamp": 408.0,
+      "timestamp_formatted": "00:06:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0205.png",
+      "transcript": "straight to the App Store and Play Store. Now, if you run out of credits Store. Now, if you run out of credits Store. Now, if you run out of credits while you're building, you can go into while you're building, you can go into while you're building, you can go into your settings over here and into manage",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 206,
+      "timestamp": 410.0,
+      "timestamp_formatted": "00:06:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0206.png",
+      "transcript": "Store. Now, if you run out of credits while you're building, you can go into while you're building, you can go into while you're building, you can go into your settings over here and into manage your settings over here and into manage your settings over here and into manage plan. Then go into view plan and choose",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 207,
+      "timestamp": 412.0,
+      "timestamp_formatted": "00:06:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0207.png",
+      "transcript": "while you're building, you can go into your settings over here and into manage your settings over here and into manage your settings over here and into manage plan. Then go into view plan and choose",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 208,
+      "timestamp": 414.0,
+      "timestamp_formatted": "00:06:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0208.png",
+      "transcript": "your settings over here and into manage plan. Then go into view plan and choose plan. Then go into view plan and choose plan. Then go into view plan and choose the option you need. And that's the new",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 209,
+      "timestamp": 416.0,
+      "timestamp_formatted": "00:06:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0209.png",
+      "transcript": "your settings over here and into manage plan. Then go into view plan and choose plan. Then go into view plan and choose plan. Then go into view plan and choose the option you need. And that's the new the option you need. And that's the new the option you need. And that's the new Dreamflow. We can't wait to see what",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 210,
+      "timestamp": 418.0,
+      "timestamp_formatted": "00:06:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0210.png",
+      "transcript": "plan. Then go into view plan and choose the option you need. And that's the new the option you need. And that's the new the option you need. And that's the new Dreamflow. We can't wait to see what Dreamflow. We can't wait to see what Dreamflow. We can't wait to see what you'll build. Share them with us on",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 211,
+      "timestamp": 420.0,
+      "timestamp_formatted": "00:07:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0211.png",
+      "transcript": "the option you need. And that's the new Dreamflow. We can't wait to see what Dreamflow. We can't wait to see what Dreamflow. We can't wait to see what you'll build. Share them with us on you'll build. Share them with us on you'll build. Share them with us on Twitter with the handle@dreamflow",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 212,
+      "timestamp": 422.0,
+      "timestamp_formatted": "00:07:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0212.png",
+      "transcript": "Dreamflow. We can't wait to see what you'll build. Share them with us on you'll build. Share them with us on you'll build. Share them with us on Twitter with the handle@dreamflow Twitter with the handle@dreamflow Twitter with the handle@dreamflow app. We can't wait to see what you'll app. We can't wait to see what you'll app. We can't wait to see what you'll build.",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 213,
+      "timestamp": 424.0,
+      "timestamp_formatted": "00:07:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649331-Dreamflow_-_Product_Tour_keyframes/frame_0213.png",
+      "transcript": "you'll build. Share them with us on Twitter with the handle@dreamflow Twitter with the handle@dreamflow Twitter with the handle@dreamflow app. We can't wait to see what you'll app. We can't wait to see what you'll app. We can't wait to see what you'll build.",
+      "segment_count": 5
+    }
+  ]
+}

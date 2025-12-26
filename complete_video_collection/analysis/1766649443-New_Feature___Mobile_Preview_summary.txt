@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649443-New_Feature___Mobile_Preview
+Title: New Feature | Mobile Preview
+URL: https://www.youtube.com/watch?v=wqxsyju_xX0
+Index: 6 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649443-New_Feature___Mobile_Preview.mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes (      22 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:57:34 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

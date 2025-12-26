@@ -1,0 +1,1595 @@
+1
+00:00:00,080 --> 00:00:02,470
+
+When people talk about AI coding tools,
+
+2
+00:00:02,470 --> 00:00:02,480
+When people talk about AI coding tools,
+ 
+
+3
+00:00:02,480 --> 00:00:05,110
+When people talk about AI coding tools,
+they usually talk about one thing,
+
+4
+00:00:05,110 --> 00:00:05,120
+they usually talk about one thing,
+ 
+
+5
+00:00:05,120 --> 00:00:08,470
+they usually talk about one thing,
+speed, rapid prototyping, vibe coding,
+
+6
+00:00:08,470 --> 00:00:08,480
+speed, rapid prototyping, vibe coding,
+ 
+
+7
+00:00:08,480 --> 00:00:10,709
+speed, rapid prototyping, vibe coding,
+spinning up things in a flash. And sure,
+
+8
+00:00:10,709 --> 00:00:10,719
+spinning up things in a flash. And sure,
+ 
+
+9
+00:00:10,719 --> 00:00:12,950
+spinning up things in a flash. And sure,
+that's part of it, but it's not all of
+
+10
+00:00:12,950 --> 00:00:12,960
+that's part of it, but it's not all of
+ 
+
+11
+00:00:12,960 --> 00:00:14,950
+that's part of it, but it's not all of
+it, and it's not the most important
+
+12
+00:00:14,950 --> 00:00:14,960
+it, and it's not the most important
+ 
+
+13
+00:00:14,960 --> 00:00:18,470
+it, and it's not the most important
+part. An AI agent is just another tool
+
+14
+00:00:18,470 --> 00:00:18,480
+part. An AI agent is just another tool
+ 
+
+15
+00:00:18,480 --> 00:00:21,029
+part. An AI agent is just another tool
+in your tool belt, like a debugger or
+
+16
+00:00:21,029 --> 00:00:21,039
+in your tool belt, like a debugger or
+ 
+
+17
+00:00:21,039 --> 00:00:23,349
+in your tool belt, like a debugger or
+autocomplete. And like any professional
+
+18
+00:00:23,349 --> 00:00:23,359
+autocomplete. And like any professional
+ 
+
+19
+00:00:23,359 --> 00:00:26,470
+autocomplete. And like any professional
+tool, you need the skill to master it.
+
+20
+00:00:26,470 --> 00:00:26,480
+tool, you need the skill to master it.
+ 
+
+21
+00:00:26,480 --> 00:00:28,150
+tool, you need the skill to master it.
+So, in this video, I'm going to show you
+
+22
+00:00:28,150 --> 00:00:28,160
+So, in this video, I'm going to show you
+ 
+
+23
+00:00:28,160 --> 00:00:30,950
+So, in this video, I'm going to show you
+how to use Dreamflow to go beyond simple
+
+24
+00:00:30,950 --> 00:00:30,960
+how to use Dreamflow to go beyond simple
+ 
+
+25
+00:00:30,960 --> 00:00:32,229
+how to use Dreamflow to go beyond simple
+prototypes. We're going to prompt
+
+26
+00:00:32,229 --> 00:00:32,239
+prototypes. We're going to prompt
+ 
+
+27
+00:00:32,239 --> 00:00:34,870
+prototypes. We're going to prompt
+Dreamflow to set up real production
+
+28
+00:00:34,870 --> 00:00:34,880
+Dreamflow to set up real production
+ 
+
+29
+00:00:34,880 --> 00:00:37,190
+Dreamflow to set up real production
+architectural patterns. I'll show you
+
+30
+00:00:37,190 --> 00:00:37,200
+architectural patterns. I'll show you
+ 
+
+31
+00:00:37,200 --> 00:00:39,670
+architectural patterns. I'll show you
+how to prompt like an architect so you
+
+32
+00:00:39,670 --> 00:00:39,680
+how to prompt like an architect so you
+ 
+
+33
+00:00:39,680 --> 00:00:42,150
+how to prompt like an architect so you
+can build code bases that will last.
+
+34
+00:00:42,150 --> 00:00:42,160
+can build code bases that will last.
+ 
+
+35
+00:00:42,160 --> 00:00:44,630
+can build code bases that will last.
+Okay, so let's jump into DreamFlow here
+
+36
+00:00:44,630 --> 00:00:44,640
+Okay, so let's jump into DreamFlow here
+ 
+
+37
+00:00:44,640 --> 00:00:46,950
+Okay, so let's jump into DreamFlow here
+and we're going to create a new project
+
+38
+00:00:46,950 --> 00:00:46,960
+and we're going to create a new project
+ 
+
+39
+00:00:46,960 --> 00:00:48,709
+and we're going to create a new project
+right here. And it's just going to be a
+
+40
+00:00:48,709 --> 00:00:48,719
+right here. And it's just going to be a
+ 
+
+41
+00:00:48,719 --> 00:00:50,310
+right here. And it's just going to be a
+habit tracker. So, we're just going to
+
+42
+00:00:50,310 --> 00:00:50,320
+habit tracker. So, we're just going to
+ 
+
+43
+00:00:50,320 --> 00:00:53,110
+habit tracker. So, we're just going to
+call it habity.
+
+44
+00:00:53,110 --> 00:00:53,120
+call it habity.
+ 
+
+45
+00:00:53,120 --> 00:00:54,790
+call it habity.
+Create project. And when you create a
+
+46
+00:00:54,790 --> 00:00:54,800
+Create project. And when you create a
+ 
+
+47
+00:00:54,800 --> 00:00:56,549
+Create project. And when you create a
+project, we're just running Flutter
+
+48
+00:00:56,549 --> 00:00:56,559
+project, we're just running Flutter
+ 
+
+49
+00:00:56,559 --> 00:00:59,110
+project, we're just running Flutter
+create under the hood to scaffold out a
+
+50
+00:00:59,110 --> 00:00:59,120
+create under the hood to scaffold out a
+ 
+
+51
+00:00:59,120 --> 00:01:01,990
+create under the hood to scaffold out a
+basic app. Okay, so here's my scaffolded
+
+52
+00:01:01,990 --> 00:01:02,000
+basic app. Okay, so here's my scaffolded
+ 
+
+53
+00:01:02,000 --> 00:01:04,549
+basic app. Okay, so here's my scaffolded
+out app. I've got my agent open over
+
+54
+00:01:04,549 --> 00:01:04,559
+out app. I've got my agent open over
+ 
+
+55
+00:01:04,559 --> 00:01:06,230
+out app. I've got my agent open over
+here. Now, the main thing you want to do
+
+56
+00:01:06,230 --> 00:01:06,240
+here. Now, the main thing you want to do
+ 
+
+57
+00:01:06,240 --> 00:01:08,230
+here. Now, the main thing you want to do
+when you're building with AI is you want
+
+58
+00:01:08,230 --> 00:01:08,240
+when you're building with AI is you want
+ 
+
+59
+00:01:08,240 --> 00:01:11,270
+when you're building with AI is you want
+to work in small iterable and testable
+
+60
+00:01:11,270 --> 00:01:11,280
+to work in small iterable and testable
+ 
+
+61
+00:01:11,280 --> 00:01:13,270
+to work in small iterable and testable
+steps. So, I'm going to just start out
+
+62
+00:01:13,270 --> 00:01:13,280
+steps. So, I'm going to just start out
+ 
+
+63
+00:01:13,280 --> 00:01:15,109
+steps. So, I'm going to just start out
+by creating some of the files and
+
+64
+00:01:15,109 --> 00:01:15,119
+by creating some of the files and
+ 
+
+65
+00:01:15,119 --> 00:01:17,109
+by creating some of the files and
+folders. So I'm going to say I would
+
+66
+00:01:17,109 --> 00:01:17,119
+folders. So I'm going to say I would
+ 
+
+67
+00:01:17,119 --> 00:01:22,070
+folders. So I'm going to say I would
+like to create a habit tracker app using
+
+68
+00:01:22,070 --> 00:01:22,080
+like to create a habit tracker app using
+ 
+
+69
+00:01:22,080 --> 00:01:26,149
+like to create a habit tracker app using
+layered architecture and provider for
+
+70
+00:01:26,149 --> 00:01:26,159
+layered architecture and provider for
+ 
+
+71
+00:01:26,159 --> 00:01:28,630
+layered architecture and provider for
+state management. So I want the agent to
+
+72
+00:01:28,630 --> 00:01:28,640
+state management. So I want the agent to
+ 
+
+73
+00:01:28,640 --> 00:01:32,390
+state management. So I want the agent to
+create the files and folders but don't
+
+74
+00:01:32,390 --> 00:01:32,400
+create the files and folders but don't
+ 
+
+75
+00:01:32,400 --> 00:01:35,350
+create the files and folders but don't
+write any of the code yet. And then I've
+
+76
+00:01:35,350 --> 00:01:35,360
+write any of the code yet. And then I've
+ 
+
+77
+00:01:35,360 --> 00:01:37,910
+write any of the code yet. And then I've
+got this architectural diagram that I'm
+
+78
+00:01:37,910 --> 00:01:37,920
+got this architectural diagram that I'm
+ 
+
+79
+00:01:37,920 --> 00:01:40,870
+got this architectural diagram that I'm
+just going to paste in a real basic app
+
+80
+00:01:40,870 --> 00:01:40,880
+just going to paste in a real basic app
+ 
+
+81
+00:01:40,880 --> 00:01:42,950
+just going to paste in a real basic app
+right there and send it off. Now, as
+
+82
+00:01:42,950 --> 00:01:42,960
+right there and send it off. Now, as
+ 
+
+83
+00:01:42,960 --> 00:01:45,190
+right there and send it off. Now, as
+that's working, let's open up our code
+
+84
+00:01:45,190 --> 00:01:45,200
+that's working, let's open up our code
+ 
+
+85
+00:01:45,200 --> 00:01:46,950
+that's working, let's open up our code
+view right here. And you can see that
+
+86
+00:01:46,950 --> 00:01:46,960
+view right here. And you can see that
+ 
+
+87
+00:01:46,960 --> 00:01:49,109
+view right here. And you can see that
+it's building out all of these files,
+
+88
+00:01:49,109 --> 00:01:49,119
+it's building out all of these files,
+ 
+
+89
+00:01:49,119 --> 00:01:51,830
+it's building out all of these files,
+but with no content in them. And that's
+
+90
+00:01:51,830 --> 00:01:51,840
+but with no content in them. And that's
+ 
+
+91
+00:01:51,840 --> 00:01:53,670
+but with no content in them. And that's
+great. That's exactly what we want to
+
+92
+00:01:53,670 --> 00:01:53,680
+great. That's exactly what we want to
+ 
+
+93
+00:01:53,680 --> 00:01:55,910
+great. That's exactly what we want to
+see. Okay, great. The agent is finished.
+
+94
+00:01:55,910 --> 00:01:55,920
+see. Okay, great. The agent is finished.
+ 
+
+95
+00:01:55,920 --> 00:01:58,069
+see. Okay, great. The agent is finished.
+We get a summary of the project
+
+96
+00:01:58,069 --> 00:01:58,079
+We get a summary of the project
+ 
+
+97
+00:01:58,079 --> 00:02:00,389
+We get a summary of the project
+structure, which is exactly what we
+
+98
+00:02:00,389 --> 00:02:00,399
+structure, which is exactly what we
+ 
+
+99
+00:02:00,399 --> 00:02:03,350
+structure, which is exactly what we
+passed in. That's great. And we can see
+
+100
+00:02:03,350 --> 00:02:03,360
+passed in. That's great. And we can see
+ 
+
+101
+00:02:03,360 --> 00:02:06,310
+passed in. That's great. And we can see
+all of our files and folders here. And
+
+102
+00:02:06,310 --> 00:02:06,320
+all of our files and folders here. And
+ 
+
+103
+00:02:06,320 --> 00:02:08,309
+all of our files and folders here. And
+we can look into them and see that
+
+104
+00:02:08,309 --> 00:02:08,319
+we can look into them and see that
+ 
+
+105
+00:02:08,319 --> 00:02:10,469
+we can look into them and see that
+they're not actually populated with any
+
+106
+00:02:10,469 --> 00:02:10,479
+they're not actually populated with any
+ 
+
+107
+00:02:10,479 --> 00:02:12,470
+they're not actually populated with any
+code yet. That's great. I'm also going
+
+108
+00:02:12,470 --> 00:02:12,480
+code yet. That's great. I'm also going
+ 
+
+109
+00:02:12,480 --> 00:02:16,070
+code yet. That's great. I'm also going
+to tell the model, I want you to add
+
+110
+00:02:16,070 --> 00:02:16,080
+to tell the model, I want you to add
+ 
+
+111
+00:02:16,080 --> 00:02:19,830
+to tell the model, I want you to add
+these architectural decisions
+
+112
+00:02:19,830 --> 00:02:19,840
+these architectural decisions
+ 
+
+113
+00:02:19,840 --> 00:02:23,030
+these architectural decisions
+in an architecture.md
+
+114
+00:02:23,030 --> 00:02:23,040
+in an architecture.md
+ 
+
+115
+00:02:23,040 --> 00:02:25,510
+in an architecture.md
+file. And I'm doing this so that as I'm
+
+116
+00:02:25,510 --> 00:02:25,520
+file. And I'm doing this so that as I'm
+ 
+
+117
+00:02:25,520 --> 00:02:27,670
+file. And I'm doing this so that as I'm
+working, it's always referencing the
+
+118
+00:02:27,670 --> 00:02:27,680
+working, it's always referencing the
+ 
+
+119
+00:02:27,680 --> 00:02:29,990
+working, it's always referencing the
+architectural decisions that we've made.
+
+120
+00:02:29,990 --> 00:02:30,000
+architectural decisions that we've made.
+ 
+
+121
+00:02:30,000 --> 00:02:32,229
+architectural decisions that we've made.
+Okay, great. The agent has created this
+
+122
+00:02:32,229 --> 00:02:32,239
+Okay, great. The agent has created this
+ 
+
+123
+00:02:32,239 --> 00:02:35,270
+Okay, great. The agent has created this
+file. And if we go into it right here,
+
+124
+00:02:35,270 --> 00:02:35,280
+file. And if we go into it right here,
+ 
+
+125
+00:02:35,280 --> 00:02:37,030
+file. And if we go into it right here,
+we can see it's going to be layered
+
+126
+00:02:37,030 --> 00:02:37,040
+we can see it's going to be layered
+ 
+
+127
+00:02:37,040 --> 00:02:39,830
+we can see it's going to be layered
+architecture. We're using provider and
+
+128
+00:02:39,830 --> 00:02:39,840
+architecture. We're using provider and
+ 
+
+129
+00:02:39,840 --> 00:02:42,150
+architecture. We're using provider and
+we've got some data regarding the file
+
+130
+00:02:42,150 --> 00:02:42,160
+we've got some data regarding the file
+ 
+
+131
+00:02:42,160 --> 00:02:43,990
+we've got some data regarding the file
+structure. Okay, that's beautiful. So,
+
+132
+00:02:43,990 --> 00:02:44,000
+structure. Okay, that's beautiful. So,
+ 
+
+133
+00:02:44,000 --> 00:02:45,910
+structure. Okay, that's beautiful. So,
+we've got this project set up and let's
+
+134
+00:02:45,910 --> 00:02:45,920
+we've got this project set up and let's
+ 
+
+135
+00:02:45,920 --> 00:02:47,750
+we've got this project set up and let's
+say we wanted to build out another
+
+136
+00:02:47,750 --> 00:02:47,760
+say we wanted to build out another
+ 
+
+137
+00:02:47,760 --> 00:02:49,910
+say we wanted to build out another
+feature. Now, of course, I could ask the
+
+138
+00:02:49,910 --> 00:02:49,920
+feature. Now, of course, I could ask the
+ 
+
+139
+00:02:49,920 --> 00:02:52,070
+feature. Now, of course, I could ask the
+agent to do this or I can do some of the
+
+140
+00:02:52,070 --> 00:02:52,080
+agent to do this or I can do some of the
+ 
+
+141
+00:02:52,080 --> 00:02:54,390
+agent to do this or I can do some of the
+work myself. So, let's say I want to add
+
+142
+00:02:54,390 --> 00:02:54,400
+work myself. So, let's say I want to add
+ 
+
+143
+00:02:54,400 --> 00:02:57,750
+work myself. So, let's say I want to add
+a feature for a new motivational quote
+
+144
+00:02:57,750 --> 00:02:57,760
+a feature for a new motivational quote
+ 
+
+145
+00:02:57,760 --> 00:03:00,309
+a feature for a new motivational quote
+each day. Well, first I would need to go
+
+146
+00:03:00,309 --> 00:03:00,319
+each day. Well, first I would need to go
+ 
+
+147
+00:03:00,319 --> 00:03:04,149
+each day. Well, first I would need to go
+into my services to add a quote service.
+
+148
+00:03:04,149 --> 00:03:04,159
+into my services to add a quote service.
+ 
+
+149
+00:03:04,159 --> 00:03:05,990
+into my services to add a quote service.
+So, I can just go into here and I can
+
+150
+00:03:05,990 --> 00:03:06,000
+So, I can just go into here and I can
+ 
+
+151
+00:03:06,000 --> 00:03:07,670
+So, I can just go into here and I can
+rightclick on service. I'm going to add
+
+152
+00:03:07,670 --> 00:03:07,680
+rightclick on service. I'm going to add
+ 
+
+153
+00:03:07,680 --> 00:03:10,550
+rightclick on service. I'm going to add
+a file right here and I'm going to call
+
+154
+00:03:10,550 --> 00:03:10,560
+a file right here and I'm going to call
+ 
+
+155
+00:03:10,560 --> 00:03:14,149
+a file right here and I'm going to call
+it quote service.dart. Then I'm going to
+
+156
+00:03:14,149 --> 00:03:14,159
+it quote service.dart. Then I'm going to
+ 
+
+157
+00:03:14,159 --> 00:03:16,390
+it quote service.dart. Then I'm going to
+need a provider for that. So let's add a
+
+158
+00:03:16,390 --> 00:03:16,400
+need a provider for that. So let's add a
+ 
+
+159
+00:03:16,400 --> 00:03:19,990
+need a provider for that. So let's add a
+file here for our quote provider.
+
+160
+00:03:19,990 --> 00:03:20,000
+file here for our quote provider.
+ 
+
+161
+00:03:20,000 --> 00:03:22,390
+file here for our quote provider.
+And finally a widget for this. And I'll
+
+162
+00:03:22,390 --> 00:03:22,400
+And finally a widget for this. And I'll
+ 
+
+163
+00:03:22,400 --> 00:03:25,990
+And finally a widget for this. And I'll
+just do the same thing. Daily quote
+
+164
+00:03:25,990 --> 00:03:26,000
+just do the same thing. Daily quote
+ 
+
+165
+00:03:26,000 --> 00:03:28,229
+just do the same thing. Daily quote
+card. Now obviously the next step I
+
+166
+00:03:28,229 --> 00:03:28,239
+card. Now obviously the next step I
+ 
+
+167
+00:03:28,239 --> 00:03:30,149
+card. Now obviously the next step I
+would want to go into my main.dart and
+
+168
+00:03:30,149 --> 00:03:30,159
+would want to go into my main.dart and
+ 
+
+169
+00:03:30,159 --> 00:03:32,390
+would want to go into my main.dart and
+add this to the multi-provider. I would
+
+170
+00:03:32,390 --> 00:03:32,400
+add this to the multi-provider. I would
+ 
+
+171
+00:03:32,400 --> 00:03:34,550
+add this to the multi-provider. I would
+need to add that new widget on our home
+
+172
+00:03:34,550 --> 00:03:34,560
+need to add that new widget on our home
+ 
+
+173
+00:03:34,560 --> 00:03:36,550
+need to add that new widget on our home
+screen. But you can see the pattern of
+
+174
+00:03:36,550 --> 00:03:36,560
+screen. But you can see the pattern of
+ 
+
+175
+00:03:36,560 --> 00:03:38,789
+screen. But you can see the pattern of
+how we would build here in a way that's
+
+176
+00:03:38,789 --> 00:03:38,799
+how we would build here in a way that's
+ 
+
+177
+00:03:38,799 --> 00:03:40,949
+how we would build here in a way that's
+scalable and maintainable. Not just
+
+178
+00:03:40,949 --> 00:03:40,959
+scalable and maintainable. Not just
+ 
+
+179
+00:03:40,959 --> 00:03:42,710
+scalable and maintainable. Not just
+passing off one prompt to build the
+
+180
+00:03:42,710 --> 00:03:42,720
+passing off one prompt to build the
+ 
+
+181
+00:03:42,720 --> 00:03:44,550
+passing off one prompt to build the
+whole app. So let's take another example
+
+182
+00:03:44,550 --> 00:03:44,560
+whole app. So let's take another example
+ 
+
+183
+00:03:44,560 --> 00:03:46,789
+whole app. So let's take another example
+and this time let's do a slightly more
+
+184
+00:03:46,789 --> 00:03:46,799
+and this time let's do a slightly more
+ 
+
+185
+00:03:46,799 --> 00:03:49,110
+and this time let's do a slightly more
+complex architecture and slightly more
+
+186
+00:03:49,110 --> 00:03:49,120
+complex architecture and slightly more
+ 
+
+187
+00:03:49,120 --> 00:03:51,190
+complex architecture and slightly more
+opinionated decisions here. So we're
+
+188
+00:03:51,190 --> 00:03:51,200
+opinionated decisions here. So we're
+ 
+
+189
+00:03:51,200 --> 00:03:54,550
+opinionated decisions here. So we're
+going to do another habit tracker and
+
+190
+00:03:54,550 --> 00:03:54,560
+going to do another habit tracker and
+ 
+
+191
+00:03:54,560 --> 00:03:56,869
+going to do another habit tracker and
+it's going to be habit complex. Let's
+
+192
+00:03:56,869 --> 00:03:56,879
+it's going to be habit complex. Let's
+ 
+
+193
+00:03:56,879 --> 00:03:59,750
+it's going to be habit complex. Let's
+create that project.
+
+194
+00:03:59,750 --> 00:03:59,760
+create that project.
+ 
+
+195
+00:03:59,760 --> 00:04:03,110
+create that project.
+Okay. So for this app I'm going to say I
+
+196
+00:04:03,110 --> 00:04:03,120
+Okay. So for this app I'm going to say I
+ 
+
+197
+00:04:03,120 --> 00:04:07,030
+Okay. So for this app I'm going to say I
+want to build a habit tracker using
+
+198
+00:04:07,030 --> 00:04:07,040
+want to build a habit tracker using
+ 
+
+199
+00:04:07,040 --> 00:04:10,710
+want to build a habit tracker using
+featurebased architecture. I'm going to
+
+200
+00:04:10,710 --> 00:04:10,720
+featurebased architecture. I'm going to
+ 
+
+201
+00:04:10,720 --> 00:04:13,990
+featurebased architecture. I'm going to
+use riverpod for state management. Go
+
+202
+00:04:13,990 --> 00:04:14,000
+use riverpod for state management. Go
+ 
+
+203
+00:04:14,000 --> 00:04:17,830
+use riverpod for state management. Go
+router for routing. Do for networking.
+
+204
+00:04:17,830 --> 00:04:17,840
+router for routing. Do for networking.
+ 
+
+205
+00:04:17,840 --> 00:04:21,590
+router for routing. Do for networking.
+Freeze and JSON annotation for data
+
+206
+00:04:21,590 --> 00:04:21,600
+Freeze and JSON annotation for data
+ 
+
+207
+00:04:21,600 --> 00:04:24,150
+Freeze and JSON annotation for data
+modeling and serialization. shared
+
+208
+00:04:24,150 --> 00:04:24,160
+modeling and serialization. shared
+ 
+
+209
+00:04:24,160 --> 00:04:27,670
+modeling and serialization. shared
+preferences for simple storage and Intel
+
+210
+00:04:27,670 --> 00:04:27,680
+preferences for simple storage and Intel
+ 
+
+211
+00:04:27,680 --> 00:04:29,270
+preferences for simple storage and Intel
+for internationalization and
+
+212
+00:04:29,270 --> 00:04:29,280
+for internationalization and
+ 
+
+213
+00:04:29,280 --> 00:04:31,749
+for internationalization and
+localization. Now, same thing as before,
+
+214
+00:04:31,749 --> 00:04:31,759
+localization. Now, same thing as before,
+ 
+
+215
+00:04:31,759 --> 00:04:35,350
+localization. Now, same thing as before,
+I don't want you to write any of the
+
+216
+00:04:35,350 --> 00:04:35,360
+I don't want you to write any of the
+ 
+
+217
+00:04:35,360 --> 00:04:39,430
+I don't want you to write any of the
+code, just create the files and folders
+
+218
+00:04:39,430 --> 00:04:39,440
+code, just create the files and folders
+ 
+
+219
+00:04:39,440 --> 00:04:43,510
+code, just create the files and folders
+and add dependencies to the pubspec.
+
+220
+00:04:43,510 --> 00:04:43,520
+and add dependencies to the pubspec.
+ 
+
+221
+00:04:43,520 --> 00:04:45,350
+and add dependencies to the pubspec.
+Okay, great. Now, let's just add the
+
+222
+00:04:45,350 --> 00:04:45,360
+Okay, great. Now, let's just add the
+ 
+
+223
+00:04:45,360 --> 00:04:49,110
+Okay, great. Now, let's just add the
+architectural diagram and send it off.
+
+224
+00:04:49,110 --> 00:04:49,120
+architectural diagram and send it off.
+ 
+
+225
+00:04:49,120 --> 00:04:50,390
+architectural diagram and send it off.
+There we go. Adding all the
+
+226
+00:04:50,390 --> 00:04:50,400
+There we go. Adding all the
+ 
+
+227
+00:04:50,400 --> 00:04:52,230
+There we go. Adding all the
+dependencies. That looks great. Checking
+
+228
+00:04:52,230 --> 00:04:52,240
+dependencies. That looks great. Checking
+ 
+
+229
+00:04:52,240 --> 00:04:54,790
+dependencies. That looks great. Checking
+the pubspec. Okay, that's great. Let's
+
+230
+00:04:54,790 --> 00:04:54,800
+the pubspec. Okay, that's great. Let's
+ 
+
+231
+00:04:54,800 --> 00:04:56,710
+the pubspec. Okay, that's great. Let's
+check out the file structure. We've got
+
+232
+00:04:56,710 --> 00:04:56,720
+check out the file structure. We've got
+ 
+
+233
+00:04:56,720 --> 00:04:59,189
+check out the file structure. We've got
+our features, just one feature for now.
+
+234
+00:04:59,189 --> 00:04:59,199
+our features, just one feature for now.
+ 
+
+235
+00:04:59,199 --> 00:05:01,749
+our features, just one feature for now.
+Our posts with our three layers right
+
+236
+00:05:01,749 --> 00:05:01,759
+Our posts with our three layers right
+ 
+
+237
+00:05:01,759 --> 00:05:03,830
+Our posts with our three layers right
+here. That looks beautiful. Now, if I
+
+238
+00:05:03,830 --> 00:05:03,840
+here. That looks beautiful. Now, if I
+ 
+
+239
+00:05:03,840 --> 00:05:05,270
+here. That looks beautiful. Now, if I
+were to continue working on this
+
+240
+00:05:05,270 --> 00:05:05,280
+were to continue working on this
+ 
+
+241
+00:05:05,280 --> 00:05:07,110
+were to continue working on this
+project, I would probably delegate the
+
+242
+00:05:07,110 --> 00:05:07,120
+project, I would probably delegate the
+ 
+
+243
+00:05:07,120 --> 00:05:09,990
+project, I would probably delegate the
+agent to configuring the basic routing,
+
+244
+00:05:09,990 --> 00:05:10,000
+agent to configuring the basic routing,
+ 
+
+245
+00:05:10,000 --> 00:05:12,150
+agent to configuring the basic routing,
+setting up provider scope, then maybe I
+
+246
+00:05:12,150 --> 00:05:12,160
+setting up provider scope, then maybe I
+ 
+
+247
+00:05:12,160 --> 00:05:13,990
+setting up provider scope, then maybe I
+would focus on the domain layer of our
+
+248
+00:05:13,990 --> 00:05:14,000
+would focus on the domain layer of our
+ 
+
+249
+00:05:14,000 --> 00:05:16,150
+would focus on the domain layer of our
+first feature habits. And once again,
+
+250
+00:05:16,150 --> 00:05:16,160
+first feature habits. And once again,
+ 
+
+251
+00:05:16,160 --> 00:05:18,870
+first feature habits. And once again,
+the idea is working in small, iterative,
+
+252
+00:05:18,870 --> 00:05:18,880
+the idea is working in small, iterative,
+ 
+
+253
+00:05:18,880 --> 00:05:21,990
+the idea is working in small, iterative,
+and testable steps. So the big idea is
+
+254
+00:05:21,990 --> 00:05:22,000
+and testable steps. So the big idea is
+ 
+
+255
+00:05:22,000 --> 00:05:24,230
+and testable steps. So the big idea is
+that by prompting Dreamflow with
+
+256
+00:05:24,230 --> 00:05:24,240
+that by prompting Dreamflow with
+ 
+
+257
+00:05:24,240 --> 00:05:26,469
+that by prompting Dreamflow with
+specific architectural patterns and
+
+258
+00:05:26,469 --> 00:05:26,479
+specific architectural patterns and
+ 
+
+259
+00:05:26,479 --> 00:05:29,430
+specific architectural patterns and
+libraries, we've laid the groundwork for
+
+260
+00:05:29,430 --> 00:05:29,440
+libraries, we've laid the groundwork for
+ 
+
+261
+00:05:29,440 --> 00:05:32,390
+libraries, we've laid the groundwork for
+maintainable production applications,
+
+262
+00:05:32,390 --> 00:05:32,400
+maintainable production applications,
+ 
+
+263
+00:05:32,400 --> 00:05:34,710
+maintainable production applications,
+not just throwaway prototypes. This
+
+264
+00:05:34,710 --> 00:05:34,720
+not just throwaway prototypes. This
+ 
+
+265
+00:05:34,720 --> 00:05:37,430
+not just throwaway prototypes. This
+isn't vibe coding and it isn't magic.
+
+266
+00:05:37,430 --> 00:05:37,440
+isn't vibe coding and it isn't magic.
+ 
+
+267
+00:05:37,440 --> 00:05:40,870
+isn't vibe coding and it isn't magic.
+These are powerful force multipliers,
+
+268
+00:05:40,870 --> 00:05:40,880
+These are powerful force multipliers,
+ 
+
+269
+00:05:40,880 --> 00:05:43,510
+These are powerful force multipliers,
+but their output is a direct reflection
+
+270
+00:05:43,510 --> 00:05:43,520
+but their output is a direct reflection
+ 
+
+271
+00:05:43,520 --> 00:05:46,790
+but their output is a direct reflection
+of your input. A vague prompt gets you a
+
+272
+00:05:46,790 --> 00:05:46,800
+of your input. A vague prompt gets you a
+ 
+
+273
+00:05:46,800 --> 00:05:48,790
+of your input. A vague prompt gets you a
+vague result. A professional,
+
+274
+00:05:48,790 --> 00:05:48,800
+vague result. A professional,
+ 
+
+275
+00:05:48,800 --> 00:05:51,430
+vague result. A professional,
+architecturally aware prompt gets you a
+
+276
+00:05:51,430 --> 00:05:51,440
+architecturally aware prompt gets you a
+ 
+
+277
+00:05:51,440 --> 00:05:53,430
+architecturally aware prompt gets you a
+professional codebase. And this
+
+278
+00:05:53,430 --> 00:05:53,440
+professional codebase. And this
+ 
+
+279
+00:05:53,440 --> 00:05:56,469
+professional codebase. And this
+fundamentally elevates your role. You
+
+280
+00:05:56,469 --> 00:05:56,479
+fundamentally elevates your role. You
+ 
+
+281
+00:05:56,479 --> 00:05:59,029
+fundamentally elevates your role. You
+spend less time on the tedious setup and
+
+282
+00:05:59,029 --> 00:05:59,039
+spend less time on the tedious setup and
+ 
+
+283
+00:05:59,039 --> 00:06:01,189
+spend less time on the tedious setup and
+more time on what really matters, the
+
+284
+00:06:01,189 --> 00:06:01,199
+more time on what really matters, the
+ 
+
+285
+00:06:01,199 --> 00:06:03,670
+more time on what really matters, the
+high-level design and the core logic of
+
+286
+00:06:03,670 --> 00:06:03,680
+high-level design and the core logic of
+ 
+
+287
+00:06:03,680 --> 00:06:05,830
+high-level design and the core logic of
+your app. It shifts the essential skill
+
+288
+00:06:05,830 --> 00:06:05,840
+your app. It shifts the essential skill
+ 
+
+289
+00:06:05,840 --> 00:06:08,469
+your app. It shifts the essential skill
+from just knowing how to code to knowing
+
+290
+00:06:08,469 --> 00:06:08,479
+from just knowing how to code to knowing
+ 
+
+291
+00:06:08,479 --> 00:06:12,070
+from just knowing how to code to knowing
+how to communicate a complex system. So
+
+292
+00:06:12,070 --> 00:06:12,080
+how to communicate a complex system. So
+ 
+
+293
+00:06:12,080 --> 00:06:14,390
+how to communicate a complex system. So
+remember this process. Think like an
+
+294
+00:06:14,390 --> 00:06:14,400
+remember this process. Think like an
+ 
+
+295
+00:06:14,400 --> 00:06:17,430
+remember this process. Think like an
+architect. prompt in clear iterative
+
+296
+00:06:17,430 --> 00:06:17,440
+architect. prompt in clear iterative
+ 
+
+297
+00:06:17,440 --> 00:06:20,469
+architect. prompt in clear iterative
+steps and review the output constantly.
+
+298
+00:06:20,469 --> 00:06:20,479
+steps and review the output constantly.
+ 
+
+299
+00:06:20,479 --> 00:06:23,029
+steps and review the output constantly.
+Treat the AI agent not like a magician,
+
+300
+00:06:23,029 --> 00:06:23,039
+Treat the AI agent not like a magician,
+ 
+
+301
+00:06:23,039 --> 00:06:25,189
+Treat the AI agent not like a magician,
+but like a junior developer who's fast
+
+302
+00:06:25,189 --> 00:06:25,199
+but like a junior developer who's fast
+ 
+
+303
+00:06:25,199 --> 00:06:28,230
+but like a junior developer who's fast
+and smart, but needs your direction and
+
+304
+00:06:28,230 --> 00:06:28,240
+and smart, but needs your direction and
+ 
+
+305
+00:06:28,240 --> 00:06:31,029
+and smart, but needs your direction and
+review. You are the lead architect.
+
+306
+00:06:31,029 --> 00:06:31,039
+review. You are the lead architect.
+ 
+
+307
+00:06:31,039 --> 00:06:33,670
+review. You are the lead architect.
+Mastering this conversation is a new
+
+308
+00:06:33,670 --> 00:06:33,680
+Mastering this conversation is a new
+ 
+
+309
+00:06:33,680 --> 00:06:35,909
+Mastering this conversation is a new
+essential skill for developers, and it
+
+310
+00:06:35,909 --> 00:06:35,919
+essential skill for developers, and it
+ 
+
+311
+00:06:35,919 --> 00:06:37,510
+essential skill for developers, and it
+will save you countless hours of
+
+312
+00:06:37,510 --> 00:06:37,520
+will save you countless hours of
+ 
+
+313
+00:06:37,520 --> 00:06:39,749
+will save you countless hours of
+refactoring down the line. Thanks for
+
+314
+00:06:39,749 --> 00:06:39,759
+refactoring down the line. Thanks for
+ 
+
+315
+00:06:39,759 --> 00:06:41,270
+refactoring down the line. Thanks for
+watching the video, and we'll see you in
+
+316
+00:06:41,270 --> 00:06:41,280
+watching the video, and we'll see you in
+ 
+
+317
+00:06:41,280 --> 00:06:44,000
+watching the video, and we'll see you in
+the next one.
+
+318
+00:06:44,000 --> 00:06:44,010
+the next one.
+ 
+
+319
+00:06:44,010 --> 00:06:48,279
+the next one.
+[Music]
+

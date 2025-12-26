@@ -1,0 +1,1 @@
+{"version":3,"file":"ui-tests.d.ts","sourceRoot":"","sources":["../automation/ui-tests.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,IAAI,EAAE,MAAM,iBAAiB,CAAC;AAEvC;;GAEG;AACH,qBAAa,OAAO;IACN,OAAO,CAAC,IAAI;gBAAJ,IAAI,EAAE,IAAI;IAE9B;;OAEG;IACG,iBAAiB;IAmBvB;;OAEG;IACG,cAAc;IAiBpB;;OAEG;IACG,aAAa;IAYnB;;OAEG;IACG,eAAe;IAYrB;;OAEG;IACG,YAAY;IAYlB;;OAEG;IACG,gBAAgB;;;;;;;CAcvB"}

@@ -1,0 +1,1034 @@
+
+My name is John and this is Dreamflow
+My name is John and this is Dreamflow
+ 
+My name is John and this is Dreamflow
+Tips, where we give evidence-based
+Tips, where we give evidence-based
+ 
+Tips, where we give evidence-based
+prompting and AI coding tips. Now, you
+prompting and AI coding tips. Now, you
+ 
+prompting and AI coding tips. Now, you
+may have heard the advice from an AI
+may have heard the advice from an AI
+ 
+may have heard the advice from an AI
+influencer that after you ask your
+influencer that after you ask your
+ 
+influencer that after you ask your
+coding agent to do something, you should
+coding agent to do something, you should
+ 
+coding agent to do something, you should
+say something like, "If you're less than
+say something like, "If you're less than
+ 
+say something like, "If you're less than
+95% confident you can complete this
+95% confident you can complete this
+ 
+95% confident you can complete this
+task, ask clarifying questions until you
+task, ask clarifying questions until you
+ 
+task, ask clarifying questions until you
+reach that confidence level." Now, this
+reach that confidence level." Now, this
+ 
+reach that confidence level." Now, this
+advice is partially right and partially
+advice is partially right and partially
+ 
+advice is partially right and partially
+wrong. And I know this because these
+wrong. And I know this because these
+ 
+wrong. And I know this because these
+kinds of queries have been studied. So
+kinds of queries have been studied. So
+ 
+kinds of queries have been studied. So
+in this video, I'm going to show you
+in this video, I'm going to show you
+ 
+in this video, I'm going to show you
+those studies and based on those studies
+those studies and based on those studies
+ 
+those studies and based on those studies
+give you the best recommendations for
+give you the best recommendations for
+ 
+give you the best recommendations for
+improving your prompting for coding
+improving your prompting for coding
+ 
+improving your prompting for coding
+agents.
+
+ 
+
+The idea of instructing a large language
+The idea of instructing a large language
+ 
+The idea of instructing a large language
+model to ask follow-up questions is a
+model to ask follow-up questions is a
+ 
+model to ask follow-up questions is a
+significant improvement in prompt
+significant improvement in prompt
+ 
+significant improvement in prompt
+engineering. The concept assumes that
+engineering. The concept assumes that
+ 
+engineering. The concept assumes that
+every response from a model has an
+every response from a model has an
+ 
+every response from a model has an
+implicit confidence value or the
+implicit confidence value or the
+ 
+implicit confidence value or the
+question has a certain level of
+question has a certain level of
+ 
+question has a certain level of
+ambiguity that typically goes
+ambiguity that typically goes
+ 
+ambiguity that typically goes
+uncaptured. For instance, when you ask
+uncaptured. For instance, when you ask
+ 
+uncaptured. For instance, when you ask
+the model to implement state management
+the model to implement state management
+ 
+the model to implement state management
+for a screen, this request breaks down
+for a screen, this request breaks down
+ 
+for a screen, this request breaks down
+into multiple subtasks and the model has
+into multiple subtasks and the model has
+ 
+into multiple subtasks and the model has
+varying levels of confidence in the best
+varying levels of confidence in the best
+ 
+varying levels of confidence in the best
+approach for each one. There's an
+approach for each one. There's an
+ 
+approach for each one. There's an
+implicit ambiguity. The underlying
+implicit ambiguity. The underlying
+ 
+implicit ambiguity. The underlying
+principle is that resolving ambiguity
+principle is that resolving ambiguity
+ 
+principle is that resolving ambiguity
+before execution is more efficient and
+before execution is more efficient and
+ 
+before execution is more efficient and
+reliable than attempting to generate a
+reliable than attempting to generate a
+ 
+reliable than attempting to generate a
+solution from an underspecified prompt.
+solution from an underspecified prompt.
+ 
+solution from an underspecified prompt.
+So let's start with the part of the
+So let's start with the part of the
+ 
+So let's start with the part of the
+advice that's absolutely right. Asking
+advice that's absolutely right. Asking
+ 
+advice that's absolutely right. Asking
+the model to ask clarifying questions.
+the model to ask clarifying questions.
+ 
+the model to ask clarifying questions.
+In the 2023 paper titled large language
+In the 2023 paper titled large language
+ 
+In the 2023 paper titled large language
+models should ask clarifying questions
+models should ask clarifying questions
+ 
+models should ask clarifying questions
+to increase confidence in generated
+to increase confidence in generated
+ 
+to increase confidence in generated
+code. makes a powerful argument for
+code. makes a powerful argument for
+ 
+code. makes a powerful argument for
+this. The researchers observe that top
+this. The researchers observe that top
+ 
+this. The researchers observe that top
+tier human software engineers
+tier human software engineers
+ 
+tier human software engineers
+systematically ask questions to reduce
+systematically ask questions to reduce
+ 
+systematically ask questions to reduce
+ambiguity before writing a single line
+ambiguity before writing a single line
+ 
+ambiguity before writing a single line
+of code. The study proposes that LLMs
+of code. The study proposes that LLMs
+ 
+of code. The study proposes that LLMs
+should do the same using a communicator
+should do the same using a communicator
+ 
+should do the same using a communicator
+agent to interact with the user and
+agent to interact with the user and
+ 
+agent to interact with the user and
+resolve uncertainties before a coder
+resolve uncertainties before a coder
+ 
+resolve uncertainties before a coder
+agent generates the final program. This
+agent generates the final program. This
+ 
+agent generates the final program. This
+communication first process directly
+communication first process directly
+ 
+communication first process directly
+addresses the primary cause of errors in
+addresses the primary cause of errors in
+ 
+addresses the primary cause of errors in
+AI generated code, unclear or incomplete
+AI generated code, unclear or incomplete
+ 
+AI generated code, unclear or incomplete
+user requests. This idea was then tested
+user requests. This idea was then tested
+ 
+user requests. This idea was then tested
+and validated in a 2025 study called
+and validated in a 2025 study called
+ 
+and validated in a 2025 study called
+Curiosity by Design, an LLM based coding
+Curiosity by Design, an LLM based coding
+ 
+Curiosity by Design, an LLM based coding
+assistant asking clarifying questions.
+assistant asking clarifying questions.
+ 
+assistant asking clarifying questions.
+Researchers built an endto-end system
+Researchers built an endto-end system
+ 
+Researchers built an endto-end system
+that first uses a classifier to detect
+that first uses a classifier to detect
+ 
+that first uses a classifier to detect
+if a prompt is ambiguous. If it is, the
+if a prompt is ambiguous. If it is, the
+ 
+if a prompt is ambiguous. If it is, the
+system doesn't generate code. Instead,
+system doesn't generate code. Instead,
+ 
+system doesn't generate code. Instead,
+it uses a fine-tuned LLM to generate a
+it uses a fine-tuned LLM to generate a
+ 
+it uses a fine-tuned LLM to generate a
+highquality clarification question. And
+highquality clarification question. And
+ 
+highquality clarification question. And
+a user study confirmed a strong
+a user study confirmed a strong
+ 
+a user study confirmed a strong
+preference for this interactive model
+preference for this interactive model
+ 
+preference for this interactive model
+over traditional ones that simply
+over traditional ones that simply
+ 
+over traditional ones that simply
+guesses the user's intent. Users rated
+guesses the user's intent. Users rated
+ 
+guesses the user's intent. Users rated
+the questions as having a highly
+the questions as having a highly
+ 
+the questions as having a highly
+significant, better precision and focus,
+significant, better precision and focus,
+ 
+significant, better precision and focus,
+which ultimately led to more accurate
+which ultimately led to more accurate
+ 
+which ultimately led to more accurate
+and helpful code. Okay, but now for the
+and helpful code. Okay, but now for the
+ 
+and helpful code. Okay, but now for the
+part of the advice that's wrong,
+part of the advice that's wrong,
+ 
+part of the advice that's wrong,
+stipulating a confidence value, like
+stipulating a confidence value, like
+ 
+stipulating a confidence value, like
+95%.
+95%.
+ 
+95%.
+This instruction is based on a flawed
+This instruction is based on a flawed
+ 
+This instruction is based on a flawed
+premise, as shown in a 2025 study,
+premise, as shown in a 2025 study,
+ 
+premise, as shown in a 2025 study,
+calibration and correctness of language
+calibration and correctness of language
+ 
+calibration and correctness of language
+models for code. The researchers found
+models for code. The researchers found
+ 
+models for code. The researchers found
+that an LLM's raw internal confidence is
+that an LLM's raw internal confidence is
+ 
+that an LLM's raw internal confidence is
+a poor predictor of actual correctness.
+a poor predictor of actual correctness.
+ 
+a poor predictor of actual correctness.
+In their tests, even when a model's
+In their tests, even when a model's
+ 
+In their tests, even when a model's
+average token probability exceeded 90%,
+average token probability exceeded 90%,
+ 
+average token probability exceeded 90%,
+so it was very sure its solution was
+so it was very sure its solution was
+ 
+so it was very sure its solution was
+correct, the generated code only passed
+correct, the generated code only passed
+ 
+correct, the generated code only passed
+unit tests 52% of the time. This severe
+unit tests 52% of the time. This severe
+ 
+unit tests 52% of the time. This severe
+misalignment is known as the calibration
+misalignment is known as the calibration
+ 
+misalignment is known as the calibration
+problem. The study concludes that an
+problem. The study concludes that an
+ 
+problem. The study concludes that an
+LLM's self-reported confidence is not a
+LLM's self-reported confidence is not a
+ 
+LLM's self-reported confidence is not a
+trustworthy signal out of the box.
+trustworthy signal out of the box.
+ 
+trustworthy signal out of the box.
+Simply telling the model to act in a 95%
+Simply telling the model to act in a 95%
+ 
+Simply telling the model to act in a 95%
+or 90% threshold is asking it to use a
+or 90% threshold is asking it to use a
+ 
+or 90% threshold is asking it to use a
+metric it can't reliably measure on its
+metric it can't reliably measure on its
+ 
+metric it can't reliably measure on its
+own. Okay. So what does all this mean
+own. Okay. So what does all this mean
+ 
+own. Okay. So what does all this mean
+for your prompting? Well, let's look at
+for your prompting? Well, let's look at
+ 
+for your prompting? Well, let's look at
+some before and after examples. Okay. So
+some before and after examples. Okay. So
+ 
+some before and after examples. Okay. So
+for this first example, I wanted to give
+for this first example, I wanted to give
+ 
+for this first example, I wanted to give
+it a complicated task. Not because this
+it a complicated task. Not because this
+ 
+it a complicated task. Not because this
+is the kind of thing that you should do
+is the kind of thing that you should do
+ 
+is the kind of thing that you should do
+with your agent. You shouldn't. But I
+with your agent. You shouldn't. But I
+ 
+with your agent. You shouldn't. But I
+wanted to demonstrate this clarifying
+wanted to demonstrate this clarifying
+ 
+wanted to demonstrate this clarifying
+ambiguity really clearly. So I grab a
+ambiguity really clearly. So I grab a
+ 
+ambiguity really clearly. So I grab a
+screenshot of Verscell's deployments
+screenshot of Verscell's deployments
+ 
+screenshot of Verscell's deployments
+dashboard. It's pretty complicated. Now,
+dashboard. It's pretty complicated. Now,
+ 
+dashboard. It's pretty complicated. Now,
+of course, if you were building this out
+of course, if you were building this out
+ 
+of course, if you were building this out
+using best practices, you would break it
+using best practices, you would break it
+ 
+using best practices, you would break it
+down into each part of the UI and build
+down into each part of the UI and build
+ 
+down into each part of the UI and build
+it step by step. But here, I just wanted
+it step by step. But here, I just wanted
+ 
+it step by step. But here, I just wanted
+to oneshot it. So with this agent, I
+to oneshot it. So with this agent, I
+ 
+to oneshot it. So with this agent, I
+just said create the attached UI. In the
+just said create the attached UI. In the
+ 
+just said create the attached UI. In the
+second example, I said create the
+second example, I said create the
+ 
+second example, I said create the
+attached UI. But before writing code,
+attached UI. But before writing code,
+ 
+attached UI. But before writing code,
+analyze my request. If you have any
+analyze my request. If you have any
+ 
+analyze my request. If you have any
+ambiguity in the best way to accomplish
+ambiguity in the best way to accomplish
+ 
+ambiguity in the best way to accomplish
+this task, ask clarifying questions. Do
+this task, ask clarifying questions. Do
+ 
+this task, ask clarifying questions. Do
+not proceed until I answer. And the
+not proceed until I answer. And the
+ 
+not proceed until I answer. And the
+results are really fascinating for a
+results are really fascinating for a
+ 
+results are really fascinating for a
+couple of reasons. So, if we look back
+couple of reasons. So, if we look back
+ 
+couple of reasons. So, if we look back
+over here, it did a pretty good job. Of
+over here, it did a pretty good job. Of
+ 
+over here, it did a pretty good job. Of
+course, we have uh the background color,
+course, we have uh the background color,
+ 
+course, we have uh the background color,
+which wasn't correct. We have this
+which wasn't correct. We have this
+ 
+which wasn't correct. We have this
+middle nav right here, which shouldn't
+middle nav right here, which shouldn't
+ 
+middle nav right here, which shouldn't
+work like that. We've got some padding
+work like that. We've got some padding
+ 
+work like that. We've got some padding
+issues. So, the visual fidelity may be
+issues. So, the visual fidelity may be
+ 
+issues. So, the visual fidelity may be
+80% here. But the purpose of this
+80% here. But the purpose of this
+ 
+80% here. But the purpose of this
+exercise isn't to see how close it can
+exercise isn't to see how close it can
+ 
+exercise isn't to see how close it can
+get, but it's to look at the workflow.
+get, but it's to look at the workflow.
+ 
+get, but it's to look at the workflow.
+So when we look down here and we go to
+So when we look down here and we go to
+ 
+So when we look down here and we go to
+the bottom, we can see, let me go to the
+the bottom, we can see, let me go to the
+ 
+the bottom, we can see, let me go to the
+end of this request, we can see that
+end of this request, we can see that
+ 
+end of this request, we can see that
+this uses 6 and 1/2 credits. So quite a
+this uses 6 and 1/2 credits. So quite a
+ 
+this uses 6 and 1/2 credits. So quite a
+lot of credits. But when we look over at
+lot of credits. But when we look over at
+ 
+lot of credits. But when we look over at
+the other one where I asked it to ask
+the other one where I asked it to ask
+ 
+the other one where I asked it to ask
+questions, we can see some interesting
+questions, we can see some interesting
+ 
+questions, we can see some interesting
+things. So down here, before I proceed
+things. So down here, before I proceed
+ 
+things. So down here, before I proceed
+with creating this UI, some clarifying
+with creating this UI, some clarifying
+ 
+with creating this UI, some clarifying
+questions. So, first it asks if it
+questions. So, first it asks if it
+ 
+questions. So, first it asks if it
+should use mock data or there's a
+should use mock data or there's a
+ 
+should use mock data or there's a
+specific back-end service that it could
+specific back-end service that it could
+ 
+specific back-end service that it could
+model the data on. It asks if we wanted
+model the data on. It asks if we wanted
+ 
+model the data on. It asks if we wanted
+to implement functionality. It asks if
+to implement functionality. It asks if
+ 
+to implement functionality. It asks if
+the navigation should be a tab
+the navigation should be a tab
+ 
+the navigation should be a tab
+navigation or a standalone page. It asks
+navigation or a standalone page. It asks
+ 
+navigation or a standalone page. It asks
+about responsiveness. And another
+about responsiveness. And another
+ 
+about responsiveness. And another
+question about functionality. Now,
+question about functionality. Now,
+ 
+question about functionality. Now,
+what's fascinating about this is that
+what's fascinating about this is that
+ 
+what's fascinating about this is that
+when you ask this question, it discloses
+when you ask this question, it discloses
+ 
+when you ask this question, it discloses
+what was implicit in the previous
+what was implicit in the previous
+ 
+what was implicit in the previous
+example. that is there was some previous
+example. that is there was some previous
+ 
+example. that is there was some previous
+ambiguities that in the other example
+ambiguities that in the other example
+ 
+ambiguities that in the other example
+the model resolved by itself. Instead
+the model resolved by itself. Instead
+ 
+the model resolved by itself. Instead
+here I'm the one making the decisions
+here I'm the one making the decisions
+ 
+here I'm the one making the decisions
+and this is the ideal way to work with
+and this is the ideal way to work with
+ 
+and this is the ideal way to work with
+AI agents. That is you're not
+AI agents. That is you're not
+ 
+AI agents. That is you're not
+relinquishing all control. You're simply
+relinquishing all control. You're simply
+ 
+relinquishing all control. You're simply
+using the AI agent as a multiplier for
+using the AI agent as a multiplier for
+ 
+using the AI agent as a multiplier for
+you the developer. So you're still
+you the developer. So you're still
+ 
+you the developer. So you're still
+planning and reviewing the generated
+planning and reviewing the generated
+ 
+planning and reviewing the generated
+code but you offload a lot of the actual
+code but you offload a lot of the actual
+ 
+code but you offload a lot of the actual
+writing of the code to the agent. But
+writing of the code to the agent. But
+ 
+writing of the code to the agent. But
+you should still have a similar amount
+you should still have a similar amount
+ 
+you should still have a similar amount
+of knowledge of the code base and its
+of knowledge of the code base and its
+ 
+of knowledge of the code base and its
+architecture. The other fascinating
+architecture. The other fascinating
+ 
+architecture. The other fascinating
+thing is that you can see this process
+thing is that you can see this process
+ 
+thing is that you can see this process
+took only.3 credits. And when we look
+took only.3 credits. And when we look
+ 
+took only.3 credits. And when we look
+down at the actual execution here, we
+down at the actual execution here, we
+ 
+down at the actual execution here, we
+can see that it was 2.6 credits.
+can see that it was 2.6 credits.
+ 
+can see that it was 2.6 credits.
+Significantly less than the credit usage
+Significantly less than the credit usage
+ 
+Significantly less than the credit usage
+over here, almost three times as much.
+over here, almost three times as much.
+ 
+over here, almost three times as much.
+And so resolving those ambiguities
+And so resolving those ambiguities
+ 
+And so resolving those ambiguities
+allows the model to scope down because
+allows the model to scope down because
+ 
+allows the model to scope down because
+it'll be less eager in its execution.
+it'll be less eager in its execution.
+ 
+it'll be less eager in its execution.
+Now, this might just be the example for
+Now, this might just be the example for
+ 
+Now, this might just be the example for
+here, but I did also find it fascinating
+here, but I did also find it fascinating
+ 
+here, but I did also find it fascinating
+that the overall execution was much
+that the overall execution was much
+ 
+that the overall execution was much
+closer to the screenshot in this
+closer to the screenshot in this
+ 
+closer to the screenshot in this
+example. And I think this just has to do
+example. And I think this just has to do
+ 
+example. And I think this just has to do
+with the execution budget. That is to
+with the execution budget. That is to
+ 
+with the execution budget. That is to
+say, the model has internal metrics for
+say, the model has internal metrics for
+ 
+say, the model has internal metrics for
+how long, how much it's going to work.
+how long, how much it's going to work.
+ 
+how long, how much it's going to work.
+And if your prompt is clearer for the
+And if your prompt is clearer for the
+ 
+And if your prompt is clearer for the
+model, it won't spend extra token usage
+model, it won't spend extra token usage
+ 
+model, it won't spend extra token usage
+on things that it know you don't want,
+on things that it know you don't want,
+ 
+on things that it know you don't want,
+which means there's more token usage for
+which means there's more token usage for
+ 
+which means there's more token usage for
+things like visual fidelity. In the
+things like visual fidelity. In the
+ 
+things like visual fidelity. In the
+previous example, it may have
+previous example, it may have
+ 
+previous example, it may have
+substituted some of the visual design
+substituted some of the visual design
+ 
+substituted some of the visual design
+for other things like functionality that
+for other things like functionality that
+ 
+for other things like functionality that
+it assumed that it filled in that
+it assumed that it filled in that
+ 
+it assumed that it filled in that
+ambiguity that I wanted to build out.
+ambiguity that I wanted to build out.
+ 
+ambiguity that I wanted to build out.
+Now, of course, this isn't a real
+Now, of course, this isn't a real
+ 
+Now, of course, this isn't a real
+example. Like I said before, the scope
+example. Like I said before, the scope
+ 
+example. Like I said before, the scope
+of work that you want to offload to
+of work that you want to offload to
+ 
+of work that you want to offload to
+agents should be very small. So, let's
+agents should be very small. So, let's
+ 
+agents should be very small. So, let's
+look at a more real world example. In
+look at a more real world example. In
+ 
+look at a more real world example. In
+this example, I have a shaden showcase
+this example, I have a shaden showcase
+ 
+this example, I have a shaden showcase
+library right here. And I wanted to
+library right here. And I wanted to
+ 
+library right here. And I wanted to
+implement a bookmarking or favorite
+implement a bookmarking or favorite
+ 
+implement a bookmarking or favorite
+feature. So user can favorite it and
+feature. So user can favorite it and
+ 
+feature. So user can favorite it and
+then come back later and see their
+then come back later and see their
+ 
+then come back later and see their
+favorite components. So for this first
+favorite components. So for this first
+ 
+favorite components. So for this first
+example, I didn't ask it to clarify
+example, I didn't ask it to clarify
+ 
+example, I didn't ask it to clarify
+anything. And it did a good job. The
+anything. And it did a good job. The
+ 
+anything. And it did a good job. The
+feature works. You can see I've
+feature works. You can see I've
+ 
+feature works. You can see I've
+bookmarked one there. When I go to
+bookmarked one there. When I go to
+ 
+bookmarked one there. When I go to
+favorites, I can see it there. It has a
+favorites, I can see it there. It has a
+ 
+favorites, I can see it there. It has a
+routing correct. And that's great. And
+routing correct. And that's great. And
+ 
+routing correct. And that's great. And
+when we look at the code, we can see if
+when we look at the code, we can see if
+ 
+when we look at the code, we can see if
+we open up here, it implemented a
+we open up here, it implemented a
+ 
+we open up here, it implemented a
+favorite service right here. And it's
+favorite service right here. And it's
+ 
+favorite service right here. And it's
+pretty standard. Now once again when we
+pretty standard. Now once again when we
+ 
+pretty standard. Now once again when we
+look at the token usage here it was 9.1
+look at the token usage here it was 9.1
+ 
+look at the token usage here it was 9.1
+credits. That's quite a bit. When we
+credits. That's quite a bit. When we
+ 
+credits. That's quite a bit. When we
+look at our other example I asked it to
+look at our other example I asked it to
+ 
+look at our other example I asked it to
+implement the feature but I append this
+implement the feature but I append this
+ 
+implement the feature but I append this
+same thing to my request. Make sure you
+same thing to my request. Make sure you
+ 
+same thing to my request. Make sure you
+ask clarifying questions. So then it
+ask clarifying questions. So then it
+ 
+ask clarifying questions. So then it
+asked about the scope and at first I
+asked about the scope and at first I
+ 
+asked about the scope and at first I
+thought this was kind of a dumb question
+thought this was kind of a dumb question
+ 
+thought this was kind of a dumb question
+cuz it said should users be able to
+cuz it said should users be able to
+ 
+cuz it said should users be able to
+bookmark individual components for quick
+bookmark individual components for quick
+ 
+bookmark individual components for quick
+access? But then I realized it was
+access? But then I realized it was
+ 
+access? But then I realized it was
+asking this because my request is pretty
+asking this because my request is pretty
+ 
+asking this because my request is pretty
+thread there. It's pretty minimal and
+thread there. It's pretty minimal and
+ 
+thread there. It's pretty minimal and
+they wanted to and the model wanted to
+they wanted to and the model wanted to
+ 
+they wanted to and the model wanted to
+make sure that it understood the
+make sure that it understood the
+ 
+make sure that it understood the
+fundamental request and we're not even
+fundamental request and we're not even
+ 
+fundamental request and we're not even
+into questions about implementation.
+into questions about implementation.
+ 
+into questions about implementation.
+Then we get to questions about
+Then we get to questions about
+ 
+Then we get to questions about
+implementation about persistence and
+implementation about persistence and
+ 
+implementation about persistence and
+state. So should the bookmark components
+state. So should the bookmark components
+ 
+state. So should the bookmark components
+persist across app sessions? I said yes.
+persist across app sessions? I said yes.
+ 
+persist across app sessions? I said yes.
+It asked about where do you want them to
+It asked about where do you want them to
+ 
+It asked about where do you want them to
+be displayed? How should the UX work and
+be displayed? How should the UX work and
+ 
+be displayed? How should the UX work and
+any visual indicators? And once again
+any visual indicators? And once again
+ 
+any visual indicators? And once again
+this clarifying question is very light
+this clarifying question is very light
+ 
+this clarifying question is very light
+token usage. And when we go down to the
+token usage. And when we go down to the
+ 
+token usage. And when we go down to the
+final execution here, we can see that
+final execution here, we can see that
+ 
+final execution here, we can see that
+this was significantly less token usage
+this was significantly less token usage
+ 
+this was significantly less token usage
+and it works in a similar way. So I've
+and it works in a similar way. So I've
+ 
+and it works in a similar way. So I've
+harded these, I can go to the favorites,
+harded these, I can go to the favorites,
+ 
+harded these, I can go to the favorites,
+I can view them there and the routing
+I can view them there and the routing
+ 
+I can view them there and the routing
+works correctly and when we look at the
+works correctly and when we look at the
+ 
+works correctly and when we look at the
+service, it's implemented. It works in
+service, it's implemented. It works in
+ 
+service, it's implemented. It works in
+very similar ways. Okay, so to
+very similar ways. Okay, so to
+ 
+very similar ways. Okay, so to
+summarize, first you should absolutely
+summarize, first you should absolutely
+ 
+summarize, first you should absolutely
+instruct your coding agent to ask
+instruct your coding agent to ask
+ 
+instruct your coding agent to ask
+clarifying questions to resolve
+clarifying questions to resolve
+ 
+clarifying questions to resolve
+ambiguities before it writes code. This
+ambiguities before it writes code. This
+ 
+ambiguities before it writes code. This
+approach is backed by multiple studies
+approach is backed by multiple studies
+ 
+approach is backed by multiple studies
+showing improved outcomes. Second, you
+showing improved outcomes. Second, you
+ 
+showing improved outcomes. Second, you
+should not ask it to rely on an internal
+should not ask it to rely on an internal
+ 
+should not ask it to rely on an internal
+confidence score like 95% as research
+confidence score like 95% as research
+ 
+confidence score like 95% as research
+shows it's not a reliable metric for
+shows it's not a reliable metric for
+ 
+shows it's not a reliable metric for
+code correctness. Okay, so that's it for
+code correctness. Okay, so that's it for
+ 
+code correctness. Okay, so that's it for
+Dreamflow Tips. I'm John and I'll see
+Dreamflow Tips. I'm John and I'll see
+ 
+Dreamflow Tips. I'm John and I'll see
+you in the next video.

@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649355-Mastering_Your_Workspace_in_Dreamflow
+Title: Mastering Your Workspace in Dreamflow
+URL: https://www.youtube.com/watch?v=uNY_d9OpGiM
+Index: 2 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649355-Mastering_Your_Workspace_in_Dreamflow.mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes (     143 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:56:12 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

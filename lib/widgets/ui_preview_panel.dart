@@ -10,7 +10,10 @@ import 'package:kre8tions/services/flutter_analyzer.dart';
 import 'package:kre8tions/services/service_orchestrator.dart';
 import 'package:kre8tions/services/visual_property_manager.dart';
 import 'package:kre8tions/services/widget_reconstructor_service.dart';
+import 'package:kre8tions/services/widget_inspector_service.dart' as widget_inspector;
+import 'package:kre8tions/services/widget_note_service.dart';
 import 'package:kre8tions/widgets/widget_inspector_panel.dart';
+import 'package:kre8tions/widgets/widget_inspector_overlay.dart';
 
 class UIPreviewPanel extends StatefulWidget {
   final FlutterProject project;
@@ -37,7 +40,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
   late ServiceOrchestrator _orchestrator;
   String _currentMode = 'mockUI';
   final bool _isLaunchingWeb = false;
-  List<DeviceInfo> _selectedDevices = [
+  final List<DeviceInfo> _selectedDevices = [
     Devices.ios.iPhone13,
     Devices.ios.iPadPro11Inches,
     Devices.android.samsungGalaxyS20,
@@ -52,6 +55,8 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
 
   // 🎯 Inspect Mode & Zoom State
   bool _inspectMode = false;
+  final widget_inspector.WidgetInspectorService _widgetInspectorService = widget_inspector.WidgetInspectorService();
+  final WidgetNoteService _noteService = WidgetNoteService();
   double _zoomLevel = 1.0;
   Rect? _hoveredWidgetBounds;
   String? _hoveredWidgetType;
@@ -371,10 +376,13 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
 
         // Inspect Mode Toggle
         Tooltip(
-          message: 'Inspect Mode ${_inspectMode ? 'On' : 'Off'}',
+          message: 'Widget Inspector ${_inspectMode ? 'On' : 'Off'}',
           child: IconButton(
             icon: Icon(_inspectMode ? Icons.touch_app : Icons.touch_app_outlined),
-            onPressed: () => setState(() => _inspectMode = !_inspectMode),
+            onPressed: () {
+              setState(() => _inspectMode = !_inspectMode);
+              _widgetInspectorService.toggleInspectionMode();
+            },
             color: _inspectMode ? theme.colorScheme.primary : theme.colorScheme.onSurface.withValues(alpha: 0.7),
             iconSize: 18,
             padding: const EdgeInsets.all(8),
@@ -411,6 +419,15 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
 
               // Zoom percentage dropdown
               PopupMenuButton<int>(
+                tooltip: 'Zoom Level',
+                padding: EdgeInsets.zero,
+                itemBuilder: (context) => _zoomPresets.asMap().entries.map((entry) {
+                  return PopupMenuItem<int>(
+                    value: entry.key,
+                    child: Text('${(entry.value * 100).toInt()}%'),
+                  );
+                }).toList(),
+                onSelected: _changeZoom,
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   child: Text(
@@ -421,15 +438,6 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
                     ),
                   ),
                 ),
-                tooltip: 'Zoom Level',
-                padding: EdgeInsets.zero,
-                itemBuilder: (context) => _zoomPresets.asMap().entries.map((entry) {
-                  return PopupMenuItem<int>(
-                    value: entry.key,
-                    child: Text('${(entry.value * 100).toInt()}%'),
-                  );
-                }).toList(),
-                onSelected: _changeZoom,
               ),
 
               const SizedBox(width: 4),
@@ -459,25 +467,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
           ),
         ),
 
-        const SizedBox(width: 12),
-        Icon(
-          Icons.info_outline,
-          size: 14,
-          color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
-        ),
-        const SizedBox(width: 6),
-        Expanded(
-          child: Text(
-            _inspectMode
-              ? 'Inspect Mode: Hover to highlight, click to select'
-              : (_currentMode == 'mockUI' ? 'Click widgets to inspect them' : 'Safe preview mode active'),
-            style: theme.textTheme.bodySmall?.copyWith(
-              color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
-              fontStyle: FontStyle.italic,
-            ),
-            overflow: TextOverflow.ellipsis,
-          ),
-        ),
+        // Removed unnecessary info text for cleaner UX
       ],
     );
   }
@@ -570,33 +560,80 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
       );
     }
 
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 16),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: _selectedDevices.map((device) {
-            return Padding(
-              padding: const EdgeInsets.only(right: 24),
-              child: SizedBox(
-                width: device.screenSize.width,
-                height: device.screenSize.height,
-                child: _buildZoomedAndPannablePreview(
-                  DeviceFrame(
-                    device: device,
-                    screen: _buildInspectModeWrapper(
-                      _buildLiveWidgetPreview(theme),
-                      theme,
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        // Responsive scaling based on available space
+        final availableHeight = constraints.maxHeight - 100; // Leave space for padding
+        final availableWidth = constraints.maxWidth;
+
+        return Container(
+          padding: const EdgeInsets.all(16),
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: _selectedDevices.map((device) {
+                  // Calculate responsive scale
+                  final deviceHeight = device.screenSize.height;
+                  final scale = (availableHeight / deviceHeight).clamp(0.3, 1.0);
+
+                  return Padding(
+                    padding: const EdgeInsets.only(right: 24),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        // Device label - more compact
+                        Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.primaryContainer,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Icon(
+                                Icons.smartphone,
+                                size: 10,
+                                color: theme.colorScheme.onPrimaryContainer,
+                              ),
+                              const SizedBox(width: 4),
+                              Text(
+                                device.name,
+                                style: theme.textTheme.labelSmall?.copyWith(
+                                  color: theme.colorScheme.onPrimaryContainer,
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 10,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        // Device frame with responsive scaling
+                        Transform.scale(
+                          scale: scale,
+                          child: _buildZoomedAndPannablePreview(
+                            DeviceFrame(
+                              device: device,
+                              screen: _buildInspectModeWrapper(
+                                _buildLiveWidgetPreview(theme),
+                                theme,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  ),
-                ),
+                  );
+                }).toList(),
               ),
-            );
-          }).toList(),
-        ),
-      ),
+            ),
+          ),
+        );
+      },
     );
   }
 
@@ -654,20 +691,123 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
       );
     }
 
-    // Empty state - no project loaded
-    return Container(
-      color: theme.scaffoldBackgroundColor,
-      child: Center(
-        child: Text(
-          'No project loaded',
-          style: theme.textTheme.bodyMedium?.copyWith(
-            color: theme.disabledColor,
-          ),
+    // Demo widget tree to showcase live reconstruction when no project is loaded
+    final demoTree = WidgetTreeNode(
+      name: 'MaterialApp',
+      type: WidgetType.app,
+      line: 0,
+      properties: {
+        'title': 'Live Widget Demo',
+        'debugShowCheckedModeBanner': false,
+      },
+      children: [
+        WidgetTreeNode(
+          name: 'Scaffold',
+          type: WidgetType.layout,
+          line: 0,
+          properties: {},
+          children: [
+            WidgetTreeNode(
+              name: 'AppBar',
+              type: WidgetType.component,
+              line: 0,
+              properties: {
+                'title': 'Widget Reconstruction Demo',
+                'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+              },
+              children: [],
+            ),
+            WidgetTreeNode(
+              name: 'Center',
+              type: WidgetType.layout,
+              line: 0,
+              properties: {},
+              children: [
+                WidgetTreeNode(
+                  name: 'Column',
+                  type: WidgetType.layout,
+                  line: 0,
+                  properties: {
+                    'mainAxisAlignment': 'center',
+                    'crossAxisAlignment': 'center',
+                  },
+                  children: [
+                    WidgetTreeNode(
+                      name: 'Icon',
+                      type: WidgetType.display,
+                      line: 0,
+                      properties: {
+                        'icon': 'widgets',
+                        'size': 64.0,
+                        'color': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+                      },
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'SizedBox',
+                      type: WidgetType.layout,
+                      line: 0,
+                      properties: {'height': 24.0},
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'Text',
+                      type: WidgetType.display,
+                      line: 0,
+                      properties: {
+                        'data': 'Live Widget Reconstruction',
+                        'fontSize': 24.0,
+                        'fontWeight': 'bold',
+                        'color': '0x${theme.colorScheme.onSurface.toARGB32().toRadixString(16)}',
+                      },
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'SizedBox',
+                      type: WidgetType.layout,
+                      line: 0,
+                      properties: {'height': 16.0},
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'Text',
+                      type: WidgetType.display,
+                      line: 0,
+                      properties: {
+                        'data': 'Upload a project to see your widgets rendered live!',
+                        'fontSize': 14.0,
+                        'color': '0x${theme.colorScheme.onSurface.withValues(alpha: 0.7).toARGB32().toRadixString(16)}',
+                      },
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'SizedBox',
+                      type: WidgetType.layout,
+                      line: 0,
+                      properties: {'height': 32.0},
+                      children: [],
+                    ),
+                    WidgetTreeNode(
+                      name: 'ElevatedButton',
+                      type: WidgetType.input,
+                      line: 0,
+                      properties: {
+                        'text': 'Get Started',
+                        'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+                      },
+                      children: [],
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ],
         ),
-      ),
+      ],
     );
-  }
 
+    return reconstructor.reconstructWidget(demoTree, theme: theme);
+  }
 
   void _showDeviceSelectionDialog(ThemeData theme) {
     // Available devices organized by platform
@@ -1075,6 +1215,14 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
   /// 🎯 **INSPECT MODE WRAPPER**
   /// Wraps the preview with inspect mode capabilities (hover detection, click to select)
   Widget _buildInspectModeWrapper(Widget preview, ThemeData theme) {
+    // Wrap with the new widget inspector overlay
+    return WidgetInspectorOverlay(
+      child: preview,
+    );
+  }
+
+  // Legacy inspect mode wrapper (kept for backwards compatibility)
+  Widget _buildOldInspectModeWrapper(Widget preview, ThemeData theme) {
     if (!_inspectMode) {
       return preview;
     }
@@ -1082,7 +1230,6 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
     return MouseRegion(
       onHover: (event) {
         setState(() {
-          _lastHoverPosition = event.position;
           // Detect widget at position (simplified for demo - would use real hit testing)
           _hoveredWidgetBounds = _detectWidgetAtPosition(event.position);
           // Set a demo widget type based on position
@@ -1093,7 +1240,6 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
         setState(() {
           _hoveredWidgetBounds = null;
           _hoveredWidgetType = null;
-          _lastHoverPosition = null;
         });
       },
       child: GestureDetector(

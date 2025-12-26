@@ -1,0 +1,1154 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661144-Mastering_Your_Workspace_in_Dreamflow.en.srt",
+    "total_frames": 143,
+    "total_transcript_segments": 232
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0001.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0002.png",
+      "transcript": "In this video, I want to show you how to In this video, I want to show you how to organize your panels in DreamFlow to",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0003.png",
+      "transcript": "In this video, I want to show you how to In this video, I want to show you how to organize your panels in DreamFlow to organize your panels in DreamFlow to organize your panels in DreamFlow to create the most efficient workspace for",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0004.png",
+      "transcript": "In this video, I want to show you how to organize your panels in DreamFlow to organize your panels in DreamFlow to organize your panels in DreamFlow to create the most efficient workspace for create the most efficient workspace for create the most efficient workspace for your needs. Now, this idea is actually",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0005.png",
+      "transcript": "organize your panels in DreamFlow to create the most efficient workspace for create the most efficient workspace for create the most efficient workspace for your needs. Now, this idea is actually your needs. Now, this idea is actually your needs. Now, this idea is actually central to our design philosophy of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0006.png",
+      "transcript": "create the most efficient workspace for your needs. Now, this idea is actually your needs. Now, this idea is actually your needs. Now, this idea is actually central to our design philosophy of central to our design philosophy of central to our design philosophy of Dreamflow itself because we believe that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0007.png",
+      "transcript": "your needs. Now, this idea is actually central to our design philosophy of central to our design philosophy of central to our design philosophy of Dreamflow itself because we believe that",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0008.png",
+      "transcript": "central to our design philosophy of central to our design philosophy of Dreamflow itself because we believe that Dreamflow itself because we believe that Dreamflow itself because we believe that every modern developer should have three",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0009.png",
+      "transcript": "central to our design philosophy of Dreamflow itself because we believe that Dreamflow itself because we believe that Dreamflow itself because we believe that every modern developer should have three every modern developer should have three every modern developer should have three types of tools or surfaces readily",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0010.png",
+      "transcript": "Dreamflow itself because we believe that every modern developer should have three every modern developer should have three every modern developer should have three types of tools or surfaces readily",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0011.png",
+      "transcript": "every modern developer should have three types of tools or surfaces readily types of tools or surfaces readily types of tools or surfaces readily available. A code editor, a visual",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0012.png",
+      "transcript": "every modern developer should have three types of tools or surfaces readily types of tools or surfaces readily types of tools or surfaces readily available. A code editor, a visual",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0013.png",
+      "transcript": "types of tools or surfaces readily available. A code editor, a visual available. A code editor, a visual available. A code editor, a visual interface, and an AI prompt for an AI",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0014.png",
+      "transcript": "types of tools or surfaces readily available. A code editor, a visual available. A code editor, a visual available. A code editor, a visual interface, and an AI prompt for an AI interface, and an AI prompt for an AI interface, and an AI prompt for an AI agent. Now, depending on the task and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0015.png",
+      "transcript": "available. A code editor, a visual interface, and an AI prompt for an AI interface, and an AI prompt for an AI interface, and an AI prompt for an AI agent. Now, depending on the task and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0016.png",
+      "transcript": "interface, and an AI prompt for an AI agent. Now, depending on the task and agent. Now, depending on the task and agent. Now, depending on the task and your preferences, you may want to",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0017.png",
+      "transcript": "interface, and an AI prompt for an AI agent. Now, depending on the task and agent. Now, depending on the task and agent. Now, depending on the task and your preferences, you may want to your preferences, you may want to your preferences, you may want to interact directly with the code or work",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0018.png",
+      "transcript": "agent. Now, depending on the task and your preferences, you may want to your preferences, you may want to your preferences, you may want to interact directly with the code or work interact directly with the code or work interact directly with the code or work with a visual properties panel or select",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0019.png",
+      "transcript": "your preferences, you may want to interact directly with the code or work interact directly with the code or work interact directly with the code or work with a visual properties panel or select with a visual properties panel or select with a visual properties panel or select widgets from your app itself to be able",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0020.png",
+      "transcript": "interact directly with the code or work with a visual properties panel or select with a visual properties panel or select with a visual properties panel or select widgets from your app itself to be able",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0021.png",
+      "transcript": "with a visual properties panel or select widgets from your app itself to be able widgets from your app itself to be able widgets from your app itself to be able to change them or to chat with an AI",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0022.png",
+      "transcript": "with a visual properties panel or select widgets from your app itself to be able widgets from your app itself to be able widgets from your app itself to be able to change them or to chat with an AI to change them or to chat with an AI to change them or to chat with an AI agent to make the changes itself. So, we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 44.0,
+      "timestamp_formatted": "00:00:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0023.png",
+      "transcript": "widgets from your app itself to be able to change them or to chat with an AI to change them or to chat with an AI to change them or to chat with an AI agent to make the changes itself. So, we agent to make the changes itself. So, we agent to make the changes itself. So, we designed Dreamflow not only to provide",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 46.0,
+      "timestamp_formatted": "00:00:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0024.png",
+      "transcript": "to change them or to chat with an AI agent to make the changes itself. So, we agent to make the changes itself. So, we agent to make the changes itself. So, we designed Dreamflow not only to provide",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 48.0,
+      "timestamp_formatted": "00:00:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0025.png",
+      "transcript": "agent to make the changes itself. So, we agent to make the changes itself. So, we designed Dreamflow not only to provide designed Dreamflow not only to provide designed Dreamflow not only to provide these three surfaces, but also to give",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:00:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0026.png",
+      "transcript": "agent to make the changes itself. So, we designed Dreamflow not only to provide designed Dreamflow not only to provide designed Dreamflow not only to provide these three surfaces, but also to give these three surfaces, but also to give these three surfaces, but also to give you the freedom to show and hide them",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 52.0,
+      "timestamp_formatted": "00:00:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0027.png",
+      "transcript": "designed Dreamflow not only to provide these three surfaces, but also to give these three surfaces, but also to give these three surfaces, but also to give you the freedom to show and hide them you the freedom to show and hide them you the freedom to show and hide them based on what you're working on. So,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 54.0,
+      "timestamp_formatted": "00:00:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0028.png",
+      "transcript": "these three surfaces, but also to give you the freedom to show and hide them you the freedom to show and hide them you the freedom to show and hide them based on what you're working on. So, based on what you're working on. So, based on what you're working on. So, let's jump in and check this out. So",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 56.0,
+      "timestamp_formatted": "00:00:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0029.png",
+      "transcript": "you the freedom to show and hide them based on what you're working on. So, based on what you're working on. So, based on what you're working on. So, let's jump in and check this out. So let's jump in and check this out. So let's jump in and check this out. So when you jump into DreamFlow, you're",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 58.0,
+      "timestamp_formatted": "00:00:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0030.png",
+      "transcript": "based on what you're working on. So, let's jump in and check this out. So let's jump in and check this out. So let's jump in and check this out. So when you jump into DreamFlow, you're",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 60.0,
+      "timestamp_formatted": "00:01:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0031.png",
+      "transcript": "let's jump in and check this out. So when you jump into DreamFlow, you're when you jump into DreamFlow, you're when you jump into DreamFlow, you're going to see something like this going to see something like this going to see something like this interface right here. Now there are two",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 62.0,
+      "timestamp_formatted": "00:01:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0032.png",
+      "transcript": "let's jump in and check this out. So when you jump into DreamFlow, you're when you jump into DreamFlow, you're when you jump into DreamFlow, you're going to see something like this going to see something like this going to see something like this interface right here. Now there are two interface right here. Now there are two interface right here. Now there are two main ways to show and hide different",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 64.0,
+      "timestamp_formatted": "00:01:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0033.png",
+      "transcript": "going to see something like this interface right here. Now there are two interface right here. Now there are two interface right here. Now there are two main ways to show and hide different",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 66.0,
+      "timestamp_formatted": "00:01:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0034.png",
+      "transcript": "interface right here. Now there are two interface right here. Now there are two main ways to show and hide different main ways to show and hide different main ways to show and hide different surfaces depending on what you need. So",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 68.0,
+      "timestamp_formatted": "00:01:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0035.png",
+      "transcript": "interface right here. Now there are two main ways to show and hide different main ways to show and hide different main ways to show and hide different surfaces depending on what you need. So surfaces depending on what you need. So surfaces depending on what you need. So the first way is up here with these",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 70.0,
+      "timestamp_formatted": "00:01:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0036.png",
+      "transcript": "main ways to show and hide different surfaces depending on what you need. So surfaces depending on what you need. So surfaces depending on what you need. So the first way is up here with these the first way is up here with these the first way is up here with these three options. So if I toggle this one,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 72.0,
+      "timestamp_formatted": "00:01:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0037.png",
+      "transcript": "surfaces depending on what you need. So the first way is up here with these the first way is up here with these the first way is up here with these three options. So if I toggle this one,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 74.0,
+      "timestamp_formatted": "00:01:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0038.png",
+      "transcript": "the first way is up here with these three options. So if I toggle this one, three options. So if I toggle this one, three options. So if I toggle this one, this will show this module or widget",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 76.0,
+      "timestamp_formatted": "00:01:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0039.png",
+      "transcript": "the first way is up here with these three options. So if I toggle this one, three options. So if I toggle this one, three options. So if I toggle this one, this will show this module or widget this will show this module or widget this will show this module or widget tree option over here. Now, if you have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 78.0,
+      "timestamp_formatted": "00:01:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0040.png",
+      "transcript": "three options. So if I toggle this one, this will show this module or widget this will show this module or widget this will show this module or widget tree option over here. Now, if you have",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 80.0,
+      "timestamp_formatted": "00:01:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0041.png",
+      "transcript": "this will show this module or widget this will show this module or widget tree option over here. Now, if you have tree option over here. Now, if you have tree option over here. Now, if you have other modules open like a Firebase or a",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 82.0,
+      "timestamp_formatted": "00:01:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0042.png",
+      "transcript": "this will show this module or widget tree option over here. Now, if you have tree option over here. Now, if you have tree option over here. Now, if you have other modules open like a Firebase or a other modules open like a Firebase or a other modules open like a Firebase or a Superbase or your assets panel right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 84.0,
+      "timestamp_formatted": "00:01:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0043.png",
+      "transcript": "tree option over here. Now, if you have other modules open like a Firebase or a other modules open like a Firebase or a other modules open like a Firebase or a Superbase or your assets panel right Superbase or your assets panel right Superbase or your assets panel right here, this will collapse that as well.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 86.0,
+      "timestamp_formatted": "00:01:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0044.png",
+      "transcript": "other modules open like a Firebase or a Superbase or your assets panel right Superbase or your assets panel right Superbase or your assets panel right here, this will collapse that as well.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 88.0,
+      "timestamp_formatted": "00:01:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0045.png",
+      "transcript": "Superbase or your assets panel right here, this will collapse that as well. here, this will collapse that as well. here, this will collapse that as well. But most often, you're going to have But most often, you're going to have But most often, you're going to have this widget tree panel open. Okay. The",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 90.0,
+      "timestamp_formatted": "00:01:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0046.png",
+      "transcript": "Superbase or your assets panel right here, this will collapse that as well. here, this will collapse that as well. here, this will collapse that as well. But most often, you're going to have But most often, you're going to have But most often, you're going to have this widget tree panel open. Okay. The",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 92.0,
+      "timestamp_formatted": "00:01:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0047.png",
+      "transcript": "But most often, you're going to have this widget tree panel open. Okay. The this widget tree panel open. Okay. The this widget tree panel open. Okay. The second one is your properties panel. So,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 94.0,
+      "timestamp_formatted": "00:01:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0048.png",
+      "transcript": "But most often, you're going to have this widget tree panel open. Okay. The this widget tree panel open. Okay. The this widget tree panel open. Okay. The second one is your properties panel. So,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 96.0,
+      "timestamp_formatted": "00:01:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0049.png",
+      "transcript": "this widget tree panel open. Okay. The second one is your properties panel. So, second one is your properties panel. So, second one is your properties panel. So, this is contextual. So, whatever widget",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 98.0,
+      "timestamp_formatted": "00:01:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0050.png",
+      "transcript": "this widget tree panel open. Okay. The second one is your properties panel. So, second one is your properties panel. So, second one is your properties panel. So, this is contextual. So, whatever widget this is contextual. So, whatever widget this is contextual. So, whatever widget you have selected, you'll see the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 100.0,
+      "timestamp_formatted": "00:01:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0051.png",
+      "transcript": "second one is your properties panel. So, this is contextual. So, whatever widget this is contextual. So, whatever widget this is contextual. So, whatever widget you have selected, you'll see the you have selected, you'll see the you have selected, you'll see the properties of that widget populate here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 102.0,
+      "timestamp_formatted": "00:01:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0052.png",
+      "transcript": "this is contextual. So, whatever widget you have selected, you'll see the you have selected, you'll see the you have selected, you'll see the properties of that widget populate here. properties of that widget populate here. properties of that widget populate here. And then finally, this third option, you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 104.0,
+      "timestamp_formatted": "00:01:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0053.png",
+      "transcript": "you have selected, you'll see the properties of that widget populate here. properties of that widget populate here. properties of that widget populate here. And then finally, this third option, you",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 106.0,
+      "timestamp_formatted": "00:01:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0054.png",
+      "transcript": "properties of that widget populate here. And then finally, this third option, you And then finally, this third option, you And then finally, this third option, you have your AI agent panel. Now to show or",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 108.0,
+      "timestamp_formatted": "00:01:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0055.png",
+      "transcript": "properties of that widget populate here. And then finally, this third option, you And then finally, this third option, you And then finally, this third option, you have your AI agent panel. Now to show or have your AI agent panel. Now to show or have your AI agent panel. Now to show or hide these of course you can just click",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 110.0,
+      "timestamp_formatted": "00:01:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0056.png",
+      "transcript": "And then finally, this third option, you have your AI agent panel. Now to show or have your AI agent panel. Now to show or have your AI agent panel. Now to show or hide these of course you can just click hide these of course you can just click hide these of course you can just click these on or off. We also have shortcut",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 112.0,
+      "timestamp_formatted": "00:01:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0057.png",
+      "transcript": "have your AI agent panel. Now to show or hide these of course you can just click hide these of course you can just click hide these of course you can just click these on or off. We also have shortcut these on or off. We also have shortcut these on or off. We also have shortcut keys. So you have option two, three and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 114.0,
+      "timestamp_formatted": "00:01:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0058.png",
+      "transcript": "hide these of course you can just click these on or off. We also have shortcut these on or off. We also have shortcut these on or off. We also have shortcut keys. So you have option two, three and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 116.0,
+      "timestamp_formatted": "00:01:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0059.png",
+      "transcript": "these on or off. We also have shortcut keys. So you have option two, three and keys. So you have option two, three and keys. So you have option two, three and four to open and close these. So that's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 118.0,
+      "timestamp_formatted": "00:01:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0060.png",
+      "transcript": "these on or off. We also have shortcut keys. So you have option two, three and keys. So you have option two, three and keys. So you have option two, three and four to open and close these. So that's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 120.0,
+      "timestamp_formatted": "00:02:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0061.png",
+      "transcript": "keys. So you have option two, three and four to open and close these. So that's four to open and close these. So that's four to open and close these. So that's the first way. The second way is to open",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 122.0,
+      "timestamp_formatted": "00:02:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0062.png",
+      "transcript": "keys. So you have option two, three and four to open and close these. So that's four to open and close these. So that's four to open and close these. So that's the first way. The second way is to open the first way. The second way is to open the first way. The second way is to open and close them with options within the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 124.0,
+      "timestamp_formatted": "00:02:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0063.png",
+      "transcript": "four to open and close these. So that's the first way. The second way is to open the first way. The second way is to open the first way. The second way is to open and close them with options within the and close them with options within the and close them with options within the panel itself. So you've got these X",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 126.0,
+      "timestamp_formatted": "00:02:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0064.png",
+      "transcript": "the first way. The second way is to open and close them with options within the and close them with options within the and close them with options within the panel itself. So you've got these X panel itself. So you've got these X panel itself. So you've got these X marks right here just as you would",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 128.0,
+      "timestamp_formatted": "00:02:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0065.png",
+      "transcript": "and close them with options within the panel itself. So you've got these X panel itself. So you've got these X panel itself. So you've got these X marks right here just as you would marks right here just as you would marks right here just as you would expect. But also when they're closed you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 130.0,
+      "timestamp_formatted": "00:02:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0066.png",
+      "transcript": "panel itself. So you've got these X marks right here just as you would marks right here just as you would marks right here just as you would expect. But also when they're closed you expect. But also when they're closed you expect. But also when they're closed you can see that you've got these bars right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 132.0,
+      "timestamp_formatted": "00:02:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0067.png",
+      "transcript": "marks right here just as you would expect. But also when they're closed you expect. But also when they're closed you expect. But also when they're closed you can see that you've got these bars right can see that you've got these bars right can see that you've got these bars right here that you can just click to open",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 134.0,
+      "timestamp_formatted": "00:02:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0068.png",
+      "transcript": "expect. But also when they're closed you can see that you've got these bars right can see that you've got these bars right can see that you've got these bars right here that you can just click to open",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 136.0,
+      "timestamp_formatted": "00:02:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0069.png",
+      "transcript": "can see that you've got these bars right here that you can just click to open here that you can just click to open here that you can just click to open them just like that. So if you want one",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 138.0,
+      "timestamp_formatted": "00:02:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0070.png",
+      "transcript": "can see that you've got these bars right here that you can just click to open here that you can just click to open here that you can just click to open them just like that. So if you want one them just like that. So if you want one them just like that. So if you want one or two or all three open, you can just",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 140.0,
+      "timestamp_formatted": "00:02:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0071.png",
+      "transcript": "here that you can just click to open them just like that. So if you want one them just like that. So if you want one them just like that. So if you want one or two or all three open, you can just",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 142.0,
+      "timestamp_formatted": "00:02:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0072.png",
+      "transcript": "them just like that. So if you want one or two or all three open, you can just or two or all three open, you can just or two or all three open, you can just toggle them however you want. Okay. So",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 144.0,
+      "timestamp_formatted": "00:02:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0073.png",
+      "transcript": "them just like that. So if you want one or two or all three open, you can just or two or all three open, you can just or two or all three open, you can just toggle them however you want. Okay. So toggle them however you want. Okay. So toggle them however you want. Okay. So those are the sort of two main ways to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 146.0,
+      "timestamp_formatted": "00:02:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0074.png",
+      "transcript": "or two or all three open, you can just toggle them however you want. Okay. So toggle them however you want. Okay. So toggle them however you want. Okay. So those are the sort of two main ways to",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 148.0,
+      "timestamp_formatted": "00:02:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0075.png",
+      "transcript": "toggle them however you want. Okay. So toggle them however you want. Okay. So those are the sort of two main ways to those are the sort of two main ways to those are the sort of two main ways to manage your panels. But in this code",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 150.0,
+      "timestamp_formatted": "00:02:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0076.png",
+      "transcript": "toggle them however you want. Okay. So those are the sort of two main ways to those are the sort of two main ways to those are the sort of two main ways to manage your panels. But in this code manage your panels. But in this code manage your panels. But in this code view right here, there's some additional",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 152.0,
+      "timestamp_formatted": "00:02:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0077.png",
+      "transcript": "those are the sort of two main ways to manage your panels. But in this code manage your panels. But in this code manage your panels. But in this code view right here, there's some additional view right here, there's some additional view right here, there's some additional options you have. So right now I'm just",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 154.0,
+      "timestamp_formatted": "00:02:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0078.png",
+      "transcript": "manage your panels. But in this code view right here, there's some additional view right here, there's some additional view right here, there's some additional options you have. So right now I'm just",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 156.0,
+      "timestamp_formatted": "00:02:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0079.png",
+      "transcript": "view right here, there's some additional options you have. So right now I'm just options you have. So right now I'm just options you have. So right now I'm just going to keep everything collapsed like",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 158.0,
+      "timestamp_formatted": "00:02:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0080.png",
+      "transcript": "view right here, there's some additional options you have. So right now I'm just options you have. So right now I'm just options you have. So right now I'm just going to keep everything collapsed like going to keep everything collapsed like going to keep everything collapsed like that. And I want to open up code view",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 160.0,
+      "timestamp_formatted": "00:02:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0081.png",
+      "transcript": "options you have. So right now I'm just going to keep everything collapsed like going to keep everything collapsed like going to keep everything collapsed like that. And I want to open up code view that. And I want to open up code view that. And I want to open up code view right here. And you'll probably see",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 162.0,
+      "timestamp_formatted": "00:02:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0082.png",
+      "transcript": "going to keep everything collapsed like that. And I want to open up code view that. And I want to open up code view that. And I want to open up code view right here. And you'll probably see right here. And you'll probably see right here. And you'll probably see something like this. So you'll have your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 164.0,
+      "timestamp_formatted": "00:02:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0083.png",
+      "transcript": "that. And I want to open up code view right here. And you'll probably see right here. And you'll probably see right here. And you'll probably see something like this. So you'll have your",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 166.0,
+      "timestamp_formatted": "00:02:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0084.png",
+      "transcript": "right here. And you'll probably see right here. And you'll probably see something like this. So you'll have your something like this. So you'll have your something like this. So you'll have your files and folders, your file explorer",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 168.0,
+      "timestamp_formatted": "00:02:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0085.png",
+      "transcript": "right here. And you'll probably see something like this. So you'll have your something like this. So you'll have your something like this. So you'll have your files and folders, your file explorer files and folders, your file explorer files and folders, your file explorer view right here, and then you'll have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 170.0,
+      "timestamp_formatted": "00:02:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0086.png",
+      "transcript": "something like this. So you'll have your files and folders, your file explorer files and folders, your file explorer files and folders, your file explorer view right here, and then you'll have view right here, and then you'll have view right here, and then you'll have the actual code of whatever file you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 172.0,
+      "timestamp_formatted": "00:02:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0087.png",
+      "transcript": "files and folders, your file explorer view right here, and then you'll have view right here, and then you'll have view right here, and then you'll have the actual code of whatever file you the actual code of whatever file you the actual code of whatever file you have open on the right. Now, I find",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 174.0,
+      "timestamp_formatted": "00:02:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0088.png",
+      "transcript": "view right here, and then you'll have the actual code of whatever file you the actual code of whatever file you the actual code of whatever file you have open on the right. Now, I find have open on the right. Now, I find have open on the right. Now, I find myself most often wanting to see a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 176.0,
+      "timestamp_formatted": "00:02:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0089.png",
+      "transcript": "the actual code of whatever file you have open on the right. Now, I find have open on the right. Now, I find have open on the right. Now, I find myself most often wanting to see a myself most often wanting to see a myself most often wanting to see a preview of the app and my code at once.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 178.0,
+      "timestamp_formatted": "00:02:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0090.png",
+      "transcript": "have open on the right. Now, I find myself most often wanting to see a myself most often wanting to see a myself most often wanting to see a preview of the app and my code at once.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 180.0,
+      "timestamp_formatted": "00:03:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0091.png",
+      "transcript": "myself most often wanting to see a preview of the app and my code at once. preview of the app and my code at once. preview of the app and my code at once. And that's where this split option comes",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 182.0,
+      "timestamp_formatted": "00:03:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0092.png",
+      "transcript": "myself most often wanting to see a preview of the app and my code at once. preview of the app and my code at once. preview of the app and my code at once. And that's where this split option comes And that's where this split option comes And that's where this split option comes in right here. That is, it's split",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 184.0,
+      "timestamp_formatted": "00:03:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0093.png",
+      "transcript": "preview of the app and my code at once. And that's where this split option comes And that's where this split option comes And that's where this split option comes in right here. That is, it's split in right here. That is, it's split in right here. That is, it's split between my code view over here on the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 186.0,
+      "timestamp_formatted": "00:03:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0094.png",
+      "transcript": "And that's where this split option comes in right here. That is, it's split in right here. That is, it's split in right here. That is, it's split between my code view over here on the between my code view over here on the between my code view over here on the left and the preview over here. Now, if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 188.0,
+      "timestamp_formatted": "00:03:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0095.png",
+      "transcript": "in right here. That is, it's split between my code view over here on the between my code view over here on the between my code view over here on the left and the preview over here. Now, if",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 190.0,
+      "timestamp_formatted": "00:03:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0096.png",
+      "transcript": "between my code view over here on the left and the preview over here. Now, if left and the preview over here. Now, if left and the preview over here. Now, if you want your preview on the left and you want your preview on the left and you want your preview on the left and your code on the right, that's what this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 192.0,
+      "timestamp_formatted": "00:03:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0097.png",
+      "transcript": "between my code view over here on the left and the preview over here. Now, if left and the preview over here. Now, if left and the preview over here. Now, if you want your preview on the left and you want your preview on the left and you want your preview on the left and your code on the right, that's what this your code on the right, that's what this your code on the right, that's what this button is here for. And so, you can just",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 194.0,
+      "timestamp_formatted": "00:03:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0098.png",
+      "transcript": "you want your preview on the left and your code on the right, that's what this your code on the right, that's what this your code on the right, that's what this button is here for. And so, you can just button is here for. And so, you can just button is here for. And so, you can just swap those. Now, most of the time, what",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 196.0,
+      "timestamp_formatted": "00:03:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0099.png",
+      "transcript": "your code on the right, that's what this button is here for. And so, you can just button is here for. And so, you can just button is here for. And so, you can just swap those. Now, most of the time, what",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 198.0,
+      "timestamp_formatted": "00:03:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0100.png",
+      "transcript": "button is here for. And so, you can just swap those. Now, most of the time, what swap those. Now, most of the time, what swap those. Now, most of the time, what you're going to want is the preview and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 200.0,
+      "timestamp_formatted": "00:03:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0101.png",
+      "transcript": "button is here for. And so, you can just swap those. Now, most of the time, what swap those. Now, most of the time, what swap those. Now, most of the time, what you're going to want is the preview and you're going to want is the preview and you're going to want is the preview and the actual code that you're going to be",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 202.0,
+      "timestamp_formatted": "00:03:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0102.png",
+      "transcript": "swap those. Now, most of the time, what you're going to want is the preview and you're going to want is the preview and you're going to want is the preview and the actual code that you're going to be the actual code that you're going to be the actual code that you're going to be working on most of the time, and then",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 204.0,
+      "timestamp_formatted": "00:03:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0103.png",
+      "transcript": "you're going to want is the preview and the actual code that you're going to be the actual code that you're going to be the actual code that you're going to be working on most of the time, and then working on most of the time, and then working on most of the time, and then you just switch between files. So, that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 206.0,
+      "timestamp_formatted": "00:03:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0104.png",
+      "transcript": "the actual code that you're going to be working on most of the time, and then working on most of the time, and then working on most of the time, and then you just switch between files. So, that you just switch between files. So, that you just switch between files. So, that is to say, you don't need this visual",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 208.0,
+      "timestamp_formatted": "00:03:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0105.png",
+      "transcript": "working on most of the time, and then you just switch between files. So, that you just switch between files. So, that you just switch between files. So, that is to say, you don't need this visual",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 210.0,
+      "timestamp_formatted": "00:03:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0106.png",
+      "transcript": "you just switch between files. So, that is to say, you don't need this visual is to say, you don't need this visual is to say, you don't need this visual space of your file explorer. So, you can",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 212.0,
+      "timestamp_formatted": "00:03:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0107.png",
+      "transcript": "you just switch between files. So, that is to say, you don't need this visual is to say, you don't need this visual is to say, you don't need this visual space of your file explorer. So, you can space of your file explorer. So, you can space of your file explorer. So, you can just close that up right there. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 214.0,
+      "timestamp_formatted": "00:03:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0108.png",
+      "transcript": "is to say, you don't need this visual space of your file explorer. So, you can space of your file explorer. So, you can space of your file explorer. So, you can just close that up right there. And just close that up right there. And just close that up right there. And then, if you want to change the space",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 216.0,
+      "timestamp_formatted": "00:03:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0109.png",
+      "transcript": "space of your file explorer. So, you can just close that up right there. And just close that up right there. And just close that up right there. And then, if you want to change the space then, if you want to change the space then, if you want to change the space between these, you can just pull those.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 218.0,
+      "timestamp_formatted": "00:03:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0110.png",
+      "transcript": "just close that up right there. And then, if you want to change the space then, if you want to change the space then, if you want to change the space between these, you can just pull those. between these, you can just pull those. between these, you can just pull those. And that works on any of these files. So",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 220.0,
+      "timestamp_formatted": "00:03:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0111.png",
+      "transcript": "then, if you want to change the space between these, you can just pull those. between these, you can just pull those. between these, you can just pull those. And that works on any of these files. So And that works on any of these files. So And that works on any of these files. So maybe I want to have my agent open. So",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 222.0,
+      "timestamp_formatted": "00:03:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0112.png",
+      "transcript": "between these, you can just pull those. And that works on any of these files. So And that works on any of these files. So And that works on any of these files. So maybe I want to have my agent open. So maybe I want to have my agent open. So maybe I want to have my agent open. So I've got my preview, I've got my code,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 224.0,
+      "timestamp_formatted": "00:03:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0113.png",
+      "transcript": "And that works on any of these files. So maybe I want to have my agent open. So maybe I want to have my agent open. So maybe I want to have my agent open. So I've got my preview, I've got my code, I've got my preview, I've got my code, I've got my preview, I've got my code, and then I've got my agent. And you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 226.0,
+      "timestamp_formatted": "00:03:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0114.png",
+      "transcript": "maybe I want to have my agent open. So I've got my preview, I've got my code, I've got my preview, I've got my code, I've got my preview, I've got my code, and then I've got my agent. And you can and then I've got my agent. And you can and then I've got my agent. And you can adjust the difference like that. Okay.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 228.0,
+      "timestamp_formatted": "00:03:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0115.png",
+      "transcript": "I've got my preview, I've got my code, and then I've got my agent. And you can and then I've got my agent. And you can and then I've got my agent. And you can adjust the difference like that. Okay. adjust the difference like that. Okay. adjust the difference like that. Okay. So that's your code view. But remember,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 230.0,
+      "timestamp_formatted": "00:03:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0116.png",
+      "transcript": "and then I've got my agent. And you can adjust the difference like that. Okay. adjust the difference like that. Okay. adjust the difference like that. Okay. So that's your code view. But remember, So that's your code view. But remember, So that's your code view. But remember, when you're in this nested code view, so",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 232.0,
+      "timestamp_formatted": "00:03:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0117.png",
+      "transcript": "adjust the difference like that. Okay. So that's your code view. But remember, So that's your code view. But remember, So that's your code view. But remember, when you're in this nested code view, so when you're in this nested code view, so when you're in this nested code view, so you can have your code here. You can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 234.0,
+      "timestamp_formatted": "00:03:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0118.png",
+      "transcript": "So that's your code view. But remember, when you're in this nested code view, so when you're in this nested code view, so when you're in this nested code view, so you can have your code here. You can you can have your code here. You can you can have your code here. You can have your split view. You can have your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 236.0,
+      "timestamp_formatted": "00:03:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0119.png",
+      "transcript": "when you're in this nested code view, so you can have your code here. You can you can have your code here. You can you can have your code here. You can have your split view. You can have your have your split view. You can have your have your split view. You can have your files open up just like that. Of course,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 238.0,
+      "timestamp_formatted": "00:03:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0120.png",
+      "transcript": "you can have your code here. You can have your split view. You can have your have your split view. You can have your have your split view. You can have your files open up just like that. Of course, files open up just like that. Of course, files open up just like that. Of course, you can combine that with any of these",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 240.0,
+      "timestamp_formatted": "00:04:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0121.png",
+      "transcript": "have your split view. You can have your files open up just like that. Of course, files open up just like that. Of course, files open up just like that. Of course, you can combine that with any of these you can combine that with any of these you can combine that with any of these up here. So if I open it up like that,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 242.0,
+      "timestamp_formatted": "00:04:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0122.png",
+      "transcript": "files open up just like that. Of course, you can combine that with any of these you can combine that with any of these you can combine that with any of these up here. So if I open it up like that, up here. So if I open it up like that, up here. So if I open it up like that, now I have my widget tree. Let's scale",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 244.0,
+      "timestamp_formatted": "00:04:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0123.png",
+      "transcript": "you can combine that with any of these up here. So if I open it up like that, up here. So if I open it up like that, up here. So if I open it up like that, now I have my widget tree. Let's scale",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 246.0,
+      "timestamp_formatted": "00:04:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0124.png",
+      "transcript": "up here. So if I open it up like that, now I have my widget tree. Let's scale now I have my widget tree. Let's scale now I have my widget tree. Let's scale this down so it's not budging up against",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 248.0,
+      "timestamp_formatted": "00:04:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0125.png",
+      "transcript": "up here. So if I open it up like that, now I have my widget tree. Let's scale now I have my widget tree. Let's scale now I have my widget tree. Let's scale this down so it's not budging up against this down so it's not budging up against this down so it's not budging up against the edges. You can change the size of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 250.0,
+      "timestamp_formatted": "00:04:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0126.png",
+      "transcript": "now I have my widget tree. Let's scale this down so it's not budging up against this down so it's not budging up against this down so it's not budging up against the edges. You can change the size of the edges. You can change the size of the edges. You can change the size of your widget tree like that. Now, of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 252.0,
+      "timestamp_formatted": "00:04:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0127.png",
+      "transcript": "this down so it's not budging up against the edges. You can change the size of the edges. You can change the size of the edges. You can change the size of your widget tree like that. Now, of your widget tree like that. Now, of your widget tree like that. Now, of course, I'm having trouble seeing my",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 254.0,
+      "timestamp_formatted": "00:04:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0128.png",
+      "transcript": "the edges. You can change the size of your widget tree like that. Now, of your widget tree like that. Now, of your widget tree like that. Now, of course, I'm having trouble seeing my course, I'm having trouble seeing my course, I'm having trouble seeing my code right here. So, I can collapse my",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 256.0,
+      "timestamp_formatted": "00:04:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0129.png",
+      "transcript": "your widget tree like that. Now, of course, I'm having trouble seeing my course, I'm having trouble seeing my course, I'm having trouble seeing my code right here. So, I can collapse my code right here. So, I can collapse my code right here. So, I can collapse my file tree right there. And that works",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 258.0,
+      "timestamp_formatted": "00:04:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0130.png",
+      "transcript": "course, I'm having trouble seeing my code right here. So, I can collapse my code right here. So, I can collapse my code right here. So, I can collapse my file tree right there. And that works file tree right there. And that works file tree right there. And that works great. So, that's how to manage your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 260.0,
+      "timestamp_formatted": "00:04:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0131.png",
+      "transcript": "code right here. So, I can collapse my file tree right there. And that works file tree right there. And that works file tree right there. And that works great. So, that's how to manage your great. So, that's how to manage your great. So, that's how to manage your workspace. So, you can make it efficient",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 262.0,
+      "timestamp_formatted": "00:04:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0132.png",
+      "transcript": "file tree right there. And that works great. So, that's how to manage your great. So, that's how to manage your great. So, that's how to manage your workspace. So, you can make it efficient workspace. So, you can make it efficient workspace. So, you can make it efficient and tailor it to whatever needs and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 264.0,
+      "timestamp_formatted": "00:04:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0133.png",
+      "transcript": "great. So, that's how to manage your workspace. So, you can make it efficient workspace. So, you can make it efficient workspace. So, you can make it efficient and tailor it to whatever needs and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 266.0,
+      "timestamp_formatted": "00:04:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0134.png",
+      "transcript": "workspace. So, you can make it efficient workspace. So, you can make it efficient and tailor it to whatever needs and and tailor it to whatever needs and and tailor it to whatever needs and development styles you have. Let us know",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 268.0,
+      "timestamp_formatted": "00:04:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0135.png",
+      "transcript": "workspace. So, you can make it efficient and tailor it to whatever needs and and tailor it to whatever needs and and tailor it to whatever needs and development styles you have. Let us know development styles you have. Let us know development styles you have. Let us know if you have any questions and you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 270.0,
+      "timestamp_formatted": "00:04:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0136.png",
+      "transcript": "and tailor it to whatever needs and development styles you have. Let us know development styles you have. Let us know development styles you have. Let us know if you have any questions and you can if you have any questions and you can if you have any questions and you can submit feedback right here. So, if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 272.0,
+      "timestamp_formatted": "00:04:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0137.png",
+      "transcript": "development styles you have. Let us know if you have any questions and you can if you have any questions and you can if you have any questions and you can submit feedback right here. So, if submit feedback right here. So, if submit feedback right here. So, if there's a bug or a feature request or if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 274.0,
+      "timestamp_formatted": "00:04:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0138.png",
+      "transcript": "if you have any questions and you can submit feedback right here. So, if submit feedback right here. So, if submit feedback right here. So, if there's a bug or a feature request or if there's a bug or a feature request or if there's a bug or a feature request or if there's another style of working that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 276.0,
+      "timestamp_formatted": "00:04:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0139.png",
+      "transcript": "submit feedback right here. So, if there's a bug or a feature request or if there's a bug or a feature request or if there's a bug or a feature request or if there's another style of working that there's another style of working that there's another style of working that you would like to see in DreamFlow, we'd",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 278.0,
+      "timestamp_formatted": "00:04:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0140.png",
+      "transcript": "there's a bug or a feature request or if there's another style of working that there's another style of working that there's another style of working that you would like to see in DreamFlow, we'd you would like to see in DreamFlow, we'd you would like to see in DreamFlow, we'd love to hear from you and we'll see you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 280.0,
+      "timestamp_formatted": "00:04:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0141.png",
+      "transcript": "there's another style of working that you would like to see in DreamFlow, we'd you would like to see in DreamFlow, we'd you would like to see in DreamFlow, we'd love to hear from you and we'll see you love to hear from you and we'll see you love to hear from you and we'll see you in the next video.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 282.0,
+      "timestamp_formatted": "00:04:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0142.png",
+      "transcript": "you would like to see in DreamFlow, we'd love to hear from you and we'll see you love to hear from you and we'll see you love to hear from you and we'll see you in the next video.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 284.0,
+      "timestamp_formatted": "00:04:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649355-Mastering_Your_Workspace_in_Dreamflow_keyframes/frame_0143.png",
+      "transcript": "love to hear from you and we'll see you in the next video.",
+      "segment_count": 1
+    }
+  ]
+}

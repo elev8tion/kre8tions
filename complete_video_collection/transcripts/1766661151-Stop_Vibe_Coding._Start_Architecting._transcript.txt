@@ -1,0 +1,638 @@
+
+When people talk about AI coding tools,
+When people talk about AI coding tools,
+ 
+When people talk about AI coding tools,
+they usually talk about one thing,
+they usually talk about one thing,
+ 
+they usually talk about one thing,
+speed, rapid prototyping, vibe coding,
+speed, rapid prototyping, vibe coding,
+ 
+speed, rapid prototyping, vibe coding,
+spinning up things in a flash. And sure,
+spinning up things in a flash. And sure,
+ 
+spinning up things in a flash. And sure,
+that's part of it, but it's not all of
+that's part of it, but it's not all of
+ 
+that's part of it, but it's not all of
+it, and it's not the most important
+it, and it's not the most important
+ 
+it, and it's not the most important
+part. An AI agent is just another tool
+part. An AI agent is just another tool
+ 
+part. An AI agent is just another tool
+in your tool belt, like a debugger or
+in your tool belt, like a debugger or
+ 
+in your tool belt, like a debugger or
+autocomplete. And like any professional
+autocomplete. And like any professional
+ 
+autocomplete. And like any professional
+tool, you need the skill to master it.
+tool, you need the skill to master it.
+ 
+tool, you need the skill to master it.
+So, in this video, I'm going to show you
+So, in this video, I'm going to show you
+ 
+So, in this video, I'm going to show you
+how to use Dreamflow to go beyond simple
+how to use Dreamflow to go beyond simple
+ 
+how to use Dreamflow to go beyond simple
+prototypes. We're going to prompt
+prototypes. We're going to prompt
+ 
+prototypes. We're going to prompt
+Dreamflow to set up real production
+Dreamflow to set up real production
+ 
+Dreamflow to set up real production
+architectural patterns. I'll show you
+architectural patterns. I'll show you
+ 
+architectural patterns. I'll show you
+how to prompt like an architect so you
+how to prompt like an architect so you
+ 
+how to prompt like an architect so you
+can build code bases that will last.
+can build code bases that will last.
+ 
+can build code bases that will last.
+Okay, so let's jump into DreamFlow here
+Okay, so let's jump into DreamFlow here
+ 
+Okay, so let's jump into DreamFlow here
+and we're going to create a new project
+and we're going to create a new project
+ 
+and we're going to create a new project
+right here. And it's just going to be a
+right here. And it's just going to be a
+ 
+right here. And it's just going to be a
+habit tracker. So, we're just going to
+habit tracker. So, we're just going to
+ 
+habit tracker. So, we're just going to
+call it habity.
+call it habity.
+ 
+call it habity.
+Create project. And when you create a
+Create project. And when you create a
+ 
+Create project. And when you create a
+project, we're just running Flutter
+project, we're just running Flutter
+ 
+project, we're just running Flutter
+create under the hood to scaffold out a
+create under the hood to scaffold out a
+ 
+create under the hood to scaffold out a
+basic app. Okay, so here's my scaffolded
+basic app. Okay, so here's my scaffolded
+ 
+basic app. Okay, so here's my scaffolded
+out app. I've got my agent open over
+out app. I've got my agent open over
+ 
+out app. I've got my agent open over
+here. Now, the main thing you want to do
+here. Now, the main thing you want to do
+ 
+here. Now, the main thing you want to do
+when you're building with AI is you want
+when you're building with AI is you want
+ 
+when you're building with AI is you want
+to work in small iterable and testable
+to work in small iterable and testable
+ 
+to work in small iterable and testable
+steps. So, I'm going to just start out
+steps. So, I'm going to just start out
+ 
+steps. So, I'm going to just start out
+by creating some of the files and
+by creating some of the files and
+ 
+by creating some of the files and
+folders. So I'm going to say I would
+folders. So I'm going to say I would
+ 
+folders. So I'm going to say I would
+like to create a habit tracker app using
+like to create a habit tracker app using
+ 
+like to create a habit tracker app using
+layered architecture and provider for
+layered architecture and provider for
+ 
+layered architecture and provider for
+state management. So I want the agent to
+state management. So I want the agent to
+ 
+state management. So I want the agent to
+create the files and folders but don't
+create the files and folders but don't
+ 
+create the files and folders but don't
+write any of the code yet. And then I've
+write any of the code yet. And then I've
+ 
+write any of the code yet. And then I've
+got this architectural diagram that I'm
+got this architectural diagram that I'm
+ 
+got this architectural diagram that I'm
+just going to paste in a real basic app
+just going to paste in a real basic app
+ 
+just going to paste in a real basic app
+right there and send it off. Now, as
+right there and send it off. Now, as
+ 
+right there and send it off. Now, as
+that's working, let's open up our code
+that's working, let's open up our code
+ 
+that's working, let's open up our code
+view right here. And you can see that
+view right here. And you can see that
+ 
+view right here. And you can see that
+it's building out all of these files,
+it's building out all of these files,
+ 
+it's building out all of these files,
+but with no content in them. And that's
+but with no content in them. And that's
+ 
+but with no content in them. And that's
+great. That's exactly what we want to
+great. That's exactly what we want to
+ 
+great. That's exactly what we want to
+see. Okay, great. The agent is finished.
+see. Okay, great. The agent is finished.
+ 
+see. Okay, great. The agent is finished.
+We get a summary of the project
+We get a summary of the project
+ 
+We get a summary of the project
+structure, which is exactly what we
+structure, which is exactly what we
+ 
+structure, which is exactly what we
+passed in. That's great. And we can see
+passed in. That's great. And we can see
+ 
+passed in. That's great. And we can see
+all of our files and folders here. And
+all of our files and folders here. And
+ 
+all of our files and folders here. And
+we can look into them and see that
+we can look into them and see that
+ 
+we can look into them and see that
+they're not actually populated with any
+they're not actually populated with any
+ 
+they're not actually populated with any
+code yet. That's great. I'm also going
+code yet. That's great. I'm also going
+ 
+code yet. That's great. I'm also going
+to tell the model, I want you to add
+to tell the model, I want you to add
+ 
+to tell the model, I want you to add
+these architectural decisions
+these architectural decisions
+ 
+these architectural decisions
+in an architecture.md
+in an architecture.md
+ 
+in an architecture.md
+file. And I'm doing this so that as I'm
+file. And I'm doing this so that as I'm
+ 
+file. And I'm doing this so that as I'm
+working, it's always referencing the
+working, it's always referencing the
+ 
+working, it's always referencing the
+architectural decisions that we've made.
+architectural decisions that we've made.
+ 
+architectural decisions that we've made.
+Okay, great. The agent has created this
+Okay, great. The agent has created this
+ 
+Okay, great. The agent has created this
+file. And if we go into it right here,
+file. And if we go into it right here,
+ 
+file. And if we go into it right here,
+we can see it's going to be layered
+we can see it's going to be layered
+ 
+we can see it's going to be layered
+architecture. We're using provider and
+architecture. We're using provider and
+ 
+architecture. We're using provider and
+we've got some data regarding the file
+we've got some data regarding the file
+ 
+we've got some data regarding the file
+structure. Okay, that's beautiful. So,
+structure. Okay, that's beautiful. So,
+ 
+structure. Okay, that's beautiful. So,
+we've got this project set up and let's
+we've got this project set up and let's
+ 
+we've got this project set up and let's
+say we wanted to build out another
+say we wanted to build out another
+ 
+say we wanted to build out another
+feature. Now, of course, I could ask the
+feature. Now, of course, I could ask the
+ 
+feature. Now, of course, I could ask the
+agent to do this or I can do some of the
+agent to do this or I can do some of the
+ 
+agent to do this or I can do some of the
+work myself. So, let's say I want to add
+work myself. So, let's say I want to add
+ 
+work myself. So, let's say I want to add
+a feature for a new motivational quote
+a feature for a new motivational quote
+ 
+a feature for a new motivational quote
+each day. Well, first I would need to go
+each day. Well, first I would need to go
+ 
+each day. Well, first I would need to go
+into my services to add a quote service.
+into my services to add a quote service.
+ 
+into my services to add a quote service.
+So, I can just go into here and I can
+So, I can just go into here and I can
+ 
+So, I can just go into here and I can
+rightclick on service. I'm going to add
+rightclick on service. I'm going to add
+ 
+rightclick on service. I'm going to add
+a file right here and I'm going to call
+a file right here and I'm going to call
+ 
+a file right here and I'm going to call
+it quote service.dart. Then I'm going to
+it quote service.dart. Then I'm going to
+ 
+it quote service.dart. Then I'm going to
+need a provider for that. So let's add a
+need a provider for that. So let's add a
+ 
+need a provider for that. So let's add a
+file here for our quote provider.
+file here for our quote provider.
+ 
+file here for our quote provider.
+And finally a widget for this. And I'll
+And finally a widget for this. And I'll
+ 
+And finally a widget for this. And I'll
+just do the same thing. Daily quote
+just do the same thing. Daily quote
+ 
+just do the same thing. Daily quote
+card. Now obviously the next step I
+card. Now obviously the next step I
+ 
+card. Now obviously the next step I
+would want to go into my main.dart and
+would want to go into my main.dart and
+ 
+would want to go into my main.dart and
+add this to the multi-provider. I would
+add this to the multi-provider. I would
+ 
+add this to the multi-provider. I would
+need to add that new widget on our home
+need to add that new widget on our home
+ 
+need to add that new widget on our home
+screen. But you can see the pattern of
+screen. But you can see the pattern of
+ 
+screen. But you can see the pattern of
+how we would build here in a way that's
+how we would build here in a way that's
+ 
+how we would build here in a way that's
+scalable and maintainable. Not just
+scalable and maintainable. Not just
+ 
+scalable and maintainable. Not just
+passing off one prompt to build the
+passing off one prompt to build the
+ 
+passing off one prompt to build the
+whole app. So let's take another example
+whole app. So let's take another example
+ 
+whole app. So let's take another example
+and this time let's do a slightly more
+and this time let's do a slightly more
+ 
+and this time let's do a slightly more
+complex architecture and slightly more
+complex architecture and slightly more
+ 
+complex architecture and slightly more
+opinionated decisions here. So we're
+opinionated decisions here. So we're
+ 
+opinionated decisions here. So we're
+going to do another habit tracker and
+going to do another habit tracker and
+ 
+going to do another habit tracker and
+it's going to be habit complex. Let's
+it's going to be habit complex. Let's
+ 
+it's going to be habit complex. Let's
+create that project.
+create that project.
+ 
+create that project.
+Okay. So for this app I'm going to say I
+Okay. So for this app I'm going to say I
+ 
+Okay. So for this app I'm going to say I
+want to build a habit tracker using
+want to build a habit tracker using
+ 
+want to build a habit tracker using
+featurebased architecture. I'm going to
+featurebased architecture. I'm going to
+ 
+featurebased architecture. I'm going to
+use riverpod for state management. Go
+use riverpod for state management. Go
+ 
+use riverpod for state management. Go
+router for routing. Do for networking.
+router for routing. Do for networking.
+ 
+router for routing. Do for networking.
+Freeze and JSON annotation for data
+Freeze and JSON annotation for data
+ 
+Freeze and JSON annotation for data
+modeling and serialization. shared
+modeling and serialization. shared
+ 
+modeling and serialization. shared
+preferences for simple storage and Intel
+preferences for simple storage and Intel
+ 
+preferences for simple storage and Intel
+for internationalization and
+for internationalization and
+ 
+for internationalization and
+localization. Now, same thing as before,
+localization. Now, same thing as before,
+ 
+localization. Now, same thing as before,
+I don't want you to write any of the
+I don't want you to write any of the
+ 
+I don't want you to write any of the
+code, just create the files and folders
+code, just create the files and folders
+ 
+code, just create the files and folders
+and add dependencies to the pubspec.
+and add dependencies to the pubspec.
+ 
+and add dependencies to the pubspec.
+Okay, great. Now, let's just add the
+Okay, great. Now, let's just add the
+ 
+Okay, great. Now, let's just add the
+architectural diagram and send it off.
+architectural diagram and send it off.
+ 
+architectural diagram and send it off.
+There we go. Adding all the
+There we go. Adding all the
+ 
+There we go. Adding all the
+dependencies. That looks great. Checking
+dependencies. That looks great. Checking
+ 
+dependencies. That looks great. Checking
+the pubspec. Okay, that's great. Let's
+the pubspec. Okay, that's great. Let's
+ 
+the pubspec. Okay, that's great. Let's
+check out the file structure. We've got
+check out the file structure. We've got
+ 
+check out the file structure. We've got
+our features, just one feature for now.
+our features, just one feature for now.
+ 
+our features, just one feature for now.
+Our posts with our three layers right
+Our posts with our three layers right
+ 
+Our posts with our three layers right
+here. That looks beautiful. Now, if I
+here. That looks beautiful. Now, if I
+ 
+here. That looks beautiful. Now, if I
+were to continue working on this
+were to continue working on this
+ 
+were to continue working on this
+project, I would probably delegate the
+project, I would probably delegate the
+ 
+project, I would probably delegate the
+agent to configuring the basic routing,
+agent to configuring the basic routing,
+ 
+agent to configuring the basic routing,
+setting up provider scope, then maybe I
+setting up provider scope, then maybe I
+ 
+setting up provider scope, then maybe I
+would focus on the domain layer of our
+would focus on the domain layer of our
+ 
+would focus on the domain layer of our
+first feature habits. And once again,
+first feature habits. And once again,
+ 
+first feature habits. And once again,
+the idea is working in small, iterative,
+the idea is working in small, iterative,
+ 
+the idea is working in small, iterative,
+and testable steps. So the big idea is
+and testable steps. So the big idea is
+ 
+and testable steps. So the big idea is
+that by prompting Dreamflow with
+that by prompting Dreamflow with
+ 
+that by prompting Dreamflow with
+specific architectural patterns and
+specific architectural patterns and
+ 
+specific architectural patterns and
+libraries, we've laid the groundwork for
+libraries, we've laid the groundwork for
+ 
+libraries, we've laid the groundwork for
+maintainable production applications,
+maintainable production applications,
+ 
+maintainable production applications,
+not just throwaway prototypes. This
+not just throwaway prototypes. This
+ 
+not just throwaway prototypes. This
+isn't vibe coding and it isn't magic.
+isn't vibe coding and it isn't magic.
+ 
+isn't vibe coding and it isn't magic.
+These are powerful force multipliers,
+These are powerful force multipliers,
+ 
+These are powerful force multipliers,
+but their output is a direct reflection
+but their output is a direct reflection
+ 
+but their output is a direct reflection
+of your input. A vague prompt gets you a
+of your input. A vague prompt gets you a
+ 
+of your input. A vague prompt gets you a
+vague result. A professional,
+vague result. A professional,
+ 
+vague result. A professional,
+architecturally aware prompt gets you a
+architecturally aware prompt gets you a
+ 
+architecturally aware prompt gets you a
+professional codebase. And this
+professional codebase. And this
+ 
+professional codebase. And this
+fundamentally elevates your role. You
+fundamentally elevates your role. You
+ 
+fundamentally elevates your role. You
+spend less time on the tedious setup and
+spend less time on the tedious setup and
+ 
+spend less time on the tedious setup and
+more time on what really matters, the
+more time on what really matters, the
+ 
+more time on what really matters, the
+high-level design and the core logic of
+high-level design and the core logic of
+ 
+high-level design and the core logic of
+your app. It shifts the essential skill
+your app. It shifts the essential skill
+ 
+your app. It shifts the essential skill
+from just knowing how to code to knowing
+from just knowing how to code to knowing
+ 
+from just knowing how to code to knowing
+how to communicate a complex system. So
+how to communicate a complex system. So
+ 
+how to communicate a complex system. So
+remember this process. Think like an
+remember this process. Think like an
+ 
+remember this process. Think like an
+architect. prompt in clear iterative
+architect. prompt in clear iterative
+ 
+architect. prompt in clear iterative
+steps and review the output constantly.
+steps and review the output constantly.
+ 
+steps and review the output constantly.
+Treat the AI agent not like a magician,
+Treat the AI agent not like a magician,
+ 
+Treat the AI agent not like a magician,
+but like a junior developer who's fast
+but like a junior developer who's fast
+ 
+but like a junior developer who's fast
+and smart, but needs your direction and
+and smart, but needs your direction and
+ 
+and smart, but needs your direction and
+review. You are the lead architect.
+review. You are the lead architect.
+ 
+review. You are the lead architect.
+Mastering this conversation is a new
+Mastering this conversation is a new
+ 
+Mastering this conversation is a new
+essential skill for developers, and it
+essential skill for developers, and it
+ 
+essential skill for developers, and it
+will save you countless hours of
+will save you countless hours of
+ 
+will save you countless hours of
+refactoring down the line. Thanks for
+refactoring down the line. Thanks for
+ 
+refactoring down the line. Thanks for
+watching the video, and we'll see you in
+watching the video, and we'll see you in
+ 
+watching the video, and we'll see you in
+the next one.
+the next one.
+ 
+the next one.
+[Music]

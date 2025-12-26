@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649456-Build_a_Full_Game_with_AI_Step_by_Step___Tutorial
+Title: Build a Full Game with AI Step by Step | Tutorial
+URL: https://www.youtube.com/watch?v=xjNoAT8Xh-Q
+Index: 7 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649456-Build_a_Full_Game_with_AI_Step_by_Step___Tutorial.mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649456-Build_a_Full_Game_with_AI_Step_by_Step___Tutorial_keyframes (     723 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649456-Build_a_Full_Game_with_AI_Step_by_Step___Tutorial_keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:58:22 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649456-Build_a_Full_Game_with_AI_Step_by_Step___Tutorial_keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:kre8tions/theme.dart';
 import 'package:kre8tions/screens/home_page.dart';
 import 'package:kre8tions/services/app_state_manager.dart';
+import 'package:kre8tions/services/ide_inspector_service.dart';
+import 'package:kre8tions/widgets/precise_widget_selector.dart';
 import 'package:kre8tions/utils/performance_monitor.dart';
 
 void main() {
@@ -18,6 +21,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final AppStateManager _stateManager = AppStateManager();
+  final IDEInspectorService _ideInspector = IDEInspectorService();
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +34,23 @@ class _MyAppState extends State<MyApp> {
           theme: lightTheme,
           darkTheme: darkTheme,
           themeMode: ThemeMode.dark,
-          home: HomePage(stateManager: _stateManager),
+          home: Focus(
+            autofocus: true,
+            onKeyEvent: (node, event) {
+              // Global keyboard shortcut: Ctrl+Shift+I to toggle IDE inspector
+              if (event is KeyDownEvent &&
+                  event.logicalKey == LogicalKeyboardKey.keyI &&
+                  HardwareKeyboard.instance.isControlPressed &&
+                  HardwareKeyboard.instance.isShiftPressed) {
+                _ideInspector.toggle();
+                return KeyEventResult.handled;
+              }
+              return KeyEventResult.ignored;
+            },
+            child: PreciseWidgetSelector(
+              child: HomePage(stateManager: _stateManager),
+            ),
+          ),
         );
       },
     );

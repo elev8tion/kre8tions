@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates
+Title: New Features: Properties Panel, Theme Module, Agent Updates
+URL: https://www.youtube.com/watch?v=Htt_-fsu0mo
+Index: 10 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates.mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes (     208 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:59:21 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

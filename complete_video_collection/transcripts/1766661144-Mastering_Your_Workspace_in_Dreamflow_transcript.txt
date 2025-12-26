@@ -1,0 +1,466 @@
+
+In this video, I want to show you how to
+In this video, I want to show you how to
+ 
+In this video, I want to show you how to
+organize your panels in DreamFlow to
+organize your panels in DreamFlow to
+ 
+organize your panels in DreamFlow to
+create the most efficient workspace for
+create the most efficient workspace for
+ 
+create the most efficient workspace for
+your needs. Now, this idea is actually
+your needs. Now, this idea is actually
+ 
+your needs. Now, this idea is actually
+central to our design philosophy of
+central to our design philosophy of
+ 
+central to our design philosophy of
+Dreamflow itself because we believe that
+Dreamflow itself because we believe that
+ 
+Dreamflow itself because we believe that
+every modern developer should have three
+every modern developer should have three
+ 
+every modern developer should have three
+types of tools or surfaces readily
+types of tools or surfaces readily
+ 
+types of tools or surfaces readily
+available. A code editor, a visual
+available. A code editor, a visual
+ 
+available. A code editor, a visual
+interface, and an AI prompt for an AI
+interface, and an AI prompt for an AI
+ 
+interface, and an AI prompt for an AI
+agent. Now, depending on the task and
+agent. Now, depending on the task and
+ 
+agent. Now, depending on the task and
+your preferences, you may want to
+your preferences, you may want to
+ 
+your preferences, you may want to
+interact directly with the code or work
+interact directly with the code or work
+ 
+interact directly with the code or work
+with a visual properties panel or select
+with a visual properties panel or select
+ 
+with a visual properties panel or select
+widgets from your app itself to be able
+widgets from your app itself to be able
+ 
+widgets from your app itself to be able
+to change them or to chat with an AI
+to change them or to chat with an AI
+ 
+to change them or to chat with an AI
+agent to make the changes itself. So, we
+agent to make the changes itself. So, we
+ 
+agent to make the changes itself. So, we
+designed Dreamflow not only to provide
+designed Dreamflow not only to provide
+ 
+designed Dreamflow not only to provide
+these three surfaces, but also to give
+these three surfaces, but also to give
+ 
+these three surfaces, but also to give
+you the freedom to show and hide them
+you the freedom to show and hide them
+ 
+you the freedom to show and hide them
+based on what you're working on. So,
+based on what you're working on. So,
+ 
+based on what you're working on. So,
+let's jump in and check this out. So
+let's jump in and check this out. So
+ 
+let's jump in and check this out. So
+when you jump into DreamFlow, you're
+when you jump into DreamFlow, you're
+ 
+when you jump into DreamFlow, you're
+going to see something like this
+going to see something like this
+ 
+going to see something like this
+interface right here. Now there are two
+interface right here. Now there are two
+ 
+interface right here. Now there are two
+main ways to show and hide different
+main ways to show and hide different
+ 
+main ways to show and hide different
+surfaces depending on what you need. So
+surfaces depending on what you need. So
+ 
+surfaces depending on what you need. So
+the first way is up here with these
+the first way is up here with these
+ 
+the first way is up here with these
+three options. So if I toggle this one,
+three options. So if I toggle this one,
+ 
+three options. So if I toggle this one,
+this will show this module or widget
+this will show this module or widget
+ 
+this will show this module or widget
+tree option over here. Now, if you have
+tree option over here. Now, if you have
+ 
+tree option over here. Now, if you have
+other modules open like a Firebase or a
+other modules open like a Firebase or a
+ 
+other modules open like a Firebase or a
+Superbase or your assets panel right
+Superbase or your assets panel right
+ 
+Superbase or your assets panel right
+here, this will collapse that as well.
+here, this will collapse that as well.
+ 
+here, this will collapse that as well.
+But most often, you're going to have
+But most often, you're going to have
+ 
+But most often, you're going to have
+this widget tree panel open. Okay. The
+this widget tree panel open. Okay. The
+ 
+this widget tree panel open. Okay. The
+second one is your properties panel. So,
+second one is your properties panel. So,
+ 
+second one is your properties panel. So,
+this is contextual. So, whatever widget
+this is contextual. So, whatever widget
+ 
+this is contextual. So, whatever widget
+you have selected, you'll see the
+you have selected, you'll see the
+ 
+you have selected, you'll see the
+properties of that widget populate here.
+properties of that widget populate here.
+ 
+properties of that widget populate here.
+And then finally, this third option, you
+And then finally, this third option, you
+ 
+And then finally, this third option, you
+have your AI agent panel. Now to show or
+have your AI agent panel. Now to show or
+ 
+have your AI agent panel. Now to show or
+hide these of course you can just click
+hide these of course you can just click
+ 
+hide these of course you can just click
+these on or off. We also have shortcut
+these on or off. We also have shortcut
+ 
+these on or off. We also have shortcut
+keys. So you have option two, three and
+keys. So you have option two, three and
+ 
+keys. So you have option two, three and
+four to open and close these. So that's
+four to open and close these. So that's
+ 
+four to open and close these. So that's
+the first way. The second way is to open
+the first way. The second way is to open
+ 
+the first way. The second way is to open
+and close them with options within the
+and close them with options within the
+ 
+and close them with options within the
+panel itself. So you've got these X
+panel itself. So you've got these X
+ 
+panel itself. So you've got these X
+marks right here just as you would
+marks right here just as you would
+ 
+marks right here just as you would
+expect. But also when they're closed you
+expect. But also when they're closed you
+ 
+expect. But also when they're closed you
+can see that you've got these bars right
+can see that you've got these bars right
+ 
+can see that you've got these bars right
+here that you can just click to open
+here that you can just click to open
+ 
+here that you can just click to open
+them just like that. So if you want one
+them just like that. So if you want one
+ 
+them just like that. So if you want one
+or two or all three open, you can just
+or two or all three open, you can just
+ 
+or two or all three open, you can just
+toggle them however you want. Okay. So
+toggle them however you want. Okay. So
+ 
+toggle them however you want. Okay. So
+those are the sort of two main ways to
+those are the sort of two main ways to
+ 
+those are the sort of two main ways to
+manage your panels. But in this code
+manage your panels. But in this code
+ 
+manage your panels. But in this code
+view right here, there's some additional
+view right here, there's some additional
+ 
+view right here, there's some additional
+options you have. So right now I'm just
+options you have. So right now I'm just
+ 
+options you have. So right now I'm just
+going to keep everything collapsed like
+going to keep everything collapsed like
+ 
+going to keep everything collapsed like
+that. And I want to open up code view
+that. And I want to open up code view
+ 
+that. And I want to open up code view
+right here. And you'll probably see
+right here. And you'll probably see
+ 
+right here. And you'll probably see
+something like this. So you'll have your
+something like this. So you'll have your
+ 
+something like this. So you'll have your
+files and folders, your file explorer
+files and folders, your file explorer
+ 
+files and folders, your file explorer
+view right here, and then you'll have
+view right here, and then you'll have
+ 
+view right here, and then you'll have
+the actual code of whatever file you
+the actual code of whatever file you
+ 
+the actual code of whatever file you
+have open on the right. Now, I find
+have open on the right. Now, I find
+ 
+have open on the right. Now, I find
+myself most often wanting to see a
+myself most often wanting to see a
+ 
+myself most often wanting to see a
+preview of the app and my code at once.
+preview of the app and my code at once.
+ 
+preview of the app and my code at once.
+And that's where this split option comes
+And that's where this split option comes
+ 
+And that's where this split option comes
+in right here. That is, it's split
+in right here. That is, it's split
+ 
+in right here. That is, it's split
+between my code view over here on the
+between my code view over here on the
+ 
+between my code view over here on the
+left and the preview over here. Now, if
+left and the preview over here. Now, if
+ 
+left and the preview over here. Now, if
+you want your preview on the left and
+you want your preview on the left and
+ 
+you want your preview on the left and
+your code on the right, that's what this
+your code on the right, that's what this
+ 
+your code on the right, that's what this
+button is here for. And so, you can just
+button is here for. And so, you can just
+ 
+button is here for. And so, you can just
+swap those. Now, most of the time, what
+swap those. Now, most of the time, what
+ 
+swap those. Now, most of the time, what
+you're going to want is the preview and
+you're going to want is the preview and
+ 
+you're going to want is the preview and
+the actual code that you're going to be
+the actual code that you're going to be
+ 
+the actual code that you're going to be
+working on most of the time, and then
+working on most of the time, and then
+ 
+working on most of the time, and then
+you just switch between files. So, that
+you just switch between files. So, that
+ 
+you just switch between files. So, that
+is to say, you don't need this visual
+is to say, you don't need this visual
+ 
+is to say, you don't need this visual
+space of your file explorer. So, you can
+space of your file explorer. So, you can
+ 
+space of your file explorer. So, you can
+just close that up right there. And
+just close that up right there. And
+ 
+just close that up right there. And
+then, if you want to change the space
+then, if you want to change the space
+ 
+then, if you want to change the space
+between these, you can just pull those.
+between these, you can just pull those.
+ 
+between these, you can just pull those.
+And that works on any of these files. So
+And that works on any of these files. So
+ 
+And that works on any of these files. So
+maybe I want to have my agent open. So
+maybe I want to have my agent open. So
+ 
+maybe I want to have my agent open. So
+I've got my preview, I've got my code,
+I've got my preview, I've got my code,
+ 
+I've got my preview, I've got my code,
+and then I've got my agent. And you can
+and then I've got my agent. And you can
+ 
+and then I've got my agent. And you can
+adjust the difference like that. Okay.
+adjust the difference like that. Okay.
+ 
+adjust the difference like that. Okay.
+So that's your code view. But remember,
+So that's your code view. But remember,
+ 
+So that's your code view. But remember,
+when you're in this nested code view, so
+when you're in this nested code view, so
+ 
+when you're in this nested code view, so
+you can have your code here. You can
+you can have your code here. You can
+ 
+you can have your code here. You can
+have your split view. You can have your
+have your split view. You can have your
+ 
+have your split view. You can have your
+files open up just like that. Of course,
+files open up just like that. Of course,
+ 
+files open up just like that. Of course,
+you can combine that with any of these
+you can combine that with any of these
+ 
+you can combine that with any of these
+up here. So if I open it up like that,
+up here. So if I open it up like that,
+ 
+up here. So if I open it up like that,
+now I have my widget tree. Let's scale
+now I have my widget tree. Let's scale
+ 
+now I have my widget tree. Let's scale
+this down so it's not budging up against
+this down so it's not budging up against
+ 
+this down so it's not budging up against
+the edges. You can change the size of
+the edges. You can change the size of
+ 
+the edges. You can change the size of
+your widget tree like that. Now, of
+your widget tree like that. Now, of
+ 
+your widget tree like that. Now, of
+course, I'm having trouble seeing my
+course, I'm having trouble seeing my
+ 
+course, I'm having trouble seeing my
+code right here. So, I can collapse my
+code right here. So, I can collapse my
+ 
+code right here. So, I can collapse my
+file tree right there. And that works
+file tree right there. And that works
+ 
+file tree right there. And that works
+great. So, that's how to manage your
+great. So, that's how to manage your
+ 
+great. So, that's how to manage your
+workspace. So, you can make it efficient
+workspace. So, you can make it efficient
+ 
+workspace. So, you can make it efficient
+and tailor it to whatever needs and
+and tailor it to whatever needs and
+ 
+and tailor it to whatever needs and
+development styles you have. Let us know
+development styles you have. Let us know
+ 
+development styles you have. Let us know
+if you have any questions and you can
+if you have any questions and you can
+ 
+if you have any questions and you can
+submit feedback right here. So, if
+submit feedback right here. So, if
+ 
+submit feedback right here. So, if
+there's a bug or a feature request or if
+there's a bug or a feature request or if
+ 
+there's a bug or a feature request or if
+there's another style of working that
+there's another style of working that
+ 
+there's another style of working that
+you would like to see in DreamFlow, we'd
+you would like to see in DreamFlow, we'd
+ 
+you would like to see in DreamFlow, we'd
+love to hear from you and we'll see you
+love to hear from you and we'll see you
+ 
+love to hear from you and we'll see you
+in the next video.

@@ -1,0 +1,2458 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661159-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach.en.srt",
+    "total_frames": 306,
+    "total_transcript_segments": 514
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0001.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0002.png",
+      "transcript": "My name is John and this is Dreamflow My name is John and this is Dreamflow Tips, where we give evidence-based",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0003.png",
+      "transcript": "My name is John and this is Dreamflow My name is John and this is Dreamflow Tips, where we give evidence-based Tips, where we give evidence-based Tips, where we give evidence-based prompting and AI coding tips. Now, you",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0004.png",
+      "transcript": "My name is John and this is Dreamflow Tips, where we give evidence-based Tips, where we give evidence-based Tips, where we give evidence-based prompting and AI coding tips. Now, you prompting and AI coding tips. Now, you prompting and AI coding tips. Now, you may have heard the advice from an AI",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0005.png",
+      "transcript": "Tips, where we give evidence-based prompting and AI coding tips. Now, you prompting and AI coding tips. Now, you prompting and AI coding tips. Now, you may have heard the advice from an AI may have heard the advice from an AI may have heard the advice from an AI influencer that after you ask your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0006.png",
+      "transcript": "prompting and AI coding tips. Now, you may have heard the advice from an AI may have heard the advice from an AI may have heard the advice from an AI influencer that after you ask your influencer that after you ask your influencer that after you ask your coding agent to do something, you should",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0007.png",
+      "transcript": "may have heard the advice from an AI influencer that after you ask your influencer that after you ask your influencer that after you ask your coding agent to do something, you should coding agent to do something, you should coding agent to do something, you should say something like, \"If you're less than",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0008.png",
+      "transcript": "influencer that after you ask your coding agent to do something, you should coding agent to do something, you should coding agent to do something, you should say something like, \"If you're less than say something like, \"If you're less than say something like, \"If you're less than 95% confident you can complete this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0009.png",
+      "transcript": "coding agent to do something, you should say something like, \"If you're less than say something like, \"If you're less than say something like, \"If you're less than 95% confident you can complete this 95% confident you can complete this 95% confident you can complete this task, ask clarifying questions until you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0010.png",
+      "transcript": "say something like, \"If you're less than 95% confident you can complete this 95% confident you can complete this 95% confident you can complete this task, ask clarifying questions until you",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0011.png",
+      "transcript": "95% confident you can complete this task, ask clarifying questions until you task, ask clarifying questions until you task, ask clarifying questions until you reach that confidence level.\" Now, this",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0012.png",
+      "transcript": "95% confident you can complete this task, ask clarifying questions until you task, ask clarifying questions until you task, ask clarifying questions until you reach that confidence level.\" Now, this reach that confidence level.\" Now, this reach that confidence level.\" Now, this advice is partially right and partially",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0013.png",
+      "transcript": "task, ask clarifying questions until you reach that confidence level.\" Now, this reach that confidence level.\" Now, this reach that confidence level.\" Now, this advice is partially right and partially",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0014.png",
+      "transcript": "reach that confidence level.\" Now, this advice is partially right and partially advice is partially right and partially advice is partially right and partially wrong. And I know this because these",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0015.png",
+      "transcript": "reach that confidence level.\" Now, this advice is partially right and partially advice is partially right and partially advice is partially right and partially wrong. And I know this because these wrong. And I know this because these wrong. And I know this because these kinds of queries have been studied. So",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0016.png",
+      "transcript": "advice is partially right and partially wrong. And I know this because these wrong. And I know this because these wrong. And I know this because these kinds of queries have been studied. So kinds of queries have been studied. So kinds of queries have been studied. So in this video, I'm going to show you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0017.png",
+      "transcript": "wrong. And I know this because these kinds of queries have been studied. So kinds of queries have been studied. So kinds of queries have been studied. So in this video, I'm going to show you in this video, I'm going to show you in this video, I'm going to show you those studies and based on those studies",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0018.png",
+      "transcript": "kinds of queries have been studied. So in this video, I'm going to show you in this video, I'm going to show you in this video, I'm going to show you those studies and based on those studies those studies and based on those studies those studies and based on those studies give you the best recommendations for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0019.png",
+      "transcript": "in this video, I'm going to show you those studies and based on those studies those studies and based on those studies those studies and based on those studies give you the best recommendations for give you the best recommendations for give you the best recommendations for improving your prompting for coding",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0020.png",
+      "transcript": "those studies and based on those studies give you the best recommendations for give you the best recommendations for give you the best recommendations for improving your prompting for coding improving your prompting for coding improving your prompting for coding agents.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0021.png",
+      "transcript": "give you the best recommendations for improving your prompting for coding improving your prompting for coding improving your prompting for coding agents.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0022.png",
+      "transcript": "improving your prompting for coding agents.",
+      "segment_count": 1
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 44.0,
+      "timestamp_formatted": "00:00:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0023.png",
+      "transcript": "improving your prompting for coding agents. The idea of instructing a large language The idea of instructing a large language model to ask follow-up questions is a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 46.0,
+      "timestamp_formatted": "00:00:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0024.png",
+      "transcript": "The idea of instructing a large language The idea of instructing a large language model to ask follow-up questions is a model to ask follow-up questions is a model to ask follow-up questions is a significant improvement in prompt",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 48.0,
+      "timestamp_formatted": "00:00:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0025.png",
+      "transcript": "The idea of instructing a large language model to ask follow-up questions is a model to ask follow-up questions is a model to ask follow-up questions is a significant improvement in prompt significant improvement in prompt significant improvement in prompt engineering. The concept assumes that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:00:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0026.png",
+      "transcript": "model to ask follow-up questions is a significant improvement in prompt significant improvement in prompt significant improvement in prompt engineering. The concept assumes that engineering. The concept assumes that engineering. The concept assumes that every response from a model has an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 52.0,
+      "timestamp_formatted": "00:00:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0027.png",
+      "transcript": "significant improvement in prompt engineering. The concept assumes that engineering. The concept assumes that engineering. The concept assumes that every response from a model has an every response from a model has an every response from a model has an implicit confidence value or the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 54.0,
+      "timestamp_formatted": "00:00:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0028.png",
+      "transcript": "engineering. The concept assumes that every response from a model has an every response from a model has an every response from a model has an implicit confidence value or the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 56.0,
+      "timestamp_formatted": "00:00:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0029.png",
+      "transcript": "every response from a model has an implicit confidence value or the implicit confidence value or the implicit confidence value or the question has a certain level of",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 58.0,
+      "timestamp_formatted": "00:00:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0030.png",
+      "transcript": "every response from a model has an implicit confidence value or the implicit confidence value or the implicit confidence value or the question has a certain level of question has a certain level of question has a certain level of ambiguity that typically goes",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 60.0,
+      "timestamp_formatted": "00:01:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0031.png",
+      "transcript": "implicit confidence value or the question has a certain level of question has a certain level of question has a certain level of ambiguity that typically goes ambiguity that typically goes ambiguity that typically goes uncaptured. For instance, when you ask",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 62.0,
+      "timestamp_formatted": "00:01:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0032.png",
+      "transcript": "question has a certain level of ambiguity that typically goes ambiguity that typically goes ambiguity that typically goes uncaptured. For instance, when you ask uncaptured. For instance, when you ask uncaptured. For instance, when you ask the model to implement state management",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 64.0,
+      "timestamp_formatted": "00:01:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0033.png",
+      "transcript": "ambiguity that typically goes uncaptured. For instance, when you ask uncaptured. For instance, when you ask uncaptured. For instance, when you ask the model to implement state management the model to implement state management the model to implement state management for a screen, this request breaks down",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 66.0,
+      "timestamp_formatted": "00:01:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0034.png",
+      "transcript": "uncaptured. For instance, when you ask the model to implement state management the model to implement state management the model to implement state management for a screen, this request breaks down",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 68.0,
+      "timestamp_formatted": "00:01:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0035.png",
+      "transcript": "the model to implement state management the model to implement state management for a screen, this request breaks down for a screen, this request breaks down for a screen, this request breaks down into multiple subtasks and the model has",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 70.0,
+      "timestamp_formatted": "00:01:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0036.png",
+      "transcript": "the model to implement state management for a screen, this request breaks down for a screen, this request breaks down for a screen, this request breaks down into multiple subtasks and the model has into multiple subtasks and the model has into multiple subtasks and the model has varying levels of confidence in the best",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 72.0,
+      "timestamp_formatted": "00:01:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0037.png",
+      "transcript": "for a screen, this request breaks down into multiple subtasks and the model has into multiple subtasks and the model has into multiple subtasks and the model has varying levels of confidence in the best",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 74.0,
+      "timestamp_formatted": "00:01:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0038.png",
+      "transcript": "into multiple subtasks and the model has varying levels of confidence in the best varying levels of confidence in the best varying levels of confidence in the best approach for each one. There's an",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 76.0,
+      "timestamp_formatted": "00:01:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0039.png",
+      "transcript": "into multiple subtasks and the model has varying levels of confidence in the best varying levels of confidence in the best varying levels of confidence in the best approach for each one. There's an approach for each one. There's an approach for each one. There's an implicit ambiguity. The underlying",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 78.0,
+      "timestamp_formatted": "00:01:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0040.png",
+      "transcript": "varying levels of confidence in the best approach for each one. There's an approach for each one. There's an approach for each one. There's an implicit ambiguity. The underlying implicit ambiguity. The underlying implicit ambiguity. The underlying principle is that resolving ambiguity",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 80.0,
+      "timestamp_formatted": "00:01:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0041.png",
+      "transcript": "approach for each one. There's an implicit ambiguity. The underlying implicit ambiguity. The underlying implicit ambiguity. The underlying principle is that resolving ambiguity",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 82.0,
+      "timestamp_formatted": "00:01:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0042.png",
+      "transcript": "implicit ambiguity. The underlying principle is that resolving ambiguity principle is that resolving ambiguity principle is that resolving ambiguity before execution is more efficient and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 84.0,
+      "timestamp_formatted": "00:01:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0043.png",
+      "transcript": "implicit ambiguity. The underlying principle is that resolving ambiguity principle is that resolving ambiguity principle is that resolving ambiguity before execution is more efficient and before execution is more efficient and before execution is more efficient and reliable than attempting to generate a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 86.0,
+      "timestamp_formatted": "00:01:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0044.png",
+      "transcript": "principle is that resolving ambiguity before execution is more efficient and before execution is more efficient and before execution is more efficient and reliable than attempting to generate a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 88.0,
+      "timestamp_formatted": "00:01:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0045.png",
+      "transcript": "before execution is more efficient and reliable than attempting to generate a reliable than attempting to generate a reliable than attempting to generate a solution from an underspecified prompt.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 90.0,
+      "timestamp_formatted": "00:01:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0046.png",
+      "transcript": "before execution is more efficient and reliable than attempting to generate a reliable than attempting to generate a reliable than attempting to generate a solution from an underspecified prompt. solution from an underspecified prompt. solution from an underspecified prompt. So let's start with the part of the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 92.0,
+      "timestamp_formatted": "00:01:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0047.png",
+      "transcript": "reliable than attempting to generate a solution from an underspecified prompt. solution from an underspecified prompt. solution from an underspecified prompt. So let's start with the part of the So let's start with the part of the So let's start with the part of the advice that's absolutely right. Asking",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 94.0,
+      "timestamp_formatted": "00:01:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0048.png",
+      "transcript": "solution from an underspecified prompt. So let's start with the part of the So let's start with the part of the So let's start with the part of the advice that's absolutely right. Asking",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 96.0,
+      "timestamp_formatted": "00:01:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0049.png",
+      "transcript": "So let's start with the part of the advice that's absolutely right. Asking advice that's absolutely right. Asking advice that's absolutely right. Asking the model to ask clarifying questions.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 98.0,
+      "timestamp_formatted": "00:01:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0050.png",
+      "transcript": "So let's start with the part of the advice that's absolutely right. Asking advice that's absolutely right. Asking advice that's absolutely right. Asking the model to ask clarifying questions. the model to ask clarifying questions. the model to ask clarifying questions. In the 2023 paper titled large language",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 100.0,
+      "timestamp_formatted": "00:01:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0051.png",
+      "transcript": "advice that's absolutely right. Asking the model to ask clarifying questions. the model to ask clarifying questions. the model to ask clarifying questions. In the 2023 paper titled large language In the 2023 paper titled large language In the 2023 paper titled large language models should ask clarifying questions",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 102.0,
+      "timestamp_formatted": "00:01:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0052.png",
+      "transcript": "the model to ask clarifying questions. In the 2023 paper titled large language In the 2023 paper titled large language In the 2023 paper titled large language models should ask clarifying questions models should ask clarifying questions models should ask clarifying questions to increase confidence in generated",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 104.0,
+      "timestamp_formatted": "00:01:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0053.png",
+      "transcript": "In the 2023 paper titled large language models should ask clarifying questions models should ask clarifying questions models should ask clarifying questions to increase confidence in generated to increase confidence in generated to increase confidence in generated code. makes a powerful argument for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 106.0,
+      "timestamp_formatted": "00:01:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0054.png",
+      "transcript": "models should ask clarifying questions to increase confidence in generated to increase confidence in generated to increase confidence in generated code. makes a powerful argument for code. makes a powerful argument for code. makes a powerful argument for this. The researchers observe that top",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 108.0,
+      "timestamp_formatted": "00:01:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0055.png",
+      "transcript": "to increase confidence in generated code. makes a powerful argument for code. makes a powerful argument for code. makes a powerful argument for this. The researchers observe that top",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 110.0,
+      "timestamp_formatted": "00:01:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0056.png",
+      "transcript": "code. makes a powerful argument for this. The researchers observe that top this. The researchers observe that top this. The researchers observe that top tier human software engineers",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 112.0,
+      "timestamp_formatted": "00:01:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0057.png",
+      "transcript": "code. makes a powerful argument for this. The researchers observe that top this. The researchers observe that top this. The researchers observe that top tier human software engineers tier human software engineers tier human software engineers systematically ask questions to reduce",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 114.0,
+      "timestamp_formatted": "00:01:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0058.png",
+      "transcript": "this. The researchers observe that top tier human software engineers tier human software engineers tier human software engineers systematically ask questions to reduce systematically ask questions to reduce systematically ask questions to reduce ambiguity before writing a single line",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 116.0,
+      "timestamp_formatted": "00:01:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0059.png",
+      "transcript": "tier human software engineers systematically ask questions to reduce systematically ask questions to reduce systematically ask questions to reduce ambiguity before writing a single line ambiguity before writing a single line ambiguity before writing a single line of code. The study proposes that LLMs",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 118.0,
+      "timestamp_formatted": "00:01:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0060.png",
+      "transcript": "systematically ask questions to reduce ambiguity before writing a single line ambiguity before writing a single line ambiguity before writing a single line of code. The study proposes that LLMs",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 120.0,
+      "timestamp_formatted": "00:02:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0061.png",
+      "transcript": "ambiguity before writing a single line of code. The study proposes that LLMs of code. The study proposes that LLMs of code. The study proposes that LLMs should do the same using a communicator",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 122.0,
+      "timestamp_formatted": "00:02:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0062.png",
+      "transcript": "ambiguity before writing a single line of code. The study proposes that LLMs of code. The study proposes that LLMs of code. The study proposes that LLMs should do the same using a communicator should do the same using a communicator should do the same using a communicator agent to interact with the user and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 124.0,
+      "timestamp_formatted": "00:02:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0063.png",
+      "transcript": "of code. The study proposes that LLMs should do the same using a communicator should do the same using a communicator should do the same using a communicator agent to interact with the user and agent to interact with the user and agent to interact with the user and resolve uncertainties before a coder",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 126.0,
+      "timestamp_formatted": "00:02:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0064.png",
+      "transcript": "should do the same using a communicator agent to interact with the user and agent to interact with the user and agent to interact with the user and resolve uncertainties before a coder resolve uncertainties before a coder resolve uncertainties before a coder agent generates the final program. This",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 128.0,
+      "timestamp_formatted": "00:02:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0065.png",
+      "transcript": "agent to interact with the user and resolve uncertainties before a coder resolve uncertainties before a coder resolve uncertainties before a coder agent generates the final program. This",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 130.0,
+      "timestamp_formatted": "00:02:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0066.png",
+      "transcript": "resolve uncertainties before a coder agent generates the final program. This agent generates the final program. This agent generates the final program. This communication first process directly",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 132.0,
+      "timestamp_formatted": "00:02:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0067.png",
+      "transcript": "resolve uncertainties before a coder agent generates the final program. This agent generates the final program. This agent generates the final program. This communication first process directly communication first process directly communication first process directly addresses the primary cause of errors in",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 134.0,
+      "timestamp_formatted": "00:02:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0068.png",
+      "transcript": "agent generates the final program. This communication first process directly communication first process directly communication first process directly addresses the primary cause of errors in addresses the primary cause of errors in addresses the primary cause of errors in AI generated code, unclear or incomplete",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 136.0,
+      "timestamp_formatted": "00:02:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0069.png",
+      "transcript": "communication first process directly addresses the primary cause of errors in addresses the primary cause of errors in addresses the primary cause of errors in AI generated code, unclear or incomplete",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 138.0,
+      "timestamp_formatted": "00:02:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0070.png",
+      "transcript": "addresses the primary cause of errors in AI generated code, unclear or incomplete AI generated code, unclear or incomplete AI generated code, unclear or incomplete user requests. This idea was then tested",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 140.0,
+      "timestamp_formatted": "00:02:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0071.png",
+      "transcript": "addresses the primary cause of errors in AI generated code, unclear or incomplete AI generated code, unclear or incomplete AI generated code, unclear or incomplete user requests. This idea was then tested",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 142.0,
+      "timestamp_formatted": "00:02:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0072.png",
+      "transcript": "AI generated code, unclear or incomplete user requests. This idea was then tested user requests. This idea was then tested user requests. This idea was then tested and validated in a 2025 study called",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 144.0,
+      "timestamp_formatted": "00:02:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0073.png",
+      "transcript": "AI generated code, unclear or incomplete user requests. This idea was then tested user requests. This idea was then tested user requests. This idea was then tested and validated in a 2025 study called and validated in a 2025 study called and validated in a 2025 study called Curiosity by Design, an LLM based coding",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 146.0,
+      "timestamp_formatted": "00:02:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0074.png",
+      "transcript": "user requests. This idea was then tested and validated in a 2025 study called and validated in a 2025 study called and validated in a 2025 study called Curiosity by Design, an LLM based coding",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 148.0,
+      "timestamp_formatted": "00:02:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0075.png",
+      "transcript": "and validated in a 2025 study called Curiosity by Design, an LLM based coding Curiosity by Design, an LLM based coding Curiosity by Design, an LLM based coding assistant asking clarifying questions.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 150.0,
+      "timestamp_formatted": "00:02:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0076.png",
+      "transcript": "and validated in a 2025 study called Curiosity by Design, an LLM based coding Curiosity by Design, an LLM based coding Curiosity by Design, an LLM based coding assistant asking clarifying questions. assistant asking clarifying questions. assistant asking clarifying questions. Researchers built an endto-end system",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 152.0,
+      "timestamp_formatted": "00:02:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0077.png",
+      "transcript": "Curiosity by Design, an LLM based coding assistant asking clarifying questions. assistant asking clarifying questions. assistant asking clarifying questions. Researchers built an endto-end system",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 154.0,
+      "timestamp_formatted": "00:02:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0078.png",
+      "transcript": "assistant asking clarifying questions. Researchers built an endto-end system Researchers built an endto-end system Researchers built an endto-end system that first uses a classifier to detect",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 156.0,
+      "timestamp_formatted": "00:02:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0079.png",
+      "transcript": "assistant asking clarifying questions. Researchers built an endto-end system Researchers built an endto-end system Researchers built an endto-end system that first uses a classifier to detect that first uses a classifier to detect that first uses a classifier to detect if a prompt is ambiguous. If it is, the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 158.0,
+      "timestamp_formatted": "00:02:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0080.png",
+      "transcript": "Researchers built an endto-end system that first uses a classifier to detect that first uses a classifier to detect that first uses a classifier to detect if a prompt is ambiguous. If it is, the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 160.0,
+      "timestamp_formatted": "00:02:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0081.png",
+      "transcript": "that first uses a classifier to detect if a prompt is ambiguous. If it is, the if a prompt is ambiguous. If it is, the if a prompt is ambiguous. If it is, the system doesn't generate code. Instead,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 162.0,
+      "timestamp_formatted": "00:02:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0082.png",
+      "transcript": "that first uses a classifier to detect if a prompt is ambiguous. If it is, the if a prompt is ambiguous. If it is, the if a prompt is ambiguous. If it is, the system doesn't generate code. Instead, system doesn't generate code. Instead, system doesn't generate code. Instead, it uses a fine-tuned LLM to generate a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 164.0,
+      "timestamp_formatted": "00:02:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0083.png",
+      "transcript": "if a prompt is ambiguous. If it is, the system doesn't generate code. Instead, system doesn't generate code. Instead, system doesn't generate code. Instead, it uses a fine-tuned LLM to generate a it uses a fine-tuned LLM to generate a it uses a fine-tuned LLM to generate a highquality clarification question. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 166.0,
+      "timestamp_formatted": "00:02:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0084.png",
+      "transcript": "system doesn't generate code. Instead, it uses a fine-tuned LLM to generate a it uses a fine-tuned LLM to generate a it uses a fine-tuned LLM to generate a highquality clarification question. And",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 168.0,
+      "timestamp_formatted": "00:02:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0085.png",
+      "transcript": "it uses a fine-tuned LLM to generate a highquality clarification question. And highquality clarification question. And highquality clarification question. And a user study confirmed a strong",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 170.0,
+      "timestamp_formatted": "00:02:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0086.png",
+      "transcript": "it uses a fine-tuned LLM to generate a highquality clarification question. And highquality clarification question. And highquality clarification question. And a user study confirmed a strong a user study confirmed a strong a user study confirmed a strong preference for this interactive model",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 172.0,
+      "timestamp_formatted": "00:02:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0087.png",
+      "transcript": "highquality clarification question. And a user study confirmed a strong a user study confirmed a strong a user study confirmed a strong preference for this interactive model preference for this interactive model preference for this interactive model over traditional ones that simply",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 174.0,
+      "timestamp_formatted": "00:02:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0088.png",
+      "transcript": "a user study confirmed a strong preference for this interactive model preference for this interactive model preference for this interactive model over traditional ones that simply over traditional ones that simply over traditional ones that simply guesses the user's intent. Users rated",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 176.0,
+      "timestamp_formatted": "00:02:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0089.png",
+      "transcript": "preference for this interactive model over traditional ones that simply over traditional ones that simply over traditional ones that simply guesses the user's intent. Users rated guesses the user's intent. Users rated guesses the user's intent. Users rated the questions as having a highly",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 178.0,
+      "timestamp_formatted": "00:02:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0090.png",
+      "transcript": "over traditional ones that simply guesses the user's intent. Users rated guesses the user's intent. Users rated guesses the user's intent. Users rated the questions as having a highly the questions as having a highly the questions as having a highly significant, better precision and focus,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 180.0,
+      "timestamp_formatted": "00:03:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0091.png",
+      "transcript": "guesses the user's intent. Users rated the questions as having a highly the questions as having a highly the questions as having a highly significant, better precision and focus, significant, better precision and focus, significant, better precision and focus, which ultimately led to more accurate",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 182.0,
+      "timestamp_formatted": "00:03:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0092.png",
+      "transcript": "the questions as having a highly significant, better precision and focus, significant, better precision and focus, significant, better precision and focus, which ultimately led to more accurate which ultimately led to more accurate which ultimately led to more accurate and helpful code. Okay, but now for the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 184.0,
+      "timestamp_formatted": "00:03:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0093.png",
+      "transcript": "significant, better precision and focus, which ultimately led to more accurate which ultimately led to more accurate which ultimately led to more accurate and helpful code. Okay, but now for the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 186.0,
+      "timestamp_formatted": "00:03:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0094.png",
+      "transcript": "which ultimately led to more accurate and helpful code. Okay, but now for the and helpful code. Okay, but now for the and helpful code. Okay, but now for the part of the advice that's wrong,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 188.0,
+      "timestamp_formatted": "00:03:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0095.png",
+      "transcript": "which ultimately led to more accurate and helpful code. Okay, but now for the and helpful code. Okay, but now for the and helpful code. Okay, but now for the part of the advice that's wrong, part of the advice that's wrong, part of the advice that's wrong, stipulating a confidence value, like",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 190.0,
+      "timestamp_formatted": "00:03:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0096.png",
+      "transcript": "and helpful code. Okay, but now for the part of the advice that's wrong, part of the advice that's wrong, part of the advice that's wrong, stipulating a confidence value, like",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 192.0,
+      "timestamp_formatted": "00:03:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0097.png",
+      "transcript": "part of the advice that's wrong, stipulating a confidence value, like stipulating a confidence value, like stipulating a confidence value, like 95%. 95%. 95%. This instruction is based on a flawed",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 194.0,
+      "timestamp_formatted": "00:03:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0098.png",
+      "transcript": "part of the advice that's wrong, stipulating a confidence value, like stipulating a confidence value, like stipulating a confidence value, like 95%. 95%. 95%. This instruction is based on a flawed",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 196.0,
+      "timestamp_formatted": "00:03:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0099.png",
+      "transcript": "95%. This instruction is based on a flawed This instruction is based on a flawed This instruction is based on a flawed premise, as shown in a 2025 study,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 198.0,
+      "timestamp_formatted": "00:03:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0100.png",
+      "transcript": "95%. This instruction is based on a flawed This instruction is based on a flawed This instruction is based on a flawed premise, as shown in a 2025 study, premise, as shown in a 2025 study, premise, as shown in a 2025 study, calibration and correctness of language",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 200.0,
+      "timestamp_formatted": "00:03:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0101.png",
+      "transcript": "This instruction is based on a flawed premise, as shown in a 2025 study, premise, as shown in a 2025 study, premise, as shown in a 2025 study, calibration and correctness of language calibration and correctness of language calibration and correctness of language models for code. The researchers found",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 202.0,
+      "timestamp_formatted": "00:03:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0102.png",
+      "transcript": "premise, as shown in a 2025 study, calibration and correctness of language calibration and correctness of language calibration and correctness of language models for code. The researchers found",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 204.0,
+      "timestamp_formatted": "00:03:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0103.png",
+      "transcript": "calibration and correctness of language models for code. The researchers found models for code. The researchers found models for code. The researchers found that an LLM's raw internal confidence is",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 206.0,
+      "timestamp_formatted": "00:03:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0104.png",
+      "transcript": "calibration and correctness of language models for code. The researchers found models for code. The researchers found models for code. The researchers found that an LLM's raw internal confidence is that an LLM's raw internal confidence is that an LLM's raw internal confidence is a poor predictor of actual correctness.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 208.0,
+      "timestamp_formatted": "00:03:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0105.png",
+      "transcript": "models for code. The researchers found that an LLM's raw internal confidence is that an LLM's raw internal confidence is that an LLM's raw internal confidence is a poor predictor of actual correctness.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 210.0,
+      "timestamp_formatted": "00:03:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0106.png",
+      "transcript": "that an LLM's raw internal confidence is a poor predictor of actual correctness. a poor predictor of actual correctness. a poor predictor of actual correctness. In their tests, even when a model's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 212.0,
+      "timestamp_formatted": "00:03:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0107.png",
+      "transcript": "that an LLM's raw internal confidence is a poor predictor of actual correctness. a poor predictor of actual correctness. a poor predictor of actual correctness. In their tests, even when a model's In their tests, even when a model's In their tests, even when a model's average token probability exceeded 90%,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 214.0,
+      "timestamp_formatted": "00:03:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0108.png",
+      "transcript": "a poor predictor of actual correctness. In their tests, even when a model's In their tests, even when a model's In their tests, even when a model's average token probability exceeded 90%, average token probability exceeded 90%, average token probability exceeded 90%, so it was very sure its solution was",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 216.0,
+      "timestamp_formatted": "00:03:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0109.png",
+      "transcript": "In their tests, even when a model's average token probability exceeded 90%, average token probability exceeded 90%, average token probability exceeded 90%, so it was very sure its solution was so it was very sure its solution was so it was very sure its solution was correct, the generated code only passed",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 218.0,
+      "timestamp_formatted": "00:03:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0110.png",
+      "transcript": "average token probability exceeded 90%, so it was very sure its solution was so it was very sure its solution was so it was very sure its solution was correct, the generated code only passed",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 220.0,
+      "timestamp_formatted": "00:03:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0111.png",
+      "transcript": "so it was very sure its solution was correct, the generated code only passed correct, the generated code only passed correct, the generated code only passed unit tests 52% of the time. This severe",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 222.0,
+      "timestamp_formatted": "00:03:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0112.png",
+      "transcript": "so it was very sure its solution was correct, the generated code only passed correct, the generated code only passed correct, the generated code only passed unit tests 52% of the time. This severe",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 224.0,
+      "timestamp_formatted": "00:03:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0113.png",
+      "transcript": "correct, the generated code only passed unit tests 52% of the time. This severe unit tests 52% of the time. This severe unit tests 52% of the time. This severe misalignment is known as the calibration",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 226.0,
+      "timestamp_formatted": "00:03:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0114.png",
+      "transcript": "correct, the generated code only passed unit tests 52% of the time. This severe unit tests 52% of the time. This severe unit tests 52% of the time. This severe misalignment is known as the calibration misalignment is known as the calibration misalignment is known as the calibration problem. The study concludes that an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 228.0,
+      "timestamp_formatted": "00:03:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0115.png",
+      "transcript": "unit tests 52% of the time. This severe misalignment is known as the calibration misalignment is known as the calibration misalignment is known as the calibration problem. The study concludes that an problem. The study concludes that an problem. The study concludes that an LLM's self-reported confidence is not a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 230.0,
+      "timestamp_formatted": "00:03:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0116.png",
+      "transcript": "misalignment is known as the calibration problem. The study concludes that an problem. The study concludes that an problem. The study concludes that an LLM's self-reported confidence is not a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 232.0,
+      "timestamp_formatted": "00:03:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0117.png",
+      "transcript": "problem. The study concludes that an LLM's self-reported confidence is not a LLM's self-reported confidence is not a LLM's self-reported confidence is not a trustworthy signal out of the box.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 234.0,
+      "timestamp_formatted": "00:03:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0118.png",
+      "transcript": "problem. The study concludes that an LLM's self-reported confidence is not a LLM's self-reported confidence is not a LLM's self-reported confidence is not a trustworthy signal out of the box. trustworthy signal out of the box. trustworthy signal out of the box. Simply telling the model to act in a 95%",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 236.0,
+      "timestamp_formatted": "00:03:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0119.png",
+      "transcript": "LLM's self-reported confidence is not a trustworthy signal out of the box. trustworthy signal out of the box. trustworthy signal out of the box. Simply telling the model to act in a 95%",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 238.0,
+      "timestamp_formatted": "00:03:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0120.png",
+      "transcript": "trustworthy signal out of the box. Simply telling the model to act in a 95% Simply telling the model to act in a 95% Simply telling the model to act in a 95% or 90% threshold is asking it to use a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 240.0,
+      "timestamp_formatted": "00:04:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0121.png",
+      "transcript": "trustworthy signal out of the box. Simply telling the model to act in a 95% Simply telling the model to act in a 95% Simply telling the model to act in a 95% or 90% threshold is asking it to use a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 242.0,
+      "timestamp_formatted": "00:04:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0122.png",
+      "transcript": "Simply telling the model to act in a 95% or 90% threshold is asking it to use a or 90% threshold is asking it to use a or 90% threshold is asking it to use a metric it can't reliably measure on its",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 244.0,
+      "timestamp_formatted": "00:04:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0123.png",
+      "transcript": "Simply telling the model to act in a 95% or 90% threshold is asking it to use a or 90% threshold is asking it to use a or 90% threshold is asking it to use a metric it can't reliably measure on its metric it can't reliably measure on its metric it can't reliably measure on its own. Okay. So what does all this mean",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 246.0,
+      "timestamp_formatted": "00:04:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0124.png",
+      "transcript": "or 90% threshold is asking it to use a metric it can't reliably measure on its metric it can't reliably measure on its metric it can't reliably measure on its own. Okay. So what does all this mean",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 248.0,
+      "timestamp_formatted": "00:04:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0125.png",
+      "transcript": "metric it can't reliably measure on its own. Okay. So what does all this mean own. Okay. So what does all this mean own. Okay. So what does all this mean for your prompting? Well, let's look at",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 250.0,
+      "timestamp_formatted": "00:04:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0126.png",
+      "transcript": "metric it can't reliably measure on its own. Okay. So what does all this mean own. Okay. So what does all this mean own. Okay. So what does all this mean for your prompting? Well, let's look at for your prompting? Well, let's look at for your prompting? Well, let's look at some before and after examples. Okay. So",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 252.0,
+      "timestamp_formatted": "00:04:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0127.png",
+      "transcript": "own. Okay. So what does all this mean for your prompting? Well, let's look at for your prompting? Well, let's look at for your prompting? Well, let's look at some before and after examples. Okay. So some before and after examples. Okay. So some before and after examples. Okay. So for this first example, I wanted to give",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 254.0,
+      "timestamp_formatted": "00:04:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0128.png",
+      "transcript": "for your prompting? Well, let's look at some before and after examples. Okay. So some before and after examples. Okay. So some before and after examples. Okay. So for this first example, I wanted to give",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 256.0,
+      "timestamp_formatted": "00:04:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0129.png",
+      "transcript": "some before and after examples. Okay. So some before and after examples. Okay. So for this first example, I wanted to give for this first example, I wanted to give for this first example, I wanted to give it a complicated task. Not because this",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 258.0,
+      "timestamp_formatted": "00:04:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0130.png",
+      "transcript": "some before and after examples. Okay. So for this first example, I wanted to give for this first example, I wanted to give for this first example, I wanted to give it a complicated task. Not because this it a complicated task. Not because this it a complicated task. Not because this is the kind of thing that you should do",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 260.0,
+      "timestamp_formatted": "00:04:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0131.png",
+      "transcript": "for this first example, I wanted to give it a complicated task. Not because this it a complicated task. Not because this it a complicated task. Not because this is the kind of thing that you should do is the kind of thing that you should do is the kind of thing that you should do with your agent. You shouldn't. But I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 262.0,
+      "timestamp_formatted": "00:04:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0132.png",
+      "transcript": "it a complicated task. Not because this is the kind of thing that you should do is the kind of thing that you should do is the kind of thing that you should do with your agent. You shouldn't. But I with your agent. You shouldn't. But I with your agent. You shouldn't. But I wanted to demonstrate this clarifying",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 264.0,
+      "timestamp_formatted": "00:04:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0133.png",
+      "transcript": "is the kind of thing that you should do with your agent. You shouldn't. But I with your agent. You shouldn't. But I with your agent. You shouldn't. But I wanted to demonstrate this clarifying wanted to demonstrate this clarifying wanted to demonstrate this clarifying ambiguity really clearly. So I grab a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 266.0,
+      "timestamp_formatted": "00:04:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0134.png",
+      "transcript": "with your agent. You shouldn't. But I wanted to demonstrate this clarifying wanted to demonstrate this clarifying wanted to demonstrate this clarifying ambiguity really clearly. So I grab a ambiguity really clearly. So I grab a ambiguity really clearly. So I grab a screenshot of Verscell's deployments",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 268.0,
+      "timestamp_formatted": "00:04:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0135.png",
+      "transcript": "wanted to demonstrate this clarifying ambiguity really clearly. So I grab a ambiguity really clearly. So I grab a ambiguity really clearly. So I grab a screenshot of Verscell's deployments screenshot of Verscell's deployments screenshot of Verscell's deployments dashboard. It's pretty complicated. Now,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 270.0,
+      "timestamp_formatted": "00:04:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0136.png",
+      "transcript": "ambiguity really clearly. So I grab a screenshot of Verscell's deployments screenshot of Verscell's deployments screenshot of Verscell's deployments dashboard. It's pretty complicated. Now, dashboard. It's pretty complicated. Now, dashboard. It's pretty complicated. Now, of course, if you were building this out",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 272.0,
+      "timestamp_formatted": "00:04:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0137.png",
+      "transcript": "screenshot of Verscell's deployments dashboard. It's pretty complicated. Now, dashboard. It's pretty complicated. Now, dashboard. It's pretty complicated. Now, of course, if you were building this out of course, if you were building this out of course, if you were building this out using best practices, you would break it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 274.0,
+      "timestamp_formatted": "00:04:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0138.png",
+      "transcript": "dashboard. It's pretty complicated. Now, of course, if you were building this out of course, if you were building this out of course, if you were building this out using best practices, you would break it using best practices, you would break it using best practices, you would break it down into each part of the UI and build",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 276.0,
+      "timestamp_formatted": "00:04:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0139.png",
+      "transcript": "of course, if you were building this out using best practices, you would break it using best practices, you would break it using best practices, you would break it down into each part of the UI and build down into each part of the UI and build down into each part of the UI and build it step by step. But here, I just wanted",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 278.0,
+      "timestamp_formatted": "00:04:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0140.png",
+      "transcript": "using best practices, you would break it down into each part of the UI and build down into each part of the UI and build down into each part of the UI and build it step by step. But here, I just wanted it step by step. But here, I just wanted it step by step. But here, I just wanted to oneshot it. So with this agent, I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 280.0,
+      "timestamp_formatted": "00:04:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0141.png",
+      "transcript": "down into each part of the UI and build it step by step. But here, I just wanted it step by step. But here, I just wanted it step by step. But here, I just wanted to oneshot it. So with this agent, I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 282.0,
+      "timestamp_formatted": "00:04:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0142.png",
+      "transcript": "it step by step. But here, I just wanted to oneshot it. So with this agent, I to oneshot it. So with this agent, I to oneshot it. So with this agent, I just said create the attached UI. In the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 284.0,
+      "timestamp_formatted": "00:04:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0143.png",
+      "transcript": "it step by step. But here, I just wanted to oneshot it. So with this agent, I to oneshot it. So with this agent, I to oneshot it. So with this agent, I just said create the attached UI. In the just said create the attached UI. In the just said create the attached UI. In the second example, I said create the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 286.0,
+      "timestamp_formatted": "00:04:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0144.png",
+      "transcript": "to oneshot it. So with this agent, I just said create the attached UI. In the just said create the attached UI. In the just said create the attached UI. In the second example, I said create the second example, I said create the second example, I said create the attached UI. But before writing code,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 288.0,
+      "timestamp_formatted": "00:04:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0145.png",
+      "transcript": "just said create the attached UI. In the second example, I said create the second example, I said create the second example, I said create the attached UI. But before writing code, attached UI. But before writing code, attached UI. But before writing code, analyze my request. If you have any",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 290.0,
+      "timestamp_formatted": "00:04:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0146.png",
+      "transcript": "second example, I said create the attached UI. But before writing code, attached UI. But before writing code, attached UI. But before writing code, analyze my request. If you have any analyze my request. If you have any analyze my request. If you have any ambiguity in the best way to accomplish",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 292.0,
+      "timestamp_formatted": "00:04:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0147.png",
+      "transcript": "attached UI. But before writing code, analyze my request. If you have any analyze my request. If you have any analyze my request. If you have any ambiguity in the best way to accomplish ambiguity in the best way to accomplish ambiguity in the best way to accomplish this task, ask clarifying questions. Do",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 294.0,
+      "timestamp_formatted": "00:04:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0148.png",
+      "transcript": "analyze my request. If you have any ambiguity in the best way to accomplish ambiguity in the best way to accomplish ambiguity in the best way to accomplish this task, ask clarifying questions. Do this task, ask clarifying questions. Do this task, ask clarifying questions. Do not proceed until I answer. And the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 296.0,
+      "timestamp_formatted": "00:04:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0149.png",
+      "transcript": "ambiguity in the best way to accomplish this task, ask clarifying questions. Do this task, ask clarifying questions. Do this task, ask clarifying questions. Do not proceed until I answer. And the not proceed until I answer. And the not proceed until I answer. And the results are really fascinating for a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 298.0,
+      "timestamp_formatted": "00:04:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0150.png",
+      "transcript": "this task, ask clarifying questions. Do not proceed until I answer. And the not proceed until I answer. And the not proceed until I answer. And the results are really fascinating for a results are really fascinating for a results are really fascinating for a couple of reasons. So, if we look back",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 151,
+      "timestamp": 300.0,
+      "timestamp_formatted": "00:05:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0151.png",
+      "transcript": "not proceed until I answer. And the results are really fascinating for a results are really fascinating for a results are really fascinating for a couple of reasons. So, if we look back couple of reasons. So, if we look back couple of reasons. So, if we look back over here, it did a pretty good job. Of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 152,
+      "timestamp": 302.0,
+      "timestamp_formatted": "00:05:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0152.png",
+      "transcript": "results are really fascinating for a couple of reasons. So, if we look back couple of reasons. So, if we look back couple of reasons. So, if we look back over here, it did a pretty good job. Of",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 153,
+      "timestamp": 304.0,
+      "timestamp_formatted": "00:05:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0153.png",
+      "transcript": "couple of reasons. So, if we look back over here, it did a pretty good job. Of over here, it did a pretty good job. Of over here, it did a pretty good job. Of course, we have uh the background color,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 154,
+      "timestamp": 306.0,
+      "timestamp_formatted": "00:05:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0154.png",
+      "transcript": "couple of reasons. So, if we look back over here, it did a pretty good job. Of over here, it did a pretty good job. Of over here, it did a pretty good job. Of course, we have uh the background color, course, we have uh the background color, course, we have uh the background color, which wasn't correct. We have this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 155,
+      "timestamp": 308.0,
+      "timestamp_formatted": "00:05:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0155.png",
+      "transcript": "over here, it did a pretty good job. Of course, we have uh the background color, course, we have uh the background color, course, we have uh the background color, which wasn't correct. We have this which wasn't correct. We have this which wasn't correct. We have this middle nav right here, which shouldn't",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 156,
+      "timestamp": 310.0,
+      "timestamp_formatted": "00:05:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0156.png",
+      "transcript": "course, we have uh the background color, which wasn't correct. We have this which wasn't correct. We have this which wasn't correct. We have this middle nav right here, which shouldn't middle nav right here, which shouldn't middle nav right here, which shouldn't work like that. We've got some padding",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 157,
+      "timestamp": 312.0,
+      "timestamp_formatted": "00:05:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0157.png",
+      "transcript": "which wasn't correct. We have this middle nav right here, which shouldn't middle nav right here, which shouldn't middle nav right here, which shouldn't work like that. We've got some padding work like that. We've got some padding work like that. We've got some padding issues. So, the visual fidelity may be",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 158,
+      "timestamp": 314.0,
+      "timestamp_formatted": "00:05:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0158.png",
+      "transcript": "middle nav right here, which shouldn't work like that. We've got some padding work like that. We've got some padding work like that. We've got some padding issues. So, the visual fidelity may be issues. So, the visual fidelity may be issues. So, the visual fidelity may be 80% here. But the purpose of this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 159,
+      "timestamp": 316.0,
+      "timestamp_formatted": "00:05:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0159.png",
+      "transcript": "work like that. We've got some padding issues. So, the visual fidelity may be issues. So, the visual fidelity may be issues. So, the visual fidelity may be 80% here. But the purpose of this 80% here. But the purpose of this 80% here. But the purpose of this exercise isn't to see how close it can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 160,
+      "timestamp": 318.0,
+      "timestamp_formatted": "00:05:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0160.png",
+      "transcript": "issues. So, the visual fidelity may be 80% here. But the purpose of this 80% here. But the purpose of this 80% here. But the purpose of this exercise isn't to see how close it can exercise isn't to see how close it can exercise isn't to see how close it can get, but it's to look at the workflow.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 161,
+      "timestamp": 320.0,
+      "timestamp_formatted": "00:05:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0161.png",
+      "transcript": "80% here. But the purpose of this exercise isn't to see how close it can exercise isn't to see how close it can exercise isn't to see how close it can get, but it's to look at the workflow.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 162,
+      "timestamp": 322.0,
+      "timestamp_formatted": "00:05:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0162.png",
+      "transcript": "exercise isn't to see how close it can exercise isn't to see how close it can get, but it's to look at the workflow. get, but it's to look at the workflow. get, but it's to look at the workflow. So when we look down here and we go to",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 163,
+      "timestamp": 324.0,
+      "timestamp_formatted": "00:05:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0163.png",
+      "transcript": "exercise isn't to see how close it can get, but it's to look at the workflow. get, but it's to look at the workflow. get, but it's to look at the workflow. So when we look down here and we go to So when we look down here and we go to So when we look down here and we go to the bottom, we can see, let me go to the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 164,
+      "timestamp": 326.0,
+      "timestamp_formatted": "00:05:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0164.png",
+      "transcript": "get, but it's to look at the workflow. So when we look down here and we go to So when we look down here and we go to So when we look down here and we go to the bottom, we can see, let me go to the the bottom, we can see, let me go to the the bottom, we can see, let me go to the end of this request, we can see that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 165,
+      "timestamp": 328.0,
+      "timestamp_formatted": "00:05:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0165.png",
+      "transcript": "So when we look down here and we go to the bottom, we can see, let me go to the the bottom, we can see, let me go to the the bottom, we can see, let me go to the end of this request, we can see that end of this request, we can see that end of this request, we can see that this uses 6 and 1/2 credits. So quite a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 166,
+      "timestamp": 330.0,
+      "timestamp_formatted": "00:05:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0166.png",
+      "transcript": "the bottom, we can see, let me go to the end of this request, we can see that end of this request, we can see that end of this request, we can see that this uses 6 and 1/2 credits. So quite a this uses 6 and 1/2 credits. So quite a this uses 6 and 1/2 credits. So quite a lot of credits. But when we look over at",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 167,
+      "timestamp": 332.0,
+      "timestamp_formatted": "00:05:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0167.png",
+      "transcript": "end of this request, we can see that this uses 6 and 1/2 credits. So quite a this uses 6 and 1/2 credits. So quite a this uses 6 and 1/2 credits. So quite a lot of credits. But when we look over at lot of credits. But when we look over at lot of credits. But when we look over at the other one where I asked it to ask",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 168,
+      "timestamp": 334.0,
+      "timestamp_formatted": "00:05:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0168.png",
+      "transcript": "this uses 6 and 1/2 credits. So quite a lot of credits. But when we look over at lot of credits. But when we look over at lot of credits. But when we look over at the other one where I asked it to ask the other one where I asked it to ask the other one where I asked it to ask questions, we can see some interesting",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 169,
+      "timestamp": 336.0,
+      "timestamp_formatted": "00:05:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0169.png",
+      "transcript": "lot of credits. But when we look over at the other one where I asked it to ask the other one where I asked it to ask the other one where I asked it to ask questions, we can see some interesting questions, we can see some interesting questions, we can see some interesting things. So down here, before I proceed",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 170,
+      "timestamp": 338.0,
+      "timestamp_formatted": "00:05:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0170.png",
+      "transcript": "the other one where I asked it to ask questions, we can see some interesting questions, we can see some interesting questions, we can see some interesting things. So down here, before I proceed things. So down here, before I proceed things. So down here, before I proceed with creating this UI, some clarifying",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 171,
+      "timestamp": 340.0,
+      "timestamp_formatted": "00:05:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0171.png",
+      "transcript": "questions, we can see some interesting things. So down here, before I proceed things. So down here, before I proceed things. So down here, before I proceed with creating this UI, some clarifying with creating this UI, some clarifying with creating this UI, some clarifying questions. So, first it asks if it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 172,
+      "timestamp": 342.0,
+      "timestamp_formatted": "00:05:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0172.png",
+      "transcript": "things. So down here, before I proceed with creating this UI, some clarifying with creating this UI, some clarifying with creating this UI, some clarifying questions. So, first it asks if it questions. So, first it asks if it questions. So, first it asks if it should use mock data or there's a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 173,
+      "timestamp": 344.0,
+      "timestamp_formatted": "00:05:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0173.png",
+      "transcript": "with creating this UI, some clarifying questions. So, first it asks if it questions. So, first it asks if it questions. So, first it asks if it should use mock data or there's a should use mock data or there's a should use mock data or there's a specific back-end service that it could",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 174,
+      "timestamp": 346.0,
+      "timestamp_formatted": "00:05:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0174.png",
+      "transcript": "questions. So, first it asks if it should use mock data or there's a should use mock data or there's a should use mock data or there's a specific back-end service that it could specific back-end service that it could specific back-end service that it could model the data on. It asks if we wanted",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 175,
+      "timestamp": 348.0,
+      "timestamp_formatted": "00:05:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0175.png",
+      "transcript": "should use mock data or there's a specific back-end service that it could specific back-end service that it could specific back-end service that it could model the data on. It asks if we wanted model the data on. It asks if we wanted model the data on. It asks if we wanted to implement functionality. It asks if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 176,
+      "timestamp": 350.0,
+      "timestamp_formatted": "00:05:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0176.png",
+      "transcript": "specific back-end service that it could model the data on. It asks if we wanted model the data on. It asks if we wanted model the data on. It asks if we wanted to implement functionality. It asks if to implement functionality. It asks if to implement functionality. It asks if the navigation should be a tab",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 177,
+      "timestamp": 352.0,
+      "timestamp_formatted": "00:05:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0177.png",
+      "transcript": "model the data on. It asks if we wanted to implement functionality. It asks if to implement functionality. It asks if to implement functionality. It asks if the navigation should be a tab the navigation should be a tab the navigation should be a tab navigation or a standalone page. It asks",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 178,
+      "timestamp": 354.0,
+      "timestamp_formatted": "00:05:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0178.png",
+      "transcript": "to implement functionality. It asks if the navigation should be a tab the navigation should be a tab the navigation should be a tab navigation or a standalone page. It asks navigation or a standalone page. It asks navigation or a standalone page. It asks about responsiveness. And another",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 179,
+      "timestamp": 356.0,
+      "timestamp_formatted": "00:05:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0179.png",
+      "transcript": "the navigation should be a tab navigation or a standalone page. It asks navigation or a standalone page. It asks navigation or a standalone page. It asks about responsiveness. And another about responsiveness. And another about responsiveness. And another question about functionality. Now,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 180,
+      "timestamp": 358.0,
+      "timestamp_formatted": "00:05:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0180.png",
+      "transcript": "navigation or a standalone page. It asks about responsiveness. And another about responsiveness. And another about responsiveness. And another question about functionality. Now, question about functionality. Now, question about functionality. Now, what's fascinating about this is that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 181,
+      "timestamp": 360.0,
+      "timestamp_formatted": "00:06:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0181.png",
+      "transcript": "about responsiveness. And another question about functionality. Now, question about functionality. Now, question about functionality. Now, what's fascinating about this is that what's fascinating about this is that what's fascinating about this is that when you ask this question, it discloses",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 182,
+      "timestamp": 362.0,
+      "timestamp_formatted": "00:06:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0182.png",
+      "transcript": "question about functionality. Now, what's fascinating about this is that what's fascinating about this is that what's fascinating about this is that when you ask this question, it discloses when you ask this question, it discloses when you ask this question, it discloses what was implicit in the previous",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 183,
+      "timestamp": 364.0,
+      "timestamp_formatted": "00:06:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0183.png",
+      "transcript": "what's fascinating about this is that when you ask this question, it discloses when you ask this question, it discloses when you ask this question, it discloses what was implicit in the previous what was implicit in the previous what was implicit in the previous example. that is there was some previous",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 184,
+      "timestamp": 366.0,
+      "timestamp_formatted": "00:06:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0184.png",
+      "transcript": "when you ask this question, it discloses what was implicit in the previous what was implicit in the previous what was implicit in the previous example. that is there was some previous example. that is there was some previous example. that is there was some previous ambiguities that in the other example",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 185,
+      "timestamp": 368.0,
+      "timestamp_formatted": "00:06:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0185.png",
+      "transcript": "what was implicit in the previous example. that is there was some previous example. that is there was some previous example. that is there was some previous ambiguities that in the other example",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 186,
+      "timestamp": 370.0,
+      "timestamp_formatted": "00:06:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0186.png",
+      "transcript": "example. that is there was some previous ambiguities that in the other example ambiguities that in the other example ambiguities that in the other example the model resolved by itself. Instead",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 187,
+      "timestamp": 372.0,
+      "timestamp_formatted": "00:06:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0187.png",
+      "transcript": "example. that is there was some previous ambiguities that in the other example ambiguities that in the other example ambiguities that in the other example the model resolved by itself. Instead",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 188,
+      "timestamp": 374.0,
+      "timestamp_formatted": "00:06:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0188.png",
+      "transcript": "ambiguities that in the other example the model resolved by itself. Instead the model resolved by itself. Instead the model resolved by itself. Instead here I'm the one making the decisions",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 189,
+      "timestamp": 376.0,
+      "timestamp_formatted": "00:06:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0189.png",
+      "transcript": "ambiguities that in the other example the model resolved by itself. Instead the model resolved by itself. Instead the model resolved by itself. Instead here I'm the one making the decisions here I'm the one making the decisions here I'm the one making the decisions and this is the ideal way to work with",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 190,
+      "timestamp": 378.0,
+      "timestamp_formatted": "00:06:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0190.png",
+      "transcript": "the model resolved by itself. Instead here I'm the one making the decisions here I'm the one making the decisions here I'm the one making the decisions and this is the ideal way to work with and this is the ideal way to work with and this is the ideal way to work with AI agents. That is you're not AI agents. That is you're not AI agents. That is you're not relinquishing all control. You're simply",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 191,
+      "timestamp": 380.0,
+      "timestamp_formatted": "00:06:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0191.png",
+      "transcript": "here I'm the one making the decisions and this is the ideal way to work with and this is the ideal way to work with and this is the ideal way to work with AI agents. That is you're not AI agents. That is you're not AI agents. That is you're not relinquishing all control. You're simply",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 192,
+      "timestamp": 382.0,
+      "timestamp_formatted": "00:06:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0192.png",
+      "transcript": "AI agents. That is you're not relinquishing all control. You're simply relinquishing all control. You're simply relinquishing all control. You're simply using the AI agent as a multiplier for",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 193,
+      "timestamp": 384.0,
+      "timestamp_formatted": "00:06:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0193.png",
+      "transcript": "AI agents. That is you're not relinquishing all control. You're simply relinquishing all control. You're simply relinquishing all control. You're simply using the AI agent as a multiplier for using the AI agent as a multiplier for using the AI agent as a multiplier for you the developer. So you're still",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 194,
+      "timestamp": 386.0,
+      "timestamp_formatted": "00:06:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0194.png",
+      "transcript": "relinquishing all control. You're simply using the AI agent as a multiplier for using the AI agent as a multiplier for using the AI agent as a multiplier for you the developer. So you're still you the developer. So you're still you the developer. So you're still planning and reviewing the generated",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 195,
+      "timestamp": 388.0,
+      "timestamp_formatted": "00:06:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0195.png",
+      "transcript": "using the AI agent as a multiplier for you the developer. So you're still you the developer. So you're still you the developer. So you're still planning and reviewing the generated planning and reviewing the generated planning and reviewing the generated code but you offload a lot of the actual",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 196,
+      "timestamp": 390.0,
+      "timestamp_formatted": "00:06:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0196.png",
+      "transcript": "you the developer. So you're still planning and reviewing the generated planning and reviewing the generated planning and reviewing the generated code but you offload a lot of the actual",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 197,
+      "timestamp": 392.0,
+      "timestamp_formatted": "00:06:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0197.png",
+      "transcript": "planning and reviewing the generated code but you offload a lot of the actual code but you offload a lot of the actual code but you offload a lot of the actual writing of the code to the agent. But",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 198,
+      "timestamp": 394.0,
+      "timestamp_formatted": "00:06:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0198.png",
+      "transcript": "planning and reviewing the generated code but you offload a lot of the actual code but you offload a lot of the actual code but you offload a lot of the actual writing of the code to the agent. But writing of the code to the agent. But writing of the code to the agent. But you should still have a similar amount",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 199,
+      "timestamp": 396.0,
+      "timestamp_formatted": "00:06:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0199.png",
+      "transcript": "code but you offload a lot of the actual writing of the code to the agent. But writing of the code to the agent. But writing of the code to the agent. But you should still have a similar amount you should still have a similar amount you should still have a similar amount of knowledge of the code base and its",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 200,
+      "timestamp": 398.0,
+      "timestamp_formatted": "00:06:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0200.png",
+      "transcript": "writing of the code to the agent. But you should still have a similar amount you should still have a similar amount you should still have a similar amount of knowledge of the code base and its of knowledge of the code base and its of knowledge of the code base and its architecture. The other fascinating",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 201,
+      "timestamp": 400.0,
+      "timestamp_formatted": "00:06:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0201.png",
+      "transcript": "you should still have a similar amount of knowledge of the code base and its of knowledge of the code base and its of knowledge of the code base and its architecture. The other fascinating architecture. The other fascinating architecture. The other fascinating thing is that you can see this process",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 202,
+      "timestamp": 402.0,
+      "timestamp_formatted": "00:06:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0202.png",
+      "transcript": "of knowledge of the code base and its architecture. The other fascinating architecture. The other fascinating architecture. The other fascinating thing is that you can see this process thing is that you can see this process thing is that you can see this process took only.3 credits. And when we look",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 203,
+      "timestamp": 404.0,
+      "timestamp_formatted": "00:06:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0203.png",
+      "transcript": "architecture. The other fascinating thing is that you can see this process thing is that you can see this process thing is that you can see this process took only.3 credits. And when we look",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 204,
+      "timestamp": 406.0,
+      "timestamp_formatted": "00:06:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0204.png",
+      "transcript": "thing is that you can see this process took only.3 credits. And when we look took only.3 credits. And when we look took only.3 credits. And when we look down at the actual execution here, we",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 205,
+      "timestamp": 408.0,
+      "timestamp_formatted": "00:06:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0205.png",
+      "transcript": "thing is that you can see this process took only.3 credits. And when we look took only.3 credits. And when we look took only.3 credits. And when we look down at the actual execution here, we down at the actual execution here, we down at the actual execution here, we can see that it was 2.6 credits.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 206,
+      "timestamp": 410.0,
+      "timestamp_formatted": "00:06:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0206.png",
+      "transcript": "took only.3 credits. And when we look down at the actual execution here, we down at the actual execution here, we down at the actual execution here, we can see that it was 2.6 credits. can see that it was 2.6 credits. can see that it was 2.6 credits. Significantly less than the credit usage",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 207,
+      "timestamp": 412.0,
+      "timestamp_formatted": "00:06:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0207.png",
+      "transcript": "down at the actual execution here, we can see that it was 2.6 credits. can see that it was 2.6 credits. can see that it was 2.6 credits. Significantly less than the credit usage Significantly less than the credit usage Significantly less than the credit usage over here, almost three times as much.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 208,
+      "timestamp": 414.0,
+      "timestamp_formatted": "00:06:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0208.png",
+      "transcript": "can see that it was 2.6 credits. Significantly less than the credit usage Significantly less than the credit usage Significantly less than the credit usage over here, almost three times as much. over here, almost three times as much. over here, almost three times as much. And so resolving those ambiguities",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 209,
+      "timestamp": 416.0,
+      "timestamp_formatted": "00:06:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0209.png",
+      "transcript": "Significantly less than the credit usage over here, almost three times as much. over here, almost three times as much. over here, almost three times as much. And so resolving those ambiguities And so resolving those ambiguities And so resolving those ambiguities allows the model to scope down because",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 210,
+      "timestamp": 418.0,
+      "timestamp_formatted": "00:06:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0210.png",
+      "transcript": "over here, almost three times as much. And so resolving those ambiguities And so resolving those ambiguities And so resolving those ambiguities allows the model to scope down because allows the model to scope down because allows the model to scope down because it'll be less eager in its execution.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 211,
+      "timestamp": 420.0,
+      "timestamp_formatted": "00:07:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0211.png",
+      "transcript": "And so resolving those ambiguities allows the model to scope down because allows the model to scope down because allows the model to scope down because it'll be less eager in its execution.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 212,
+      "timestamp": 422.0,
+      "timestamp_formatted": "00:07:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0212.png",
+      "transcript": "allows the model to scope down because allows the model to scope down because it'll be less eager in its execution. it'll be less eager in its execution. it'll be less eager in its execution. Now, this might just be the example for",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 213,
+      "timestamp": 424.0,
+      "timestamp_formatted": "00:07:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0213.png",
+      "transcript": "allows the model to scope down because it'll be less eager in its execution. it'll be less eager in its execution. it'll be less eager in its execution. Now, this might just be the example for Now, this might just be the example for Now, this might just be the example for here, but I did also find it fascinating",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 214,
+      "timestamp": 426.0,
+      "timestamp_formatted": "00:07:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0214.png",
+      "transcript": "it'll be less eager in its execution. Now, this might just be the example for Now, this might just be the example for Now, this might just be the example for here, but I did also find it fascinating here, but I did also find it fascinating here, but I did also find it fascinating that the overall execution was much",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 215,
+      "timestamp": 428.0,
+      "timestamp_formatted": "00:07:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0215.png",
+      "transcript": "Now, this might just be the example for here, but I did also find it fascinating here, but I did also find it fascinating here, but I did also find it fascinating that the overall execution was much that the overall execution was much that the overall execution was much closer to the screenshot in this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 216,
+      "timestamp": 430.0,
+      "timestamp_formatted": "00:07:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0216.png",
+      "transcript": "here, but I did also find it fascinating that the overall execution was much that the overall execution was much that the overall execution was much closer to the screenshot in this closer to the screenshot in this closer to the screenshot in this example. And I think this just has to do",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 217,
+      "timestamp": 432.0,
+      "timestamp_formatted": "00:07:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0217.png",
+      "transcript": "that the overall execution was much closer to the screenshot in this closer to the screenshot in this closer to the screenshot in this example. And I think this just has to do example. And I think this just has to do example. And I think this just has to do with the execution budget. That is to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 218,
+      "timestamp": 434.0,
+      "timestamp_formatted": "00:07:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0218.png",
+      "transcript": "closer to the screenshot in this example. And I think this just has to do example. And I think this just has to do example. And I think this just has to do with the execution budget. That is to with the execution budget. That is to with the execution budget. That is to say, the model has internal metrics for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 219,
+      "timestamp": 436.0,
+      "timestamp_formatted": "00:07:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0219.png",
+      "transcript": "example. And I think this just has to do with the execution budget. That is to with the execution budget. That is to with the execution budget. That is to say, the model has internal metrics for",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 220,
+      "timestamp": 438.0,
+      "timestamp_formatted": "00:07:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0220.png",
+      "transcript": "with the execution budget. That is to say, the model has internal metrics for say, the model has internal metrics for say, the model has internal metrics for how long, how much it's going to work.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 221,
+      "timestamp": 440.0,
+      "timestamp_formatted": "00:07:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0221.png",
+      "transcript": "with the execution budget. That is to say, the model has internal metrics for say, the model has internal metrics for say, the model has internal metrics for how long, how much it's going to work. how long, how much it's going to work. how long, how much it's going to work. And if your prompt is clearer for the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 222,
+      "timestamp": 442.0,
+      "timestamp_formatted": "00:07:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0222.png",
+      "transcript": "say, the model has internal metrics for how long, how much it's going to work. how long, how much it's going to work. how long, how much it's going to work. And if your prompt is clearer for the And if your prompt is clearer for the And if your prompt is clearer for the model, it won't spend extra token usage",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 223,
+      "timestamp": 444.0,
+      "timestamp_formatted": "00:07:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0223.png",
+      "transcript": "how long, how much it's going to work. And if your prompt is clearer for the And if your prompt is clearer for the And if your prompt is clearer for the model, it won't spend extra token usage",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 224,
+      "timestamp": 446.0,
+      "timestamp_formatted": "00:07:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0224.png",
+      "transcript": "And if your prompt is clearer for the model, it won't spend extra token usage model, it won't spend extra token usage model, it won't spend extra token usage on things that it know you don't want, on things that it know you don't want, on things that it know you don't want, which means there's more token usage for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 225,
+      "timestamp": 448.0,
+      "timestamp_formatted": "00:07:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0225.png",
+      "transcript": "And if your prompt is clearer for the model, it won't spend extra token usage model, it won't spend extra token usage model, it won't spend extra token usage on things that it know you don't want, on things that it know you don't want, on things that it know you don't want, which means there's more token usage for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 226,
+      "timestamp": 450.0,
+      "timestamp_formatted": "00:07:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0226.png",
+      "transcript": "on things that it know you don't want, which means there's more token usage for which means there's more token usage for which means there's more token usage for things like visual fidelity. In the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 227,
+      "timestamp": 452.0,
+      "timestamp_formatted": "00:07:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0227.png",
+      "transcript": "on things that it know you don't want, which means there's more token usage for which means there's more token usage for which means there's more token usage for things like visual fidelity. In the things like visual fidelity. In the things like visual fidelity. In the previous example, it may have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 228,
+      "timestamp": 454.0,
+      "timestamp_formatted": "00:07:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0228.png",
+      "transcript": "which means there's more token usage for things like visual fidelity. In the things like visual fidelity. In the things like visual fidelity. In the previous example, it may have previous example, it may have previous example, it may have substituted some of the visual design",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 229,
+      "timestamp": 456.0,
+      "timestamp_formatted": "00:07:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0229.png",
+      "transcript": "things like visual fidelity. In the previous example, it may have previous example, it may have previous example, it may have substituted some of the visual design substituted some of the visual design substituted some of the visual design for other things like functionality that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 230,
+      "timestamp": 458.0,
+      "timestamp_formatted": "00:07:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0230.png",
+      "transcript": "previous example, it may have substituted some of the visual design substituted some of the visual design substituted some of the visual design for other things like functionality that for other things like functionality that for other things like functionality that it assumed that it filled in that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 231,
+      "timestamp": 460.0,
+      "timestamp_formatted": "00:07:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0231.png",
+      "transcript": "substituted some of the visual design for other things like functionality that for other things like functionality that for other things like functionality that it assumed that it filled in that it assumed that it filled in that it assumed that it filled in that ambiguity that I wanted to build out.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 232,
+      "timestamp": 462.0,
+      "timestamp_formatted": "00:07:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0232.png",
+      "transcript": "for other things like functionality that it assumed that it filled in that it assumed that it filled in that it assumed that it filled in that ambiguity that I wanted to build out. ambiguity that I wanted to build out. ambiguity that I wanted to build out. Now, of course, this isn't a real",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 233,
+      "timestamp": 464.0,
+      "timestamp_formatted": "00:07:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0233.png",
+      "transcript": "it assumed that it filled in that ambiguity that I wanted to build out. ambiguity that I wanted to build out. ambiguity that I wanted to build out. Now, of course, this isn't a real Now, of course, this isn't a real Now, of course, this isn't a real example. Like I said before, the scope",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 234,
+      "timestamp": 466.0,
+      "timestamp_formatted": "00:07:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0234.png",
+      "transcript": "ambiguity that I wanted to build out. Now, of course, this isn't a real Now, of course, this isn't a real Now, of course, this isn't a real example. Like I said before, the scope example. Like I said before, the scope example. Like I said before, the scope of work that you want to offload to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 235,
+      "timestamp": 468.0,
+      "timestamp_formatted": "00:07:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0235.png",
+      "transcript": "Now, of course, this isn't a real example. Like I said before, the scope example. Like I said before, the scope example. Like I said before, the scope of work that you want to offload to of work that you want to offload to of work that you want to offload to agents should be very small. So, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 236,
+      "timestamp": 470.0,
+      "timestamp_formatted": "00:07:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0236.png",
+      "transcript": "example. Like I said before, the scope of work that you want to offload to of work that you want to offload to of work that you want to offload to agents should be very small. So, let's agents should be very small. So, let's agents should be very small. So, let's look at a more real world example. In",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 237,
+      "timestamp": 472.0,
+      "timestamp_formatted": "00:07:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0237.png",
+      "transcript": "of work that you want to offload to agents should be very small. So, let's agents should be very small. So, let's agents should be very small. So, let's look at a more real world example. In look at a more real world example. In look at a more real world example. In this example, I have a shaden showcase",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 238,
+      "timestamp": 474.0,
+      "timestamp_formatted": "00:07:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0238.png",
+      "transcript": "agents should be very small. So, let's look at a more real world example. In look at a more real world example. In look at a more real world example. In this example, I have a shaden showcase this example, I have a shaden showcase this example, I have a shaden showcase library right here. And I wanted to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 239,
+      "timestamp": 476.0,
+      "timestamp_formatted": "00:07:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0239.png",
+      "transcript": "look at a more real world example. In this example, I have a shaden showcase this example, I have a shaden showcase this example, I have a shaden showcase library right here. And I wanted to library right here. And I wanted to library right here. And I wanted to implement a bookmarking or favorite",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 240,
+      "timestamp": 478.0,
+      "timestamp_formatted": "00:07:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0240.png",
+      "transcript": "this example, I have a shaden showcase library right here. And I wanted to library right here. And I wanted to library right here. And I wanted to implement a bookmarking or favorite implement a bookmarking or favorite implement a bookmarking or favorite feature. So user can favorite it and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 241,
+      "timestamp": 480.0,
+      "timestamp_formatted": "00:08:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0241.png",
+      "transcript": "library right here. And I wanted to implement a bookmarking or favorite implement a bookmarking or favorite implement a bookmarking or favorite feature. So user can favorite it and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 242,
+      "timestamp": 482.0,
+      "timestamp_formatted": "00:08:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0242.png",
+      "transcript": "implement a bookmarking or favorite feature. So user can favorite it and feature. So user can favorite it and feature. So user can favorite it and then come back later and see their then come back later and see their then come back later and see their favorite components. So for this first",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 243,
+      "timestamp": 484.0,
+      "timestamp_formatted": "00:08:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0243.png",
+      "transcript": "implement a bookmarking or favorite feature. So user can favorite it and feature. So user can favorite it and feature. So user can favorite it and then come back later and see their then come back later and see their then come back later and see their favorite components. So for this first favorite components. So for this first favorite components. So for this first example, I didn't ask it to clarify",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 244,
+      "timestamp": 486.0,
+      "timestamp_formatted": "00:08:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0244.png",
+      "transcript": "then come back later and see their favorite components. So for this first favorite components. So for this first favorite components. So for this first example, I didn't ask it to clarify example, I didn't ask it to clarify example, I didn't ask it to clarify anything. And it did a good job. The",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 245,
+      "timestamp": 488.0,
+      "timestamp_formatted": "00:08:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0245.png",
+      "transcript": "favorite components. So for this first example, I didn't ask it to clarify example, I didn't ask it to clarify example, I didn't ask it to clarify anything. And it did a good job. The anything. And it did a good job. The anything. And it did a good job. The feature works. You can see I've",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 246,
+      "timestamp": 490.0,
+      "timestamp_formatted": "00:08:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0246.png",
+      "transcript": "example, I didn't ask it to clarify anything. And it did a good job. The anything. And it did a good job. The anything. And it did a good job. The feature works. You can see I've feature works. You can see I've feature works. You can see I've bookmarked one there. When I go to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 247,
+      "timestamp": 492.0,
+      "timestamp_formatted": "00:08:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0247.png",
+      "transcript": "anything. And it did a good job. The anything. And it did a good job. The feature works. You can see I've feature works. You can see I've feature works. You can see I've bookmarked one there. When I go to bookmarked one there. When I go to bookmarked one there. When I go to favorites, I can see it there. It has a",
+      "segment_count": 6
+    },
+    {
+      "frame_number": 248,
+      "timestamp": 494.0,
+      "timestamp_formatted": "00:08:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0248.png",
+      "transcript": "feature works. You can see I've bookmarked one there. When I go to bookmarked one there. When I go to bookmarked one there. When I go to favorites, I can see it there. It has a favorites, I can see it there. It has a favorites, I can see it there. It has a routing correct. And that's great. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 249,
+      "timestamp": 496.0,
+      "timestamp_formatted": "00:08:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0249.png",
+      "transcript": "bookmarked one there. When I go to favorites, I can see it there. It has a favorites, I can see it there. It has a favorites, I can see it there. It has a routing correct. And that's great. And routing correct. And that's great. And routing correct. And that's great. And when we look at the code, we can see if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 250,
+      "timestamp": 498.0,
+      "timestamp_formatted": "00:08:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0250.png",
+      "transcript": "favorites, I can see it there. It has a routing correct. And that's great. And routing correct. And that's great. And routing correct. And that's great. And when we look at the code, we can see if when we look at the code, we can see if when we look at the code, we can see if we open up here, it implemented a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 251,
+      "timestamp": 500.0,
+      "timestamp_formatted": "00:08:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0251.png",
+      "transcript": "routing correct. And that's great. And when we look at the code, we can see if when we look at the code, we can see if when we look at the code, we can see if we open up here, it implemented a we open up here, it implemented a we open up here, it implemented a favorite service right here. And it's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 252,
+      "timestamp": 502.0,
+      "timestamp_formatted": "00:08:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0252.png",
+      "transcript": "when we look at the code, we can see if we open up here, it implemented a we open up here, it implemented a we open up here, it implemented a favorite service right here. And it's favorite service right here. And it's favorite service right here. And it's pretty standard. Now once again when we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 253,
+      "timestamp": 504.0,
+      "timestamp_formatted": "00:08:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0253.png",
+      "transcript": "we open up here, it implemented a favorite service right here. And it's favorite service right here. And it's favorite service right here. And it's pretty standard. Now once again when we pretty standard. Now once again when we pretty standard. Now once again when we look at the token usage here it was 9.1",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 254,
+      "timestamp": 506.0,
+      "timestamp_formatted": "00:08:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0254.png",
+      "transcript": "favorite service right here. And it's pretty standard. Now once again when we pretty standard. Now once again when we pretty standard. Now once again when we look at the token usage here it was 9.1",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 255,
+      "timestamp": 508.0,
+      "timestamp_formatted": "00:08:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0255.png",
+      "transcript": "pretty standard. Now once again when we look at the token usage here it was 9.1 look at the token usage here it was 9.1 look at the token usage here it was 9.1 credits. That's quite a bit. When we",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 256,
+      "timestamp": 510.0,
+      "timestamp_formatted": "00:08:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0256.png",
+      "transcript": "pretty standard. Now once again when we look at the token usage here it was 9.1 look at the token usage here it was 9.1 look at the token usage here it was 9.1 credits. That's quite a bit. When we credits. That's quite a bit. When we credits. That's quite a bit. When we look at our other example I asked it to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 257,
+      "timestamp": 512.0,
+      "timestamp_formatted": "00:08:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0257.png",
+      "transcript": "look at the token usage here it was 9.1 credits. That's quite a bit. When we credits. That's quite a bit. When we credits. That's quite a bit. When we look at our other example I asked it to look at our other example I asked it to look at our other example I asked it to implement the feature but I append this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 258,
+      "timestamp": 514.0,
+      "timestamp_formatted": "00:08:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0258.png",
+      "transcript": "credits. That's quite a bit. When we look at our other example I asked it to look at our other example I asked it to look at our other example I asked it to implement the feature but I append this implement the feature but I append this implement the feature but I append this same thing to my request. Make sure you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 259,
+      "timestamp": 516.0,
+      "timestamp_formatted": "00:08:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0259.png",
+      "transcript": "look at our other example I asked it to implement the feature but I append this implement the feature but I append this implement the feature but I append this same thing to my request. Make sure you same thing to my request. Make sure you same thing to my request. Make sure you ask clarifying questions. So then it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 260,
+      "timestamp": 518.0,
+      "timestamp_formatted": "00:08:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0260.png",
+      "transcript": "implement the feature but I append this same thing to my request. Make sure you same thing to my request. Make sure you same thing to my request. Make sure you ask clarifying questions. So then it ask clarifying questions. So then it ask clarifying questions. So then it asked about the scope and at first I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 261,
+      "timestamp": 520.0,
+      "timestamp_formatted": "00:08:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0261.png",
+      "transcript": "same thing to my request. Make sure you ask clarifying questions. So then it ask clarifying questions. So then it ask clarifying questions. So then it asked about the scope and at first I asked about the scope and at first I asked about the scope and at first I thought this was kind of a dumb question",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 262,
+      "timestamp": 522.0,
+      "timestamp_formatted": "00:08:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0262.png",
+      "transcript": "ask clarifying questions. So then it asked about the scope and at first I asked about the scope and at first I asked about the scope and at first I thought this was kind of a dumb question thought this was kind of a dumb question thought this was kind of a dumb question cuz it said should users be able to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 263,
+      "timestamp": 524.0,
+      "timestamp_formatted": "00:08:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0263.png",
+      "transcript": "asked about the scope and at first I thought this was kind of a dumb question thought this was kind of a dumb question thought this was kind of a dumb question cuz it said should users be able to cuz it said should users be able to cuz it said should users be able to bookmark individual components for quick",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 264,
+      "timestamp": 526.0,
+      "timestamp_formatted": "00:08:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0264.png",
+      "transcript": "thought this was kind of a dumb question cuz it said should users be able to cuz it said should users be able to cuz it said should users be able to bookmark individual components for quick bookmark individual components for quick bookmark individual components for quick access? But then I realized it was",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 265,
+      "timestamp": 528.0,
+      "timestamp_formatted": "00:08:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0265.png",
+      "transcript": "cuz it said should users be able to bookmark individual components for quick bookmark individual components for quick bookmark individual components for quick access? But then I realized it was access? But then I realized it was access? But then I realized it was asking this because my request is pretty",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 266,
+      "timestamp": 530.0,
+      "timestamp_formatted": "00:08:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0266.png",
+      "transcript": "bookmark individual components for quick access? But then I realized it was access? But then I realized it was access? But then I realized it was asking this because my request is pretty",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 267,
+      "timestamp": 532.0,
+      "timestamp_formatted": "00:08:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0267.png",
+      "transcript": "access? But then I realized it was asking this because my request is pretty asking this because my request is pretty asking this because my request is pretty thread there. It's pretty minimal and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 268,
+      "timestamp": 534.0,
+      "timestamp_formatted": "00:08:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0268.png",
+      "transcript": "access? But then I realized it was asking this because my request is pretty asking this because my request is pretty asking this because my request is pretty thread there. It's pretty minimal and thread there. It's pretty minimal and thread there. It's pretty minimal and they wanted to and the model wanted to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 269,
+      "timestamp": 536.0,
+      "timestamp_formatted": "00:08:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0269.png",
+      "transcript": "asking this because my request is pretty thread there. It's pretty minimal and thread there. It's pretty minimal and thread there. It's pretty minimal and they wanted to and the model wanted to they wanted to and the model wanted to they wanted to and the model wanted to make sure that it understood the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 270,
+      "timestamp": 538.0,
+      "timestamp_formatted": "00:08:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0270.png",
+      "transcript": "thread there. It's pretty minimal and they wanted to and the model wanted to they wanted to and the model wanted to they wanted to and the model wanted to make sure that it understood the make sure that it understood the make sure that it understood the fundamental request and we're not even",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 271,
+      "timestamp": 540.0,
+      "timestamp_formatted": "00:09:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0271.png",
+      "transcript": "they wanted to and the model wanted to make sure that it understood the make sure that it understood the make sure that it understood the fundamental request and we're not even fundamental request and we're not even fundamental request and we're not even into questions about implementation.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 272,
+      "timestamp": 542.0,
+      "timestamp_formatted": "00:09:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0272.png",
+      "transcript": "make sure that it understood the fundamental request and we're not even fundamental request and we're not even fundamental request and we're not even into questions about implementation. into questions about implementation. into questions about implementation. Then we get to questions about Then we get to questions about Then we get to questions about implementation about persistence and",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 273,
+      "timestamp": 544.0,
+      "timestamp_formatted": "00:09:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0273.png",
+      "transcript": "fundamental request and we're not even into questions about implementation. into questions about implementation. into questions about implementation. Then we get to questions about Then we get to questions about Then we get to questions about implementation about persistence and implementation about persistence and implementation about persistence and state. So should the bookmark components",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 274,
+      "timestamp": 546.0,
+      "timestamp_formatted": "00:09:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0274.png",
+      "transcript": "Then we get to questions about implementation about persistence and implementation about persistence and implementation about persistence and state. So should the bookmark components state. So should the bookmark components state. So should the bookmark components persist across app sessions? I said yes.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 275,
+      "timestamp": 548.0,
+      "timestamp_formatted": "00:09:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0275.png",
+      "transcript": "implementation about persistence and state. So should the bookmark components state. So should the bookmark components state. So should the bookmark components persist across app sessions? I said yes.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 276,
+      "timestamp": 550.0,
+      "timestamp_formatted": "00:09:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0276.png",
+      "transcript": "state. So should the bookmark components persist across app sessions? I said yes. persist across app sessions? I said yes. persist across app sessions? I said yes. It asked about where do you want them to",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 277,
+      "timestamp": 552.0,
+      "timestamp_formatted": "00:09:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0277.png",
+      "transcript": "state. So should the bookmark components persist across app sessions? I said yes. persist across app sessions? I said yes. persist across app sessions? I said yes. It asked about where do you want them to It asked about where do you want them to It asked about where do you want them to be displayed? How should the UX work and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 278,
+      "timestamp": 554.0,
+      "timestamp_formatted": "00:09:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0278.png",
+      "transcript": "persist across app sessions? I said yes. It asked about where do you want them to It asked about where do you want them to It asked about where do you want them to be displayed? How should the UX work and be displayed? How should the UX work and be displayed? How should the UX work and any visual indicators? And once again",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 279,
+      "timestamp": 556.0,
+      "timestamp_formatted": "00:09:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0279.png",
+      "transcript": "It asked about where do you want them to be displayed? How should the UX work and be displayed? How should the UX work and be displayed? How should the UX work and any visual indicators? And once again any visual indicators? And once again any visual indicators? And once again this clarifying question is very light",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 280,
+      "timestamp": 558.0,
+      "timestamp_formatted": "00:09:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0280.png",
+      "transcript": "be displayed? How should the UX work and any visual indicators? And once again any visual indicators? And once again any visual indicators? And once again this clarifying question is very light this clarifying question is very light this clarifying question is very light token usage. And when we go down to the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 281,
+      "timestamp": 560.0,
+      "timestamp_formatted": "00:09:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0281.png",
+      "transcript": "any visual indicators? And once again this clarifying question is very light this clarifying question is very light this clarifying question is very light token usage. And when we go down to the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 282,
+      "timestamp": 562.0,
+      "timestamp_formatted": "00:09:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0282.png",
+      "transcript": "this clarifying question is very light token usage. And when we go down to the token usage. And when we go down to the token usage. And when we go down to the final execution here, we can see that",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 283,
+      "timestamp": 564.0,
+      "timestamp_formatted": "00:09:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0283.png",
+      "transcript": "this clarifying question is very light token usage. And when we go down to the token usage. And when we go down to the token usage. And when we go down to the final execution here, we can see that final execution here, we can see that final execution here, we can see that this was significantly less token usage",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 284,
+      "timestamp": 566.0,
+      "timestamp_formatted": "00:09:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0284.png",
+      "transcript": "token usage. And when we go down to the final execution here, we can see that final execution here, we can see that final execution here, we can see that this was significantly less token usage",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 285,
+      "timestamp": 568.0,
+      "timestamp_formatted": "00:09:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0285.png",
+      "transcript": "final execution here, we can see that this was significantly less token usage this was significantly less token usage this was significantly less token usage and it works in a similar way. So I've",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 286,
+      "timestamp": 570.0,
+      "timestamp_formatted": "00:09:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0286.png",
+      "transcript": "final execution here, we can see that this was significantly less token usage this was significantly less token usage this was significantly less token usage and it works in a similar way. So I've and it works in a similar way. So I've and it works in a similar way. So I've harded these, I can go to the favorites,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 287,
+      "timestamp": 572.0,
+      "timestamp_formatted": "00:09:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0287.png",
+      "transcript": "this was significantly less token usage and it works in a similar way. So I've and it works in a similar way. So I've and it works in a similar way. So I've harded these, I can go to the favorites, harded these, I can go to the favorites, harded these, I can go to the favorites, I can view them there and the routing",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 288,
+      "timestamp": 574.0,
+      "timestamp_formatted": "00:09:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0288.png",
+      "transcript": "and it works in a similar way. So I've harded these, I can go to the favorites, harded these, I can go to the favorites, harded these, I can go to the favorites, I can view them there and the routing I can view them there and the routing I can view them there and the routing works correctly and when we look at the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 289,
+      "timestamp": 576.0,
+      "timestamp_formatted": "00:09:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0289.png",
+      "transcript": "harded these, I can go to the favorites, I can view them there and the routing I can view them there and the routing I can view them there and the routing works correctly and when we look at the works correctly and when we look at the works correctly and when we look at the service, it's implemented. It works in",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 290,
+      "timestamp": 578.0,
+      "timestamp_formatted": "00:09:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0290.png",
+      "transcript": "I can view them there and the routing works correctly and when we look at the works correctly and when we look at the works correctly and when we look at the service, it's implemented. It works in service, it's implemented. It works in service, it's implemented. It works in very similar ways. Okay, so to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 291,
+      "timestamp": 580.0,
+      "timestamp_formatted": "00:09:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0291.png",
+      "transcript": "works correctly and when we look at the service, it's implemented. It works in service, it's implemented. It works in service, it's implemented. It works in very similar ways. Okay, so to very similar ways. Okay, so to very similar ways. Okay, so to summarize, first you should absolutely",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 292,
+      "timestamp": 582.0,
+      "timestamp_formatted": "00:09:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0292.png",
+      "transcript": "service, it's implemented. It works in very similar ways. Okay, so to very similar ways. Okay, so to very similar ways. Okay, so to summarize, first you should absolutely summarize, first you should absolutely summarize, first you should absolutely instruct your coding agent to ask",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 293,
+      "timestamp": 584.0,
+      "timestamp_formatted": "00:09:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0293.png",
+      "transcript": "very similar ways. Okay, so to summarize, first you should absolutely summarize, first you should absolutely summarize, first you should absolutely instruct your coding agent to ask instruct your coding agent to ask instruct your coding agent to ask clarifying questions to resolve",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 294,
+      "timestamp": 586.0,
+      "timestamp_formatted": "00:09:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0294.png",
+      "transcript": "summarize, first you should absolutely instruct your coding agent to ask instruct your coding agent to ask instruct your coding agent to ask clarifying questions to resolve clarifying questions to resolve clarifying questions to resolve ambiguities before it writes code. This",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 295,
+      "timestamp": 588.0,
+      "timestamp_formatted": "00:09:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0295.png",
+      "transcript": "instruct your coding agent to ask clarifying questions to resolve clarifying questions to resolve clarifying questions to resolve ambiguities before it writes code. This ambiguities before it writes code. This ambiguities before it writes code. This approach is backed by multiple studies",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 296,
+      "timestamp": 590.0,
+      "timestamp_formatted": "00:09:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0296.png",
+      "transcript": "clarifying questions to resolve ambiguities before it writes code. This ambiguities before it writes code. This ambiguities before it writes code. This approach is backed by multiple studies approach is backed by multiple studies approach is backed by multiple studies showing improved outcomes. Second, you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 297,
+      "timestamp": 592.0,
+      "timestamp_formatted": "00:09:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0297.png",
+      "transcript": "ambiguities before it writes code. This approach is backed by multiple studies approach is backed by multiple studies approach is backed by multiple studies showing improved outcomes. Second, you",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 298,
+      "timestamp": 594.0,
+      "timestamp_formatted": "00:09:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0298.png",
+      "transcript": "approach is backed by multiple studies showing improved outcomes. Second, you showing improved outcomes. Second, you showing improved outcomes. Second, you should not ask it to rely on an internal",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 299,
+      "timestamp": 596.0,
+      "timestamp_formatted": "00:09:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0299.png",
+      "transcript": "approach is backed by multiple studies showing improved outcomes. Second, you showing improved outcomes. Second, you showing improved outcomes. Second, you should not ask it to rely on an internal should not ask it to rely on an internal should not ask it to rely on an internal confidence score like 95% as research",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 300,
+      "timestamp": 598.0,
+      "timestamp_formatted": "00:09:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0300.png",
+      "transcript": "showing improved outcomes. Second, you should not ask it to rely on an internal should not ask it to rely on an internal should not ask it to rely on an internal confidence score like 95% as research",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 301,
+      "timestamp": 600.0,
+      "timestamp_formatted": "00:10:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0301.png",
+      "transcript": "should not ask it to rely on an internal confidence score like 95% as research confidence score like 95% as research confidence score like 95% as research shows it's not a reliable metric for",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 302,
+      "timestamp": 602.0,
+      "timestamp_formatted": "00:10:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0302.png",
+      "transcript": "should not ask it to rely on an internal confidence score like 95% as research confidence score like 95% as research confidence score like 95% as research shows it's not a reliable metric for shows it's not a reliable metric for shows it's not a reliable metric for code correctness. Okay, so that's it for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 303,
+      "timestamp": 604.0,
+      "timestamp_formatted": "00:10:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0303.png",
+      "transcript": "confidence score like 95% as research shows it's not a reliable metric for shows it's not a reliable metric for shows it's not a reliable metric for code correctness. Okay, so that's it for code correctness. Okay, so that's it for code correctness. Okay, so that's it for Dreamflow Tips. I'm John and I'll see",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 304,
+      "timestamp": 606.0,
+      "timestamp_formatted": "00:10:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0304.png",
+      "transcript": "shows it's not a reliable metric for code correctness. Okay, so that's it for code correctness. Okay, so that's it for code correctness. Okay, so that's it for Dreamflow Tips. I'm John and I'll see Dreamflow Tips. I'm John and I'll see Dreamflow Tips. I'm John and I'll see you in the next video.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 305,
+      "timestamp": 608.0,
+      "timestamp_formatted": "00:10:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0305.png",
+      "transcript": "code correctness. Okay, so that's it for Dreamflow Tips. I'm John and I'll see Dreamflow Tips. I'm John and I'll see Dreamflow Tips. I'm John and I'll see you in the next video.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 306,
+      "timestamp": 610.0,
+      "timestamp_formatted": "00:10:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649396-How_Top_Engineers_Prompt_AI__A_Data-Driven_Approach_keyframes/frame_0306.png",
+      "transcript": "Dreamflow Tips. I'm John and I'll see you in the next video.",
+      "segment_count": 1
+    }
+  ]
+}

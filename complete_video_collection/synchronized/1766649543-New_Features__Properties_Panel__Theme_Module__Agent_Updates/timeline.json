@@ -1,0 +1,1674 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661205-New_Features__Properties_Panel__Theme_Module__Agent_Updates.en.srt",
+    "total_frames": 208,
+    "total_transcript_segments": 372
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0001.png",
+      "transcript": "We've shipped a bunch of new features at We've shipped a bunch of new features at DreamFlow. So, let's take a look. First,",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0002.png",
+      "transcript": "We've shipped a bunch of new features at We've shipped a bunch of new features at DreamFlow. So, let's take a look. First,",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0003.png",
+      "transcript": "We've shipped a bunch of new features at DreamFlow. So, let's take a look. First, DreamFlow. So, let's take a look. First, DreamFlow. So, let's take a look. First, we've shipped a whole new properties",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0004.png",
+      "transcript": "We've shipped a bunch of new features at DreamFlow. So, let's take a look. First, DreamFlow. So, let's take a look. First, DreamFlow. So, let's take a look. First, we've shipped a whole new properties we've shipped a whole new properties we've shipped a whole new properties panel. Now, the properties panel is one",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0005.png",
+      "transcript": "DreamFlow. So, let's take a look. First, we've shipped a whole new properties we've shipped a whole new properties we've shipped a whole new properties panel. Now, the properties panel is one panel. Now, the properties panel is one panel. Now, the properties panel is one of the mostused parts of Dreamflow. It's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0006.png",
+      "transcript": "we've shipped a whole new properties panel. Now, the properties panel is one panel. Now, the properties panel is one panel. Now, the properties panel is one of the mostused parts of Dreamflow. It's of the mostused parts of Dreamflow. It's of the mostused parts of Dreamflow. It's where you configure, style, and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0007.png",
+      "transcript": "panel. Now, the properties panel is one of the mostused parts of Dreamflow. It's of the mostused parts of Dreamflow. It's of the mostused parts of Dreamflow. It's where you configure, style, and where you configure, style, and where you configure, style, and fine-tune every widget in your app. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0008.png",
+      "transcript": "of the mostused parts of Dreamflow. It's where you configure, style, and where you configure, style, and where you configure, style, and fine-tune every widget in your app. And fine-tune every widget in your app. And fine-tune every widget in your app. And today, we're excited to walk you through",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0009.png",
+      "transcript": "where you configure, style, and fine-tune every widget in your app. And fine-tune every widget in your app. And fine-tune every widget in your app. And today, we're excited to walk you through today, we're excited to walk you through today, we're excited to walk you through the new properties panel, a groundup",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0010.png",
+      "transcript": "fine-tune every widget in your app. And today, we're excited to walk you through today, we're excited to walk you through today, we're excited to walk you through the new properties panel, a groundup",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0011.png",
+      "transcript": "today, we're excited to walk you through the new properties panel, a groundup the new properties panel, a groundup the new properties panel, a groundup rebuild that makes property editing",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0012.png",
+      "transcript": "today, we're excited to walk you through the new properties panel, a groundup the new properties panel, a groundup the new properties panel, a groundup rebuild that makes property editing rebuild that makes property editing rebuild that makes property editing faster and more intuitive. The new",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0013.png",
+      "transcript": "the new properties panel, a groundup rebuild that makes property editing rebuild that makes property editing rebuild that makes property editing faster and more intuitive. The new faster and more intuitive. The new faster and more intuitive. The new properties panel introduces bespoke",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0014.png",
+      "transcript": "rebuild that makes property editing faster and more intuitive. The new faster and more intuitive. The new faster and more intuitive. The new properties panel introduces bespoke properties panel introduces bespoke properties panel introduces bespoke editors for tons of property types.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0015.png",
+      "transcript": "faster and more intuitive. The new properties panel introduces bespoke properties panel introduces bespoke properties panel introduces bespoke editors for tons of property types. editors for tons of property types. editors for tons of property types. Colors get pickers with theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0016.png",
+      "transcript": "properties panel introduces bespoke editors for tons of property types. editors for tons of property types. editors for tons of property types. Colors get pickers with theme Colors get pickers with theme Colors get pickers with theme integration. Numbers get dragged to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0017.png",
+      "transcript": "editors for tons of property types. Colors get pickers with theme Colors get pickers with theme Colors get pickers with theme integration. Numbers get dragged to integration. Numbers get dragged to integration. Numbers get dragged to adjust scrub controls. Complex types",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0018.png",
+      "transcript": "Colors get pickers with theme integration. Numbers get dragged to integration. Numbers get dragged to integration. Numbers get dragged to adjust scrub controls. Complex types adjust scrub controls. Complex types adjust scrub controls. Complex types like padding, alignment, and shadows get",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0019.png",
+      "transcript": "integration. Numbers get dragged to adjust scrub controls. Complex types adjust scrub controls. Complex types adjust scrub controls. Complex types like padding, alignment, and shadows get like padding, alignment, and shadows get like padding, alignment, and shadows get visual interfaces that show you exactly",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0020.png",
+      "transcript": "adjust scrub controls. Complex types like padding, alignment, and shadows get like padding, alignment, and shadows get like padding, alignment, and shadows get visual interfaces that show you exactly",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0021.png",
+      "transcript": "like padding, alignment, and shadows get visual interfaces that show you exactly visual interfaces that show you exactly visual interfaces that show you exactly what you're changing. It's property",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0022.png",
+      "transcript": "like padding, alignment, and shadows get visual interfaces that show you exactly visual interfaces that show you exactly visual interfaces that show you exactly what you're changing. It's property what you're changing. It's property what you're changing. It's property editing that finally feels native to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 44.0,
+      "timestamp_formatted": "00:00:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0023.png",
+      "transcript": "visual interfaces that show you exactly what you're changing. It's property what you're changing. It's property what you're changing. It's property editing that finally feels native to editing that finally feels native to editing that finally feels native to each data type. So, let's take a look.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 46.0,
+      "timestamp_formatted": "00:00:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0024.png",
+      "transcript": "what you're changing. It's property editing that finally feels native to editing that finally feels native to editing that finally feels native to each data type. So, let's take a look. each data type. So, let's take a look. each data type. So, let's take a look. Okay, let's open up my properties panel",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 48.0,
+      "timestamp_formatted": "00:00:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0025.png",
+      "transcript": "editing that finally feels native to each data type. So, let's take a look. each data type. So, let's take a look. each data type. So, let's take a look. Okay, let's open up my properties panel Okay, let's open up my properties panel Okay, let's open up my properties panel right here. And I want to go into my",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:00:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0026.png",
+      "transcript": "each data type. So, let's take a look. Okay, let's open up my properties panel Okay, let's open up my properties panel Okay, let's open up my properties panel right here. And I want to go into my right here. And I want to go into my right here. And I want to go into my profile here. And I've got this image",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 52.0,
+      "timestamp_formatted": "00:00:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0027.png",
+      "transcript": "Okay, let's open up my properties panel right here. And I want to go into my right here. And I want to go into my right here. And I want to go into my profile here. And I've got this image profile here. And I've got this image profile here. And I've got this image that I want to change the fit right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 54.0,
+      "timestamp_formatted": "00:00:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0028.png",
+      "transcript": "right here. And I want to go into my profile here. And I've got this image profile here. And I've got this image profile here. And I've got this image that I want to change the fit right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 56.0,
+      "timestamp_formatted": "00:00:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0029.png",
+      "transcript": "profile here. And I've got this image that I want to change the fit right that I want to change the fit right that I want to change the fit right here. And down here I've got this new UI",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 58.0,
+      "timestamp_formatted": "00:00:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0030.png",
+      "transcript": "profile here. And I've got this image that I want to change the fit right that I want to change the fit right that I want to change the fit right here. And down here I've got this new UI here. And down here I've got this new UI here. And down here I've got this new UI that recognizes enums. And I want to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 60.0,
+      "timestamp_formatted": "00:01:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0031.png",
+      "transcript": "that I want to change the fit right here. And down here I've got this new UI here. And down here I've got this new UI here. And down here I've got this new UI that recognizes enums. And I want to",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 62.0,
+      "timestamp_formatted": "00:01:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0032.png",
+      "transcript": "here. And down here I've got this new UI that recognizes enums. And I want to that recognizes enums. And I want to that recognizes enums. And I want to change it to cover. Yeah, that looks",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 64.0,
+      "timestamp_formatted": "00:01:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0033.png",
+      "transcript": "here. And down here I've got this new UI that recognizes enums. And I want to that recognizes enums. And I want to that recognizes enums. And I want to change it to cover. Yeah, that looks change it to cover. Yeah, that looks change it to cover. Yeah, that looks better. Next, I want to make this image",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 66.0,
+      "timestamp_formatted": "00:01:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0034.png",
+      "transcript": "that recognizes enums. And I want to change it to cover. Yeah, that looks change it to cover. Yeah, that looks change it to cover. Yeah, that looks better. Next, I want to make this image better. Next, I want to make this image better. Next, I want to make this image a little bit bigger. So here I when I",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 68.0,
+      "timestamp_formatted": "00:01:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0035.png",
+      "transcript": "change it to cover. Yeah, that looks better. Next, I want to make this image better. Next, I want to make this image better. Next, I want to make this image a little bit bigger. So here I when I a little bit bigger. So here I when I a little bit bigger. So here I when I hover over this property right here, you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 70.0,
+      "timestamp_formatted": "00:01:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0036.png",
+      "transcript": "better. Next, I want to make this image a little bit bigger. So here I when I a little bit bigger. So here I when I a little bit bigger. So here I when I hover over this property right here, you hover over this property right here, you hover over this property right here, you can see I've got a couple of new options",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 72.0,
+      "timestamp_formatted": "00:01:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0037.png",
+      "transcript": "a little bit bigger. So here I when I hover over this property right here, you hover over this property right here, you hover over this property right here, you can see I've got a couple of new options can see I've got a couple of new options can see I've got a couple of new options right here. I can clear the value, set",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 74.0,
+      "timestamp_formatted": "00:01:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0038.png",
+      "transcript": "hover over this property right here, you can see I've got a couple of new options can see I've got a couple of new options can see I've got a couple of new options right here. I can clear the value, set right here. I can clear the value, set right here. I can clear the value, set it to infinity, or set it to a theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 76.0,
+      "timestamp_formatted": "00:01:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0039.png",
+      "transcript": "can see I've got a couple of new options right here. I can clear the value, set right here. I can clear the value, set right here. I can clear the value, set it to infinity, or set it to a theme",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 78.0,
+      "timestamp_formatted": "00:01:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0040.png",
+      "transcript": "right here. I can clear the value, set it to infinity, or set it to a theme it to infinity, or set it to a theme it to infinity, or set it to a theme variable. So when I bring that up, I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 80.0,
+      "timestamp_formatted": "00:01:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0041.png",
+      "transcript": "right here. I can clear the value, set it to infinity, or set it to a theme it to infinity, or set it to a theme it to infinity, or set it to a theme variable. So when I bring that up, I variable. So when I bring that up, I variable. So when I bring that up, I have all of my theme variables that are",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 82.0,
+      "timestamp_formatted": "00:01:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0042.png",
+      "transcript": "it to infinity, or set it to a theme variable. So when I bring that up, I variable. So when I bring that up, I variable. So when I bring that up, I have all of my theme variables that are have all of my theme variables that are have all of my theme variables that are coming from my theme module right here",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 84.0,
+      "timestamp_formatted": "00:01:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0043.png",
+      "transcript": "variable. So when I bring that up, I have all of my theme variables that are have all of my theme variables that are have all of my theme variables that are coming from my theme module right here coming from my theme module right here coming from my theme module right here that I can bind these to. Or if I want",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 86.0,
+      "timestamp_formatted": "00:01:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0044.png",
+      "transcript": "have all of my theme variables that are coming from my theme module right here coming from my theme module right here coming from my theme module right here that I can bind these to. Or if I want that I can bind these to. Or if I want that I can bind these to. Or if I want to make this a little bit bigger, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 88.0,
+      "timestamp_formatted": "00:01:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0045.png",
+      "transcript": "coming from my theme module right here that I can bind these to. Or if I want that I can bind these to. Or if I want that I can bind these to. Or if I want to make this a little bit bigger, let's to make this a little bit bigger, let's to make this a little bit bigger, let's just scrub a little bit. I think like",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 90.0,
+      "timestamp_formatted": "00:01:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0046.png",
+      "transcript": "that I can bind these to. Or if I want to make this a little bit bigger, let's to make this a little bit bigger, let's to make this a little bit bigger, let's just scrub a little bit. I think like just scrub a little bit. I think like just scrub a little bit. I think like 160 will be about good. Yeah, that's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 92.0,
+      "timestamp_formatted": "00:01:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0047.png",
+      "transcript": "to make this a little bit bigger, let's just scrub a little bit. I think like just scrub a little bit. I think like just scrub a little bit. I think like 160 will be about good. Yeah, that's 160 will be about good. Yeah, that's 160 will be about good. Yeah, that's good. And then I'll just copy this value",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 94.0,
+      "timestamp_formatted": "00:01:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0048.png",
+      "transcript": "just scrub a little bit. I think like 160 will be about good. Yeah, that's 160 will be about good. Yeah, that's 160 will be about good. Yeah, that's good. And then I'll just copy this value good. And then I'll just copy this value good. And then I'll just copy this value over right here. Okay, that's great. But",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 96.0,
+      "timestamp_formatted": "00:01:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0049.png",
+      "transcript": "160 will be about good. Yeah, that's good. And then I'll just copy this value good. And then I'll just copy this value good. And then I'll just copy this value over right here. Okay, that's great. But over right here. Okay, that's great. But over right here. Okay, that's great. But now that I'm looking at this, I realize",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 98.0,
+      "timestamp_formatted": "00:01:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0050.png",
+      "transcript": "good. And then I'll just copy this value over right here. Okay, that's great. But over right here. Okay, that's great. But over right here. Okay, that's great. But now that I'm looking at this, I realize now that I'm looking at this, I realize now that I'm looking at this, I realize this is slightly overkill and we've got",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 100.0,
+      "timestamp_formatted": "00:01:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0051.png",
+      "transcript": "over right here. Okay, that's great. But over right here. Okay, that's great. But now that I'm looking at this, I realize now that I'm looking at this, I realize now that I'm looking at this, I realize this is slightly overkill and we've got",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 102.0,
+      "timestamp_formatted": "00:01:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0052.png",
+      "transcript": "now that I'm looking at this, I realize this is slightly overkill and we've got this is slightly overkill and we've got this is slightly overkill and we've got a perfectly good widget for this, the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 104.0,
+      "timestamp_formatted": "00:01:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0053.png",
+      "transcript": "now that I'm looking at this, I realize this is slightly overkill and we've got this is slightly overkill and we've got this is slightly overkill and we've got a perfectly good widget for this, the a perfectly good widget for this, the a perfectly good widget for this, the avatar widget. So, I'm actually going to avatar widget. So, I'm actually going to avatar widget. So, I'm actually going to come up to my stack right here. And in",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 106.0,
+      "timestamp_formatted": "00:01:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0054.png",
+      "transcript": "this is slightly overkill and we've got a perfectly good widget for this, the a perfectly good widget for this, the a perfectly good widget for this, the avatar widget. So, I'm actually going to avatar widget. So, I'm actually going to avatar widget. So, I'm actually going to come up to my stack right here. And in",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 108.0,
+      "timestamp_formatted": "00:01:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0055.png",
+      "transcript": "avatar widget. So, I'm actually going to come up to my stack right here. And in come up to my stack right here. And in come up to my stack right here. And in my list of widgets, I'm going to in my",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 110.0,
+      "timestamp_formatted": "00:01:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0056.png",
+      "transcript": "avatar widget. So, I'm actually going to come up to my stack right here. And in come up to my stack right here. And in come up to my stack right here. And in my list of widgets, I'm going to in my my list of widgets, I'm going to in my my list of widgets, I'm going to in my new editor right here, I'm just going to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 112.0,
+      "timestamp_formatted": "00:01:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0057.png",
+      "transcript": "come up to my stack right here. And in my list of widgets, I'm going to in my my list of widgets, I'm going to in my my list of widgets, I'm going to in my new editor right here, I'm just going to new editor right here, I'm just going to new editor right here, I'm just going to I want to switch up that clip oval right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 114.0,
+      "timestamp_formatted": "00:01:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0058.png",
+      "transcript": "my list of widgets, I'm going to in my new editor right here, I'm just going to new editor right here, I'm just going to new editor right here, I'm just going to I want to switch up that clip oval right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 116.0,
+      "timestamp_formatted": "00:01:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0059.png",
+      "transcript": "new editor right here, I'm just going to new editor right here, I'm just going to I want to switch up that clip oval right I want to switch up that clip oval right I want to switch up that clip oval right here, change the clip oval with an",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 118.0,
+      "timestamp_formatted": "00:01:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0060.png",
+      "transcript": "new editor right here, I'm just going to I want to switch up that clip oval right I want to switch up that clip oval right I want to switch up that clip oval right here, change the clip oval with an here, change the clip oval with an here, change the clip oval with an avatar widget. Now, sometimes this will",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 120.0,
+      "timestamp_formatted": "00:02:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0061.png",
+      "transcript": "I want to switch up that clip oval right here, change the clip oval with an here, change the clip oval with an here, change the clip oval with an avatar widget. Now, sometimes this will",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 122.0,
+      "timestamp_formatted": "00:02:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0062.png",
+      "transcript": "here, change the clip oval with an avatar widget. Now, sometimes this will avatar widget. Now, sometimes this will avatar widget. Now, sometimes this will make the modification in line or if it's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 124.0,
+      "timestamp_formatted": "00:02:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0063.png",
+      "transcript": "here, change the clip oval with an avatar widget. Now, sometimes this will avatar widget. Now, sometimes this will avatar widget. Now, sometimes this will make the modification in line or if it's make the modification in line or if it's make the modification in line or if it's a larger task, it will delegate it over",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 126.0,
+      "timestamp_formatted": "00:02:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0064.png",
+      "transcript": "avatar widget. Now, sometimes this will make the modification in line or if it's make the modification in line or if it's make the modification in line or if it's a larger task, it will delegate it over a larger task, it will delegate it over a larger task, it will delegate it over to the agent right here. Okay, great.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 128.0,
+      "timestamp_formatted": "00:02:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0065.png",
+      "transcript": "make the modification in line or if it's a larger task, it will delegate it over a larger task, it will delegate it over a larger task, it will delegate it over to the agent right here. Okay, great. to the agent right here. Okay, great. to the agent right here. Okay, great. And there it did it. And it kept the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 130.0,
+      "timestamp_formatted": "00:02:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0066.png",
+      "transcript": "a larger task, it will delegate it over to the agent right here. Okay, great. to the agent right here. Okay, great. to the agent right here. Okay, great. And there it did it. And it kept the And there it did it. And it kept the And there it did it. And it kept the path, which is cool. Next, I want to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 132.0,
+      "timestamp_formatted": "00:02:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0067.png",
+      "transcript": "to the agent right here. Okay, great. And there it did it. And it kept the And there it did it. And it kept the And there it did it. And it kept the path, which is cool. Next, I want to path, which is cool. Next, I want to path, which is cool. Next, I want to make a change to this guy right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 134.0,
+      "timestamp_formatted": "00:02:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0068.png",
+      "transcript": "And there it did it. And it kept the path, which is cool. Next, I want to path, which is cool. Next, I want to path, which is cool. Next, I want to make a change to this guy right here. make a change to this guy right here. make a change to this guy right here. So, let me zoom in a little bit and I'm",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 136.0,
+      "timestamp_formatted": "00:02:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0069.png",
+      "transcript": "path, which is cool. Next, I want to make a change to this guy right here. make a change to this guy right here. make a change to this guy right here. So, let me zoom in a little bit and I'm",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 138.0,
+      "timestamp_formatted": "00:02:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0070.png",
+      "transcript": "make a change to this guy right here. So, let me zoom in a little bit and I'm So, let me zoom in a little bit and I'm So, let me zoom in a little bit and I'm going to select it right here. And I",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 140.0,
+      "timestamp_formatted": "00:02:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0071.png",
+      "transcript": "make a change to this guy right here. So, let me zoom in a little bit and I'm So, let me zoom in a little bit and I'm So, let me zoom in a little bit and I'm going to select it right here. And I going to select it right here. And I going to select it right here. And I want to give it a little border. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 142.0,
+      "timestamp_formatted": "00:02:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0072.png",
+      "transcript": "So, let me zoom in a little bit and I'm going to select it right here. And I going to select it right here. And I going to select it right here. And I want to give it a little border. And want to give it a little border. And want to give it a little border. And we've got a new color picker right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 144.0,
+      "timestamp_formatted": "00:02:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0073.png",
+      "transcript": "going to select it right here. And I want to give it a little border. And want to give it a little border. And want to give it a little border. And we've got a new color picker right here. we've got a new color picker right here. we've got a new color picker right here. So, you can grab a color right here. See",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 146.0,
+      "timestamp_formatted": "00:02:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0074.png",
+      "transcript": "want to give it a little border. And we've got a new color picker right here. we've got a new color picker right here. we've got a new color picker right here. So, you can grab a color right here. See So, you can grab a color right here. See So, you can grab a color right here. See your recently used ones. We also show",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 148.0,
+      "timestamp_formatted": "00:02:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0075.png",
+      "transcript": "we've got a new color picker right here. So, you can grab a color right here. See So, you can grab a color right here. See So, you can grab a color right here. See your recently used ones. We also show your recently used ones. We also show your recently used ones. We also show you if you're on a color that closely",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 150.0,
+      "timestamp_formatted": "00:02:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0076.png",
+      "transcript": "So, you can grab a color right here. See your recently used ones. We also show your recently used ones. We also show your recently used ones. We also show you if you're on a color that closely you if you're on a color that closely you if you're on a color that closely matches one from your design system. You",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 152.0,
+      "timestamp_formatted": "00:02:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0077.png",
+      "transcript": "your recently used ones. We also show you if you're on a color that closely you if you're on a color that closely you if you're on a color that closely matches one from your design system. You matches one from your design system. You matches one from your design system. You can apply it. Here are all your theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 154.0,
+      "timestamp_formatted": "00:02:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0078.png",
+      "transcript": "you if you're on a color that closely matches one from your design system. You matches one from your design system. You matches one from your design system. You can apply it. Here are all your theme can apply it. Here are all your theme can apply it. Here are all your theme colors right here. And we provided some",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 156.0,
+      "timestamp_formatted": "00:02:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0079.png",
+      "transcript": "matches one from your design system. You can apply it. Here are all your theme can apply it. Here are all your theme can apply it. Here are all your theme colors right here. And we provided some",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 158.0,
+      "timestamp_formatted": "00:02:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0080.png",
+      "transcript": "can apply it. Here are all your theme colors right here. And we provided some colors right here. And we provided some colors right here. And we provided some out of the box theming palettes for",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 160.0,
+      "timestamp_formatted": "00:02:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0081.png",
+      "transcript": "can apply it. Here are all your theme colors right here. And we provided some colors right here. And we provided some colors right here. And we provided some out of the box theming palettes for out of the box theming palettes for out of the box theming palettes for material, Certino, and Tailwind. So, I'm",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 162.0,
+      "timestamp_formatted": "00:02:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0082.png",
+      "transcript": "colors right here. And we provided some out of the box theming palettes for out of the box theming palettes for out of the box theming palettes for material, Certino, and Tailwind. So, I'm material, Certino, and Tailwind. So, I'm material, Certino, and Tailwind. So, I'm just going to go to my theme right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 164.0,
+      "timestamp_formatted": "00:02:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0083.png",
+      "transcript": "out of the box theming palettes for material, Certino, and Tailwind. So, I'm material, Certino, and Tailwind. So, I'm material, Certino, and Tailwind. So, I'm just going to go to my theme right here. just going to go to my theme right here. just going to go to my theme right here. and give it a slight border right there.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 166.0,
+      "timestamp_formatted": "00:02:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0084.png",
+      "transcript": "material, Certino, and Tailwind. So, I'm just going to go to my theme right here. just going to go to my theme right here. just going to go to my theme right here. and give it a slight border right there. and give it a slight border right there. and give it a slight border right there. And I want it to be um Okay, great. That",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 168.0,
+      "timestamp_formatted": "00:02:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0085.png",
+      "transcript": "just going to go to my theme right here. and give it a slight border right there. and give it a slight border right there. and give it a slight border right there. And I want it to be um Okay, great. That",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 170.0,
+      "timestamp_formatted": "00:02:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0086.png",
+      "transcript": "and give it a slight border right there. And I want it to be um Okay, great. That And I want it to be um Okay, great. That And I want it to be um Okay, great. That looks good. I also want to take a look",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 172.0,
+      "timestamp_formatted": "00:02:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0087.png",
+      "transcript": "and give it a slight border right there. And I want it to be um Okay, great. That And I want it to be um Okay, great. That And I want it to be um Okay, great. That looks good. I also want to take a look looks good. I also want to take a look looks good. I also want to take a look at this icon right here because we've",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 174.0,
+      "timestamp_formatted": "00:02:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0088.png",
+      "transcript": "And I want it to be um Okay, great. That looks good. I also want to take a look looks good. I also want to take a look looks good. I also want to take a look at this icon right here because we've at this icon right here because we've at this icon right here because we've got some new conditional UI that's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 176.0,
+      "timestamp_formatted": "00:02:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0089.png",
+      "transcript": "looks good. I also want to take a look at this icon right here because we've at this icon right here because we've at this icon right here because we've got some new conditional UI that's got some new conditional UI that's got some new conditional UI that's helpful. So, if we open up the code",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 178.0,
+      "timestamp_formatted": "00:02:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0090.png",
+      "transcript": "at this icon right here because we've got some new conditional UI that's got some new conditional UI that's got some new conditional UI that's helpful. So, if we open up the code helpful. So, if we open up the code helpful. So, if we open up the code right here, you can see that we've got a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 180.0,
+      "timestamp_formatted": "00:03:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0091.png",
+      "transcript": "got some new conditional UI that's helpful. So, if we open up the code helpful. So, if we open up the code helpful. So, if we open up the code right here, you can see that we've got a right here, you can see that we've got a right here, you can see that we've got a terminary operator that we've got some terminary operator that we've got some terminary operator that we've got some nice UI here for. So, we're checking for",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 182.0,
+      "timestamp_formatted": "00:03:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0092.png",
+      "transcript": "helpful. So, if we open up the code right here, you can see that we've got a right here, you can see that we've got a right here, you can see that we've got a terminary operator that we've got some terminary operator that we've got some terminary operator that we've got some nice UI here for. So, we're checking for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 184.0,
+      "timestamp_formatted": "00:03:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0093.png",
+      "transcript": "terminary operator that we've got some terminary operator that we've got some nice UI here for. So, we're checking for nice UI here for. So, we're checking for nice UI here for. So, we're checking for the is positive value. And if it's true,",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 186.0,
+      "timestamp_formatted": "00:03:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0094.png",
+      "transcript": "terminary operator that we've got some nice UI here for. So, we're checking for nice UI here for. So, we're checking for nice UI here for. So, we're checking for the is positive value. And if it's true, the is positive value. And if it's true, the is positive value. And if it's true, we come in here and we can select this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 188.0,
+      "timestamp_formatted": "00:03:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0095.png",
+      "transcript": "nice UI here for. So, we're checking for the is positive value. And if it's true, the is positive value. And if it's true, the is positive value. And if it's true, we come in here and we can select this",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 190.0,
+      "timestamp_formatted": "00:03:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0096.png",
+      "transcript": "the is positive value. And if it's true, we come in here and we can select this we come in here and we can select this we come in here and we can select this icon, which is another one of our new",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 192.0,
+      "timestamp_formatted": "00:03:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0097.png",
+      "transcript": "the is positive value. And if it's true, we come in here and we can select this we come in here and we can select this we come in here and we can select this icon, which is another one of our new icon, which is another one of our new icon, which is another one of our new UIs. And if it's false, we use this icon",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 194.0,
+      "timestamp_formatted": "00:03:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0098.png",
+      "transcript": "we come in here and we can select this icon, which is another one of our new icon, which is another one of our new icon, which is another one of our new UIs. And if it's false, we use this icon UIs. And if it's false, we use this icon UIs. And if it's false, we use this icon right here. We also have this UI for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 196.0,
+      "timestamp_formatted": "00:03:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0099.png",
+      "transcript": "icon, which is another one of our new UIs. And if it's false, we use this icon UIs. And if it's false, we use this icon UIs. And if it's false, we use this icon right here. We also have this UI for right here. We also have this UI for right here. We also have this UI for null coalesing operators. If you want to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 198.0,
+      "timestamp_formatted": "00:03:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0100.png",
+      "transcript": "UIs. And if it's false, we use this icon right here. We also have this UI for right here. We also have this UI for right here. We also have this UI for null coalesing operators. If you want to null coalesing operators. If you want to null coalesing operators. If you want to introduce shadows, you have a new shadow",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 200.0,
+      "timestamp_formatted": "00:03:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0101.png",
+      "transcript": "right here. We also have this UI for null coalesing operators. If you want to null coalesing operators. If you want to null coalesing operators. If you want to introduce shadows, you have a new shadow introduce shadows, you have a new shadow introduce shadows, you have a new shadow UI that allows us to add multiple",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 202.0,
+      "timestamp_formatted": "00:03:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0102.png",
+      "transcript": "null coalesing operators. If you want to introduce shadows, you have a new shadow introduce shadows, you have a new shadow introduce shadows, you have a new shadow UI that allows us to add multiple UI that allows us to add multiple UI that allows us to add multiple shadows. So if we come in here, we can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 204.0,
+      "timestamp_formatted": "00:03:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0103.png",
+      "transcript": "introduce shadows, you have a new shadow UI that allows us to add multiple UI that allows us to add multiple UI that allows us to add multiple shadows. So if we come in here, we can",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 206.0,
+      "timestamp_formatted": "00:03:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0104.png",
+      "transcript": "UI that allows us to add multiple shadows. So if we come in here, we can shadows. So if we come in here, we can shadows. So if we come in here, we can see that we've got a bunch of different see that we've got a bunch of different see that we've got a bunch of different recently used shadows. And so if we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 208.0,
+      "timestamp_formatted": "00:03:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0105.png",
+      "transcript": "UI that allows us to add multiple shadows. So if we come in here, we can shadows. So if we come in here, we can shadows. So if we come in here, we can see that we've got a bunch of different see that we've got a bunch of different see that we've got a bunch of different recently used shadows. And so if we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 210.0,
+      "timestamp_formatted": "00:03:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0106.png",
+      "transcript": "see that we've got a bunch of different recently used shadows. And so if we recently used shadows. And so if we recently used shadows. And so if we select one right here, you see that we",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 212.0,
+      "timestamp_formatted": "00:03:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0107.png",
+      "transcript": "see that we've got a bunch of different recently used shadows. And so if we recently used shadows. And so if we recently used shadows. And so if we select one right here, you see that we select one right here, you see that we select one right here, you see that we can stack multiple shadows on top of one",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 214.0,
+      "timestamp_formatted": "00:03:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0108.png",
+      "transcript": "recently used shadows. And so if we select one right here, you see that we select one right here, you see that we select one right here, you see that we can stack multiple shadows on top of one can stack multiple shadows on top of one can stack multiple shadows on top of one another, which makes for some really another, which makes for some really another, which makes for some really elegant UI. Finally, we have new UI for",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 216.0,
+      "timestamp_formatted": "00:03:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0109.png",
+      "transcript": "select one right here, you see that we can stack multiple shadows on top of one can stack multiple shadows on top of one can stack multiple shadows on top of one another, which makes for some really another, which makes for some really another, which makes for some really elegant UI. Finally, we have new UI for",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 218.0,
+      "timestamp_formatted": "00:03:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0110.png",
+      "transcript": "another, which makes for some really elegant UI. Finally, we have new UI for elegant UI. Finally, we have new UI for elegant UI. Finally, we have new UI for common modifiers like padding. So here",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 220.0,
+      "timestamp_formatted": "00:03:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0111.png",
+      "transcript": "another, which makes for some really elegant UI. Finally, we have new UI for elegant UI. Finally, we have new UI for elegant UI. Finally, we have new UI for common modifiers like padding. So here common modifiers like padding. So here common modifiers like padding. So here we can switch to symmetric or individual",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 222.0,
+      "timestamp_formatted": "00:03:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0112.png",
+      "transcript": "elegant UI. Finally, we have new UI for common modifiers like padding. So here common modifiers like padding. So here common modifiers like padding. So here we can switch to symmetric or individual we can switch to symmetric or individual we can switch to symmetric or individual or back to all if we want to add an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 224.0,
+      "timestamp_formatted": "00:03:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0113.png",
+      "transcript": "common modifiers like padding. So here we can switch to symmetric or individual we can switch to symmetric or individual we can switch to symmetric or individual or back to all if we want to add an or back to all if we want to add an or back to all if we want to add an alignment. We've got a nice alignment UI",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 226.0,
+      "timestamp_formatted": "00:03:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0114.png",
+      "transcript": "we can switch to symmetric or individual or back to all if we want to add an or back to all if we want to add an or back to all if we want to add an alignment. We've got a nice alignment UI",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 228.0,
+      "timestamp_formatted": "00:03:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0115.png",
+      "transcript": "or back to all if we want to add an alignment. We've got a nice alignment UI alignment. We've got a nice alignment UI alignment. We've got a nice alignment UI and expansion. Next, we've shipped a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 230.0,
+      "timestamp_formatted": "00:03:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0116.png",
+      "transcript": "or back to all if we want to add an alignment. We've got a nice alignment UI alignment. We've got a nice alignment UI alignment. We've got a nice alignment UI and expansion. Next, we've shipped a and expansion. Next, we've shipped a and expansion. Next, we've shipped a whole new theme module. The new theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 232.0,
+      "timestamp_formatted": "00:03:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0117.png",
+      "transcript": "alignment. We've got a nice alignment UI and expansion. Next, we've shipped a and expansion. Next, we've shipped a and expansion. Next, we've shipped a whole new theme module. The new theme whole new theme module. The new theme whole new theme module. The new theme module provides intelligent LLM powered",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 234.0,
+      "timestamp_formatted": "00:03:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0118.png",
+      "transcript": "and expansion. Next, we've shipped a whole new theme module. The new theme whole new theme module. The new theme whole new theme module. The new theme module provides intelligent LLM powered",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 236.0,
+      "timestamp_formatted": "00:03:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0119.png",
+      "transcript": "whole new theme module. The new theme module provides intelligent LLM powered module provides intelligent LLM powered module provides intelligent LLM powered theme parsing. So this doesn't rely on",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 238.0,
+      "timestamp_formatted": "00:03:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0120.png",
+      "transcript": "whole new theme module. The new theme module provides intelligent LLM powered module provides intelligent LLM powered module provides intelligent LLM powered theme parsing. So this doesn't rely on theme parsing. So this doesn't rely on theme parsing. So this doesn't rely on hard-coded patterns, but instead uses an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 240.0,
+      "timestamp_formatted": "00:04:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0121.png",
+      "transcript": "module provides intelligent LLM powered theme parsing. So this doesn't rely on theme parsing. So this doesn't rely on theme parsing. So this doesn't rely on hard-coded patterns, but instead uses an hard-coded patterns, but instead uses an hard-coded patterns, but instead uses an LLM to intelligently understand your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 242.0,
+      "timestamp_formatted": "00:04:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0122.png",
+      "transcript": "theme parsing. So this doesn't rely on hard-coded patterns, but instead uses an hard-coded patterns, but instead uses an hard-coded patterns, but instead uses an LLM to intelligently understand your",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 244.0,
+      "timestamp_formatted": "00:04:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0123.png",
+      "transcript": "hard-coded patterns, but instead uses an LLM to intelligently understand your LLM to intelligently understand your LLM to intelligently understand your theme structure. This means it works theme structure. This means it works theme structure. This means it works with standard material themes, custom",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 246.0,
+      "timestamp_formatted": "00:04:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0124.png",
+      "transcript": "hard-coded patterns, but instead uses an LLM to intelligently understand your LLM to intelligently understand your LLM to intelligently understand your theme structure. This means it works theme structure. This means it works theme structure. This means it works with standard material themes, custom",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 248.0,
+      "timestamp_formatted": "00:04:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0125.png",
+      "transcript": "theme structure. This means it works with standard material themes, custom with standard material themes, custom with standard material themes, custom theme classes, and any other theme",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 250.0,
+      "timestamp_formatted": "00:04:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0126.png",
+      "transcript": "theme structure. This means it works with standard material themes, custom with standard material themes, custom with standard material themes, custom theme classes, and any other theme theme classes, and any other theme theme classes, and any other theme organization pattern. So once it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 252.0,
+      "timestamp_formatted": "00:04:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0127.png",
+      "transcript": "with standard material themes, custom theme classes, and any other theme theme classes, and any other theme theme classes, and any other theme organization pattern. So once it organization pattern. So once it organization pattern. So once it understands it, you can visually edit",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 254.0,
+      "timestamp_formatted": "00:04:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0128.png",
+      "transcript": "theme classes, and any other theme organization pattern. So once it organization pattern. So once it organization pattern. So once it understands it, you can visually edit understands it, you can visually edit understands it, you can visually edit colors, typography, and style constants.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 256.0,
+      "timestamp_formatted": "00:04:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0129.png",
+      "transcript": "organization pattern. So once it understands it, you can visually edit understands it, you can visually edit understands it, you can visually edit colors, typography, and style constants. colors, typography, and style constants. colors, typography, and style constants. So let me show you how it works. To",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 258.0,
+      "timestamp_formatted": "00:04:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0130.png",
+      "transcript": "understands it, you can visually edit colors, typography, and style constants. colors, typography, and style constants. colors, typography, and style constants. So let me show you how it works. To So let me show you how it works. To So let me show you how it works. To access the new theme module, come over",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 260.0,
+      "timestamp_formatted": "00:04:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0131.png",
+      "transcript": "colors, typography, and style constants. So let me show you how it works. To So let me show you how it works. To So let me show you how it works. To access the new theme module, come over access the new theme module, come over access the new theme module, come over here and click on this theme editor",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 262.0,
+      "timestamp_formatted": "00:04:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0132.png",
+      "transcript": "So let me show you how it works. To access the new theme module, come over access the new theme module, come over access the new theme module, come over here and click on this theme editor here and click on this theme editor here and click on this theme editor right here. You can see all the theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 264.0,
+      "timestamp_formatted": "00:04:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0133.png",
+      "transcript": "access the new theme module, come over here and click on this theme editor here and click on this theme editor here and click on this theme editor right here. You can see all the theme right here. You can see all the theme right here. You can see all the theme variables and their types populated.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 266.0,
+      "timestamp_formatted": "00:04:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0134.png",
+      "transcript": "here and click on this theme editor right here. You can see all the theme right here. You can see all the theme right here. You can see all the theme variables and their types populated. variables and their types populated. variables and their types populated. Now, when you click into each one of Now, when you click into each one of Now, when you click into each one of these values, you can see what it's",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 268.0,
+      "timestamp_formatted": "00:04:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0135.png",
+      "transcript": "right here. You can see all the theme variables and their types populated. variables and their types populated. variables and their types populated. Now, when you click into each one of Now, when you click into each one of Now, when you click into each one of these values, you can see what it's these values, you can see what it's these values, you can see what it's populated with. You can select the",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 270.0,
+      "timestamp_formatted": "00:04:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0136.png",
+      "transcript": "Now, when you click into each one of these values, you can see what it's these values, you can see what it's these values, you can see what it's populated with. You can select the populated with. You can select the populated with. You can select the colors. You can change them. You can see",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 272.0,
+      "timestamp_formatted": "00:04:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0137.png",
+      "transcript": "these values, you can see what it's populated with. You can select the populated with. You can select the populated with. You can select the colors. You can change them. You can see colors. You can change them. You can see colors. You can change them. You can see whether it's dark or light and you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 274.0,
+      "timestamp_formatted": "00:04:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0138.png",
+      "transcript": "populated with. You can select the colors. You can change them. You can see colors. You can change them. You can see colors. You can change them. You can see whether it's dark or light and you can whether it's dark or light and you can whether it's dark or light and you can switch that here or switch that here and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 276.0,
+      "timestamp_formatted": "00:04:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0139.png",
+      "transcript": "colors. You can change them. You can see whether it's dark or light and you can whether it's dark or light and you can whether it's dark or light and you can switch that here or switch that here and switch that here or switch that here and switch that here or switch that here and it's synced with your app. So you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 278.0,
+      "timestamp_formatted": "00:04:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0140.png",
+      "transcript": "whether it's dark or light and you can switch that here or switch that here and switch that here or switch that here and switch that here or switch that here and it's synced with your app. So you can it's synced with your app. So you can it's synced with your app. So you can see it in the context of the application",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 280.0,
+      "timestamp_formatted": "00:04:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0141.png",
+      "transcript": "switch that here or switch that here and it's synced with your app. So you can it's synced with your app. So you can it's synced with your app. So you can see it in the context of the application see it in the context of the application see it in the context of the application of your design. Now notice here that the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 282.0,
+      "timestamp_formatted": "00:04:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0142.png",
+      "transcript": "it's synced with your app. So you can see it in the context of the application see it in the context of the application see it in the context of the application of your design. Now notice here that the of your design. Now notice here that the of your design. Now notice here that the new theming system is type aware. So it",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 284.0,
+      "timestamp_formatted": "00:04:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0143.png",
+      "transcript": "see it in the context of the application of your design. Now notice here that the of your design. Now notice here that the of your design. Now notice here that the new theming system is type aware. So it",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 286.0,
+      "timestamp_formatted": "00:04:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0144.png",
+      "transcript": "of your design. Now notice here that the new theming system is type aware. So it new theming system is type aware. So it new theming system is type aware. So it understands what's typography, what's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 288.0,
+      "timestamp_formatted": "00:04:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0145.png",
+      "transcript": "of your design. Now notice here that the new theming system is type aware. So it new theming system is type aware. So it new theming system is type aware. So it understands what's typography, what's understands what's typography, what's understands what's typography, what's colors, padding values and much more.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 290.0,
+      "timestamp_formatted": "00:04:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0146.png",
+      "transcript": "new theming system is type aware. So it understands what's typography, what's understands what's typography, what's understands what's typography, what's colors, padding values and much more. colors, padding values and much more. colors, padding values and much more. And when you want to apply these values,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 292.0,
+      "timestamp_formatted": "00:04:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0147.png",
+      "transcript": "understands what's typography, what's colors, padding values and much more. colors, padding values and much more. colors, padding values and much more. And when you want to apply these values, And when you want to apply these values, And when you want to apply these values, let's come in here. Let's wrap this with",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 294.0,
+      "timestamp_formatted": "00:04:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0148.png",
+      "transcript": "colors, padding values and much more. And when you want to apply these values, And when you want to apply these values, And when you want to apply these values, let's come in here. Let's wrap this with",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 296.0,
+      "timestamp_formatted": "00:04:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0149.png",
+      "transcript": "And when you want to apply these values, let's come in here. Let's wrap this with let's come in here. Let's wrap this with let's come in here. Let's wrap this with padding. You can come into this value",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 298.0,
+      "timestamp_formatted": "00:04:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0150.png",
+      "transcript": "And when you want to apply these values, let's come in here. Let's wrap this with let's come in here. Let's wrap this with let's come in here. Let's wrap this with padding. You can come into this value padding. You can come into this value padding. You can come into this value right here and apply the value that you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 151,
+      "timestamp": 300.0,
+      "timestamp_formatted": "00:05:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0151.png",
+      "transcript": "let's come in here. Let's wrap this with padding. You can come into this value padding. You can come into this value padding. You can come into this value right here and apply the value that you",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 152,
+      "timestamp": 302.0,
+      "timestamp_formatted": "00:05:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0152.png",
+      "transcript": "padding. You can come into this value right here and apply the value that you right here and apply the value that you right here and apply the value that you want. Now, for this project, if you go",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 153,
+      "timestamp": 304.0,
+      "timestamp_formatted": "00:05:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0153.png",
+      "transcript": "padding. You can come into this value right here and apply the value that you right here and apply the value that you right here and apply the value that you want. Now, for this project, if you go want. Now, for this project, if you go want. Now, for this project, if you go in and take a look at our theme, we have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 154,
+      "timestamp": 306.0,
+      "timestamp_formatted": "00:05:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0154.png",
+      "transcript": "right here and apply the value that you want. Now, for this project, if you go want. Now, for this project, if you go want. Now, for this project, if you go in and take a look at our theme, we have in and take a look at our theme, we have in and take a look at our theme, we have all of our theming in one file. But this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 155,
+      "timestamp": 308.0,
+      "timestamp_formatted": "00:05:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0155.png",
+      "transcript": "want. Now, for this project, if you go in and take a look at our theme, we have in and take a look at our theme, we have in and take a look at our theme, we have all of our theming in one file. But this all of our theming in one file. But this all of our theming in one file. But this theme module is intelligent. So, in this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 156,
+      "timestamp": 310.0,
+      "timestamp_formatted": "00:05:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0156.png",
+      "transcript": "in and take a look at our theme, we have all of our theming in one file. But this all of our theming in one file. But this all of our theming in one file. But this theme module is intelligent. So, in this theme module is intelligent. So, in this theme module is intelligent. So, in this project, I've got a different theme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 157,
+      "timestamp": 312.0,
+      "timestamp_formatted": "00:05:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0157.png",
+      "transcript": "all of our theming in one file. But this theme module is intelligent. So, in this theme module is intelligent. So, in this theme module is intelligent. So, in this project, I've got a different theme project, I've got a different theme project, I've got a different theme architecture. So, if I look in here,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 158,
+      "timestamp": 314.0,
+      "timestamp_formatted": "00:05:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0158.png",
+      "transcript": "theme module is intelligent. So, in this project, I've got a different theme project, I've got a different theme project, I've got a different theme architecture. So, if I look in here, architecture. So, if I look in here, architecture. So, if I look in here, I've got a theme folder with different",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 159,
+      "timestamp": 316.0,
+      "timestamp_formatted": "00:05:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0159.png",
+      "transcript": "project, I've got a different theme architecture. So, if I look in here, architecture. So, if I look in here, architecture. So, if I look in here, I've got a theme folder with different I've got a theme folder with different I've got a theme folder with different files for colors, dark theme, light",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 160,
+      "timestamp": 318.0,
+      "timestamp_formatted": "00:05:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0160.png",
+      "transcript": "architecture. So, if I look in here, I've got a theme folder with different I've got a theme folder with different I've got a theme folder with different files for colors, dark theme, light files for colors, dark theme, light files for colors, dark theme, light theme, and typography. And when I come",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 161,
+      "timestamp": 320.0,
+      "timestamp_formatted": "00:05:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0161.png",
+      "transcript": "I've got a theme folder with different files for colors, dark theme, light files for colors, dark theme, light files for colors, dark theme, light theme, and typography. And when I come theme, and typography. And when I come theme, and typography. And when I come in here, you can see that it's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 162,
+      "timestamp": 322.0,
+      "timestamp_formatted": "00:05:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0162.png",
+      "transcript": "files for colors, dark theme, light theme, and typography. And when I come theme, and typography. And when I come theme, and typography. And when I come in here, you can see that it's in here, you can see that it's in here, you can see that it's recognized a structure, and it's able to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 163,
+      "timestamp": 324.0,
+      "timestamp_formatted": "00:05:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0163.png",
+      "transcript": "theme, and typography. And when I come in here, you can see that it's in here, you can see that it's in here, you can see that it's recognized a structure, and it's able to recognized a structure, and it's able to recognized a structure, and it's able to pull in all the values. And I'm able to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 164,
+      "timestamp": 326.0,
+      "timestamp_formatted": "00:05:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0164.png",
+      "transcript": "in here, you can see that it's recognized a structure, and it's able to recognized a structure, and it's able to recognized a structure, and it's able to pull in all the values. And I'm able to pull in all the values. And I'm able to pull in all the values. And I'm able to apply these values in the same way that",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 165,
+      "timestamp": 328.0,
+      "timestamp_formatted": "00:05:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0165.png",
+      "transcript": "recognized a structure, and it's able to pull in all the values. And I'm able to pull in all the values. And I'm able to pull in all the values. And I'm able to apply these values in the same way that apply these values in the same way that apply these values in the same way that I would with any other structure.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 166,
+      "timestamp": 330.0,
+      "timestamp_formatted": "00:05:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0166.png",
+      "transcript": "pull in all the values. And I'm able to apply these values in the same way that apply these values in the same way that apply these values in the same way that I would with any other structure. I would with any other structure. I would with any other structure. Finally, we've made multiple updates to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 167,
+      "timestamp": 332.0,
+      "timestamp_formatted": "00:05:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0167.png",
+      "transcript": "apply these values in the same way that I would with any other structure. I would with any other structure. I would with any other structure. Finally, we've made multiple updates to Finally, we've made multiple updates to Finally, we've made multiple updates to our agent. Dreamflow now supports our agent. Dreamflow now supports our agent. Dreamflow now supports agents.md rules. Agents.mmd has become",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 168,
+      "timestamp": 334.0,
+      "timestamp_formatted": "00:05:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0168.png",
+      "transcript": "I would with any other structure. Finally, we've made multiple updates to Finally, we've made multiple updates to Finally, we've made multiple updates to our agent. Dreamflow now supports our agent. Dreamflow now supports our agent. Dreamflow now supports agents.md rules. Agents.mmd has become",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 169,
+      "timestamp": 336.0,
+      "timestamp_formatted": "00:05:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0169.png",
+      "transcript": "our agent. Dreamflow now supports our agent. Dreamflow now supports agents.md rules. Agents.mmd has become agents.md rules. Agents.mmd has become agents.md rules. Agents.mmd has become the industry standard model for",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 170,
+      "timestamp": 338.0,
+      "timestamp_formatted": "00:05:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0170.png",
+      "transcript": "our agent. Dreamflow now supports agents.md rules. Agents.mmd has become agents.md rules. Agents.mmd has become agents.md rules. Agents.mmd has become the industry standard model for the industry standard model for the industry standard model for directing agents. It was created by a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 171,
+      "timestamp": 340.0,
+      "timestamp_formatted": "00:05:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0171.png",
+      "transcript": "agents.md rules. Agents.mmd has become the industry standard model for the industry standard model for the industry standard model for directing agents. It was created by a directing agents. It was created by a directing agents. It was created by a collaboration between openai codecs,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 172,
+      "timestamp": 342.0,
+      "timestamp_formatted": "00:05:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0172.png",
+      "transcript": "the industry standard model for directing agents. It was created by a directing agents. It was created by a directing agents. It was created by a collaboration between openai codecs, collaboration between openai codecs, collaboration between openai codecs, AMP, jewels from Google, cursor, and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 173,
+      "timestamp": 344.0,
+      "timestamp_formatted": "00:05:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0173.png",
+      "transcript": "directing agents. It was created by a collaboration between openai codecs, collaboration between openai codecs, collaboration between openai codecs, AMP, jewels from Google, cursor, and",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 174,
+      "timestamp": 346.0,
+      "timestamp_formatted": "00:05:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0174.png",
+      "transcript": "collaboration between openai codecs, AMP, jewels from Google, cursor, and AMP, jewels from Google, cursor, and AMP, jewels from Google, cursor, and factory and is now overseen by the AI",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 175,
+      "timestamp": 348.0,
+      "timestamp_formatted": "00:05:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0175.png",
+      "transcript": "collaboration between openai codecs, AMP, jewels from Google, cursor, and AMP, jewels from Google, cursor, and AMP, jewels from Google, cursor, and factory and is now overseen by the AI factory and is now overseen by the AI factory and is now overseen by the AI agentic foundation. Agents.md is like a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 176,
+      "timestamp": 350.0,
+      "timestamp_formatted": "00:05:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0176.png",
+      "transcript": "AMP, jewels from Google, cursor, and factory and is now overseen by the AI factory and is now overseen by the AI factory and is now overseen by the AI agentic foundation. Agents.md is like a agentic foundation. Agents.md is like a agentic foundation. Agents.md is like a readme for your agents. a dedicated,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 177,
+      "timestamp": 352.0,
+      "timestamp_formatted": "00:05:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0177.png",
+      "transcript": "factory and is now overseen by the AI agentic foundation. Agents.md is like a agentic foundation. Agents.md is like a agentic foundation. Agents.md is like a readme for your agents. a dedicated,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 178,
+      "timestamp": 354.0,
+      "timestamp_formatted": "00:05:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0178.png",
+      "transcript": "agentic foundation. Agents.md is like a readme for your agents. a dedicated, readme for your agents. a dedicated, readme for your agents. a dedicated, predictable place to provide the context",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 179,
+      "timestamp": 356.0,
+      "timestamp_formatted": "00:05:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0179.png",
+      "transcript": "agentic foundation. Agents.md is like a readme for your agents. a dedicated, readme for your agents. a dedicated, readme for your agents. a dedicated, predictable place to provide the context predictable place to provide the context predictable place to provide the context and instructions to help AI coding",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 180,
+      "timestamp": 358.0,
+      "timestamp_formatted": "00:05:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0180.png",
+      "transcript": "readme for your agents. a dedicated, predictable place to provide the context predictable place to provide the context predictable place to provide the context and instructions to help AI coding and instructions to help AI coding and instructions to help AI coding agents work on your project. It defines",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 181,
+      "timestamp": 360.0,
+      "timestamp_formatted": "00:06:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0181.png",
+      "transcript": "predictable place to provide the context and instructions to help AI coding and instructions to help AI coding and instructions to help AI coding agents work on your project. It defines agents work on your project. It defines agents work on your project. It defines your codebases patterns, conventions,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 182,
+      "timestamp": 362.0,
+      "timestamp_formatted": "00:06:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0182.png",
+      "transcript": "and instructions to help AI coding agents work on your project. It defines agents work on your project. It defines agents work on your project. It defines your codebases patterns, conventions, your codebases patterns, conventions, your codebases patterns, conventions, and architectural decisions in one",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 183,
+      "timestamp": 364.0,
+      "timestamp_formatted": "00:06:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0183.png",
+      "transcript": "agents work on your project. It defines your codebases patterns, conventions, your codebases patterns, conventions, your codebases patterns, conventions, and architectural decisions in one and architectural decisions in one and architectural decisions in one place, and the agent will follow them",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 184,
+      "timestamp": 366.0,
+      "timestamp_formatted": "00:06:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0184.png",
+      "transcript": "your codebases patterns, conventions, and architectural decisions in one and architectural decisions in one and architectural decisions in one place, and the agent will follow them place, and the agent will follow them place, and the agent will follow them when generating and modifying code.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 185,
+      "timestamp": 368.0,
+      "timestamp_formatted": "00:06:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0185.png",
+      "transcript": "and architectural decisions in one place, and the agent will follow them place, and the agent will follow them place, and the agent will follow them when generating and modifying code. when generating and modifying code. when generating and modifying code. Here's how you set it up. In order to Here's how you set it up. In order to Here's how you set it up. In order to get started with agents.md, you can just",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 186,
+      "timestamp": 370.0,
+      "timestamp_formatted": "00:06:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0186.png",
+      "transcript": "place, and the agent will follow them when generating and modifying code. when generating and modifying code. when generating and modifying code. Here's how you set it up. In order to Here's how you set it up. In order to Here's how you set it up. In order to get started with agents.md, you can just get started with agents.md, you can just get started with agents.md, you can just come down here to rules, and when I",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 187,
+      "timestamp": 372.0,
+      "timestamp_formatted": "00:06:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0187.png",
+      "transcript": "Here's how you set it up. In order to get started with agents.md, you can just get started with agents.md, you can just get started with agents.md, you can just come down here to rules, and when I come down here to rules, and when I come down here to rules, and when I select it here, I can autogenerate this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 188,
+      "timestamp": 374.0,
+      "timestamp_formatted": "00:06:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0188.png",
+      "transcript": "get started with agents.md, you can just come down here to rules, and when I come down here to rules, and when I come down here to rules, and when I select it here, I can autogenerate this",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 189,
+      "timestamp": 376.0,
+      "timestamp_formatted": "00:06:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0189.png",
+      "transcript": "come down here to rules, and when I select it here, I can autogenerate this select it here, I can autogenerate this select it here, I can autogenerate this file. It'll ask the agent to generate file. It'll ask the agent to generate file. It'll ask the agent to generate this and the agent will scan your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 190,
+      "timestamp": 378.0,
+      "timestamp_formatted": "00:06:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0190.png",
+      "transcript": "come down here to rules, and when I select it here, I can autogenerate this select it here, I can autogenerate this select it here, I can autogenerate this file. It'll ask the agent to generate file. It'll ask the agent to generate file. It'll ask the agent to generate this and the agent will scan your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 191,
+      "timestamp": 380.0,
+      "timestamp_formatted": "00:06:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0191.png",
+      "transcript": "file. It'll ask the agent to generate file. It'll ask the agent to generate this and the agent will scan your this and the agent will scan your this and the agent will scan your project to understand the codebase so",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 192,
+      "timestamp": 382.0,
+      "timestamp_formatted": "00:06:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0192.png",
+      "transcript": "file. It'll ask the agent to generate this and the agent will scan your this and the agent will scan your this and the agent will scan your project to understand the codebase so project to understand the codebase so project to understand the codebase so that it can intelligently compose this that it can intelligently compose this that it can intelligently compose this file. Great. It's created this file. So,",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 193,
+      "timestamp": 384.0,
+      "timestamp_formatted": "00:06:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0193.png",
+      "transcript": "this and the agent will scan your project to understand the codebase so project to understand the codebase so project to understand the codebase so that it can intelligently compose this that it can intelligently compose this that it can intelligently compose this file. Great. It's created this file. So,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 194,
+      "timestamp": 386.0,
+      "timestamp_formatted": "00:06:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0194.png",
+      "transcript": "that it can intelligently compose this that it can intelligently compose this file. Great. It's created this file. So, file. Great. It's created this file. So, file. Great. It's created this file. So, let's open it up. We've got a project",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 195,
+      "timestamp": 388.0,
+      "timestamp_formatted": "00:06:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0195.png",
+      "transcript": "that it can intelligently compose this file. Great. It's created this file. So, file. Great. It's created this file. So, file. Great. It's created this file. So, let's open it up. We've got a project let's open it up. We've got a project let's open it up. We've got a project overview, architectural patterns, and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 196,
+      "timestamp": 390.0,
+      "timestamp_formatted": "00:06:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0196.png",
+      "transcript": "file. Great. It's created this file. So, let's open it up. We've got a project let's open it up. We've got a project let's open it up. We've got a project overview, architectural patterns, and overview, architectural patterns, and overview, architectural patterns, and let's see here. File structure, code",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 197,
+      "timestamp": 392.0,
+      "timestamp_formatted": "00:06:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0197.png",
+      "transcript": "let's open it up. We've got a project overview, architectural patterns, and overview, architectural patterns, and overview, architectural patterns, and let's see here. File structure, code let's see here. File structure, code let's see here. File structure, code style. Yeah, this is great. This will",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 198,
+      "timestamp": 394.0,
+      "timestamp_formatted": "00:06:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0198.png",
+      "transcript": "overview, architectural patterns, and let's see here. File structure, code let's see here. File structure, code let's see here. File structure, code style. Yeah, this is great. This will style. Yeah, this is great. This will style. Yeah, this is great. This will help your agent be much more consistent",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 199,
+      "timestamp": 396.0,
+      "timestamp_formatted": "00:06:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0199.png",
+      "transcript": "let's see here. File structure, code let's see here. File structure, code style. Yeah, this is great. This will style. Yeah, this is great. This will style. Yeah, this is great. This will help your agent be much more consistent help your agent be much more consistent help your agent be much more consistent and higher quality in its generations.",
+      "segment_count": 6
+    },
+    {
+      "frame_number": 200,
+      "timestamp": 398.0,
+      "timestamp_formatted": "00:06:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0200.png",
+      "transcript": "style. Yeah, this is great. This will help your agent be much more consistent help your agent be much more consistent help your agent be much more consistent and higher quality in its generations. and higher quality in its generations. and higher quality in its generations. Also, we've added Gemini 3.0 Flash, a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 201,
+      "timestamp": 400.0,
+      "timestamp_formatted": "00:06:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0201.png",
+      "transcript": "help your agent be much more consistent and higher quality in its generations. and higher quality in its generations. and higher quality in its generations. Also, we've added Gemini 3.0 Flash, a",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 202,
+      "timestamp": 402.0,
+      "timestamp_formatted": "00:06:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0202.png",
+      "transcript": "and higher quality in its generations. Also, we've added Gemini 3.0 Flash, a Also, we've added Gemini 3.0 Flash, a Also, we've added Gemini 3.0 Flash, a super fast, costefficient, and high",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 203,
+      "timestamp": 404.0,
+      "timestamp_formatted": "00:06:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0203.png",
+      "transcript": "and higher quality in its generations. Also, we've added Gemini 3.0 Flash, a Also, we've added Gemini 3.0 Flash, a Also, we've added Gemini 3.0 Flash, a super fast, costefficient, and high super fast, costefficient, and high super fast, costefficient, and high quality coding model. Remember that all",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 204,
+      "timestamp": 406.0,
+      "timestamp_formatted": "00:06:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0204.png",
+      "transcript": "Also, we've added Gemini 3.0 Flash, a super fast, costefficient, and high super fast, costefficient, and high super fast, costefficient, and high quality coding model. Remember that all quality coding model. Remember that all quality coding model. Remember that all the models are down here in this menu,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 205,
+      "timestamp": 408.0,
+      "timestamp_formatted": "00:06:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0205.png",
+      "transcript": "super fast, costefficient, and high quality coding model. Remember that all quality coding model. Remember that all quality coding model. Remember that all the models are down here in this menu, the models are down here in this menu, the models are down here in this menu, so you can just open it up and select",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 206,
+      "timestamp": 410.0,
+      "timestamp_formatted": "00:06:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0206.png",
+      "transcript": "quality coding model. Remember that all the models are down here in this menu, the models are down here in this menu, the models are down here in this menu, so you can just open it up and select so you can just open it up and select so you can just open it up and select it. Those are the updates for this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 207,
+      "timestamp": 412.0,
+      "timestamp_formatted": "00:06:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0207.png",
+      "transcript": "the models are down here in this menu, so you can just open it up and select so you can just open it up and select so you can just open it up and select it. Those are the updates for this it. Those are the updates for this it. Those are the updates for this December. Leave us any questions you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 208,
+      "timestamp": 414.0,
+      "timestamp_formatted": "00:06:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649543-New_Features__Properties_Panel__Theme_Module__Agent_Updates_keyframes/frame_0208.png",
+      "transcript": "so you can just open it up and select it. Those are the updates for this it. Those are the updates for this it. Those are the updates for this December. Leave us any questions you December. Leave us any questions you December. Leave us any questions you have below and we'll see you in the next",
+      "segment_count": 5
+    }
+  ]
+}

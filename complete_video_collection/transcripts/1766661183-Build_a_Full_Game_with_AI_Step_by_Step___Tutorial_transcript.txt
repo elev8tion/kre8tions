@@ -1,0 +1,2182 @@
+
+My name is John and I work in developer
+My name is John and I work in developer
+ 
+My name is John and I work in developer
+relations. I'm building a party game
+relations. I'm building a party game
+ 
+relations. I'm building a party game
+called the hierarchy of fruit. And this
+called the hierarchy of fruit. And this
+ 
+called the hierarchy of fruit. And this
+is where you can go in and you can rank
+is where you can go in and you can rank
+ 
+is where you can go in and you can rank
+fruit. So you can take one here. I'll
+fruit. So you can take one here. I'll
+ 
+fruit. So you can take one here. I'll
+give it a two. No, I'll give it a one
+give it a two. No, I'll give it a one
+ 
+give it a two. No, I'll give it a one
+right there. Leave a comment. We're
+right there. Leave a comment. We're
+ 
+right there. Leave a comment. We're
+going to build this all right here. It's
+going to build this all right here. It's
+ 
+going to build this all right here. It's
+a fun game to play with your friends or
+a fun game to play with your friends or
+ 
+a fun game to play with your friends or
+your family and I'll show you how. All
+your family and I'll show you how. All
+ 
+your family and I'll show you how. All
+right. So, how do we want to start
+right. So, how do we want to start
+ 
+right. So, how do we want to start
+building this game? Now, of course, you
+building this game? Now, of course, you
+ 
+building this game? Now, of course, you
+could start right here and give in a
+could start right here and give in a
+ 
+could start right here and give in a
+prompt and start building your app, but
+prompt and start building your app, but
+ 
+prompt and start building your app, but
+I would actually recommend not doing
+I would actually recommend not doing
+ 
+I would actually recommend not doing
+that, and that's because if you do a
+that, and that's because if you do a
+ 
+that, and that's because if you do a
+little bit of planning beforehand and
+little bit of planning beforehand and
+ 
+little bit of planning beforehand and
+collect some assets and come up with a
+collect some assets and come up with a
+ 
+collect some assets and come up with a
+plan, you're going to end up having a
+plan, you're going to end up having a
+ 
+plan, you're going to end up having a
+better app. So, let me show you what I'm
+better app. So, let me show you what I'm
+ 
+better app. So, let me show you what I'm
+starting with. The first thing is I
+starting with. The first thing is I
+ 
+starting with. The first thing is I
+started with a concept. I already have
+started with a concept. I already have
+ 
+started with a concept. I already have
+an app idea in mind, and it's a game,
+an app idea in mind, and it's a game,
+ 
+an app idea in mind, and it's a game,
+and it's called the hierarchy of fruit.
+and it's called the hierarchy of fruit.
+ 
+and it's called the hierarchy of fruit.
+And the idea of this game is that it
+And the idea of this game is that it
+ 
+And the idea of this game is that it
+takes 22 different fruits and you rank
+takes 22 different fruits and you rank
+ 
+takes 22 different fruits and you rank
+them. Okay? And you can do this with
+them. Okay? And you can do this with
+ 
+them. Okay? And you can do this with
+your family or your friends. So you can
+your family or your friends. So you can
+ 
+your family or your friends. So you can
+choose a room to go into and just play
+choose a room to go into and just play
+ 
+choose a room to go into and just play
+it with them. Or there'll be a global GL
+it with them. Or there'll be a global GL
+ 
+it with them. Or there'll be a global GL
+game as well. And the idea is that you
+game as well. And the idea is that you
+ 
+game as well. And the idea is that you
+select a tier. So tier one is the best
+select a tier. So tier one is the best
+ 
+select a tier. So tier one is the best
+fruit and tier two is fine and tier
+fruit and tier two is fine and tier
+ 
+fruit and tier two is fine and tier
+three is either a bad fruit or
+three is either a bad fruit or
+ 
+three is either a bad fruit or
+deceptive. And I'll give you an example
+deceptive. And I'll give you an example
+ 
+deceptive. And I'll give you an example
+of one of those. That's dragon fruit.
+of one of those. That's dragon fruit.
+ 
+of one of those. That's dragon fruit.
+Dragon fruit looks amazing, but it's
+Dragon fruit looks amazing, but it's
+ 
+Dragon fruit looks amazing, but it's
+just like slightly sweet. Okay, it's a
+just like slightly sweet. Okay, it's a
+ 
+just like slightly sweet. Okay, it's a
+deceptive fruit. Dragon fruit is a tier
+deceptive fruit. Dragon fruit is a tier
+ 
+deceptive fruit. Dragon fruit is a tier
+three fruit. Okay, and that reason I
+three fruit. Okay, and that reason I
+ 
+three fruit. Okay, and that reason I
+would put in here. So, when you're done,
+would put in here. So, when you're done,
+ 
+would put in here. So, when you're done,
+you can look at everyone's rankings and
+you can look at everyone's rankings and
+ 
+you can look at everyone's rankings and
+you can see the reasons why they did it.
+you can see the reasons why they did it.
+ 
+you can see the reasons why they did it.
+Okay, so that's the concept for the
+Okay, so that's the concept for the
+ 
+Okay, so that's the concept for the
+game. And I've got some simple UI here.
+game. And I've got some simple UI here.
+ 
+game. And I've got some simple UI here.
+So, I've got this little logo. I've got
+So, I've got this little logo. I've got
+ 
+So, I've got this little logo. I've got
+the rating screen. I've got some
+the rating screen. I've got some
+ 
+the rating screen. I've got some
+onboarding screens and I've got the
+onboarding screens and I've got the
+ 
+onboarding screens and I've got the
+concept and I've written that down. And
+concept and I've written that down. And
+ 
+concept and I've written that down. And
+why this is helpful is because the very
+why this is helpful is because the very
+ 
+why this is helpful is because the very
+first thing you want to do when you're
+first thing you want to do when you're
+ 
+first thing you want to do when you're
+working with AI agents is give it the
+working with AI agents is give it the
+ 
+working with AI agents is give it the
+overall plan. And that's because as it's
+overall plan. And that's because as it's
+ 
+overall plan. And that's because as it's
+making decisions, it will always
+making decisions, it will always
+ 
+making decisions, it will always
+reference that plan. So whenever the
+reference that plan. So whenever the
+ 
+reference that plan. So whenever the
+model has any ambiguity, the context
+model has any ambiguity, the context
+ 
+model has any ambiguity, the context
+will be the context of what you are
+will be the context of what you are
+ 
+will be the context of what you are
+trying to accomplish. Okay. So, we've
+trying to accomplish. Okay. So, we've
+ 
+trying to accomplish. Okay. So, we've
+got some assets. We've got the idea of
+got some assets. We've got the idea of
+ 
+got some assets. We've got the idea of
+the game. And I'm not going to start
+the game. And I'm not going to start
+ 
+the game. And I'm not going to start
+with this prompt here. Starting with the
+with this prompt here. Starting with the
+ 
+with this prompt here. Starting with the
+prompt here is good when you want the
+prompt here is good when you want the
+ 
+prompt here is good when you want the
+model to do a lot of work. But what we
+model to do a lot of work. But what we
+ 
+model to do a lot of work. But what we
+want to do is we want to work slower,
+want to do is we want to work slower,
+ 
+want to do is we want to work slower,
+step by step, because AI models are
+step by step, because AI models are
+ 
+step by step, because AI models are
+great, fast, junior engineers, but
+great, fast, junior engineers, but
+ 
+great, fast, junior engineers, but
+sometimes overeager, and they'll build a
+sometimes overeager, and they'll build a
+ 
+sometimes overeager, and they'll build a
+lot of stuff that you might want, but
+lot of stuff that you might want, but
+ 
+lot of stuff that you might want, but
+you might not want. So, instead, we're
+you might not want. So, instead, we're
+ 
+you might not want. So, instead, we're
+going to do a new project right here.
+going to do a new project right here.
+ 
+going to do a new project right here.
+We're going to call it hierarchy of
+We're going to call it hierarchy of
+ 
+We're going to call it hierarchy of
+fruit and we're going to create this
+fruit and we're going to create this
+ 
+fruit and we're going to create this
+project. Okay, we've just got this basic
+project. Okay, we've just got this basic
+ 
+project. Okay, we've just got this basic
+scaffolded app here and we're ready to
+scaffolded app here and we're ready to
+ 
+scaffolded app here and we're ready to
+start working. So, the first thing you
+start working. So, the first thing you
+ 
+start working. So, the first thing you
+always want to do is give your agent a
+always want to do is give your agent a
+ 
+always want to do is give your agent a
+plan. So, first I'm going to select
+plan. So, first I'm going to select
+ 
+plan. So, first I'm going to select
+Claude right here. And I'm going to tell
+Claude right here. And I'm going to tell
+ 
+Claude right here. And I'm going to tell
+the agent, I want you to create a plan,
+the agent, I want you to create a plan,
+ 
+the agent, I want you to create a plan,
+MD file that keeps track of the project
+MD file that keeps track of the project
+ 
+MD file that keeps track of the project
+description, tasks, and subtasks and app
+description, tasks, and subtasks and app
+ 
+description, tasks, and subtasks and app
+architecture. So, this plan file will be
+architecture. So, this plan file will be
+ 
+architecture. So, this plan file will be
+the source of truth for our agent.
+the source of truth for our agent.
+ 
+the source of truth for our agent.
+Please create this file. Okay, the agent
+Please create this file. Okay, the agent
+ 
+Please create this file. Okay, the agent
+is going to go create that file. I want
+is going to go create that file. I want
+ 
+is going to go create that file. I want
+to see it come in right here. So, let's
+to see it come in right here. So, let's
+ 
+to see it come in right here. So, let's
+just wait. It's looking at what our
+just wait. It's looking at what our
+ 
+just wait. It's looking at what our
+project looks like currently. And now
+project looks like currently. And now
+ 
+project looks like currently. And now
+it's going to create this file. Okay,
+it's going to create this file. Okay,
+ 
+it's going to create this file. Okay,
+great. It's created this file. Let's
+great. It's created this file. Let's
+ 
+great. It's created this file. Let's
+open this up. You could click here or we
+open this up. You could click here or we
+ 
+open this up. You could click here or we
+can go up and just click on here and
+can go up and just click on here and
+ 
+can go up and just click on here and
+it's going to open up. And let's see
+it's going to open up. And let's see
+ 
+it's going to open up. And let's see
+what it says right here. It has the
+what it says right here. It has the
+ 
+what it says right here. It has the
+title, the type of application. It
+title, the type of application. It
+ 
+title, the type of application. It
+recognizes that it's a new Flutter
+recognizes that it's a new Flutter
+ 
+recognizes that it's a new Flutter
+project in the starter phase with basic
+project in the starter phase with basic
+ 
+project in the starter phase with basic
+counter functionality. So, it knows it's
+counter functionality. So, it knows it's
+ 
+counter functionality. So, it knows it's
+just that basic file right now. and it
+just that basic file right now. and it
+ 
+just that basic file right now. and it
+started some check mark stuff here. We
+started some check mark stuff here. We
+ 
+started some check mark stuff here. We
+don't need any of this stuff right now,
+don't need any of this stuff right now,
+ 
+don't need any of this stuff right now,
+but it'll update this accordingly. So,
+but it'll update this accordingly. So,
+ 
+but it'll update this accordingly. So,
+we don't have to worry about deleting
+we don't have to worry about deleting
+ 
+we don't have to worry about deleting
+all of that. Okay. So, now we're going
+all of that. Okay. So, now we're going
+ 
+all of that. Okay. So, now we're going
+to give it the plan for our app. So,
+to give it the plan for our app. So,
+ 
+to give it the plan for our app. So,
+I've got some copy here that I've
+I've got some copy here that I've
+ 
+I've got some copy here that I've
+already written. So, I'm going to paste
+already written. So, I'm going to paste
+ 
+already written. So, I'm going to paste
+it in here and I say I want to create a
+it in here and I say I want to create a
+ 
+it in here and I say I want to create a
+game app called Hierarchy of Fruit. The
+game app called Hierarchy of Fruit. The
+ 
+game app called Hierarchy of Fruit. The
+main idea is that users will rank 22
+main idea is that users will rank 22
+ 
+main idea is that users will rank 22
+fruits as one of three tiers. With each
+fruits as one of three tiers. With each
+ 
+fruits as one of three tiers. With each
+fruit, they'll give it a rank and can
+fruit, they'll give it a rank and can
+ 
+fruit, they'll give it a rank and can
+include a comment as to why. When
+include a comment as to why. When
+ 
+include a comment as to why. When
+they're done, there's a final scoreboard
+they're done, there's a final scoreboard
+ 
+they're done, there's a final scoreboard
+that shows the aggregated ranking of all
+that shows the aggregated ranking of all
+ 
+that shows the aggregated ranking of all
+the fruits in the comments. And there
+the fruits in the comments. And there
+ 
+the fruits in the comments. And there
+are two options, a global game and a a
+are two options, a global game and a a
+ 
+are two options, a global game and a a
+room code you can share with your
+room code you can share with your
+ 
+room code you can share with your
+friends and family. And I'm going to use
+friends and family. And I'm going to use
+ 
+friends and family. And I'm going to use
+Firebase for my database and
+Firebase for my database and
+ 
+Firebase for my database and
+authentication. So that's my
+authentication. So that's my
+ 
+authentication. So that's my
+description. And I just want right now
+description. And I just want right now
+ 
+description. And I just want right now
+the agent to update the plan.md with
+the agent to update the plan.md with
+ 
+the agent to update the plan.md with
+this information. Now notice as we're
+this information. Now notice as we're
+ 
+this information. Now notice as we're
+working, the agent isn't actually
+working, the agent isn't actually
+ 
+working, the agent isn't actually
+writing any code yet because we gave it
+writing any code yet because we gave it
+ 
+writing any code yet because we gave it
+the instructions to just edit this file.
+the instructions to just edit this file.
+ 
+the instructions to just edit this file.
+Probably the two most important things
+Probably the two most important things
+ 
+Probably the two most important things
+when you're working with AI agent is one
+when you're working with AI agent is one
+ 
+when you're working with AI agent is one
+to be explicit because the AI agent
+to be explicit because the AI agent
+ 
+to be explicit because the AI agent
+knows nothing about you or your app or
+knows nothing about you or your app or
+ 
+knows nothing about you or your app or
+your context unless you tell it. And one
+your context unless you tell it. And one
+ 
+your context unless you tell it. And one
+mistake we can kind of have is that
+mistake we can kind of have is that
+ 
+mistake we can kind of have is that
+because LLMs are so adept, we can
+because LLMs are so adept, we can
+ 
+because LLMs are so adept, we can
+sometimes think that it knows more than
+sometimes think that it knows more than
+ 
+sometimes think that it knows more than
+it does. So be specific. And the second
+it does. So be specific. And the second
+ 
+it does. So be specific. And the second
+thing is to work in small steps. One of
+thing is to work in small steps. One of
+ 
+thing is to work in small steps. One of
+the best ways to reduce hallucinations
+the best ways to reduce hallucinations
+ 
+the best ways to reduce hallucinations
+of agents is to give it one small
+of agents is to give it one small
+ 
+of agents is to give it one small
+contained task at a time. Okay, now it's
+contained task at a time. Okay, now it's
+ 
+contained task at a time. Okay, now it's
+done here. So let's take a look at the
+done here. So let's take a look at the
+ 
+done here. So let's take a look at the
+changes it made right here. So we have
+changes it made right here. So we have
+ 
+changes it made right here. So we have
+the project description. We have the
+the project description. We have the
+ 
+the project description. We have the
+game concept. That looks good. We've got
+game concept. That looks good. We've got
+ 
+game concept. That looks good. We've got
+some features right here. We've got the
+some features right here. We've got the
+ 
+some features right here. We've got the
+text stack. That all looks good. And as
+text stack. That all looks good. And as
+ 
+text stack. That all looks good. And as
+I'm looking through here, it hasn't
+I'm looking through here, it hasn't
+ 
+I'm looking through here, it hasn't
+decided on what state management we
+decided on what state management we
+ 
+decided on what state management we
+need. We don't really need anything
+need. We don't really need anything
+ 
+need. We don't really need anything
+complex. So, we're going to use
+complex. So, we're going to use
+ 
+complex. So, we're going to use
+provider. So, I'm just going to delete
+provider. So, I'm just going to delete
+ 
+provider. So, I'm just going to delete
+that and save it. And remember, because
+that and save it. And remember, because
+ 
+that and save it. And remember, because
+I told the model to keep track of these
+I told the model to keep track of these
+ 
+I told the model to keep track of these
+things, it will refer back and see this
+things, it will refer back and see this
+ 
+things, it will refer back and see this
+change. It gave a planned project
+change. It gave a planned project
+ 
+change. It gave a planned project
+structure. Now, it hasn't created any of
+structure. Now, it hasn't created any of
+ 
+structure. Now, it hasn't created any of
+this yet. It just has come up with this
+this yet. It just has come up with this
+ 
+this yet. It just has come up with this
+structure right now. And as we're going
+structure right now. And as we're going
+ 
+structure right now. And as we're going
+through here, you can see that it's
+through here, you can see that it's
+ 
+through here, you can see that it's
+starting to check off the different
+starting to check off the different
+ 
+starting to check off the different
+tasks that it's thought is important.
+tasks that it's thought is important.
+ 
+tasks that it's thought is important.
+Let's just look through here. Okay, this
+Let's just look through here. Okay, this
+ 
+Let's just look through here. Okay, this
+is looking good except for I want to
+is looking good except for I want to
+ 
+is looking good except for I want to
+change the list of fruits. So, update
+change the list of fruits. So, update
+ 
+change the list of fruits. So, update
+the fruits to these. Okay, that looks
+the fruits to these. Okay, that looks
+ 
+the fruits to these. Okay, that looks
+great. I've updated these. I've put them
+great. I've updated these. I've put them
+ 
+great. I've updated these. I've put them
+in the order that I want. Now, I have a
+in the order that I want. Now, I have a
+ 
+in the order that I want. Now, I have a
+font that I want the app to use, and
+font that I want the app to use, and
+ 
+font that I want the app to use, and
+that's Poppins in Google Font. So I
+that's Poppins in Google Font. So I
+ 
+that's Poppins in Google Font. So I
+would like to use the Google font
+would like to use the Google font
+ 
+would like to use the Google font
+Poppins. All right, great. So this
+Poppins. All right, great. So this
+ 
+Poppins. All right, great. So this
+updated. So we're using the Poppins.
+updated. So we're using the Poppins.
+ 
+updated. So we're using the Poppins.
+We're already using Google Fonts. So
+We're already using Google Fonts. So
+ 
+We're already using Google Fonts. So
+that's great. All right, next step.
+that's great. All right, next step.
+ 
+that's great. All right, next step.
+Let's plan the schema for Fire Store for
+Let's plan the schema for Fire Store for
+ 
+Let's plan the schema for Fire Store for
+our backend. So let's say plan the
+our backend. So let's say plan the
+ 
+our backend. So let's say plan the
+schema for Fire Store and store in
+schema for Fire Store and store in
+ 
+schema for Fire Store and store in
+plan.md.
+plan.md.
+ 
+plan.md.
+Okay, that's done. Let's take a look at
+Okay, that's done. Let's take a look at
+ 
+Okay, that's done. Let's take a look at
+what it did here. We don't have to jump
+what it did here. We don't have to jump
+ 
+what it did here. We don't have to jump
+in here. We got a users collection, our
+in here. We got a users collection, our
+ 
+in here. We got a users collection, our
+fruits, the different rooms, game
+fruits, the different rooms, game
+ 
+fruits, the different rooms, game
+section, rankings, global stats.
+section, rankings, global stats.
+ 
+section, rankings, global stats.
+Beautiful. That looks great. Okay, so
+Beautiful. That looks great. Okay, so
+ 
+Beautiful. That looks great. Okay, so
+we've got our plan now. We've got our
+we've got our plan now. We've got our
+ 
+we've got our plan now. We've got our
+database schema. So now we're ready to
+database schema. So now we're ready to
+ 
+database schema. So now we're ready to
+integrate Firebase. So let's go over to
+integrate Firebase. So let's go over to
+ 
+integrate Firebase. So let's go over to
+our Firebase tab. Let's connect to
+our Firebase tab. Let's connect to
+ 
+our Firebase tab. Let's connect to
+Firebase and we're going to create a new
+Firebase and we're going to create a new
+ 
+Firebase and we're going to create a new
+project. This will just take a few
+project. This will just take a few
+ 
+project. This will just take a few
+minutes to set up. But the important
+minutes to set up. But the important
+ 
+minutes to set up. But the important
+part is that now that we have a plan,
+part is that now that we have a plan,
+ 
+part is that now that we have a plan,
+when we actually generate the code,
+when we actually generate the code,
+ 
+when we actually generate the code,
+it'll be able to generate the schema and
+it'll be able to generate the schema and
+ 
+it'll be able to generate the schema and
+the security rules that are particular
+the security rules that are particular
+ 
+the security rules that are particular
+to our application. Okay, the project's
+to our application. Okay, the project's
+ 
+to our application. Okay, the project's
+been created in Firebase. So now let's
+been created in Firebase. So now let's
+ 
+been created in Firebase. So now let's
+configure Firebase. Now, one thing to
+configure Firebase. Now, one thing to
+ 
+configure Firebase. Now, one thing to
+keep in mind as this is building, you
+keep in mind as this is building, you
+ 
+keep in mind as this is building, you
+may see some errors in your project, but
+may see some errors in your project, but
+ 
+may see some errors in your project, but
+those will go away. The analyzer is just
+those will go away. The analyzer is just
+ 
+those will go away. The analyzer is just
+continually checking the project while
+continually checking the project while
+ 
+continually checking the project while
+it's building, so don't worry about
+it's building, so don't worry about
+ 
+it's building, so don't worry about
+that. All right, that's configured. It
+that. All right, that's configured. It
+ 
+that. All right, that's configured. It
+defaults to three target platforms.
+defaults to three target platforms.
+ 
+defaults to three target platforms.
+That's great. So now let's generate some
+That's great. So now let's generate some
+ 
+That's great. So now let's generate some
+client code. Now you can see here as
+client code. Now you can see here as
+ 
+client code. Now you can see here as
+it's planning out it that it references
+it's planning out it that it references
+ 
+it's planning out it that it references
+our plan MD file so it knows what to
+our plan MD file so it knows what to
+ 
+our plan MD file so it knows what to
+generate. All right, that's done. Now we
+generate. All right, that's done. Now we
+ 
+generate. All right, that's done. Now we
+want to deploy to Firebase right here.
+want to deploy to Firebase right here.
+ 
+want to deploy to Firebase right here.
+Okay, great. Now let's configure our
+Okay, great. Now let's configure our
+ 
+Okay, great. Now let's configure our
+authentication. This is just going to
+authentication. This is just going to
+ 
+authentication. This is just going to
+bring us to the Firebase console. So
+bring us to the Firebase console. So
+ 
+bring us to the Firebase console. So
+we're right here. Let's get started. And
+we're right here. Let's get started. And
+ 
+we're right here. Let's get started. And
+we'll just do email and password for
+we'll just do email and password for
+ 
+we'll just do email and password for
+now. So let's enable that and we're
+now. So let's enable that and we're
+ 
+now. So let's enable that and we're
+ready to go. Okay, now this is ready to
+ready to go. Okay, now this is ready to
+ 
+ready to go. Okay, now this is ready to
+test. But I wanted to follow up on one
+test. But I wanted to follow up on one
+ 
+test. But I wanted to follow up on one
+thing about this aspect when it
+thing about this aspect when it
+ 
+thing about this aspect when it
+generated the schema. Now it generated
+generated the schema. Now it generated
+ 
+generated the schema. Now it generated
+the schema based on what it knew about
+the schema based on what it knew about
+ 
+the schema based on what it knew about
+my project already. And that's why we
+my project already. And that's why we
+ 
+my project already. And that's why we
+took the time to give the agent a plan.
+took the time to give the agent a plan.
+ 
+took the time to give the agent a plan.
+Okay, so let's test this out and make
+Okay, so let's test this out and make
+ 
+Okay, so let's test this out and make
+sure the authentication is working
+sure the authentication is working
+ 
+sure the authentication is working
+correctly. So let's sign up and let's
+correctly. So let's sign up and let's
+ 
+correctly. So let's sign up and let's
+add my email. Great, that's working.
+add my email. Great, that's working.
+ 
+add my email. Great, that's working.
+Beautiful. Okay, so next I actually want
+Beautiful. Okay, so next I actually want
+ 
+Beautiful. Okay, so next I actually want
+it to default to light mode. So let's
+it to default to light mode. So let's
+ 
+it to default to light mode. So let's
+have the default be light mode. Okay,
+have the default be light mode. Okay,
+ 
+have the default be light mode. Okay,
+that's getting better. Okay, that's
+that's getting better. Okay, that's
+ 
+that's getting better. Okay, that's
+looking great. But let me actually go
+looking great. But let me actually go
+ 
+looking great. But let me actually go
+back and sign out for a second because I
+back and sign out for a second because I
+ 
+back and sign out for a second because I
+want to redesign this page. And if you
+want to redesign this page. And if you
+ 
+want to redesign this page. And if you
+remember, I have some UI that I created
+remember, I have some UI that I created
+ 
+remember, I have some UI that I created
+for this. So, I'm going to drop this in
+for this. So, I'm going to drop this in
+ 
+for this. So, I'm going to drop this in
+and I'm going to select specifically
+and I'm going to select specifically
+ 
+and I'm going to select specifically
+GPT5 because it's the model that has the
+GPT5 because it's the model that has the
+ 
+GPT5 because it's the model that has the
+best visual understanding of UI. And I'm
+best visual understanding of UI. And I'm
+ 
+best visual understanding of UI. And I'm
+going to say, please redesign the
+going to say, please redesign the
+ 
+going to say, please redesign the
+authentication
+authentication
+ 
+authentication
+page according to the attached design.
+page according to the attached design.
+ 
+page according to the attached design.
+Ask any questions if you are unsure
+Ask any questions if you are unsure
+ 
+Ask any questions if you are unsure
+about something with the design or
+about something with the design or
+ 
+about something with the design or
+implementation. We've published a video
+implementation. We've published a video
+ 
+implementation. We've published a video
+on this before, but there's some
+on this before, but there's some
+ 
+on this before, but there's some
+research to suggest that if you
+research to suggest that if you
+ 
+research to suggest that if you
+explicitly ask for clarification
+explicitly ask for clarification
+ 
+explicitly ask for clarification
+questions, the model performs better
+questions, the model performs better
+ 
+questions, the model performs better
+because you as the user and developer
+because you as the user and developer
+ 
+because you as the user and developer
+clarify the uncertainty instead of the
+clarify the uncertainty instead of the
+ 
+clarify the uncertainty instead of the
+model. Okay, so it did come back with
+model. Okay, so it did come back with
+ 
+model. Okay, so it did come back with
+some questions before its
+some questions before its
+ 
+some questions before its
+implementation, which is great. So,
+implementation, which is great. So,
+ 
+implementation, which is great. So,
+let's read through these. Signin versus
+let's read through these. Signin versus
+ 
+let's read through these. Signin versus
+signup. The design shows a sign up page
+signup. The design shows a sign up page
+ 
+signup. The design shows a sign up page
+with four fields. Do you also want a
+with four fields. Do you also want a
+ 
+with four fields. Do you also want a
+sign-in page? Uh, yes. That's a good
+sign-in page? Uh, yes. That's a good
+ 
+sign-in page? Uh, yes. That's a good
+point. We didn't add that in. So yes,
+point. We didn't add that in. So yes,
+ 
+point. We didn't add that in. So yes,
+both sign up and sign in with a toggle
+both sign up and sign in with a toggle
+ 
+both sign up and sign in with a toggle
+on brand. Okay. Bottom indicators. I see
+on brand. Okay. Bottom indicators. I see
+ 
+on brand. Okay. Bottom indicators. I see
+two indicators. Are these indicators
+two indicators. Are these indicators
+ 
+two indicators. Are these indicators
+suggesting there should be multiple
+suggesting there should be multiple
+ 
+suggesting there should be multiple
+screens. That was for the sign up and
+screens. That was for the sign up and
+ 
+screens. That was for the sign up and
+sign in. But you don't have to follow
+sign in. But you don't have to follow
+ 
+sign in. But you don't have to follow
+that design. Implement whatever UI UX is
+that design. Implement whatever UI UX is
+ 
+that design. Implement whatever UI UX is
+best. three. It's just asking for if
+best. three. It's just asking for if
+ 
+best. three. It's just asking for if
+I've got the logo. I'll just say just
+I've got the logo. I'll just say just
+ 
+I've got the logo. I'll just say just
+use placeholder. And then color scheme,
+use placeholder. And then color scheme,
+ 
+use placeholder. And then color scheme,
+the yellow background. Uh, yes. Use that
+the yellow background. Uh, yes. Use that
+ 
+the yellow background. Uh, yes. Use that
+as primary color. And finally, clear
+as primary color. And finally, clear
+ 
+as primary color. And finally, clear
+icons have an X button while the
+icons have an X button while the
+ 
+icons have an X button while the
+password fields have an I icon for
+password fields have an I icon for
+ 
+password fields have an I icon for
+visibly. Should both be functional? Uh,
+visibly. Should both be functional? Uh,
+ 
+visibly. Should both be functional? Uh,
+yes. That would be nice. Both be
+yes. That would be nice. Both be
+ 
+yes. That would be nice. Both be
+functional. And I added in this, and
+functional. And I added in this, and
+ 
+functional. And I added in this, and
+this is one of the most important things
+this is one of the most important things
+ 
+this is one of the most important things
+when you're working with AI, is that you
+when you're working with AI, is that you
+ 
+when you're working with AI, is that you
+want to reduce as much ambiguity as
+want to reduce as much ambiguity as
+ 
+want to reduce as much ambiguity as
+possible and be as clear as possible.
+possible and be as clear as possible.
+ 
+possible and be as clear as possible.
+That way, the model can allocate tokens
+That way, the model can allocate tokens
+ 
+That way, the model can allocate tokens
+and work to more important things. So,
+and work to more important things. So,
+ 
+and work to more important things. So,
+instead of just saying yes, I added some
+instead of just saying yes, I added some
+ 
+instead of just saying yes, I added some
+clarification here. Okay, let's send it
+clarification here. Okay, let's send it
+ 
+clarification here. Okay, let's send it
+off to do some work. Okay, and there we
+off to do some work. Okay, and there we
+ 
+off to do some work. Okay, and there we
+go. We we've got some placeholder right
+go. We we've got some placeholder right
+ 
+go. We we've got some placeholder right
+here, which we'll just replace later.
+here, which we'll just replace later.
+ 
+here, which we'll just replace later.
+Two form fields. This is looking great.
+Two form fields. This is looking great.
+ 
+Two form fields. This is looking great.
+And let's make sure the sign up works.
+And let's make sure the sign up works.
+ 
+And let's make sure the sign up works.
+And the signup doesn't seem to be
+And the signup doesn't seem to be
+ 
+And the signup doesn't seem to be
+working. So let's see if it says
+working. So let's see if it says
+ 
+working. So let's see if it says
+anything here. And it doesn't. So let's
+anything here. And it doesn't. So let's
+ 
+anything here. And it doesn't. So let's
+just say did you create the sign up
+just say did you create the sign up
+ 
+just say did you create the sign up
+toggle so that users can easily switch
+toggle so that users can easily switch
+ 
+toggle so that users can easily switch
+between signin and sign up. Okay, it
+between signin and sign up. Okay, it
+ 
+between signin and sign up. Okay, it
+says that it already implemented it. So
+says that it already implemented it. So
+ 
+says that it already implemented it. So
+let's give it a quick hot reload to make
+let's give it a quick hot reload to make
+ 
+let's give it a quick hot reload to make
+sure. And oh, there it goes. But it's
+sure. And oh, there it goes. But it's
+ 
+sure. And oh, there it goes. But it's
+kind of tiny and so I would like the
+kind of tiny and so I would like the
+ 
+kind of tiny and so I would like the
+toggle to be easier to switch between.
+toggle to be easier to switch between.
+ 
+toggle to be easier to switch between.
+Currently, it's small text that the user
+Currently, it's small text that the user
+ 
+Currently, it's small text that the user
+has to press. Make it much easier and
+has to press. Make it much easier and
+ 
+has to press. Make it much easier and
+larger to toggle between. Don't just
+larger to toggle between. Don't just
+ 
+larger to toggle between. Don't just
+make the words bigger. change the UX.
+make the words bigger. change the UX.
+ 
+make the words bigger. change the UX.
+Okay, that's much better here. Okay.
+Okay, that's much better here. Okay.
+ 
+Okay, that's much better here. Okay.
+Yeah, I like that. Let's make one change
+Yeah, I like that. Let's make one change
+ 
+Yeah, I like that. Let's make one change
+and make this button here. Let's make
+and make this button here. Let's make
+ 
+and make this button here. Let's make
+one change here. And I'm going to do
+one change here. And I'm going to do
+ 
+one change here. And I'm going to do
+this with a quick edit here. Command K.
+this with a quick edit here. Command K.
+ 
+this with a quick edit here. Command K.
+Make the selected button black. Fully
+Make the selected button black. Fully
+ 
+Make the selected button black. Fully
+black. Okay, great. Now, let's just test
+black. Okay, great. Now, let's just test
+ 
+black. Okay, great. Now, let's just test
+that it's currently working. So, we're
+that it's currently working. So, we're
+ 
+that it's currently working. So, we're
+going to turn off inspect mode. We're
+going to turn off inspect mode. We're
+ 
+going to turn off inspect mode. We're
+going to sign in. Beautiful. That works.
+going to sign in. Beautiful. That works.
+ 
+going to sign in. Beautiful. That works.
+Next, I want to implement the voting
+Next, I want to implement the voting
+ 
+Next, I want to implement the voting
+screen. This one right here. So, I'm
+screen. This one right here. So, I'm
+ 
+screen. This one right here. So, I'm
+going to attach it and say implement
+going to attach it and say implement
+ 
+going to attach it and say implement
+this voting screen. This will be used
+this voting screen. This will be used
+ 
+this voting screen. This will be used
+for each fruit. I want the background
+for each fruit. I want the background
+ 
+for each fruit. I want the background
+color to match the fruit.
+color to match the fruit.
+ 
+color to match the fruit.
+Ask followup questions if you are
+Ask followup questions if you are
+ 
+Ask followup questions if you are
+unclear about anything. And once again,
+unclear about anything. And once again,
+ 
+unclear about anything. And once again,
+I got some more questions. And this is
+I got some more questions. And this is
+ 
+I got some more questions. And this is
+just a good example of how many
+just a good example of how many
+ 
+just a good example of how many
+decisions behind the scenes if you don't
+decisions behind the scenes if you don't
+ 
+decisions behind the scenes if you don't
+ask for follow-up questions that the
+ask for follow-up questions that the
+ 
+ask for follow-up questions that the
+model is actually making. So let's go
+model is actually making. So let's go
+ 
+model is actually making. So let's go
+through these fruit colors. Where should
+through these fruit colors. Where should
+ 
+through these fruit colors. Where should
+I get the colors for each fruit's
+I get the colors for each fruit's
+ 
+I get the colors for each fruit's
+background? Should I define them
+background? Should I define them
+ 
+background? Should I define them
+manually? Use a color palette to
+manually? Use a color palette to
+ 
+manually? Use a color palette to
+generate them or just give them specific
+generate them or just give them specific
+ 
+generate them or just give them specific
+colors? Generate manually for each and
+colors? Generate manually for each and
+ 
+colors? Generate manually for each and
+add them as style constants in the
+add them as style constants in the
+ 
+add them as style constants in the
+theme. Dart. And I'm saying that so I
+theme. Dart. And I'm saying that so I
+ 
+theme. Dart. And I'm saying that so I
+can access them and augment them here.
+can access them and augment them here.
+ 
+can access them and augment them here.
+Fruit images. I see a banana
+Fruit images. I see a banana
+ 
+Fruit images. I see a banana
+illustration in the design. Should I use
+illustration in the design. Should I use
+ 
+illustration in the design. Should I use
+this tool? So that's a tool that the
+this tool? So that's a tool that the
+ 
+this tool? So that's a tool that the
+model has available to fetch images for
+model has available to fetch images for
+ 
+model has available to fetch images for
+each fruit. Use emojis icons for the
+each fruit. Use emojis icons for the
+ 
+each fruit. Use emojis icons for the
+fruits or illustrations vector graphics.
+fruits or illustrations vector graphics.
+ 
+fruits or illustrations vector graphics.
+Use illustrations vector graphics. I
+Use illustrations vector graphics. I
+ 
+Use illustrations vector graphics. I
+want them clean and minimalist. Tier
+want them clean and minimalist. Tier
+ 
+want them clean and minimalist. Tier
+selection behavior. Should selecting a
+selection behavior. Should selecting a
+ 
+selection behavior. Should selecting a
+tier highlight or activate that tier
+tier highlight or activate that tier
+ 
+tier highlight or activate that tier
+button visually allow users to change
+button visually allow users to change
+ 
+button visually allow users to change
+your selection before clicking next be
+your selection before clicking next be
+ 
+your selection before clicking next be
+required before they can proceed? Yes,
+required before they can proceed? Yes,
+ 
+required before they can proceed? Yes,
+it should highlight activate that tier
+it should highlight activate that tier
+ 
+it should highlight activate that tier
+visually with the same fruit background
+visually with the same fruit background
+ 
+visually with the same fruit background
+color. Yes, users can change their
+color. Yes, users can change their
+ 
+color. Yes, users can change their
+selection and yes, the tier selection is
+selection and yes, the tier selection is
+ 
+selection and yes, the tier selection is
+required. Uh for the comments, this is
+required. Uh for the comments, this is
+ 
+required. Uh for the comments, this is
+comments are not required and make a
+comments are not required and make a
+ 
+comments are not required and make a
+seven sentence max five. After vote on
+seven sentence max five. After vote on
+ 
+seven sentence max five. After vote on
+all 22 fruits, where should the user go?
+all 22 fruits, where should the user go?
+ 
+all 22 fruits, where should the user go?
+Navigate the user to the results page.
+Navigate the user to the results page.
+ 
+Navigate the user to the results page.
+Just create a blank page for now. Can
+Just create a blank page for now. Can
+ 
+Just create a blank page for now. Can
+users go back to previous fruits to
+users go back to previous fruits to
+ 
+users go back to previous fruits to
+change their vote? No, they cannot go
+change their vote? No, they cannot go
+ 
+change their vote? No, they cannot go
+back and change vote. Should there be a
+back and change vote. Should there be a
+ 
+back and change vote. Should there be a
+progress indicator? Yes. Implement a
+progress indicator? Yes. Implement a
+ 
+progress indicator? Yes. Implement a
+progress indicator on brand. And then
+progress indicator on brand. And then
+ 
+progress indicator on brand. And then
+finally, six, info icon. I see an info
+finally, six, info icon. I see an info
+ 
+finally, six, info icon. I see an info
+icon rating. What should this display
+icon rating. What should this display
+ 
+icon rating. What should this display
+when tapped? This should display a
+when tapped? This should display a
+ 
+when tapped? This should display a
+dialogue on brand that explains that
+dialogue on brand that explains that
+ 
+dialogue on brand that explains that
+tier 1 is excellent, tier 2 is good, and
+tier 1 is excellent, tier 2 is good, and
+ 
+tier 1 is excellent, tier 2 is good, and
+tier three is either bad or deceptive.
+tier three is either bad or deceptive.
+ 
+tier three is either bad or deceptive.
+Great. Okay, so that's implemented. So
+Great. Okay, so that's implemented. So
+ 
+Great. Okay, so that's implemented. So
+let's start a global game so we can see
+let's start a global game so we can see
+ 
+let's start a global game so we can see
+it. And that's not implemented yet. So
+it. And that's not implemented yet. So
+ 
+it. And that's not implemented yet. So
+let's do that. But actually, let's
+let's do that. But actually, let's
+ 
+let's do that. But actually, let's
+redesign this page so that it's more on
+redesign this page so that it's more on
+ 
+redesign this page so that it's more on
+brand. Now the interesting thing is I
+brand. Now the interesting thing is I
+ 
+brand. Now the interesting thing is I
+don't have a design for this page but we
+don't have a design for this page but we
+ 
+don't have a design for this page but we
+already have some designs implemented
+already have some designs implemented
+ 
+already have some designs implemented
+and I'm going to pass in those designs
+and I'm going to pass in those designs
+ 
+and I'm going to pass in those designs
+again and ask it to use the same design
+again and ask it to use the same design
+ 
+again and ask it to use the same design
+style. So update which page is it here?
+style. So update which page is it here?
+ 
+style. So update which page is it here?
+Let's look. Okay, the home screen to be
+Let's look. Okay, the home screen to be
+ 
+Let's look. Okay, the home screen to be
+on brand with similar style to the off
+on brand with similar style to the off
+ 
+on brand with similar style to the off
+and voting pages. I've attached those
+and voting pages. I've attached those
+ 
+and voting pages. I've attached those
+pages so you can see them again. And
+pages so you can see them again. And
+ 
+pages so you can see them again. And
+here's a real interesting thing. It
+here's a real interesting thing. It
+ 
+here's a real interesting thing. It
+followed up with some questions. Even
+followed up with some questions. Even
+ 
+followed up with some questions. Even
+though I didn't ask it any questions
+though I didn't ask it any questions
+ 
+though I didn't ask it any questions
+now, but because the agent has memory,
+now, but because the agent has memory,
+ 
+now, but because the agent has memory,
+it knows that I like it to ask
+it knows that I like it to ask
+ 
+it knows that I like it to ask
+clarifying questions. So, let's answer
+clarifying questions. So, let's answer
+ 
+clarifying questions. So, let's answer
+some of these. Should the home screen
+some of these. Should the home screen
+ 
+some of these. Should the home screen
+keep the same logo? Yes. Include the
+keep the same logo? Yes. Include the
+ 
+keep the same logo? Yes. Include the
+logo. Main actions on the home screen. I
+logo. Main actions on the home screen. I
+ 
+logo. Main actions on the home screen. I
+see the current version has start global
+see the current version has start global
+ 
+see the current version has start global
+game and play with friends button.
+game and play with friends button.
+ 
+game and play with friends button.
+Should I keep both of those actions? And
+Should I keep both of those actions? And
+ 
+Should I keep both of those actions? And
+should they be styled like yes? Yes.
+should they be styled like yes? Yes.
+ 
+should they be styled like yes? Yes.
+Keep both buttons and style like you
+Keep both buttons and style like you
+ 
+Keep both buttons and style like you
+said. Three. A greeting. Yes. Use no
+said. Three. A greeting. Yes. Use no
+ 
+said. Three. A greeting. Yes. Use no
+greeting. Four. Currently it's in a
+greeting. Four. Currently it's in a
+ 
+greeting. Four. Currently it's in a
+popup. It's in a pop-up menu in the app
+popup. It's in a pop-up menu in the app
+ 
+popup. It's in a pop-up menu in the app
+buyer. Should I keep it there? Move it
+buyer. Should I keep it there? Move it
+ 
+buyer. Should I keep it there? Move it
+to a visible button on screen or styled
+to a visible button on screen or styled
+ 
+to a visible button on screen or styled
+differently? Let's remove app bar and
+differently? Let's remove app bar and
+ 
+differently? Let's remove app bar and
+just have sign out button in top left.
+just have sign out button in top left.
+ 
+just have sign out button in top left.
+Right. Do you want any decorative fruit
+Right. Do you want any decorative fruit
+ 
+Right. Do you want any decorative fruit
+illustrations or icons on the home
+illustrations or icons on the home
+ 
+illustrations or icons on the home
+screen similar to the voting page? Um,
+screen similar to the voting page? Um,
+ 
+screen similar to the voting page? Um,
+no. I find that uh models are not good
+no. I find that uh models are not good
+ 
+no. I find that uh models are not good
+with this kind of ornamentation. All
+with this kind of ornamentation. All
+ 
+with this kind of ornamentation. All
+right, go. Okay, there we go. A little
+right, go. Okay, there we go. A little
+ 
+right, go. Okay, there we go. A little
+bland, but that's fine for now. So,
+bland, but that's fine for now. So,
+ 
+bland, but that's fine for now. So,
+let's see. That's not working yet. So
+let's see. That's not working yet. So
+ 
+let's see. That's not working yet. So
+now let's say implement the logic for
+now let's say implement the logic for
+ 
+now let's say implement the logic for
+starting the global game. Now notice one
+starting the global game. Now notice one
+ 
+starting the global game. Now notice one
+thing that I did. I could have added
+thing that I did. I could have added
+ 
+thing that I did. I could have added
+this to the last one, but you want to
+this to the last one, but you want to
+ 
+this to the last one, but you want to
+break things down into the smallest step
+break things down into the smallest step
+ 
+break things down into the smallest step
+so the model can focus on just one thing
+so the model can focus on just one thing
+ 
+so the model can focus on just one thing
+at a time. So I just want this button.
+at a time. So I just want this button.
+ 
+at a time. So I just want this button.
+Then I'll do that one after it. Okay,
+Then I'll do that one after it. Okay,
+ 
+Then I'll do that one after it. Okay,
+it's done. Let's see what changes it's
+it's done. Let's see what changes it's
+ 
+it's done. Let's see what changes it's
+made. It made a game controller service.
+made. It made a game controller service.
+ 
+made. It made a game controller service.
+It updated the home screen with the
+It updated the home screen with the
+ 
+It updated the home screen with the
+functionality. Okay, that's great. And
+functionality. Okay, that's great. And
+ 
+functionality. Okay, that's great. And
+it updated the voting screen. So, it
+it updated the voting screen. So, it
+ 
+it updated the voting screen. So, it
+implements all the logic there. And then
+implements all the logic there. And then
+ 
+implements all the logic there. And then
+the results screen. It accepts the
+the results screen. It accepts the
+ 
+the results screen. It accepts the
+session ID and user ID for future
+session ID and user ID for future
+ 
+session ID and user ID for future
+implementation. Okay, great. Let's start
+implementation. Okay, great. Let's start
+ 
+implementation. Okay, great. Let's start
+a global game. And we're getting a
+a global game. And we're getting a
+ 
+a global game. And we're getting a
+problem here. Let's take a look. Okay,
+problem here. Let's take a look. Okay,
+ 
+problem here. Let's take a look. Okay,
+this requires an index. Okay, I created
+this requires an index. Okay, I created
+ 
+this requires an index. Okay, I created
+the index. Now, let's start this game.
+the index. Now, let's start this game.
+ 
+the index. Now, let's start this game.
+Okay, beautiful. Okay, this voting looks
+Okay, beautiful. Okay, this voting looks
+ 
+Okay, beautiful. Okay, this voting looks
+good. I just want to make a few tweaks
+good. I just want to make a few tweaks
+ 
+good. I just want to make a few tweaks
+here. Let's see about this tier. That
+here. Let's see about this tier. That
+ 
+here. Let's see about this tier. That
+looks good, but I want this kind of over
+looks good, but I want this kind of over
+ 
+looks good, but I want this kind of over
+here. So, I'm going to do this over here
+here. So, I'm going to do this over here
+ 
+here. So, I'm going to do this over here
+so I can edit the properties. And we
+so I can edit the properties. And we
+ 
+so I can edit the properties. And we
+have this space between, but I actually
+have this space between, but I actually
+ 
+have this space between, but I actually
+want these together. That looks good.
+want these together. That looks good.
+ 
+want these together. That looks good.
+And I want to give them a little space.
+And I want to give them a little space.
+ 
+And I want to give them a little space.
+So, maybe 12 pixels. That's too much.
+So, maybe 12 pixels. That's too much.
+ 
+So, maybe 12 pixels. That's too much.
+So, let's say six. Yeah, that's looking
+So, let's say six. Yeah, that's looking
+ 
+So, let's say six. Yeah, that's looking
+better. and maybe add some room in the
+better. and maybe add some room in the
+ 
+better. and maybe add some room in the
+bottom here. So, let's grab this icon
+bottom here. So, let's grab this icon
+ 
+bottom here. So, let's grab this icon
+right here. Let's add a modifier, some
+right here. Let's add a modifier, some
+ 
+right here. Let's add a modifier, some
+padding. And I don't want all this
+padding. And I don't want all this
+ 
+padding. And I don't want all this
+padding. Just add some in over here.
+padding. Just add some in over here.
+ 
+padding. Just add some in over here.
+Maybe six pixels.
+Maybe six pixels.
+ 
+Maybe six pixels.
+Maybe some more. Yeah, that looks good.
+Maybe some more. Yeah, that looks good.
+ 
+Maybe some more. Yeah, that looks good.
+Okay. Also, I want this button to be a
+Okay. Also, I want this button to be a
+ 
+Okay. Also, I want this button to be a
+little bit bigger here. Let me check the
+little bit bigger here. Let me check the
+ 
+little bit bigger here. Let me check the
+Now, I don't know where the height is
+Now, I don't know where the height is
+ 
+Now, I don't know where the height is
+coming from. So, I'm going to go up in
+coming from. So, I'm going to go up in
+ 
+coming from. So, I'm going to go up in
+this hierarchy to see. Oh, we've got a
+this hierarchy to see. Oh, we've got a
+ 
+this hierarchy to see. Oh, we've got a
+sized box right here. Oh, and we can
+sized box right here. Oh, and we can
+ 
+sized box right here. Oh, and we can
+grab the height right here. So, I'm
+grab the height right here. So, I'm
+ 
+grab the height right here. So, I'm
+thinking maybe 50 pixels or 60. Okay.
+thinking maybe 50 pixels or 60. Okay.
+ 
+thinking maybe 50 pixels or 60. Okay.
+Yeah, I like that better. All right. So,
+Yeah, I like that better. All right. So,
+ 
+Yeah, I like that better. All right. So,
+let's go through here and good. Not
+let's go through here and good. Not
+ 
+let's go through here and good. Not
+great. Banana. It's versatile, but not
+great. Banana. It's versatile, but not
+ 
+great. Banana. It's versatile, but not
+too yummy. Okay. I'm here on my last
+too yummy. Okay. I'm here on my last
+ 
+too yummy. Okay. I'm here on my last
+fruit and when I click here I get this
+fruit and when I click here I get this
+ 
+fruit and when I click here I get this
+missing or insufficient permissions. So
+missing or insufficient permissions. So
+ 
+missing or insufficient permissions. So
+I'm going to tell my agent when I'm on
+I'm going to tell my agent when I'm on
+ 
+I'm going to tell my agent when I'm on
+my last fruit and click view results I'm
+my last fruit and click view results I'm
+ 
+my last fruit and click view results I'm
+getting the fire store error missing or
+getting the fire store error missing or
+ 
+getting the fire store error missing or
+insufficient
+insufficient
+ 
+insufficient
+permissions. Now it [clears throat]
+permissions. Now it [clears throat]
+ 
+permissions. Now it [clears throat]
+currently doesn't have access to my
+currently doesn't have access to my
+ 
+currently doesn't have access to my
+permissions. So, I'm going to go into
+permissions. So, I'm going to go into
+ 
+permissions. So, I'm going to go into
+the Firebase console and just paste them
+the Firebase console and just paste them
+ 
+the Firebase console and just paste them
+in here. So, I'm in here. I can go to my
+in here. So, I'm in here. I can go to my
+ 
+in here. So, I'm in here. I can go to my
+rules. I can just select all of these
+rules. I can just select all of these
+ 
+rules. I can just select all of these
+and then paste them in. Okay. So, we the
+and then paste them in. Okay. So, we the
+ 
+and then paste them in. Okay. So, we the
+agent recognized the problem here and
+agent recognized the problem here and
+ 
+agent recognized the problem here and
+gave me the updated rule for the
+gave me the updated rule for the
+ 
+gave me the updated rule for the
+rankings. So, I'm going to copy this and
+rankings. So, I'm going to copy this and
+ 
+rankings. So, I'm going to copy this and
+paste that back in and come up and
+paste that back in and come up and
+ 
+paste that back in and come up and
+publish. All right. Now, we can view
+publish. All right. Now, we can view
+ 
+publish. All right. Now, we can view
+results and we need to create another
+results and we need to create another
+ 
+results and we need to create another
+index and we're just going to ask the
+index and we're just going to ask the
+ 
+index and we're just going to ask the
+agent about this. I'm no no no no longer
+agent about this. I'm no no no no longer
+ 
+agent about this. I'm no no no no longer
+getting a permissions error but an error
+getting a permissions error but an error
+ 
+getting a permissions error but an error
+that I need to create an index. What
+that I need to create an index. What
+ 
+that I need to create an index. What
+index do I need to create? Okay, it's
+index do I need to create? Okay, it's
+ 
+index do I need to create? Okay, it's
+telling me this index. So, I'm going to
+telling me this index. So, I'm going to
+ 
+telling me this index. So, I'm going to
+go over and create that. And you can do
+go over and create that. And you can do
+ 
+go over and create that. And you can do
+that by coming into indexes right here
+that by coming into indexes right here
+ 
+that by coming into indexes right here
+and add an index. Okay, that's done. And
+and add an index. Okay, that's done. And
+ 
+and add an index. Okay, that's done. And
+it'll take a minute to build that index.
+it'll take a minute to build that index.
+ 
+it'll take a minute to build that index.
+Okay, so that's all done. The index is
+Okay, so that's all done. The index is
+ 
+Okay, so that's all done. The index is
+made. So let's view our results. And
+made. So let's view our results. And
+ 
+made. So let's view our results. And
+beautiful. So we get our session ID,
+beautiful. So we get our session ID,
+ 
+beautiful. So we get our session ID,
+which we need. And now we just have to
+which we need. And now we just have to
+ 
+which we need. And now we just have to
+design this page. So let's give that to
+design this page. So let's give that to
+ 
+design this page. So let's give that to
+our agent. So we're going to open up a
+our agent. So we're going to open up a
+ 
+our agent. So we're going to open up a
+new conversation thread here. And we're
+new conversation thread here. And we're
+ 
+new conversation thread here. And we're
+going to say create the results page.
+going to say create the results page.
+ 
+going to say create the results page.
+Make sure to include the tier rankings
+Make sure to include the tier rankings
+ 
+Make sure to include the tier rankings
+and comments. This will be used for both
+and comments. This will be used for both
+ 
+and comments. This will be used for both
+the global game as well as the game with
+the global game as well as the game with
+ 
+the global game as well as the game with
+the room code. Follow up with questions
+the room code. Follow up with questions
+ 
+the room code. Follow up with questions
+before you proceed to reduce ambiguity.
+before you proceed to reduce ambiguity.
+ 
+before you proceed to reduce ambiguity.
+And not unsurprisingly, we get some
+And not unsurprisingly, we get some
+ 
+And not unsurprisingly, we get some
+questions. So, we'll just answer these.
+questions. So, we'll just answer these.
+ 
+questions. So, we'll just answer these.
+Okay, it's created those. Now, we need
+Okay, it's created those. Now, we need
+ 
+Okay, it's created those. Now, we need
+uh the ability to see these
+uh the ability to see these
+ 
+uh the ability to see these
+leaderboards. So, we're going to say on
+leaderboards. So, we're going to say on
+ 
+leaderboards. So, we're going to say on
+the homepage if the user has completed
+the homepage if the user has completed
+ 
+the homepage if the user has completed
+the global game, create a button for the
+the global game, create a button for the
+ 
+the global game, create a button for the
+results page. Okay. Next, let's fix this
+results page. Okay. Next, let's fix this
+ 
+results page. Okay. Next, let's fix this
+logo right here. And let's tell our
+logo right here. And let's tell our
+ 
+logo right here. And let's tell our
+agent, I've uploaded my logo. Please
+agent, I've uploaded my logo. Please
+ 
+agent, I've uploaded my logo. Please
+replace the current logo with my logo.
+replace the current logo with my logo.
+ 
+replace the current logo with my logo.
+And I'm going to go into the code. And
+And I'm going to go into the code. And
+ 
+And I'm going to go into the code. And
+here are my images. And here's my logo.
+here are my images. And here's my logo.
+ 
+here are my images. And here's my logo.
+So, I'm going to add that to agent
+So, I'm going to add that to agent
+ 
+So, I'm going to add that to agent
+context and send it off. Okay, great.
+context and send it off. Okay, great.
+ 
+context and send it off. Okay, great.
+This looks good. So, let's see where we
+This looks good. So, let's see where we
+ 
+This looks good. So, let's see where we
+are. Beautiful. This looks great. Now,
+are. Beautiful. This looks great. Now,
+ 
+are. Beautiful. This looks great. Now,
+we are ready to push this to the app
+we are ready to push this to the app
+ 
+we are ready to push this to the app
+store. All right, let's start a global
+store. All right, let's start a global
+ 
+store. All right, let's start a global
+game here. Let's check if everything's
+game here. Let's check if everything's
+ 
+game here. Let's check if everything's
+working. Great. Cherries, obviously,
+working. Great. Cherries, obviously,
+ 
+working. Great. Cherries, obviously,
+tier one, they are the best. Lemons.
+tier one, they are the best. Lemons.
+ 
+tier one, they are the best. Lemons.
+We're going to go tier two. Tier two.
+We're going to go tier two. Tier two.
+ 
+We're going to go tier two. Tier two.
+Mangoes. Obviously, tier one.
+Mangoes. Obviously, tier one.
+ 
+Mangoes. Obviously, tier one.
+Pomegranates. Way too hard to eat.
+Pomegranates. Way too hard to eat.
+ 
+Pomegranates. Way too hard to eat.
+Delicious, but kind of deceptive. And
+Delicious, but kind of deceptive. And
+ 
+Delicious, but kind of deceptive. And
+there's our results. You see our tier
+there's our results. You see our tier
+ 
+there's our results. You see our tier
+ones, our tier twos, and our tier 3es
+ones, our tier twos, and our tier 3es
+ 
+ones, our tier twos, and our tier 3es
+down here. And you can go in and you can
+down here. And you can go in and you can
+ 
+down here. And you can go in and you can
+see who voted for it. And we see the
+see who voted for it. And we see the
+ 
+see who voted for it. And we see the
+comments here. There we go. That's
+comments here. There we go. That's
+ 
+comments here. There we go. That's
+great. You can see them sorted. So,
+great. You can see them sorted. So,
+ 
+great. You can see them sorted. So,
+total what everyone voted and that's
+total what everyone voted and that's
+ 
+total what everyone voted and that's
+great. So, there's our app. Feel free to
+great. So, there's our app. Feel free to
+ 
+great. So, there's our app. Feel free to
+leave any questions you have below. We
+leave any questions you have below. We
+ 
+leave any questions you have below. We
+love to see what you're going to build.
+love to see what you're going to build.
+ 
+love to see what you're going to build.
+We've left links to the app below if you
+We've left links to the app below if you
+ 
+We've left links to the app below if you
+want to play it.

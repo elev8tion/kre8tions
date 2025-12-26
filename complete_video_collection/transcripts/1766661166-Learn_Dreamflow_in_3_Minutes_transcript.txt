@@ -1,0 +1,394 @@
+
+Dreamflow is the best place to build and
+Dreamflow is the best place to build and
+ 
+Dreamflow is the best place to build and
+ship cross-platform applications. So,
+ship cross-platform applications. So,
+ 
+ship cross-platform applications. So,
+let me show you around. You can start a
+let me show you around. You can start a
+ 
+let me show you around. You can start a
+project with a prompt, a template, or a
+project with a prompt, a template, or a
+ 
+project with a prompt, a template, or a
+blank project. And that's what we're
+blank project. And that's what we're
+ 
+blank project. And that's what we're
+going to do. When Dreamflow opens up,
+going to do. When Dreamflow opens up,
+ 
+going to do. When Dreamflow opens up,
+there are four main areas. The preview
+there are four main areas. The preview
+ 
+there are four main areas. The preview
+section where your app is running in
+section where your app is running in
+ 
+section where your app is running in
+real time, and you can interact with it,
+real time, and you can interact with it,
+ 
+real time, and you can interact with it,
+or turn on inspect mode, and you can
+or turn on inspect mode, and you can
+ 
+or turn on inspect mode, and you can
+select any widget to change it. You can
+select any widget to change it. You can
+ 
+select any widget to change it. You can
+see that it gets selected in the widget
+see that it gets selected in the widget
+ 
+see that it gets selected in the widget
+tree over here, your second section. The
+tree over here, your second section. The
+ 
+tree over here, your second section. The
+third section is your properties panel,
+third section is your properties panel,
+ 
+third section is your properties panel,
+which is in here. This is where you can
+which is in here. This is where you can
+ 
+which is in here. This is where you can
+edit any property on your widget. So, if
+edit any property on your widget. So, if
+ 
+edit any property on your widget. So, if
+I want to come in here and edit the
+I want to come in here and edit the
+ 
+I want to come in here and edit the
+properties, I can do that. The fourth
+properties, I can do that. The fourth
+ 
+properties, I can do that. The fourth
+section is over here with your agent.
+section is over here with your agent.
+ 
+section is over here with your agent.
+Let's close this up. And we've got some
+Let's close this up. And we've got some
+ 
+Let's close this up. And we've got some
+app ideas that the agent gives you. Or
+app ideas that the agent gives you. Or
+ 
+app ideas that the agent gives you. Or
+if you're opening a project, you'll see
+if you're opening a project, you'll see
+ 
+if you're opening a project, you'll see
+some next steps, but we already have a
+some next steps, but we already have a
+ 
+some next steps, but we already have a
+plan, so we're going to toggle this off.
+plan, so we're going to toggle this off.
+ 
+plan, so we're going to toggle this off.
+I went over to Dribble and found the
+I went over to Dribble and found the
+ 
+I went over to Dribble and found the
+most popular UI of all time. Let's see
+most popular UI of all time. Let's see
+ 
+most popular UI of all time. Let's see
+how Dreamflow does at building this. So,
+how Dreamflow does at building this. So,
+ 
+how Dreamflow does at building this. So,
+I'm going to drop that image in here and
+I'm going to drop that image in here and
+ 
+I'm going to drop that image in here and
+select GPT5 and tell the agent create
+select GPT5 and tell the agent create
+ 
+select GPT5 and tell the agent create
+this component. Focus on visual
+this component. Focus on visual
+ 
+this component. Focus on visual
+fidelity. The agent is going to
+fidelity. The agent is going to
+ 
+fidelity. The agent is going to
+understand the image, our prompt, look
+understand the image, our prompt, look
+ 
+understand the image, our prompt, look
+through the project, make a plan, and
+through the project, make a plan, and
+ 
+through the project, make a plan, and
+execute it. All right, this is looking
+execute it. All right, this is looking
+ 
+execute it. All right, this is looking
+great except for one thing. I want these
+great except for one thing. I want these
+ 
+great except for one thing. I want these
+buttons to be the same size. So, I'm
+buttons to be the same size. So, I'm
+ 
+buttons to be the same size. So, I'm
+going to go into inspect mode here,
+going to go into inspect mode here,
+ 
+going to go into inspect mode here,
+select my component, and double click
+select my component, and double click
+ 
+select my component, and double click
+into it. And then select this context
+into it. And then select this context
+ 
+into it. And then select this context
+right here. Right click and I'm going to
+right here. Right click and I'm going to
+ 
+right here. Right click and I'm going to
+add this to our agent and then just ask
+add this to our agent and then just ask
+ 
+add this to our agent and then just ask
+it to make the cancel button the same
+it to make the cancel button the same
+ 
+it to make the cancel button the same
+height as the create button. That's
+height as the create button. That's
+ 
+height as the create button. That's
+great. I want to make one more quick
+great. I want to make one more quick
+ 
+great. I want to make one more quick
+edit here. And so I'm going to go into
+edit here. And so I'm going to go into
+ 
+edit here. And so I'm going to go into
+these colors right here. And if you
+these colors right here. And if you
+ 
+these colors right here. And if you
+right click, you can see this prompt
+right click, you can see this prompt
+ 
+right click, you can see this prompt
+edit. And I'm just going to say add one
+edit. And I'm just going to say add one
+ 
+edit. And I'm just going to say add one
+more color.
+more color.
+ 
+more color.
+Beautiful. Okay. Next, let's ask our
+Beautiful. Okay. Next, let's ask our
+ 
+Beautiful. Okay. Next, let's ask our
+agent to create a color palette and some
+agent to create a color palette and some
+ 
+agent to create a color palette and some
+theming based on this. create color
+theming based on this. create color
+ 
+theming based on this. create color
+theming based on the current design.
+theming based on the current design.
+ 
+theming based on the current design.
+Great. So, we can see this color theme
+Great. So, we can see this color theme
+ 
+Great. So, we can see this color theme
+right here. If we go into our theme
+right here. If we go into our theme
+ 
+right here. If we go into our theme
+settings, we've got our typography and
+settings, we've got our typography and
+ 
+settings, we've got our typography and
+our style constants right here. So, if
+our style constants right here. So, if
+ 
+our style constants right here. So, if
+we go in and make a change to one of
+we go in and make a change to one of
+ 
+we go in and make a change to one of
+these right here, we can see it
+these right here, we can see it
+ 
+these right here, we can see it
+propagate throughout the app. Great. But
+propagate throughout the app. Great. But
+ 
+propagate throughout the app. Great. But
+I'm going to push that back for now. And
+I'm going to push that back for now. And
+ 
+I'm going to push that back for now. And
+let's create a page for all the events
+let's create a page for all the events
+ 
+let's create a page for all the events
+you create. Okay, this looks great.
+you create. Okay, this looks great.
+ 
+you create. Okay, this looks great.
+Let's create a new event here.
+Let's create a new event here.
+ 
+Let's create a new event here.
+Beautiful. Next, let's add a logo. But I
+Beautiful. Next, let's add a logo. But I
+ 
+Beautiful. Next, let's add a logo. But I
+wanted an SVG and so I want to use this
+wanted an SVG and so I want to use this
+ 
+wanted an SVG and so I want to use this
+package on PubDev, a package repository
+package on PubDev, a package repository
+ 
+package on PubDev, a package repository
+with over 50,000 packages. So I'm just
+with over 50,000 packages. So I'm just
+ 
+with over 50,000 packages. So I'm just
+going to copy this right here and tell
+going to copy this right here and tell
+ 
+going to copy this right here and tell
+the agent add an SVG logo with this
+the agent add an SVG logo with this
+ 
+the agent add an SVG logo with this
+package. Okay, there it is. There's just
+package. Okay, there it is. There's just
+ 
+package. Okay, there it is. There's just
+a placeholder there. Let's replace that
+a placeholder there. Let's replace that
+ 
+a placeholder there. Let's replace that
+by adding our SVG asset here. So I can
+by adding our SVG asset here. So I can
+ 
+by adding our SVG asset here. So I can
+add it in here or just drag and drop it
+add it in here or just drag and drop it
+ 
+add it in here or just drag and drop it
+in. Great. We've added it in there. And
+in. Great. We've added it in there. And
+ 
+in. Great. We've added it in there. And
+if we want to see it in the code, we can
+if we want to see it in the code, we can
+ 
+if we want to see it in the code, we can
+jump into the code here. Go into our
+jump into the code here. Go into our
+ 
+jump into the code here. Go into our
+assets. And there it is. Okay, great.
+assets. And there it is. Okay, great.
+ 
+assets. And there it is. Okay, great.
+Let's just add that to the UI. So, we're
+Let's just add that to the UI. So, we're
+ 
+Let's just add that to the UI. So, we're
+going to back to preview. Let's go into
+going to back to preview. Let's go into
+ 
+going to back to preview. Let's go into
+inspect mode. Select our SVG. Come into
+inspect mode. Select our SVG. Come into
+ 
+inspect mode. Select our SVG. Come into
+our properties here. Select the
+our properties here. Select the
+ 
+our properties here. Select the
+constructor, which will be an asset. And
+constructor, which will be an asset. And
+ 
+constructor, which will be an asset. And
+let's grab a path to our image right
+let's grab a path to our image right
+ 
+let's grab a path to our image right
+there. Let's rightclick, copy path, and
+there. Let's rightclick, copy path, and
+ 
+there. Let's rightclick, copy path, and
+paste it in. Beautiful. Next, let's wire
+paste it in. Beautiful. Next, let's wire
+ 
+paste it in. Beautiful. Next, let's wire
+this up to a backend so our data can
+this up to a backend so our data can
+ 
+this up to a backend so our data can
+persist. And we've got Superbase and
+persist. And we've got Superbase and
+ 
+persist. And we've got Superbase and
+Firebase. and I'm going to connect to
+Firebase. and I'm going to connect to
+ 
+Firebase. and I'm going to connect to
+Firebase. Create a new project and
+Firebase. Create a new project and
+ 
+Firebase. Create a new project and
+configure Firebase. Generate the client
+configure Firebase. Generate the client
+ 
+configure Firebase. Generate the client
+code. Okay, great. I added an on signin
+code. Okay, great. I added an on signin
+ 
+code. Okay, great. I added an on signin
+in Firebase. And so we can go in now.
+in Firebase. And so we can go in now.
+ 
+in Firebase. And so we can go in now.
+Now let's add an event.
+Now let's add an event.
+ 
+Now let's add an event.
+Beautiful. Last thing to do is to deploy
+Beautiful. Last thing to do is to deploy
+ 
+Beautiful. Last thing to do is to deploy
+our app. And you can do that with one
+our app. And you can do that with one
+ 
+our app. And you can do that with one
+click to the web, iOS, and Android. We
+click to the web, iOS, and Android. We
+ 
+click to the web, iOS, and Android. We
+can't wait to see what you'll build in
+can't wait to see what you'll build in
+ 
+can't wait to see what you'll build in
+DreamFlow.

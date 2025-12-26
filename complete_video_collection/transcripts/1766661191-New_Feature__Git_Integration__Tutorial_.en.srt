@@ -1,0 +1,1385 @@
+1
+00:00:00,000 --> 00:00:01,670
+
+Let me show you how to use Dreamflow's
+
+2
+00:00:01,670 --> 00:00:01,680
+Let me show you how to use Dreamflow's
+ 
+
+3
+00:00:01,680 --> 00:00:04,070
+Let me show you how to use Dreamflow's
+Git integration. First, we'll clone a
+
+4
+00:00:04,070 --> 00:00:04,080
+Git integration. First, we'll clone a
+ 
+
+5
+00:00:04,080 --> 00:00:05,990
+Git integration. First, we'll clone a
+repository from a private repo on
+
+6
+00:00:05,990 --> 00:00:06,000
+repository from a private repo on
+ 
+
+7
+00:00:06,000 --> 00:00:07,590
+repository from a private repo on
+GitHub. And then we'll walk through how
+
+8
+00:00:07,590 --> 00:00:07,600
+GitHub. And then we'll walk through how
+ 
+
+9
+00:00:07,600 --> 00:00:09,589
+GitHub. And then we'll walk through how
+to push a DreamFlow project you've been
+
+10
+00:00:09,589 --> 00:00:09,599
+to push a DreamFlow project you've been
+ 
+
+11
+00:00:09,599 --> 00:00:11,830
+to push a DreamFlow project you've been
+working on to a new GitHub repo. For
+
+12
+00:00:11,830 --> 00:00:11,840
+working on to a new GitHub repo. For
+ 
+
+13
+00:00:11,840 --> 00:00:13,509
+working on to a new GitHub repo. For
+this tutorial, we'll be using GitHub,
+
+14
+00:00:13,509 --> 00:00:13,519
+this tutorial, we'll be using GitHub,
+ 
+
+15
+00:00:13,519 --> 00:00:15,190
+this tutorial, we'll be using GitHub,
+but this will work with any Git provider
+
+16
+00:00:15,190 --> 00:00:15,200
+but this will work with any Git provider
+ 
+
+17
+00:00:15,200 --> 00:00:17,430
+but this will work with any Git provider
+like GitLab or Bitbucket. Okay, let's
+
+18
+00:00:17,430 --> 00:00:17,440
+like GitLab or Bitbucket. Okay, let's
+ 
+
+19
+00:00:17,440 --> 00:00:19,349
+like GitLab or Bitbucket. Okay, let's
+get started. So, to clone a repo, just
+
+20
+00:00:19,349 --> 00:00:19,359
+get started. So, to clone a repo, just
+ 
+
+21
+00:00:19,359 --> 00:00:21,590
+get started. So, to clone a repo, just
+come over here to clone codebase. Now,
+
+22
+00:00:21,590 --> 00:00:21,600
+come over here to clone codebase. Now,
+ 
+
+23
+00:00:21,600 --> 00:00:23,109
+come over here to clone codebase. Now,
+the repo I'm going to be using is the
+
+24
+00:00:23,109 --> 00:00:23,119
+the repo I'm going to be using is the
+ 
+
+25
+00:00:23,119 --> 00:00:25,349
+the repo I'm going to be using is the
+Great Wondrous app that I forked from
+
+26
+00:00:25,349 --> 00:00:25,359
+Great Wondrous app that I forked from
+ 
+
+27
+00:00:25,359 --> 00:00:27,830
+Great Wondrous app that I forked from
+GSK. So, give it a name. And now we're
+
+28
+00:00:27,830 --> 00:00:27,840
+GSK. So, give it a name. And now we're
+ 
+
+29
+00:00:27,840 --> 00:00:30,070
+GSK. So, give it a name. And now we're
+going to go grab the repo URL and get
+
+30
+00:00:30,070 --> 00:00:30,080
+going to go grab the repo URL and get
+ 
+
+31
+00:00:30,080 --> 00:00:32,470
+going to go grab the repo URL and get
+our access token. To get your URL, just
+
+32
+00:00:32,470 --> 00:00:32,480
+our access token. To get your URL, just
+ 
+
+33
+00:00:32,480 --> 00:00:35,910
+our access token. To get your URL, just
+come over here to code and in the HTTPS
+
+34
+00:00:35,910 --> 00:00:35,920
+come over here to code and in the HTTPS
+ 
+
+35
+00:00:35,920 --> 00:00:38,389
+come over here to code and in the HTTPS
+and just grab this. Let's paste that in.
+
+36
+00:00:38,389 --> 00:00:38,399
+and just grab this. Let's paste that in.
+ 
+
+37
+00:00:38,399 --> 00:00:40,470
+and just grab this. Let's paste that in.
+And I'll get our access token. To get
+
+38
+00:00:40,470 --> 00:00:40,480
+And I'll get our access token. To get
+ 
+
+39
+00:00:40,480 --> 00:00:43,190
+And I'll get our access token. To get
+that, come over to your profile and into
+
+40
+00:00:43,190 --> 00:00:43,200
+that, come over to your profile and into
+ 
+
+41
+00:00:43,200 --> 00:00:45,350
+that, come over to your profile and into
+settings and scroll down on the bottom
+
+42
+00:00:45,350 --> 00:00:45,360
+settings and scroll down on the bottom
+ 
+
+43
+00:00:45,360 --> 00:00:48,150
+settings and scroll down on the bottom
+left here to developer settings. Then go
+
+44
+00:00:48,150 --> 00:00:48,160
+left here to developer settings. Then go
+ 
+
+45
+00:00:48,160 --> 00:00:50,150
+left here to developer settings. Then go
+to personal access tokens. And you can
+
+46
+00:00:50,150 --> 00:00:50,160
+to personal access tokens. And you can
+ 
+
+47
+00:00:50,160 --> 00:00:52,389
+to personal access tokens. And you can
+use either fine grain or the classic
+
+48
+00:00:52,389 --> 00:00:52,399
+use either fine grain or the classic
+ 
+
+49
+00:00:52,399 --> 00:00:54,389
+use either fine grain or the classic
+tokens. We've left a link to the
+
+50
+00:00:54,389 --> 00:00:54,399
+tokens. We've left a link to the
+ 
+
+51
+00:00:54,399 --> 00:00:56,069
+tokens. We've left a link to the
+documentation below. We're just going to
+
+52
+00:00:56,069 --> 00:00:56,079
+documentation below. We're just going to
+ 
+
+53
+00:00:56,079 --> 00:00:58,709
+documentation below. We're just going to
+do classic tokens. Then let's generate a
+
+54
+00:00:58,709 --> 00:00:58,719
+do classic tokens. Then let's generate a
+ 
+
+55
+00:00:58,719 --> 00:01:01,110
+do classic tokens. Then let's generate a
+new token. Give it a name. Set your
+
+56
+00:01:01,110 --> 00:01:01,120
+new token. Give it a name. Set your
+ 
+
+57
+00:01:01,120 --> 00:01:02,950
+new token. Give it a name. Set your
+expiration date. We'll just keep it at
+
+58
+00:01:02,950 --> 00:01:02,960
+expiration date. We'll just keep it at
+ 
+
+59
+00:01:02,960 --> 00:01:05,109
+expiration date. We'll just keep it at
+the default. And select the scopes of
+
+60
+00:01:05,109 --> 00:01:05,119
+the default. And select the scopes of
+ 
+
+61
+00:01:05,119 --> 00:01:06,789
+the default. And select the scopes of
+permission that DreamFlow will have
+
+62
+00:01:06,789 --> 00:01:06,799
+permission that DreamFlow will have
+ 
+
+63
+00:01:06,799 --> 00:01:08,390
+permission that DreamFlow will have
+access to. You'll need to give it the
+
+64
+00:01:08,390 --> 00:01:08,400
+access to. You'll need to give it the
+ 
+
+65
+00:01:08,400 --> 00:01:11,190
+access to. You'll need to give it the
+repo and workflow. Then you can scroll
+
+66
+00:01:11,190 --> 00:01:11,200
+repo and workflow. Then you can scroll
+ 
+
+67
+00:01:11,200 --> 00:01:13,270
+repo and workflow. Then you can scroll
+down and generate the token. Keep in
+
+68
+00:01:13,270 --> 00:01:13,280
+down and generate the token. Keep in
+ 
+
+69
+00:01:13,280 --> 00:01:15,030
+down and generate the token. Keep in
+mind that you only see this token once.
+
+70
+00:01:15,030 --> 00:01:15,040
+mind that you only see this token once.
+ 
+
+71
+00:01:15,040 --> 00:01:16,550
+mind that you only see this token once.
+So copy it and then go back to
+
+72
+00:01:16,550 --> 00:01:16,560
+So copy it and then go back to
+ 
+
+73
+00:01:16,560 --> 00:01:19,030
+So copy it and then go back to
+DreamFlow. Paste in your token and clone
+
+74
+00:01:19,030 --> 00:01:19,040
+DreamFlow. Paste in your token and clone
+ 
+
+75
+00:01:19,040 --> 00:01:20,950
+DreamFlow. Paste in your token and clone
+your repository. Now, how long this will
+
+76
+00:01:20,950 --> 00:01:20,960
+your repository. Now, how long this will
+ 
+
+77
+00:01:20,960 --> 00:01:22,469
+your repository. Now, how long this will
+take will depend on the size of the
+
+78
+00:01:22,469 --> 00:01:22,479
+take will depend on the size of the
+ 
+
+79
+00:01:22,479 --> 00:01:24,070
+take will depend on the size of the
+project. So, just keep that in mind if
+
+80
+00:01:24,070 --> 00:01:24,080
+project. So, just keep that in mind if
+ 
+
+81
+00:01:24,080 --> 00:01:26,070
+project. So, just keep that in mind if
+you've got a larger project. Beautiful.
+
+82
+00:01:26,070 --> 00:01:26,080
+you've got a larger project. Beautiful.
+ 
+
+83
+00:01:26,080 --> 00:01:29,270
+you've got a larger project. Beautiful.
+Our app is loaded up and running. Okay,
+
+84
+00:01:29,270 --> 00:01:29,280
+Our app is loaded up and running. Okay,
+ 
+
+85
+00:01:29,280 --> 00:01:30,950
+Our app is loaded up and running. Okay,
+let's go over to our source control
+
+86
+00:01:30,950 --> 00:01:30,960
+let's go over to our source control
+ 
+
+87
+00:01:30,960 --> 00:01:32,870
+let's go over to our source control
+section here where we can see the
+
+88
+00:01:32,870 --> 00:01:32,880
+section here where we can see the
+ 
+
+89
+00:01:32,880 --> 00:01:34,710
+section here where we can see the
+history of our commits, any current
+
+90
+00:01:34,710 --> 00:01:34,720
+history of our commits, any current
+ 
+
+91
+00:01:34,720 --> 00:01:37,670
+history of our commits, any current
+changes, and controls for branches and
+
+92
+00:01:37,670 --> 00:01:37,680
+changes, and controls for branches and
+ 
+
+93
+00:01:37,680 --> 00:01:40,710
+changes, and controls for branches and
+connections to our source. Okay, this is
+
+94
+00:01:40,710 --> 00:01:40,720
+connections to our source. Okay, this is
+ 
+
+95
+00:01:40,720 --> 00:01:43,910
+connections to our source. Okay, this is
+looking good. So, let's make some
+
+96
+00:01:43,910 --> 00:01:43,920
+looking good. So, let's make some
+ 
+
+97
+00:01:43,920 --> 00:01:45,830
+looking good. So, let's make some
+changes here. I want to increase the
+
+98
+00:01:45,830 --> 00:01:45,840
+changes here. I want to increase the
+ 
+
+99
+00:01:45,840 --> 00:01:47,429
+changes here. I want to increase the
+size of this text. It's a little bit
+
+100
+00:01:47,429 --> 00:01:47,439
+size of this text. It's a little bit
+ 
+
+101
+00:01:47,439 --> 00:01:49,590
+size of this text. It's a little bit
+small. So, I'm going to go in here and
+
+102
+00:01:49,590 --> 00:01:49,600
+small. So, I'm going to go in here and
+ 
+
+103
+00:01:49,600 --> 00:01:52,069
+small. So, I'm going to go in here and
+doubleclick down through the widget tree
+
+104
+00:01:52,069 --> 00:01:52,079
+doubleclick down through the widget tree
+ 
+
+105
+00:01:52,079 --> 00:01:55,749
+doubleclick down through the widget tree
+until I get to my component here. There
+
+106
+00:01:55,749 --> 00:01:55,759
+until I get to my component here. There
+ 
+
+107
+00:01:55,759 --> 00:01:57,510
+until I get to my component here. There
+it is. And I'm just going to do a quick
+
+108
+00:01:57,510 --> 00:01:57,520
+it is. And I'm just going to do a quick
+ 
+
+109
+00:01:57,520 --> 00:02:00,630
+it is. And I'm just going to do a quick
+edit right here. Command K. Increase the
+
+110
+00:02:00,630 --> 00:02:00,640
+edit right here. Command K. Increase the
+ 
+
+111
+00:02:00,640 --> 00:02:04,149
+edit right here. Command K. Increase the
+size of the font.
+
+112
+00:02:04,149 --> 00:02:04,159
+size of the font.
+ 
+
+113
+00:02:04,159 --> 00:02:05,910
+size of the font.
+Yeah, that's looking better. And you can
+
+114
+00:02:05,910 --> 00:02:05,920
+Yeah, that's looking better. And you can
+ 
+
+115
+00:02:05,920 --> 00:02:08,229
+Yeah, that's looking better. And you can
+see changes are automatically tracked
+
+116
+00:02:08,229 --> 00:02:08,239
+see changes are automatically tracked
+ 
+
+117
+00:02:08,239 --> 00:02:10,150
+see changes are automatically tracked
+here. So, when you're ready to commit,
+
+118
+00:02:10,150 --> 00:02:10,160
+here. So, when you're ready to commit,
+ 
+
+119
+00:02:10,160 --> 00:02:11,830
+here. So, when you're ready to commit,
+you can write a commit message right
+
+120
+00:02:11,830 --> 00:02:11,840
+you can write a commit message right
+ 
+
+121
+00:02:11,840 --> 00:02:13,990
+you can write a commit message right
+here. Or you can have the agent do it
+
+122
+00:02:13,990 --> 00:02:14,000
+here. Or you can have the agent do it
+ 
+
+123
+00:02:14,000 --> 00:02:16,070
+here. Or you can have the agent do it
+simply by selecting this button right
+
+124
+00:02:16,070 --> 00:02:16,080
+simply by selecting this button right
+ 
+
+125
+00:02:16,080 --> 00:02:18,630
+simply by selecting this button right
+here. adjust drop cap sizing for better
+
+126
+00:02:18,630 --> 00:02:18,640
+here. adjust drop cap sizing for better
+ 
+
+127
+00:02:18,640 --> 00:02:20,790
+here. adjust drop cap sizing for better
+readability. Yeah, that makes sense. But
+
+128
+00:02:20,790 --> 00:02:20,800
+readability. Yeah, that makes sense. But
+ 
+
+129
+00:02:20,800 --> 00:02:22,710
+readability. Yeah, that makes sense. But
+let's be a little bit cleaner with this
+
+130
+00:02:22,710 --> 00:02:22,720
+let's be a little bit cleaner with this
+ 
+
+131
+00:02:22,720 --> 00:02:24,470
+let's be a little bit cleaner with this
+and instead of committing it straight to
+
+132
+00:02:24,470 --> 00:02:24,480
+and instead of committing it straight to
+ 
+
+133
+00:02:24,480 --> 00:02:27,030
+and instead of committing it straight to
+main, let's open up a new branch here.
+
+134
+00:02:27,030 --> 00:02:27,040
+main, let's open up a new branch here.
+ 
+
+135
+00:02:27,040 --> 00:02:30,150
+main, let's open up a new branch here.
+We're going to call this font legibility
+
+136
+00:02:30,150 --> 00:02:30,160
+We're going to call this font legibility
+ 
+
+137
+00:02:30,160 --> 00:02:32,949
+We're going to call this font legibility
+and save. Now we've switched to this
+
+138
+00:02:32,949 --> 00:02:32,959
+and save. Now we've switched to this
+ 
+
+139
+00:02:32,959 --> 00:02:35,030
+and save. Now we've switched to this
+branch right there. We can see and let's
+
+140
+00:02:35,030 --> 00:02:35,040
+branch right there. We can see and let's
+ 
+
+141
+00:02:35,040 --> 00:02:37,430
+branch right there. We can see and let's
+commit and push these changes. Here we
+
+142
+00:02:37,430 --> 00:02:37,440
+commit and push these changes. Here we
+ 
+
+143
+00:02:37,440 --> 00:02:39,190
+commit and push these changes. Here we
+can see our commits been added. But
+
+144
+00:02:39,190 --> 00:02:39,200
+can see our commits been added. But
+ 
+
+145
+00:02:39,200 --> 00:02:40,630
+can see our commits been added. But
+let's jump over to GitHub and take a
+
+146
+00:02:40,630 --> 00:02:40,640
+let's jump over to GitHub and take a
+ 
+
+147
+00:02:40,640 --> 00:02:42,390
+let's jump over to GitHub and take a
+look. You can do so by just clicking on
+
+148
+00:02:42,390 --> 00:02:42,400
+look. You can do so by just clicking on
+ 
+
+149
+00:02:42,400 --> 00:02:43,910
+look. You can do so by just clicking on
+this right here. You can see we've got
+
+150
+00:02:43,910 --> 00:02:43,920
+this right here. You can see we've got
+ 
+
+151
+00:02:43,920 --> 00:02:46,790
+this right here. You can see we've got
+our two branches. And if we select them,
+
+152
+00:02:46,790 --> 00:02:46,800
+our two branches. And if we select them,
+ 
+
+153
+00:02:46,800 --> 00:02:48,949
+our two branches. And if we select them,
+you can see there's our commit we just
+
+154
+00:02:48,949 --> 00:02:48,959
+you can see there's our commit we just
+ 
+
+155
+00:02:48,959 --> 00:02:51,830
+you can see there's our commit we just
+made. Now, as our team has been working,
+
+156
+00:02:51,830 --> 00:02:51,840
+made. Now, as our team has been working,
+ 
+
+157
+00:02:51,840 --> 00:02:53,830
+made. Now, as our team has been working,
+a colleague made some changes, too. A
+
+158
+00:02:53,830 --> 00:02:53,840
+a colleague made some changes, too. A
+ 
+
+159
+00:02:53,840 --> 00:02:55,350
+a colleague made some changes, too. A
+colleague was working on this, too. And
+
+160
+00:02:55,350 --> 00:02:55,360
+colleague was working on this, too. And
+ 
+
+161
+00:02:55,360 --> 00:02:56,869
+colleague was working on this, too. And
+I'm going to pull in his changes. So,
+
+162
+00:02:56,869 --> 00:02:56,879
+I'm going to pull in his changes. So,
+ 
+
+163
+00:02:56,879 --> 00:02:58,790
+I'm going to pull in his changes. So,
+I'm going to go here and pull in changes
+
+164
+00:02:58,790 --> 00:02:58,800
+I'm going to go here and pull in changes
+ 
+
+165
+00:02:58,800 --> 00:03:00,630
+I'm going to go here and pull in changes
+from remote. And you can see down here,
+
+166
+00:03:00,630 --> 00:03:00,640
+from remote. And you can see down here,
+ 
+
+167
+00:03:00,640 --> 00:03:02,790
+from remote. And you can see down here,
+we've got some conflicts. So, we can
+
+168
+00:03:02,790 --> 00:03:02,800
+we've got some conflicts. So, we can
+ 
+
+169
+00:03:02,800 --> 00:03:05,030
+we've got some conflicts. So, we can
+select it here. And if we scroll down,
+
+170
+00:03:05,030 --> 00:03:05,040
+select it here. And if we scroll down,
+ 
+
+171
+00:03:05,040 --> 00:03:07,750
+select it here. And if we scroll down,
+we can see the familiar UI. And I'm
+
+172
+00:03:07,750 --> 00:03:07,760
+we can see the familiar UI. And I'm
+ 
+
+173
+00:03:07,760 --> 00:03:09,270
+we can see the familiar UI. And I'm
+actually going to keep the ones that I'm
+
+174
+00:03:09,270 --> 00:03:09,280
+actually going to keep the ones that I'm
+ 
+
+175
+00:03:09,280 --> 00:03:10,869
+actually going to keep the ones that I'm
+working with. Okay, great. That's
+
+176
+00:03:10,869 --> 00:03:10,879
+working with. Okay, great. That's
+ 
+
+177
+00:03:10,879 --> 00:03:12,550
+working with. Okay, great. That's
+resolved. And if you want to see what
+
+178
+00:03:12,550 --> 00:03:12,560
+resolved. And if you want to see what
+ 
+
+179
+00:03:12,560 --> 00:03:14,229
+resolved. And if you want to see what
+branches are available to you, you can
+
+180
+00:03:14,229 --> 00:03:14,239
+branches are available to you, you can
+ 
+
+181
+00:03:14,239 --> 00:03:16,630
+branches are available to you, you can
+go in this dropown here and refresh your
+
+182
+00:03:16,630 --> 00:03:16,640
+go in this dropown here and refresh your
+ 
+
+183
+00:03:16,640 --> 00:03:18,309
+go in this dropown here and refresh your
+branches. Let's jump over to a new
+
+184
+00:03:18,309 --> 00:03:18,319
+branches. Let's jump over to a new
+ 
+
+185
+00:03:18,319 --> 00:03:19,750
+branches. Let's jump over to a new
+project, one that we started in
+
+186
+00:03:19,750 --> 00:03:19,760
+project, one that we started in
+ 
+
+187
+00:03:19,760 --> 00:03:21,509
+project, one that we started in
+DreamFlow, and see how we get it into
+
+188
+00:03:21,509 --> 00:03:21,519
+DreamFlow, and see how we get it into
+ 
+
+189
+00:03:21,519 --> 00:03:23,110
+DreamFlow, and see how we get it into
+version control. So I've got this
+
+190
+00:03:23,110 --> 00:03:23,120
+version control. So I've got this
+ 
+
+191
+00:03:23,120 --> 00:03:25,350
+version control. So I've got this
+dashboard app, and I want to hook it up
+
+192
+00:03:25,350 --> 00:03:25,360
+dashboard app, and I want to hook it up
+ 
+
+193
+00:03:25,360 --> 00:03:27,990
+dashboard app, and I want to hook it up
+to version control here. So I want to
+
+194
+00:03:27,990 --> 00:03:28,000
+to version control here. So I want to
+ 
+
+195
+00:03:28,000 --> 00:03:30,390
+to version control here. So I want to
+connect a repository, and I need the
+
+196
+00:03:30,390 --> 00:03:30,400
+connect a repository, and I need the
+ 
+
+197
+00:03:30,400 --> 00:03:32,229
+connect a repository, and I need the
+same information as before. So let's go
+
+198
+00:03:32,229 --> 00:03:32,239
+same information as before. So let's go
+ 
+
+199
+00:03:32,239 --> 00:03:34,149
+same information as before. So let's go
+set that up in GitHub. So let's come
+
+200
+00:03:34,149 --> 00:03:34,159
+set that up in GitHub. So let's come
+ 
+
+201
+00:03:34,159 --> 00:03:36,710
+set that up in GitHub. So let's come
+over here to add a new repo. Choose an
+
+202
+00:03:36,710 --> 00:03:36,720
+over here to add a new repo. Choose an
+ 
+
+203
+00:03:36,720 --> 00:03:39,509
+over here to add a new repo. Choose an
+owner, a repo name, and make sure to add
+
+204
+00:03:39,509 --> 00:03:39,519
+owner, a repo name, and make sure to add
+ 
+
+205
+00:03:39,519 --> 00:03:41,910
+owner, a repo name, and make sure to add
+a read or a license. the repo can't be
+
+206
+00:03:41,910 --> 00:03:41,920
+a read or a license. the repo can't be
+ 
+
+207
+00:03:41,920 --> 00:03:43,910
+a read or a license. the repo can't be
+empty. So, I'm going to add a readme
+
+208
+00:03:43,910 --> 00:03:43,920
+empty. So, I'm going to add a readme
+ 
+
+209
+00:03:43,920 --> 00:03:45,990
+empty. So, I'm going to add a readme
+right here and create the repository.
+
+210
+00:03:45,990 --> 00:03:46,000
+right here and create the repository.
+ 
+
+211
+00:03:46,000 --> 00:03:47,270
+right here and create the repository.
+Okay. Then we go through the same
+
+212
+00:03:47,270 --> 00:03:47,280
+Okay. Then we go through the same
+ 
+
+213
+00:03:47,280 --> 00:03:49,430
+Okay. Then we go through the same
+process right here. So, I'm going to
+
+214
+00:03:49,430 --> 00:03:49,440
+process right here. So, I'm going to
+ 
+
+215
+00:03:49,440 --> 00:03:52,309
+process right here. So, I'm going to
+grab the URL and paste in our access
+
+216
+00:03:52,309 --> 00:03:52,319
+grab the URL and paste in our access
+ 
+
+217
+00:03:52,319 --> 00:03:54,869
+grab the URL and paste in our access
+token and connect. All right. Great. We
+
+218
+00:03:54,869 --> 00:03:54,879
+token and connect. All right. Great. We
+ 
+
+219
+00:03:54,879 --> 00:03:57,190
+token and connect. All right. Great. We
+are connected now. So, let's make our
+
+220
+00:03:57,190 --> 00:03:57,200
+are connected now. So, let's make our
+ 
+
+221
+00:03:57,200 --> 00:03:59,509
+are connected now. So, let's make our
+first commit. We'll use it with the AI
+
+222
+00:03:59,509 --> 00:03:59,519
+first commit. We'll use it with the AI
+ 
+
+223
+00:03:59,519 --> 00:04:02,070
+first commit. We'll use it with the AI
+and push our changes. Okay. Next, let's
+
+224
+00:04:02,070 --> 00:04:02,080
+and push our changes. Okay. Next, let's
+ 
+
+225
+00:04:02,080 --> 00:04:04,229
+and push our changes. Okay. Next, let's
+add a feature here. And we'll use one of
+
+226
+00:04:04,229 --> 00:04:04,239
+add a feature here. And we'll use one of
+ 
+
+227
+00:04:04,239 --> 00:04:06,070
+add a feature here. And we'll use one of
+the features generated from the agent
+
+228
+00:04:06,070 --> 00:04:06,080
+the features generated from the agent
+ 
+
+229
+00:04:06,080 --> 00:04:07,509
+the features generated from the agent
+already. So, we're going to add a
+
+230
+00:04:07,509 --> 00:04:07,519
+already. So, we're going to add a
+ 
+
+231
+00:04:07,519 --> 00:04:09,670
+already. So, we're going to add a
+settings page. And you can see while the
+
+232
+00:04:09,670 --> 00:04:09,680
+settings page. And you can see while the
+ 
+
+233
+00:04:09,680 --> 00:04:11,509
+settings page. And you can see while the
+agent is working, it's automatically
+
+234
+00:04:11,509 --> 00:04:11,519
+agent is working, it's automatically
+ 
+
+235
+00:04:11,519 --> 00:04:13,830
+agent is working, it's automatically
+tracking changes. Okay, the agent is
+
+236
+00:04:13,830 --> 00:04:13,840
+tracking changes. Okay, the agent is
+ 
+
+237
+00:04:13,840 --> 00:04:15,750
+tracking changes. Okay, the agent is
+done. We've got our changes tracked
+
+238
+00:04:15,750 --> 00:04:15,760
+done. We've got our changes tracked
+ 
+
+239
+00:04:15,760 --> 00:04:18,870
+done. We've got our changes tracked
+here. Let's go look at the feature.
+
+240
+00:04:18,870 --> 00:04:18,880
+here. Let's go look at the feature.
+ 
+
+241
+00:04:18,880 --> 00:04:20,949
+here. Let's go look at the feature.
+Okay, this is looking good except for we
+
+242
+00:04:20,949 --> 00:04:20,959
+Okay, this is looking good except for we
+ 
+
+243
+00:04:20,959 --> 00:04:22,950
+Okay, this is looking good except for we
+just got this border here. So, let's
+
+244
+00:04:22,950 --> 00:04:22,960
+just got this border here. So, let's
+ 
+
+245
+00:04:22,960 --> 00:04:24,950
+just got this border here. So, let's
+just remove this real quick. I'm going
+
+246
+00:04:24,950 --> 00:04:24,960
+just remove this real quick. I'm going
+ 
+
+247
+00:04:24,960 --> 00:04:27,909
+just remove this real quick. I'm going
+to click into here, go up to my card, do
+
+248
+00:04:27,909 --> 00:04:27,919
+to click into here, go up to my card, do
+ 
+
+249
+00:04:27,919 --> 00:04:31,350
+to click into here, go up to my card, do
+a quick edit, remove border. Okay,
+
+250
+00:04:31,350 --> 00:04:31,360
+a quick edit, remove border. Okay,
+ 
+
+251
+00:04:31,360 --> 00:04:33,270
+a quick edit, remove border. Okay,
+that's great.
+
+252
+00:04:33,270 --> 00:04:33,280
+that's great.
+ 
+
+253
+00:04:33,280 --> 00:04:35,670
+that's great.
+And let's remove one other border right
+
+254
+00:04:35,670 --> 00:04:35,680
+And let's remove one other border right
+ 
+
+255
+00:04:35,680 --> 00:04:37,430
+And let's remove one other border right
+here.
+
+256
+00:04:37,430 --> 00:04:37,440
+here.
+ 
+
+257
+00:04:37,440 --> 00:04:40,390
+here.
+remove border. Okay, that's great. All
+
+258
+00:04:40,390 --> 00:04:40,400
+remove border. Okay, that's great. All
+ 
+
+259
+00:04:40,400 --> 00:04:42,550
+remove border. Okay, that's great. All
+right, let's generate our commit message
+
+260
+00:04:42,550 --> 00:04:42,560
+right, let's generate our commit message
+ 
+
+261
+00:04:42,560 --> 00:04:44,790
+right, let's generate our commit message
+and push our changes. This way of
+
+262
+00:04:44,790 --> 00:04:44,800
+and push our changes. This way of
+ 
+
+263
+00:04:44,800 --> 00:04:46,390
+and push our changes. This way of
+working with Git allows you to manage
+
+264
+00:04:46,390 --> 00:04:46,400
+working with Git allows you to manage
+ 
+
+265
+00:04:46,400 --> 00:04:48,230
+working with Git allows you to manage
+your projects efficiently. And if you
+
+266
+00:04:48,230 --> 00:04:48,240
+your projects efficiently. And if you
+ 
+
+267
+00:04:48,240 --> 00:04:50,390
+your projects efficiently. And if you
+need to run external scripts like buildr
+
+268
+00:04:50,390 --> 00:04:50,400
+need to run external scripts like buildr
+ 
+
+269
+00:04:50,400 --> 00:04:51,909
+need to run external scripts like buildr
+runner, you can do that in your editor
+
+270
+00:04:51,909 --> 00:04:51,919
+runner, you can do that in your editor
+ 
+
+271
+00:04:51,919 --> 00:04:53,590
+runner, you can do that in your editor
+of choice and just pull those changes
+
+272
+00:04:53,590 --> 00:04:53,600
+of choice and just pull those changes
+ 
+
+273
+00:04:53,600 --> 00:04:54,870
+of choice and just pull those changes
+in. Let us know if you have any
+
+274
+00:04:54,870 --> 00:04:54,880
+in. Let us know if you have any
+ 
+
+275
+00:04:54,880 --> 00:04:56,230
+in. Let us know if you have any
+questions and we'll see you in the next
+
+276
+00:04:56,230 --> 00:04:56,240
+questions and we'll see you in the next
+ 
+
+277
+00:04:56,240 --> 00:04:59,240
+questions and we'll see you in the next
+video.
+

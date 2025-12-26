@@ -331,8 +331,6 @@ flutter:
                       return Column(
                     children: [
                       _buildWebAppBar(theme),
-                      if (!_hasUploadedProject)
-                        _buildDemoBanner(theme),
                         Expanded(
                           child: _isLoading
                             ? _buildLoadingView(theme)

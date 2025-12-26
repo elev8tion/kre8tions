@@ -1192,7 +1192,7 @@ class _WidgetInspectorPanelState extends State<WidgetInspectorPanel> with Ticker
           onChanged: (newValue) {
             widget.onPropertyChanged(label, newValue);
           },
-          activeColor: theme.colorScheme.primary,
+          activeThumbColor: theme.colorScheme.primary,
         ),
       ],
     );

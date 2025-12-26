@@ -1,0 +1,186 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661174-New_Feature___Mobile_Preview.en.srt",
+    "total_frames": 22,
+    "total_transcript_segments": 0
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0001.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0002.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0003.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0004.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0005.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0006.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0007.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0008.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0009.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0010.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0011.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0012.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0013.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0014.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0015.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0016.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0017.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0018.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0019.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0020.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0021.png",
+      "transcript": "",
+      "segment_count": 0
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649443-New_Feature___Mobile_Preview_keyframes/frame_0022.png",
+      "transcript": "",
+      "segment_count": 0
+    }
+  ]
+}

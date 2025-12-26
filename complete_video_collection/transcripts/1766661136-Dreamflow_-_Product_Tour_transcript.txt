@@ -1,0 +1,714 @@
+
+Welcome to the new Dreamflow where you
+Welcome to the new Dreamflow where you
+ 
+Welcome to the new Dreamflow where you
+can build, preview, and deploy your apps
+can build, preview, and deploy your apps
+ 
+can build, preview, and deploy your apps
+all in one place, giving you the freedom
+all in one place, giving you the freedom
+ 
+all in one place, giving you the freedom
+to develop however you want through
+to develop however you want through
+ 
+to develop however you want through
+prompting our AI agent, visual
+prompting our AI agent, visual
+ 
+prompting our AI agent, visual
+development, or interacting with the
+development, or interacting with the
+ 
+development, or interacting with the
+code itself. So, let me give you a tour.
+code itself. So, let me give you a tour.
+ 
+code itself. So, let me give you a tour.
+Let's start with a prompt. Let's build a
+Let's start with a prompt. Let's build a
+ 
+Let's start with a prompt. Let's build a
+habit tracker. The first thing Dreamflow
+habit tracker. The first thing Dreamflow
+ 
+habit tracker. The first thing Dreamflow
+is going to do is formulate a plan that
+is going to do is formulate a plan that
+ 
+is going to do is formulate a plan that
+you can see over here on the left. On
+you can see over here on the left. On
+ 
+you can see over here on the left. On
+the right, you're going to see the
+the right, you're going to see the
+ 
+the right, you're going to see the
+execution of that plan, including each
+execution of that plan, including each
+ 
+execution of that plan, including each
+of the tasks it's going to accomplish,
+of the tasks it's going to accomplish,
+ 
+of the tasks it's going to accomplish,
+the files it's going to edit, and the
+the files it's going to edit, and the
+ 
+the files it's going to edit, and the
+diffs that you can expand to see what
+diffs that you can expand to see what
+ 
+diffs that you can expand to see what
+it's actually doing. Additionally,
+it's actually doing. Additionally,
+ 
+it's actually doing. Additionally,
+you'll see any of the packages that it
+you'll see any of the packages that it
+ 
+you'll see any of the packages that it
+adds, and all of the classes that it's
+adds, and all of the classes that it's
+ 
+adds, and all of the classes that it's
+writing. After it writes these files,
+writing. After it writes these files,
+ 
+writing. After it writes these files,
+you can click into this view generated
+you can click into this view generated
+ 
+you can click into this view generated
+files and select any file you want and
+files and select any file you want and
+ 
+files and select any file you want and
+see all the code that's written. When
+see all the code that's written. When
+ 
+see all the code that's written. When
+the task is completed, you'll see that
+the task is completed, you'll see that
+ 
+the task is completed, you'll see that
+DreamFlow checks it off. And if you have
+DreamFlow checks it off. And if you have
+ 
+DreamFlow checks it off. And if you have
+some extra time, you can play Asteroids.
+some extra time, you can play Asteroids.
+ 
+some extra time, you can play Asteroids.
+All right, let's go back and view our
+All right, let's go back and view our
+ 
+All right, let's go back and view our
+progress. And let's close out these
+progress. And let's close out these
+ 
+progress. And let's close out these
+messages right here. And you can see
+messages right here. And you can see
+ 
+messages right here. And you can see
+that we're almost done. As it's writing
+that we're almost done. As it's writing
+ 
+that we're almost done. As it's writing
+the code, it will compile it and check
+the code, it will compile it and check
+ 
+the code, it will compile it and check
+for errors. And if there are any errors,
+for errors. And if there are any errors,
+ 
+for errors. And if there are any errors,
+it will fix them. All right, it's done.
+it will fix them. All right, it's done.
+ 
+it will fix them. All right, it's done.
+So now it's opening it in DreamFlow. And
+So now it's opening it in DreamFlow. And
+ 
+So now it's opening it in DreamFlow. And
+beautiful. Here's our app. Now, let's
+beautiful. Here's our app. Now, let's
+ 
+beautiful. Here's our app. Now, let's
+get a little accustomed to this
+get a little accustomed to this
+ 
+get a little accustomed to this
+interface. Now up here you can see a
+interface. Now up here you can see a
+ 
+interface. Now up here you can see a
+couple of different options. And this
+couple of different options. And this
+ 
+couple of different options. And this
+left one over here when I select it will
+left one over here when I select it will
+ 
+left one over here when I select it will
+be my widget tree. So you can see all
+be my widget tree. So you can see all
+ 
+be my widget tree. So you can see all
+the widgets on your page. Next over here
+the widgets on your page. Next over here
+ 
+the widgets on your page. Next over here
+we have our properties panel. Now we
+we have our properties panel. Now we
+ 
+we have our properties panel. Now we
+don't see anything right now because we
+don't see anything right now because we
+ 
+don't see anything right now because we
+don't have any widgets selected. So we
+don't have any widgets selected. So we
+ 
+don't have any widgets selected. So we
+can't see any widgets. But this is
+can't see any widgets. But this is
+ 
+can't see any widgets. But this is
+getting a little bit cramped right here.
+getting a little bit cramped right here.
+ 
+getting a little bit cramped right here.
+So I could shrink it down. But actually
+So I could shrink it down. But actually
+ 
+So I could shrink it down. But actually
+I'm just going to close this agent panel
+I'm just going to close this agent panel
+ 
+I'm just going to close this agent panel
+right here. And that's this third
+right here. And that's this third
+ 
+right here. And that's this third
+option. There we go. That's feeling
+option. There we go. That's feeling
+ 
+option. There we go. That's feeling
+better. The last main section is right
+better. The last main section is right
+ 
+better. The last main section is right
+here. A preview of our app. Well, it's
+here. A preview of our app. Well, it's
+ 
+here. A preview of our app. Well, it's
+actually the app itself. This is the
+actually the app itself. This is the
+ 
+actually the app itself. This is the
+complete running version of your app.
+complete running version of your app.
+ 
+complete running version of your app.
+Okay. So, let's make some changes here.
+Okay. So, let's make some changes here.
+ 
+Okay. So, let's make some changes here.
+So, the first thing I want to do is I
+So, the first thing I want to do is I
+ 
+So, the first thing I want to do is I
+want to change this title right here.
+want to change this title right here.
+ 
+want to change this title right here.
+Now, I could click through right here
+Now, I could click through right here
+ 
+Now, I could click through right here
+and try to figure out where this is, but
+and try to figure out where this is, but
+ 
+and try to figure out where this is, but
+there's an easier way to do it, and
+there's an easier way to do it, and
+ 
+there's an easier way to do it, and
+that's to turn on inspect mode right
+that's to turn on inspect mode right
+ 
+that's to turn on inspect mode right
+here. And that allows me to hover over
+here. And that allows me to hover over
+ 
+here. And that allows me to hover over
+and select whatever widget I want to
+and select whatever widget I want to
+ 
+and select whatever widget I want to
+change. So, we want this text widget
+change. So, we want this text widget
+ 
+change. So, we want this text widget
+right here. And when I select that
+right here. And when I select that
+ 
+right here. And when I select that
+widget, you can see all of the
+widget, you can see all of the
+ 
+widget, you can see all of the
+properties populating over here. And you
+properties populating over here. And you
+ 
+properties populating over here. And you
+can just go in and change them. So, I
+can just go in and change them. So, I
+ 
+can just go in and change them. So, I
+want this to be keystone tracker. Okay,
+want this to be keystone tracker. Okay,
+ 
+want this to be keystone tracker. Okay,
+that's great. Next, this is a little bit
+that's great. Next, this is a little bit
+ 
+that's great. Next, this is a little bit
+too big. And you can see this style is
+too big. And you can see this style is
+ 
+too big. And you can see this style is
+coming from this headline small. That is
+coming from this headline small. That is
+ 
+coming from this headline small. That is
+from our theme settings that you can
+from our theme settings that you can
+ 
+from our theme settings that you can
+edit in this second tab right here. So,
+edit in this second tab right here. So,
+ 
+edit in this second tab right here. So,
+that's headline small right over here.
+that's headline small right over here.
+ 
+that's headline small right over here.
+And I'm just going to bump that down.
+And I'm just going to bump that down.
+ 
+And I'm just going to bump that down.
+Yeah, that's looking better. I've got
+Yeah, that's looking better. I've got
+ 
+Yeah, that's looking better. I've got
+another app here. It's a to-do app. And
+another app here. It's a to-do app. And
+ 
+another app here. It's a to-do app. And
+if you notice, I've got this error right
+if you notice, I've got this error right
+ 
+if you notice, I've got this error right
+here. It's an overflow error. and I want
+here. It's an overflow error. and I want
+ 
+here. It's an overflow error. and I want
+to fix that with our agent. So, I'm
+to fix that with our agent. So, I'm
+ 
+to fix that with our agent. So, I'm
+going to toggle our agent chat right
+going to toggle our agent chat right
+ 
+going to toggle our agent chat right
+here. And there are various ways that
+here. And there are various ways that
+ 
+here. And there are various ways that
+you can deal with debugging issues like
+you can deal with debugging issues like
+ 
+you can deal with debugging issues like
+this. But for this one, I'm going to go
+this. But for this one, I'm going to go
+ 
+this. But for this one, I'm going to go
+down here and take a screenshot and add
+down here and take a screenshot and add
+ 
+down here and take a screenshot and add
+that to the agent context right there
+that to the agent context right there
+ 
+that to the agent context right there
+and say in the tab bar there's an
+and say in the tab bar there's an
+ 
+and say in the tab bar there's an
+overflow error. Please fix. Awesome. And
+overflow error. Please fix. Awesome. And
+ 
+overflow error. Please fix. Awesome. And
+that is fixed. and our agent gives us a
+that is fixed. and our agent gives us a
+ 
+that is fixed. and our agent gives us a
+nice summary of the tasks that it's
+nice summary of the tasks that it's
+ 
+nice summary of the tasks that it's
+taken to fix it. The next thing I want
+taken to fix it. The next thing I want
+ 
+taken to fix it. The next thing I want
+to do is I want to connect this to a
+to do is I want to connect this to a
+ 
+to do is I want to connect this to a
+backend service and we have native
+backend service and we have native
+ 
+backend service and we have native
+modules for Superbase and Firebase. Of
+modules for Superbase and Firebase. Of
+ 
+modules for Superbase and Firebase. Of
+course, you have full access to the
+course, you have full access to the
+ 
+course, you have full access to the
+code. So, you could use any backend you
+code. So, you could use any backend you
+ 
+code. So, you could use any backend you
+want, but let's use Superbase. So, let's
+want, but let's use Superbase. So, let's
+ 
+want, but let's use Superbase. So, let's
+come over here to our Superbase module
+come over here to our Superbase module
+ 
+come over here to our Superbase module
+and connect to Superbase. This will
+and connect to Superbase. This will
+ 
+and connect to Superbase. This will
+bring you through the OOTH flow and then
+bring you through the OOTH flow and then
+ 
+bring you through the OOTH flow and then
+set up your project in Superbase. Great.
+set up your project in Superbase. Great.
+ 
+set up your project in Superbase. Great.
+The project is set up. Now, let's have
+The project is set up. Now, let's have
+ 
+The project is set up. Now, let's have
+the agent generate the client side code.
+the agent generate the client side code.
+ 
+the agent generate the client side code.
+And you can see it's added to the thread
+And you can see it's added to the thread
+ 
+And you can see it's added to the thread
+right here, and it's planning its
+right here, and it's planning its
+ 
+right here, and it's planning its
+execution. Now, what's great here is
+execution. Now, what's great here is
+ 
+execution. Now, what's great here is
+that because the agent has a context of
+that because the agent has a context of
+ 
+that because the agent has a context of
+your entire app, it sees that it's a
+your entire app, it sees that it's a
+ 
+your entire app, it sees that it's a
+to-do list. So, it's creating the tables
+to-do list. So, it's creating the tables
+ 
+to-do list. So, it's creating the tables
+that make sense for a to-do app. Great,
+that make sense for a to-do app. Great,
+ 
+that make sense for a to-do app. Great,
+it's finished. We've got a summary of
+it's finished. We've got a summary of
+ 
+it's finished. We've got a summary of
+all the tasks that it took. Now, the
+all the tasks that it took. Now, the
+ 
+all the tasks that it took. Now, the
+last step is to deploy these schema
+last step is to deploy these schema
+ 
+last step is to deploy these schema
+changes. Now what's this doing is that
+changes. Now what's this doing is that
+ 
+changes. Now what's this doing is that
+it wrote all the SQL to create the
+it wrote all the SQL to create the
+ 
+it wrote all the SQL to create the
+tables and the rowle security and now
+tables and the rowle security and now
+ 
+tables and the rowle security and now
+it's just executing those. All right,
+it's just executing those. All right,
+ 
+it's just executing those. All right,
+that's all looking good. I can see here
+that's all looking good. I can see here
+ 
+that's all looking good. I can see here
+in Superbase that I've got my to-dos and
+in Superbase that I've got my to-dos and
+ 
+in Superbase that I've got my to-dos and
+all the other things and the all and all
+all the other things and the all and all
+ 
+all the other things and the all and all
+the other tables. But when I go back to
+the other tables. But when I go back to
+ 
+the other tables. But when I go back to
+the app, I'm not seeing anything. And
+the app, I'm not seeing anything. And
+ 
+the app, I'm not seeing anything. And
+that's probably because I'm not
+that's probably because I'm not
+ 
+that's probably because I'm not
+authenticated as any user. So let's
+authenticated as any user. So let's
+ 
+authenticated as any user. So let's
+change the entry page. So I'm just going
+change the entry page. So I'm just going
+ 
+change the entry page. So I'm just going
+to tell it to make sure the off page is
+to tell it to make sure the off page is
+ 
+to tell it to make sure the off page is
+the entry page. All right, great. That's
+the entry page. All right, great. That's
+ 
+the entry page. All right, great. That's
+done. Great. So, we're signed in, but I
+done. Great. So, we're signed in, but I
+ 
+done. Great. So, we're signed in, but I
+don't think this button is working right
+don't think this button is working right
+ 
+don't think this button is working right
+here. So, what I'm going to do is I'm
+here. So, what I'm going to do is I'm
+ 
+here. So, what I'm going to do is I'm
+going to turn on inspect mode right
+going to turn on inspect mode right
+ 
+going to turn on inspect mode right
+here. And this button right here, I want
+here. And this button right here, I want
+ 
+here. And this button right here, I want
+to rightclick and add it to the agent
+to rightclick and add it to the agent
+ 
+to rightclick and add it to the agent
+context right here. And say this button
+context right here. And say this button
+ 
+context right here. And say this button
+is always disabled. Make sure it's
+is always disabled. Make sure it's
+ 
+is always disabled. Make sure it's
+working properly. All right, that's
+working properly. All right, that's
+ 
+working properly. All right, that's
+done. So, let's test it out here. create
+done. So, let's test it out here. create
+ 
+done. So, let's test it out here. create
+Dreamflow tutorial.
+Dreamflow tutorial.
+ 
+Dreamflow tutorial.
+Beautiful. Now, so far we've used our
+Beautiful. Now, so far we've used our
+ 
+Beautiful. Now, so far we've used our
+agent to make changes to our app. We've
+agent to make changes to our app. We've
+ 
+agent to make changes to our app. We've
+selected widgets and modified their
+selected widgets and modified their
+ 
+selected widgets and modified their
+properties in the property panel. But
+properties in the property panel. But
+ 
+properties in the property panel. But
+there's one other way that you can
+there's one other way that you can
+ 
+there's one other way that you can
+interact with your app. And that's
+interact with your app. And that's
+ 
+interact with your app. And that's
+directly with the code. And you can see
+directly with the code. And you can see
+ 
+directly with the code. And you can see
+that up here. So, if I go into code
+that up here. So, if I go into code
+ 
+that up here. So, if I go into code
+view, you can see I have full file
+view, you can see I have full file
+ 
+view, you can see I have full file
+system access where you can edit any
+system access where you can edit any
+ 
+system access where you can edit any
+file. But it gets better because I can
+file. But it gets better because I can
+ 
+file. But it gets better because I can
+go into split view right here and let's
+go into split view right here and let's
+ 
+go into split view right here and let's
+close our agent to make a little bit
+close our agent to make a little bit
+ 
+close our agent to make a little bit
+more room. And if I'm in inspect mode, I
+more room. And if I'm in inspect mode, I
+ 
+more room. And if I'm in inspect mode, I
+can select whatever widget I want and
+can select whatever widget I want and
+ 
+can select whatever widget I want and
+it'll bring me right there to that
+it'll bring me right there to that
+ 
+it'll bring me right there to that
+widget. I can edit it. So let's just
+widget. I can edit it. So let's just
+ 
+widget. I can edit it. So let's just
+call this task. And when I save it,
+call this task. And when I save it,
+ 
+call this task. And when I save it,
+those changes will be propagated in all
+those changes will be propagated in all
+ 
+those changes will be propagated in all
+of the development surfaces. Also, if I
+of the development surfaces. Also, if I
+ 
+of the development surfaces. Also, if I
+select a widget in here, each context
+select a widget in here, each context
+ 
+select a widget in here, each context
+will be highlighted in the preview and
+will be highlighted in the preview and
+ 
+will be highlighted in the preview and
+in your properties. But I feel good
+in your properties. But I feel good
+ 
+in your properties. But I feel good
+about this. So, I think it's time to
+about this. So, I think it's time to
+ 
+about this. So, I think it's time to
+publish. So, I'm going to go back into
+publish. So, I'm going to go back into
+ 
+publish. So, I'm going to go back into
+preview here and go to publish and
+preview here and go to publish and
+ 
+preview here and go to publish and
+deploy with one click. And here's our
+deploy with one click. And here's our
+ 
+deploy with one click. And here's our
+live project. Awesome. And here's our
+live project. Awesome. And here's our
+ 
+live project. Awesome. And here's our
+deployed app. You can also deploy
+deployed app. You can also deploy
+ 
+deployed app. You can also deploy
+straight to the App Store and Play
+straight to the App Store and Play
+ 
+straight to the App Store and Play
+Store. Now, if you run out of credits
+Store. Now, if you run out of credits
+ 
+Store. Now, if you run out of credits
+while you're building, you can go into
+while you're building, you can go into
+ 
+while you're building, you can go into
+your settings over here and into manage
+your settings over here and into manage
+ 
+your settings over here and into manage
+plan. Then go into view plan and choose
+plan. Then go into view plan and choose
+ 
+plan. Then go into view plan and choose
+the option you need. And that's the new
+the option you need. And that's the new
+ 
+the option you need. And that's the new
+Dreamflow. We can't wait to see what
+Dreamflow. We can't wait to see what
+ 
+Dreamflow. We can't wait to see what
+you'll build. Share them with us on
+you'll build. Share them with us on
+ 
+you'll build. Share them with us on
+Twitter with the handle@dreamflow
+Twitter with the handle@dreamflow
+ 
+Twitter with the handle@dreamflow
+app. We can't wait to see what you'll
+app. We can't wait to see what you'll
+ 
+app. We can't wait to see what you'll
+build.

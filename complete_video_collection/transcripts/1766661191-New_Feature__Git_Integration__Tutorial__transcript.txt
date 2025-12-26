@@ -1,0 +1,554 @@
+
+Let me show you how to use Dreamflow's
+Let me show you how to use Dreamflow's
+ 
+Let me show you how to use Dreamflow's
+Git integration. First, we'll clone a
+Git integration. First, we'll clone a
+ 
+Git integration. First, we'll clone a
+repository from a private repo on
+repository from a private repo on
+ 
+repository from a private repo on
+GitHub. And then we'll walk through how
+GitHub. And then we'll walk through how
+ 
+GitHub. And then we'll walk through how
+to push a DreamFlow project you've been
+to push a DreamFlow project you've been
+ 
+to push a DreamFlow project you've been
+working on to a new GitHub repo. For
+working on to a new GitHub repo. For
+ 
+working on to a new GitHub repo. For
+this tutorial, we'll be using GitHub,
+this tutorial, we'll be using GitHub,
+ 
+this tutorial, we'll be using GitHub,
+but this will work with any Git provider
+but this will work with any Git provider
+ 
+but this will work with any Git provider
+like GitLab or Bitbucket. Okay, let's
+like GitLab or Bitbucket. Okay, let's
+ 
+like GitLab or Bitbucket. Okay, let's
+get started. So, to clone a repo, just
+get started. So, to clone a repo, just
+ 
+get started. So, to clone a repo, just
+come over here to clone codebase. Now,
+come over here to clone codebase. Now,
+ 
+come over here to clone codebase. Now,
+the repo I'm going to be using is the
+the repo I'm going to be using is the
+ 
+the repo I'm going to be using is the
+Great Wondrous app that I forked from
+Great Wondrous app that I forked from
+ 
+Great Wondrous app that I forked from
+GSK. So, give it a name. And now we're
+GSK. So, give it a name. And now we're
+ 
+GSK. So, give it a name. And now we're
+going to go grab the repo URL and get
+going to go grab the repo URL and get
+ 
+going to go grab the repo URL and get
+our access token. To get your URL, just
+our access token. To get your URL, just
+ 
+our access token. To get your URL, just
+come over here to code and in the HTTPS
+come over here to code and in the HTTPS
+ 
+come over here to code and in the HTTPS
+and just grab this. Let's paste that in.
+and just grab this. Let's paste that in.
+ 
+and just grab this. Let's paste that in.
+And I'll get our access token. To get
+And I'll get our access token. To get
+ 
+And I'll get our access token. To get
+that, come over to your profile and into
+that, come over to your profile and into
+ 
+that, come over to your profile and into
+settings and scroll down on the bottom
+settings and scroll down on the bottom
+ 
+settings and scroll down on the bottom
+left here to developer settings. Then go
+left here to developer settings. Then go
+ 
+left here to developer settings. Then go
+to personal access tokens. And you can
+to personal access tokens. And you can
+ 
+to personal access tokens. And you can
+use either fine grain or the classic
+use either fine grain or the classic
+ 
+use either fine grain or the classic
+tokens. We've left a link to the
+tokens. We've left a link to the
+ 
+tokens. We've left a link to the
+documentation below. We're just going to
+documentation below. We're just going to
+ 
+documentation below. We're just going to
+do classic tokens. Then let's generate a
+do classic tokens. Then let's generate a
+ 
+do classic tokens. Then let's generate a
+new token. Give it a name. Set your
+new token. Give it a name. Set your
+ 
+new token. Give it a name. Set your
+expiration date. We'll just keep it at
+expiration date. We'll just keep it at
+ 
+expiration date. We'll just keep it at
+the default. And select the scopes of
+the default. And select the scopes of
+ 
+the default. And select the scopes of
+permission that DreamFlow will have
+permission that DreamFlow will have
+ 
+permission that DreamFlow will have
+access to. You'll need to give it the
+access to. You'll need to give it the
+ 
+access to. You'll need to give it the
+repo and workflow. Then you can scroll
+repo and workflow. Then you can scroll
+ 
+repo and workflow. Then you can scroll
+down and generate the token. Keep in
+down and generate the token. Keep in
+ 
+down and generate the token. Keep in
+mind that you only see this token once.
+mind that you only see this token once.
+ 
+mind that you only see this token once.
+So copy it and then go back to
+So copy it and then go back to
+ 
+So copy it and then go back to
+DreamFlow. Paste in your token and clone
+DreamFlow. Paste in your token and clone
+ 
+DreamFlow. Paste in your token and clone
+your repository. Now, how long this will
+your repository. Now, how long this will
+ 
+your repository. Now, how long this will
+take will depend on the size of the
+take will depend on the size of the
+ 
+take will depend on the size of the
+project. So, just keep that in mind if
+project. So, just keep that in mind if
+ 
+project. So, just keep that in mind if
+you've got a larger project. Beautiful.
+you've got a larger project. Beautiful.
+ 
+you've got a larger project. Beautiful.
+Our app is loaded up and running. Okay,
+Our app is loaded up and running. Okay,
+ 
+Our app is loaded up and running. Okay,
+let's go over to our source control
+let's go over to our source control
+ 
+let's go over to our source control
+section here where we can see the
+section here where we can see the
+ 
+section here where we can see the
+history of our commits, any current
+history of our commits, any current
+ 
+history of our commits, any current
+changes, and controls for branches and
+changes, and controls for branches and
+ 
+changes, and controls for branches and
+connections to our source. Okay, this is
+connections to our source. Okay, this is
+ 
+connections to our source. Okay, this is
+looking good. So, let's make some
+looking good. So, let's make some
+ 
+looking good. So, let's make some
+changes here. I want to increase the
+changes here. I want to increase the
+ 
+changes here. I want to increase the
+size of this text. It's a little bit
+size of this text. It's a little bit
+ 
+size of this text. It's a little bit
+small. So, I'm going to go in here and
+small. So, I'm going to go in here and
+ 
+small. So, I'm going to go in here and
+doubleclick down through the widget tree
+doubleclick down through the widget tree
+ 
+doubleclick down through the widget tree
+until I get to my component here. There
+until I get to my component here. There
+ 
+until I get to my component here. There
+it is. And I'm just going to do a quick
+it is. And I'm just going to do a quick
+ 
+it is. And I'm just going to do a quick
+edit right here. Command K. Increase the
+edit right here. Command K. Increase the
+ 
+edit right here. Command K. Increase the
+size of the font.
+size of the font.
+ 
+size of the font.
+Yeah, that's looking better. And you can
+Yeah, that's looking better. And you can
+ 
+Yeah, that's looking better. And you can
+see changes are automatically tracked
+see changes are automatically tracked
+ 
+see changes are automatically tracked
+here. So, when you're ready to commit,
+here. So, when you're ready to commit,
+ 
+here. So, when you're ready to commit,
+you can write a commit message right
+you can write a commit message right
+ 
+you can write a commit message right
+here. Or you can have the agent do it
+here. Or you can have the agent do it
+ 
+here. Or you can have the agent do it
+simply by selecting this button right
+simply by selecting this button right
+ 
+simply by selecting this button right
+here. adjust drop cap sizing for better
+here. adjust drop cap sizing for better
+ 
+here. adjust drop cap sizing for better
+readability. Yeah, that makes sense. But
+readability. Yeah, that makes sense. But
+ 
+readability. Yeah, that makes sense. But
+let's be a little bit cleaner with this
+let's be a little bit cleaner with this
+ 
+let's be a little bit cleaner with this
+and instead of committing it straight to
+and instead of committing it straight to
+ 
+and instead of committing it straight to
+main, let's open up a new branch here.
+main, let's open up a new branch here.
+ 
+main, let's open up a new branch here.
+We're going to call this font legibility
+We're going to call this font legibility
+ 
+We're going to call this font legibility
+and save. Now we've switched to this
+and save. Now we've switched to this
+ 
+and save. Now we've switched to this
+branch right there. We can see and let's
+branch right there. We can see and let's
+ 
+branch right there. We can see and let's
+commit and push these changes. Here we
+commit and push these changes. Here we
+ 
+commit and push these changes. Here we
+can see our commits been added. But
+can see our commits been added. But
+ 
+can see our commits been added. But
+let's jump over to GitHub and take a
+let's jump over to GitHub and take a
+ 
+let's jump over to GitHub and take a
+look. You can do so by just clicking on
+look. You can do so by just clicking on
+ 
+look. You can do so by just clicking on
+this right here. You can see we've got
+this right here. You can see we've got
+ 
+this right here. You can see we've got
+our two branches. And if we select them,
+our two branches. And if we select them,
+ 
+our two branches. And if we select them,
+you can see there's our commit we just
+you can see there's our commit we just
+ 
+you can see there's our commit we just
+made. Now, as our team has been working,
+made. Now, as our team has been working,
+ 
+made. Now, as our team has been working,
+a colleague made some changes, too. A
+a colleague made some changes, too. A
+ 
+a colleague made some changes, too. A
+colleague was working on this, too. And
+colleague was working on this, too. And
+ 
+colleague was working on this, too. And
+I'm going to pull in his changes. So,
+I'm going to pull in his changes. So,
+ 
+I'm going to pull in his changes. So,
+I'm going to go here and pull in changes
+I'm going to go here and pull in changes
+ 
+I'm going to go here and pull in changes
+from remote. And you can see down here,
+from remote. And you can see down here,
+ 
+from remote. And you can see down here,
+we've got some conflicts. So, we can
+we've got some conflicts. So, we can
+ 
+we've got some conflicts. So, we can
+select it here. And if we scroll down,
+select it here. And if we scroll down,
+ 
+select it here. And if we scroll down,
+we can see the familiar UI. And I'm
+we can see the familiar UI. And I'm
+ 
+we can see the familiar UI. And I'm
+actually going to keep the ones that I'm
+actually going to keep the ones that I'm
+ 
+actually going to keep the ones that I'm
+working with. Okay, great. That's
+working with. Okay, great. That's
+ 
+working with. Okay, great. That's
+resolved. And if you want to see what
+resolved. And if you want to see what
+ 
+resolved. And if you want to see what
+branches are available to you, you can
+branches are available to you, you can
+ 
+branches are available to you, you can
+go in this dropown here and refresh your
+go in this dropown here and refresh your
+ 
+go in this dropown here and refresh your
+branches. Let's jump over to a new
+branches. Let's jump over to a new
+ 
+branches. Let's jump over to a new
+project, one that we started in
+project, one that we started in
+ 
+project, one that we started in
+DreamFlow, and see how we get it into
+DreamFlow, and see how we get it into
+ 
+DreamFlow, and see how we get it into
+version control. So I've got this
+version control. So I've got this
+ 
+version control. So I've got this
+dashboard app, and I want to hook it up
+dashboard app, and I want to hook it up
+ 
+dashboard app, and I want to hook it up
+to version control here. So I want to
+to version control here. So I want to
+ 
+to version control here. So I want to
+connect a repository, and I need the
+connect a repository, and I need the
+ 
+connect a repository, and I need the
+same information as before. So let's go
+same information as before. So let's go
+ 
+same information as before. So let's go
+set that up in GitHub. So let's come
+set that up in GitHub. So let's come
+ 
+set that up in GitHub. So let's come
+over here to add a new repo. Choose an
+over here to add a new repo. Choose an
+ 
+over here to add a new repo. Choose an
+owner, a repo name, and make sure to add
+owner, a repo name, and make sure to add
+ 
+owner, a repo name, and make sure to add
+a read or a license. the repo can't be
+a read or a license. the repo can't be
+ 
+a read or a license. the repo can't be
+empty. So, I'm going to add a readme
+empty. So, I'm going to add a readme
+ 
+empty. So, I'm going to add a readme
+right here and create the repository.
+right here and create the repository.
+ 
+right here and create the repository.
+Okay. Then we go through the same
+Okay. Then we go through the same
+ 
+Okay. Then we go through the same
+process right here. So, I'm going to
+process right here. So, I'm going to
+ 
+process right here. So, I'm going to
+grab the URL and paste in our access
+grab the URL and paste in our access
+ 
+grab the URL and paste in our access
+token and connect. All right. Great. We
+token and connect. All right. Great. We
+ 
+token and connect. All right. Great. We
+are connected now. So, let's make our
+are connected now. So, let's make our
+ 
+are connected now. So, let's make our
+first commit. We'll use it with the AI
+first commit. We'll use it with the AI
+ 
+first commit. We'll use it with the AI
+and push our changes. Okay. Next, let's
+and push our changes. Okay. Next, let's
+ 
+and push our changes. Okay. Next, let's
+add a feature here. And we'll use one of
+add a feature here. And we'll use one of
+ 
+add a feature here. And we'll use one of
+the features generated from the agent
+the features generated from the agent
+ 
+the features generated from the agent
+already. So, we're going to add a
+already. So, we're going to add a
+ 
+already. So, we're going to add a
+settings page. And you can see while the
+settings page. And you can see while the
+ 
+settings page. And you can see while the
+agent is working, it's automatically
+agent is working, it's automatically
+ 
+agent is working, it's automatically
+tracking changes. Okay, the agent is
+tracking changes. Okay, the agent is
+ 
+tracking changes. Okay, the agent is
+done. We've got our changes tracked
+done. We've got our changes tracked
+ 
+done. We've got our changes tracked
+here. Let's go look at the feature.
+here. Let's go look at the feature.
+ 
+here. Let's go look at the feature.
+Okay, this is looking good except for we
+Okay, this is looking good except for we
+ 
+Okay, this is looking good except for we
+just got this border here. So, let's
+just got this border here. So, let's
+ 
+just got this border here. So, let's
+just remove this real quick. I'm going
+just remove this real quick. I'm going
+ 
+just remove this real quick. I'm going
+to click into here, go up to my card, do
+to click into here, go up to my card, do
+ 
+to click into here, go up to my card, do
+a quick edit, remove border. Okay,
+a quick edit, remove border. Okay,
+ 
+a quick edit, remove border. Okay,
+that's great.
+that's great.
+ 
+that's great.
+And let's remove one other border right
+And let's remove one other border right
+ 
+And let's remove one other border right
+here.
+here.
+ 
+here.
+remove border. Okay, that's great. All
+remove border. Okay, that's great. All
+ 
+remove border. Okay, that's great. All
+right, let's generate our commit message
+right, let's generate our commit message
+ 
+right, let's generate our commit message
+and push our changes. This way of
+and push our changes. This way of
+ 
+and push our changes. This way of
+working with Git allows you to manage
+working with Git allows you to manage
+ 
+working with Git allows you to manage
+your projects efficiently. And if you
+your projects efficiently. And if you
+ 
+your projects efficiently. And if you
+need to run external scripts like buildr
+need to run external scripts like buildr
+ 
+need to run external scripts like buildr
+runner, you can do that in your editor
+runner, you can do that in your editor
+ 
+runner, you can do that in your editor
+of choice and just pull those changes
+of choice and just pull those changes
+ 
+of choice and just pull those changes
+in. Let us know if you have any
+in. Let us know if you have any
+ 
+in. Let us know if you have any
+questions and we'll see you in the next
+questions and we'll see you in the next
+ 
+questions and we'll see you in the next
+video.

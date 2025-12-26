@@ -1,0 +1,2585 @@
+1
+00:00:00,080 --> 00:00:02,149
+
+My name is John and this is Dreamflow
+
+2
+00:00:02,149 --> 00:00:02,159
+My name is John and this is Dreamflow
+ 
+
+3
+00:00:02,159 --> 00:00:04,150
+My name is John and this is Dreamflow
+Tips, where we give evidence-based
+
+4
+00:00:04,150 --> 00:00:04,160
+Tips, where we give evidence-based
+ 
+
+5
+00:00:04,160 --> 00:00:06,550
+Tips, where we give evidence-based
+prompting and AI coding tips. Now, you
+
+6
+00:00:06,550 --> 00:00:06,560
+prompting and AI coding tips. Now, you
+ 
+
+7
+00:00:06,560 --> 00:00:08,150
+prompting and AI coding tips. Now, you
+may have heard the advice from an AI
+
+8
+00:00:08,150 --> 00:00:08,160
+may have heard the advice from an AI
+ 
+
+9
+00:00:08,160 --> 00:00:10,709
+may have heard the advice from an AI
+influencer that after you ask your
+
+10
+00:00:10,709 --> 00:00:10,719
+influencer that after you ask your
+ 
+
+11
+00:00:10,719 --> 00:00:13,030
+influencer that after you ask your
+coding agent to do something, you should
+
+12
+00:00:13,030 --> 00:00:13,040
+coding agent to do something, you should
+ 
+
+13
+00:00:13,040 --> 00:00:15,190
+coding agent to do something, you should
+say something like, "If you're less than
+
+14
+00:00:15,190 --> 00:00:15,200
+say something like, "If you're less than
+ 
+
+15
+00:00:15,200 --> 00:00:17,910
+say something like, "If you're less than
+95% confident you can complete this
+
+16
+00:00:17,910 --> 00:00:17,920
+95% confident you can complete this
+ 
+
+17
+00:00:17,920 --> 00:00:21,429
+95% confident you can complete this
+task, ask clarifying questions until you
+
+18
+00:00:21,429 --> 00:00:21,439
+task, ask clarifying questions until you
+ 
+
+19
+00:00:21,439 --> 00:00:23,750
+task, ask clarifying questions until you
+reach that confidence level." Now, this
+
+20
+00:00:23,750 --> 00:00:23,760
+reach that confidence level." Now, this
+ 
+
+21
+00:00:23,760 --> 00:00:26,150
+reach that confidence level." Now, this
+advice is partially right and partially
+
+22
+00:00:26,150 --> 00:00:26,160
+advice is partially right and partially
+ 
+
+23
+00:00:26,160 --> 00:00:28,310
+advice is partially right and partially
+wrong. And I know this because these
+
+24
+00:00:28,310 --> 00:00:28,320
+wrong. And I know this because these
+ 
+
+25
+00:00:28,320 --> 00:00:30,550
+wrong. And I know this because these
+kinds of queries have been studied. So
+
+26
+00:00:30,550 --> 00:00:30,560
+kinds of queries have been studied. So
+ 
+
+27
+00:00:30,560 --> 00:00:32,069
+kinds of queries have been studied. So
+in this video, I'm going to show you
+
+28
+00:00:32,069 --> 00:00:32,079
+in this video, I'm going to show you
+ 
+
+29
+00:00:32,079 --> 00:00:34,709
+in this video, I'm going to show you
+those studies and based on those studies
+
+30
+00:00:34,709 --> 00:00:34,719
+those studies and based on those studies
+ 
+
+31
+00:00:34,719 --> 00:00:36,549
+those studies and based on those studies
+give you the best recommendations for
+
+32
+00:00:36,549 --> 00:00:36,559
+give you the best recommendations for
+ 
+
+33
+00:00:36,559 --> 00:00:38,389
+give you the best recommendations for
+improving your prompting for coding
+
+34
+00:00:38,389 --> 00:00:38,399
+improving your prompting for coding
+ 
+
+35
+00:00:38,399 --> 00:00:42,310
+improving your prompting for coding
+agents.
+
+36
+00:00:42,310 --> 00:00:42,320
+
+ 
+
+37
+00:00:42,320 --> 00:00:44,630
+
+The idea of instructing a large language
+
+38
+00:00:44,630 --> 00:00:44,640
+The idea of instructing a large language
+ 
+
+39
+00:00:44,640 --> 00:00:47,510
+The idea of instructing a large language
+model to ask follow-up questions is a
+
+40
+00:00:47,510 --> 00:00:47,520
+model to ask follow-up questions is a
+ 
+
+41
+00:00:47,520 --> 00:00:49,270
+model to ask follow-up questions is a
+significant improvement in prompt
+
+42
+00:00:49,270 --> 00:00:49,280
+significant improvement in prompt
+ 
+
+43
+00:00:49,280 --> 00:00:51,190
+significant improvement in prompt
+engineering. The concept assumes that
+
+44
+00:00:51,190 --> 00:00:51,200
+engineering. The concept assumes that
+ 
+
+45
+00:00:51,200 --> 00:00:53,350
+engineering. The concept assumes that
+every response from a model has an
+
+46
+00:00:53,350 --> 00:00:53,360
+every response from a model has an
+ 
+
+47
+00:00:53,360 --> 00:00:56,150
+every response from a model has an
+implicit confidence value or the
+
+48
+00:00:56,150 --> 00:00:56,160
+implicit confidence value or the
+ 
+
+49
+00:00:56,160 --> 00:00:58,069
+implicit confidence value or the
+question has a certain level of
+
+50
+00:00:58,069 --> 00:00:58,079
+question has a certain level of
+ 
+
+51
+00:00:58,079 --> 00:01:00,549
+question has a certain level of
+ambiguity that typically goes
+
+52
+00:01:00,549 --> 00:01:00,559
+ambiguity that typically goes
+ 
+
+53
+00:01:00,559 --> 00:01:03,270
+ambiguity that typically goes
+uncaptured. For instance, when you ask
+
+54
+00:01:03,270 --> 00:01:03,280
+uncaptured. For instance, when you ask
+ 
+
+55
+00:01:03,280 --> 00:01:05,990
+uncaptured. For instance, when you ask
+the model to implement state management
+
+56
+00:01:05,990 --> 00:01:06,000
+the model to implement state management
+ 
+
+57
+00:01:06,000 --> 00:01:08,870
+the model to implement state management
+for a screen, this request breaks down
+
+58
+00:01:08,870 --> 00:01:08,880
+for a screen, this request breaks down
+ 
+
+59
+00:01:08,880 --> 00:01:11,510
+for a screen, this request breaks down
+into multiple subtasks and the model has
+
+60
+00:01:11,510 --> 00:01:11,520
+into multiple subtasks and the model has
+ 
+
+61
+00:01:11,520 --> 00:01:14,390
+into multiple subtasks and the model has
+varying levels of confidence in the best
+
+62
+00:01:14,390 --> 00:01:14,400
+varying levels of confidence in the best
+ 
+
+63
+00:01:14,400 --> 00:01:16,550
+varying levels of confidence in the best
+approach for each one. There's an
+
+64
+00:01:16,550 --> 00:01:16,560
+approach for each one. There's an
+ 
+
+65
+00:01:16,560 --> 00:01:19,429
+approach for each one. There's an
+implicit ambiguity. The underlying
+
+66
+00:01:19,429 --> 00:01:19,439
+implicit ambiguity. The underlying
+ 
+
+67
+00:01:19,439 --> 00:01:22,469
+implicit ambiguity. The underlying
+principle is that resolving ambiguity
+
+68
+00:01:22,469 --> 00:01:22,479
+principle is that resolving ambiguity
+ 
+
+69
+00:01:22,479 --> 00:01:25,510
+principle is that resolving ambiguity
+before execution is more efficient and
+
+70
+00:01:25,510 --> 00:01:25,520
+before execution is more efficient and
+ 
+
+71
+00:01:25,520 --> 00:01:28,149
+before execution is more efficient and
+reliable than attempting to generate a
+
+72
+00:01:28,149 --> 00:01:28,159
+reliable than attempting to generate a
+ 
+
+73
+00:01:28,159 --> 00:01:31,429
+reliable than attempting to generate a
+solution from an underspecified prompt.
+
+74
+00:01:31,429 --> 00:01:31,439
+solution from an underspecified prompt.
+ 
+
+75
+00:01:31,439 --> 00:01:33,190
+solution from an underspecified prompt.
+So let's start with the part of the
+
+76
+00:01:33,190 --> 00:01:33,200
+So let's start with the part of the
+ 
+
+77
+00:01:33,200 --> 00:01:36,310
+So let's start with the part of the
+advice that's absolutely right. Asking
+
+78
+00:01:36,310 --> 00:01:36,320
+advice that's absolutely right. Asking
+ 
+
+79
+00:01:36,320 --> 00:01:39,190
+advice that's absolutely right. Asking
+the model to ask clarifying questions.
+
+80
+00:01:39,190 --> 00:01:39,200
+the model to ask clarifying questions.
+ 
+
+81
+00:01:39,200 --> 00:01:41,749
+the model to ask clarifying questions.
+In the 2023 paper titled large language
+
+82
+00:01:41,749 --> 00:01:41,759
+In the 2023 paper titled large language
+ 
+
+83
+00:01:41,759 --> 00:01:43,590
+In the 2023 paper titled large language
+models should ask clarifying questions
+
+84
+00:01:43,590 --> 00:01:43,600
+models should ask clarifying questions
+ 
+
+85
+00:01:43,600 --> 00:01:45,429
+models should ask clarifying questions
+to increase confidence in generated
+
+86
+00:01:45,429 --> 00:01:45,439
+to increase confidence in generated
+ 
+
+87
+00:01:45,439 --> 00:01:47,749
+to increase confidence in generated
+code. makes a powerful argument for
+
+88
+00:01:47,749 --> 00:01:47,759
+code. makes a powerful argument for
+ 
+
+89
+00:01:47,759 --> 00:01:50,149
+code. makes a powerful argument for
+this. The researchers observe that top
+
+90
+00:01:50,149 --> 00:01:50,159
+this. The researchers observe that top
+ 
+
+91
+00:01:50,159 --> 00:01:52,630
+this. The researchers observe that top
+tier human software engineers
+
+92
+00:01:52,630 --> 00:01:52,640
+tier human software engineers
+ 
+
+93
+00:01:52,640 --> 00:01:55,270
+tier human software engineers
+systematically ask questions to reduce
+
+94
+00:01:55,270 --> 00:01:55,280
+systematically ask questions to reduce
+ 
+
+95
+00:01:55,280 --> 00:01:57,670
+systematically ask questions to reduce
+ambiguity before writing a single line
+
+96
+00:01:57,670 --> 00:01:57,680
+ambiguity before writing a single line
+ 
+
+97
+00:01:57,680 --> 00:02:00,630
+ambiguity before writing a single line
+of code. The study proposes that LLMs
+
+98
+00:02:00,630 --> 00:02:00,640
+of code. The study proposes that LLMs
+ 
+
+99
+00:02:00,640 --> 00:02:03,350
+of code. The study proposes that LLMs
+should do the same using a communicator
+
+100
+00:02:03,350 --> 00:02:03,360
+should do the same using a communicator
+ 
+
+101
+00:02:03,360 --> 00:02:05,590
+should do the same using a communicator
+agent to interact with the user and
+
+102
+00:02:05,590 --> 00:02:05,600
+agent to interact with the user and
+ 
+
+103
+00:02:05,600 --> 00:02:07,749
+agent to interact with the user and
+resolve uncertainties before a coder
+
+104
+00:02:07,749 --> 00:02:07,759
+resolve uncertainties before a coder
+ 
+
+105
+00:02:07,759 --> 00:02:10,389
+resolve uncertainties before a coder
+agent generates the final program. This
+
+106
+00:02:10,389 --> 00:02:10,399
+agent generates the final program. This
+ 
+
+107
+00:02:10,399 --> 00:02:13,110
+agent generates the final program. This
+communication first process directly
+
+108
+00:02:13,110 --> 00:02:13,120
+communication first process directly
+ 
+
+109
+00:02:13,120 --> 00:02:15,510
+communication first process directly
+addresses the primary cause of errors in
+
+110
+00:02:15,510 --> 00:02:15,520
+addresses the primary cause of errors in
+ 
+
+111
+00:02:15,520 --> 00:02:19,110
+addresses the primary cause of errors in
+AI generated code, unclear or incomplete
+
+112
+00:02:19,110 --> 00:02:19,120
+AI generated code, unclear or incomplete
+ 
+
+113
+00:02:19,120 --> 00:02:22,470
+AI generated code, unclear or incomplete
+user requests. This idea was then tested
+
+114
+00:02:22,470 --> 00:02:22,480
+user requests. This idea was then tested
+ 
+
+115
+00:02:22,480 --> 00:02:25,430
+user requests. This idea was then tested
+and validated in a 2025 study called
+
+116
+00:02:25,430 --> 00:02:25,440
+and validated in a 2025 study called
+ 
+
+117
+00:02:25,440 --> 00:02:28,869
+and validated in a 2025 study called
+Curiosity by Design, an LLM based coding
+
+118
+00:02:28,869 --> 00:02:28,879
+Curiosity by Design, an LLM based coding
+ 
+
+119
+00:02:28,879 --> 00:02:31,830
+Curiosity by Design, an LLM based coding
+assistant asking clarifying questions.
+
+120
+00:02:31,830 --> 00:02:31,840
+assistant asking clarifying questions.
+ 
+
+121
+00:02:31,840 --> 00:02:34,150
+assistant asking clarifying questions.
+Researchers built an endto-end system
+
+122
+00:02:34,150 --> 00:02:34,160
+Researchers built an endto-end system
+ 
+
+123
+00:02:34,160 --> 00:02:37,270
+Researchers built an endto-end system
+that first uses a classifier to detect
+
+124
+00:02:37,270 --> 00:02:37,280
+that first uses a classifier to detect
+ 
+
+125
+00:02:37,280 --> 00:02:40,390
+that first uses a classifier to detect
+if a prompt is ambiguous. If it is, the
+
+126
+00:02:40,390 --> 00:02:40,400
+if a prompt is ambiguous. If it is, the
+ 
+
+127
+00:02:40,400 --> 00:02:42,949
+if a prompt is ambiguous. If it is, the
+system doesn't generate code. Instead,
+
+128
+00:02:42,949 --> 00:02:42,959
+system doesn't generate code. Instead,
+ 
+
+129
+00:02:42,959 --> 00:02:45,830
+system doesn't generate code. Instead,
+it uses a fine-tuned LLM to generate a
+
+130
+00:02:45,830 --> 00:02:45,840
+it uses a fine-tuned LLM to generate a
+ 
+
+131
+00:02:45,840 --> 00:02:48,869
+it uses a fine-tuned LLM to generate a
+highquality clarification question. And
+
+132
+00:02:48,869 --> 00:02:48,879
+highquality clarification question. And
+ 
+
+133
+00:02:48,879 --> 00:02:51,030
+highquality clarification question. And
+a user study confirmed a strong
+
+134
+00:02:51,030 --> 00:02:51,040
+a user study confirmed a strong
+ 
+
+135
+00:02:51,040 --> 00:02:52,949
+a user study confirmed a strong
+preference for this interactive model
+
+136
+00:02:52,949 --> 00:02:52,959
+preference for this interactive model
+ 
+
+137
+00:02:52,959 --> 00:02:55,030
+preference for this interactive model
+over traditional ones that simply
+
+138
+00:02:55,030 --> 00:02:55,040
+over traditional ones that simply
+ 
+
+139
+00:02:55,040 --> 00:02:57,589
+over traditional ones that simply
+guesses the user's intent. Users rated
+
+140
+00:02:57,589 --> 00:02:57,599
+guesses the user's intent. Users rated
+ 
+
+141
+00:02:57,599 --> 00:02:59,270
+guesses the user's intent. Users rated
+the questions as having a highly
+
+142
+00:02:59,270 --> 00:02:59,280
+the questions as having a highly
+ 
+
+143
+00:02:59,280 --> 00:03:01,910
+the questions as having a highly
+significant, better precision and focus,
+
+144
+00:03:01,910 --> 00:03:01,920
+significant, better precision and focus,
+ 
+
+145
+00:03:01,920 --> 00:03:03,830
+significant, better precision and focus,
+which ultimately led to more accurate
+
+146
+00:03:03,830 --> 00:03:03,840
+which ultimately led to more accurate
+ 
+
+147
+00:03:03,840 --> 00:03:07,110
+which ultimately led to more accurate
+and helpful code. Okay, but now for the
+
+148
+00:03:07,110 --> 00:03:07,120
+and helpful code. Okay, but now for the
+ 
+
+149
+00:03:07,120 --> 00:03:09,110
+and helpful code. Okay, but now for the
+part of the advice that's wrong,
+
+150
+00:03:09,110 --> 00:03:09,120
+part of the advice that's wrong,
+ 
+
+151
+00:03:09,120 --> 00:03:12,229
+part of the advice that's wrong,
+stipulating a confidence value, like
+
+152
+00:03:12,229 --> 00:03:12,239
+stipulating a confidence value, like
+ 
+
+153
+00:03:12,239 --> 00:03:13,830
+stipulating a confidence value, like
+95%.
+
+154
+00:03:13,830 --> 00:03:13,840
+95%.
+ 
+
+155
+00:03:13,840 --> 00:03:16,869
+95%.
+This instruction is based on a flawed
+
+156
+00:03:16,869 --> 00:03:16,879
+This instruction is based on a flawed
+ 
+
+157
+00:03:16,879 --> 00:03:19,509
+This instruction is based on a flawed
+premise, as shown in a 2025 study,
+
+158
+00:03:19,509 --> 00:03:19,519
+premise, as shown in a 2025 study,
+ 
+
+159
+00:03:19,519 --> 00:03:21,830
+premise, as shown in a 2025 study,
+calibration and correctness of language
+
+160
+00:03:21,830 --> 00:03:21,840
+calibration and correctness of language
+ 
+
+161
+00:03:21,840 --> 00:03:24,149
+calibration and correctness of language
+models for code. The researchers found
+
+162
+00:03:24,149 --> 00:03:24,159
+models for code. The researchers found
+ 
+
+163
+00:03:24,159 --> 00:03:27,110
+models for code. The researchers found
+that an LLM's raw internal confidence is
+
+164
+00:03:27,110 --> 00:03:27,120
+that an LLM's raw internal confidence is
+ 
+
+165
+00:03:27,120 --> 00:03:30,229
+that an LLM's raw internal confidence is
+a poor predictor of actual correctness.
+
+166
+00:03:30,229 --> 00:03:30,239
+a poor predictor of actual correctness.
+ 
+
+167
+00:03:30,239 --> 00:03:32,390
+a poor predictor of actual correctness.
+In their tests, even when a model's
+
+168
+00:03:32,390 --> 00:03:32,400
+In their tests, even when a model's
+ 
+
+169
+00:03:32,400 --> 00:03:35,509
+In their tests, even when a model's
+average token probability exceeded 90%,
+
+170
+00:03:35,509 --> 00:03:35,519
+average token probability exceeded 90%,
+ 
+
+171
+00:03:35,519 --> 00:03:37,589
+average token probability exceeded 90%,
+so it was very sure its solution was
+
+172
+00:03:37,589 --> 00:03:37,599
+so it was very sure its solution was
+ 
+
+173
+00:03:37,599 --> 00:03:40,789
+so it was very sure its solution was
+correct, the generated code only passed
+
+174
+00:03:40,789 --> 00:03:40,799
+correct, the generated code only passed
+ 
+
+175
+00:03:40,799 --> 00:03:44,390
+correct, the generated code only passed
+unit tests 52% of the time. This severe
+
+176
+00:03:44,390 --> 00:03:44,400
+unit tests 52% of the time. This severe
+ 
+
+177
+00:03:44,400 --> 00:03:47,190
+unit tests 52% of the time. This severe
+misalignment is known as the calibration
+
+178
+00:03:47,190 --> 00:03:47,200
+misalignment is known as the calibration
+ 
+
+179
+00:03:47,200 --> 00:03:49,509
+misalignment is known as the calibration
+problem. The study concludes that an
+
+180
+00:03:49,509 --> 00:03:49,519
+problem. The study concludes that an
+ 
+
+181
+00:03:49,519 --> 00:03:53,190
+problem. The study concludes that an
+LLM's self-reported confidence is not a
+
+182
+00:03:53,190 --> 00:03:53,200
+LLM's self-reported confidence is not a
+ 
+
+183
+00:03:53,200 --> 00:03:55,509
+LLM's self-reported confidence is not a
+trustworthy signal out of the box.
+
+184
+00:03:55,509 --> 00:03:55,519
+trustworthy signal out of the box.
+ 
+
+185
+00:03:55,519 --> 00:03:58,789
+trustworthy signal out of the box.
+Simply telling the model to act in a 95%
+
+186
+00:03:58,789 --> 00:03:58,799
+Simply telling the model to act in a 95%
+ 
+
+187
+00:03:58,799 --> 00:04:02,070
+Simply telling the model to act in a 95%
+or 90% threshold is asking it to use a
+
+188
+00:04:02,070 --> 00:04:02,080
+or 90% threshold is asking it to use a
+ 
+
+189
+00:04:02,080 --> 00:04:05,190
+or 90% threshold is asking it to use a
+metric it can't reliably measure on its
+
+190
+00:04:05,190 --> 00:04:05,200
+metric it can't reliably measure on its
+ 
+
+191
+00:04:05,200 --> 00:04:08,070
+metric it can't reliably measure on its
+own. Okay. So what does all this mean
+
+192
+00:04:08,070 --> 00:04:08,080
+own. Okay. So what does all this mean
+ 
+
+193
+00:04:08,080 --> 00:04:10,869
+own. Okay. So what does all this mean
+for your prompting? Well, let's look at
+
+194
+00:04:10,869 --> 00:04:10,879
+for your prompting? Well, let's look at
+ 
+
+195
+00:04:10,879 --> 00:04:13,990
+for your prompting? Well, let's look at
+some before and after examples. Okay. So
+
+196
+00:04:13,990 --> 00:04:14,000
+some before and after examples. Okay. So
+ 
+
+197
+00:04:14,000 --> 00:04:16,150
+some before and after examples. Okay. So
+for this first example, I wanted to give
+
+198
+00:04:16,150 --> 00:04:16,160
+for this first example, I wanted to give
+ 
+
+199
+00:04:16,160 --> 00:04:18,629
+for this first example, I wanted to give
+it a complicated task. Not because this
+
+200
+00:04:18,629 --> 00:04:18,639
+it a complicated task. Not because this
+ 
+
+201
+00:04:18,639 --> 00:04:20,150
+it a complicated task. Not because this
+is the kind of thing that you should do
+
+202
+00:04:20,150 --> 00:04:20,160
+is the kind of thing that you should do
+ 
+
+203
+00:04:20,160 --> 00:04:22,310
+is the kind of thing that you should do
+with your agent. You shouldn't. But I
+
+204
+00:04:22,310 --> 00:04:22,320
+with your agent. You shouldn't. But I
+ 
+
+205
+00:04:22,320 --> 00:04:24,469
+with your agent. You shouldn't. But I
+wanted to demonstrate this clarifying
+
+206
+00:04:24,469 --> 00:04:24,479
+wanted to demonstrate this clarifying
+ 
+
+207
+00:04:24,479 --> 00:04:26,870
+wanted to demonstrate this clarifying
+ambiguity really clearly. So I grab a
+
+208
+00:04:26,870 --> 00:04:26,880
+ambiguity really clearly. So I grab a
+ 
+
+209
+00:04:26,880 --> 00:04:29,270
+ambiguity really clearly. So I grab a
+screenshot of Verscell's deployments
+
+210
+00:04:29,270 --> 00:04:29,280
+screenshot of Verscell's deployments
+ 
+
+211
+00:04:29,280 --> 00:04:31,590
+screenshot of Verscell's deployments
+dashboard. It's pretty complicated. Now,
+
+212
+00:04:31,590 --> 00:04:31,600
+dashboard. It's pretty complicated. Now,
+ 
+
+213
+00:04:31,600 --> 00:04:33,030
+dashboard. It's pretty complicated. Now,
+of course, if you were building this out
+
+214
+00:04:33,030 --> 00:04:33,040
+of course, if you were building this out
+ 
+
+215
+00:04:33,040 --> 00:04:35,030
+of course, if you were building this out
+using best practices, you would break it
+
+216
+00:04:35,030 --> 00:04:35,040
+using best practices, you would break it
+ 
+
+217
+00:04:35,040 --> 00:04:37,270
+using best practices, you would break it
+down into each part of the UI and build
+
+218
+00:04:37,270 --> 00:04:37,280
+down into each part of the UI and build
+ 
+
+219
+00:04:37,280 --> 00:04:39,510
+down into each part of the UI and build
+it step by step. But here, I just wanted
+
+220
+00:04:39,510 --> 00:04:39,520
+it step by step. But here, I just wanted
+ 
+
+221
+00:04:39,520 --> 00:04:42,310
+it step by step. But here, I just wanted
+to oneshot it. So with this agent, I
+
+222
+00:04:42,310 --> 00:04:42,320
+to oneshot it. So with this agent, I
+ 
+
+223
+00:04:42,320 --> 00:04:45,670
+to oneshot it. So with this agent, I
+just said create the attached UI. In the
+
+224
+00:04:45,670 --> 00:04:45,680
+just said create the attached UI. In the
+ 
+
+225
+00:04:45,680 --> 00:04:47,270
+just said create the attached UI. In the
+second example, I said create the
+
+226
+00:04:47,270 --> 00:04:47,280
+second example, I said create the
+ 
+
+227
+00:04:47,280 --> 00:04:49,270
+second example, I said create the
+attached UI. But before writing code,
+
+228
+00:04:49,270 --> 00:04:49,280
+attached UI. But before writing code,
+ 
+
+229
+00:04:49,280 --> 00:04:50,950
+attached UI. But before writing code,
+analyze my request. If you have any
+
+230
+00:04:50,950 --> 00:04:50,960
+analyze my request. If you have any
+ 
+
+231
+00:04:50,960 --> 00:04:52,870
+analyze my request. If you have any
+ambiguity in the best way to accomplish
+
+232
+00:04:52,870 --> 00:04:52,880
+ambiguity in the best way to accomplish
+ 
+
+233
+00:04:52,880 --> 00:04:55,430
+ambiguity in the best way to accomplish
+this task, ask clarifying questions. Do
+
+234
+00:04:55,430 --> 00:04:55,440
+this task, ask clarifying questions. Do
+ 
+
+235
+00:04:55,440 --> 00:04:57,510
+this task, ask clarifying questions. Do
+not proceed until I answer. And the
+
+236
+00:04:57,510 --> 00:04:57,520
+not proceed until I answer. And the
+ 
+
+237
+00:04:57,520 --> 00:04:59,430
+not proceed until I answer. And the
+results are really fascinating for a
+
+238
+00:04:59,430 --> 00:04:59,440
+results are really fascinating for a
+ 
+
+239
+00:04:59,440 --> 00:05:01,510
+results are really fascinating for a
+couple of reasons. So, if we look back
+
+240
+00:05:01,510 --> 00:05:01,520
+couple of reasons. So, if we look back
+ 
+
+241
+00:05:01,520 --> 00:05:04,070
+couple of reasons. So, if we look back
+over here, it did a pretty good job. Of
+
+242
+00:05:04,070 --> 00:05:04,080
+over here, it did a pretty good job. Of
+ 
+
+243
+00:05:04,080 --> 00:05:06,150
+over here, it did a pretty good job. Of
+course, we have uh the background color,
+
+244
+00:05:06,150 --> 00:05:06,160
+course, we have uh the background color,
+ 
+
+245
+00:05:06,160 --> 00:05:08,710
+course, we have uh the background color,
+which wasn't correct. We have this
+
+246
+00:05:08,710 --> 00:05:08,720
+which wasn't correct. We have this
+ 
+
+247
+00:05:08,720 --> 00:05:11,189
+which wasn't correct. We have this
+middle nav right here, which shouldn't
+
+248
+00:05:11,189 --> 00:05:11,199
+middle nav right here, which shouldn't
+ 
+
+249
+00:05:11,199 --> 00:05:13,110
+middle nav right here, which shouldn't
+work like that. We've got some padding
+
+250
+00:05:13,110 --> 00:05:13,120
+work like that. We've got some padding
+ 
+
+251
+00:05:13,120 --> 00:05:15,670
+work like that. We've got some padding
+issues. So, the visual fidelity may be
+
+252
+00:05:15,670 --> 00:05:15,680
+issues. So, the visual fidelity may be
+ 
+
+253
+00:05:15,680 --> 00:05:17,670
+issues. So, the visual fidelity may be
+80% here. But the purpose of this
+
+254
+00:05:17,670 --> 00:05:17,680
+80% here. But the purpose of this
+ 
+
+255
+00:05:17,680 --> 00:05:19,990
+80% here. But the purpose of this
+exercise isn't to see how close it can
+
+256
+00:05:19,990 --> 00:05:20,000
+exercise isn't to see how close it can
+ 
+
+257
+00:05:20,000 --> 00:05:22,310
+exercise isn't to see how close it can
+get, but it's to look at the workflow.
+
+258
+00:05:22,310 --> 00:05:22,320
+get, but it's to look at the workflow.
+ 
+
+259
+00:05:22,320 --> 00:05:24,469
+get, but it's to look at the workflow.
+So when we look down here and we go to
+
+260
+00:05:24,469 --> 00:05:24,479
+So when we look down here and we go to
+ 
+
+261
+00:05:24,479 --> 00:05:26,790
+So when we look down here and we go to
+the bottom, we can see, let me go to the
+
+262
+00:05:26,790 --> 00:05:26,800
+the bottom, we can see, let me go to the
+ 
+
+263
+00:05:26,800 --> 00:05:28,070
+the bottom, we can see, let me go to the
+end of this request, we can see that
+
+264
+00:05:28,070 --> 00:05:28,080
+end of this request, we can see that
+ 
+
+265
+00:05:28,080 --> 00:05:30,469
+end of this request, we can see that
+this uses 6 and 1/2 credits. So quite a
+
+266
+00:05:30,469 --> 00:05:30,479
+this uses 6 and 1/2 credits. So quite a
+ 
+
+267
+00:05:30,479 --> 00:05:32,950
+this uses 6 and 1/2 credits. So quite a
+lot of credits. But when we look over at
+
+268
+00:05:32,950 --> 00:05:32,960
+lot of credits. But when we look over at
+ 
+
+269
+00:05:32,960 --> 00:05:34,790
+lot of credits. But when we look over at
+the other one where I asked it to ask
+
+270
+00:05:34,790 --> 00:05:34,800
+the other one where I asked it to ask
+ 
+
+271
+00:05:34,800 --> 00:05:36,469
+the other one where I asked it to ask
+questions, we can see some interesting
+
+272
+00:05:36,469 --> 00:05:36,479
+questions, we can see some interesting
+ 
+
+273
+00:05:36,479 --> 00:05:38,550
+questions, we can see some interesting
+things. So down here, before I proceed
+
+274
+00:05:38,550 --> 00:05:38,560
+things. So down here, before I proceed
+ 
+
+275
+00:05:38,560 --> 00:05:40,310
+things. So down here, before I proceed
+with creating this UI, some clarifying
+
+276
+00:05:40,310 --> 00:05:40,320
+with creating this UI, some clarifying
+ 
+
+277
+00:05:40,320 --> 00:05:42,390
+with creating this UI, some clarifying
+questions. So, first it asks if it
+
+278
+00:05:42,390 --> 00:05:42,400
+questions. So, first it asks if it
+ 
+
+279
+00:05:42,400 --> 00:05:44,469
+questions. So, first it asks if it
+should use mock data or there's a
+
+280
+00:05:44,469 --> 00:05:44,479
+should use mock data or there's a
+ 
+
+281
+00:05:44,479 --> 00:05:46,150
+should use mock data or there's a
+specific back-end service that it could
+
+282
+00:05:46,150 --> 00:05:46,160
+specific back-end service that it could
+ 
+
+283
+00:05:46,160 --> 00:05:48,150
+specific back-end service that it could
+model the data on. It asks if we wanted
+
+284
+00:05:48,150 --> 00:05:48,160
+model the data on. It asks if we wanted
+ 
+
+285
+00:05:48,160 --> 00:05:50,390
+model the data on. It asks if we wanted
+to implement functionality. It asks if
+
+286
+00:05:50,390 --> 00:05:50,400
+to implement functionality. It asks if
+ 
+
+287
+00:05:50,400 --> 00:05:52,550
+to implement functionality. It asks if
+the navigation should be a tab
+
+288
+00:05:52,550 --> 00:05:52,560
+the navigation should be a tab
+ 
+
+289
+00:05:52,560 --> 00:05:55,270
+the navigation should be a tab
+navigation or a standalone page. It asks
+
+290
+00:05:55,270 --> 00:05:55,280
+navigation or a standalone page. It asks
+ 
+
+291
+00:05:55,280 --> 00:05:57,189
+navigation or a standalone page. It asks
+about responsiveness. And another
+
+292
+00:05:57,189 --> 00:05:57,199
+about responsiveness. And another
+ 
+
+293
+00:05:57,199 --> 00:05:58,790
+about responsiveness. And another
+question about functionality. Now,
+
+294
+00:05:58,790 --> 00:05:58,800
+question about functionality. Now,
+ 
+
+295
+00:05:58,800 --> 00:06:00,550
+question about functionality. Now,
+what's fascinating about this is that
+
+296
+00:06:00,550 --> 00:06:00,560
+what's fascinating about this is that
+ 
+
+297
+00:06:00,560 --> 00:06:03,110
+what's fascinating about this is that
+when you ask this question, it discloses
+
+298
+00:06:03,110 --> 00:06:03,120
+when you ask this question, it discloses
+ 
+
+299
+00:06:03,120 --> 00:06:05,270
+when you ask this question, it discloses
+what was implicit in the previous
+
+300
+00:06:05,270 --> 00:06:05,280
+what was implicit in the previous
+ 
+
+301
+00:06:05,280 --> 00:06:07,830
+what was implicit in the previous
+example. that is there was some previous
+
+302
+00:06:07,830 --> 00:06:07,840
+example. that is there was some previous
+ 
+
+303
+00:06:07,840 --> 00:06:10,950
+example. that is there was some previous
+ambiguities that in the other example
+
+304
+00:06:10,950 --> 00:06:10,960
+ambiguities that in the other example
+ 
+
+305
+00:06:10,960 --> 00:06:14,070
+ambiguities that in the other example
+the model resolved by itself. Instead
+
+306
+00:06:14,070 --> 00:06:14,080
+the model resolved by itself. Instead
+ 
+
+307
+00:06:14,080 --> 00:06:16,390
+the model resolved by itself. Instead
+here I'm the one making the decisions
+
+308
+00:06:16,390 --> 00:06:16,400
+here I'm the one making the decisions
+ 
+
+309
+00:06:16,400 --> 00:06:18,150
+here I'm the one making the decisions
+and this is the ideal way to work with
+
+310
+00:06:18,150 --> 00:06:18,160
+and this is the ideal way to work with
+ 
+
+311
+00:06:18,160 --> 00:06:19,909
+and this is the ideal way to work with
+AI agents. That is you're not
+
+312
+00:06:19,909 --> 00:06:19,919
+AI agents. That is you're not
+ 
+
+313
+00:06:19,919 --> 00:06:22,230
+AI agents. That is you're not
+relinquishing all control. You're simply
+
+314
+00:06:22,230 --> 00:06:22,240
+relinquishing all control. You're simply
+ 
+
+315
+00:06:22,240 --> 00:06:25,430
+relinquishing all control. You're simply
+using the AI agent as a multiplier for
+
+316
+00:06:25,430 --> 00:06:25,440
+using the AI agent as a multiplier for
+ 
+
+317
+00:06:25,440 --> 00:06:27,830
+using the AI agent as a multiplier for
+you the developer. So you're still
+
+318
+00:06:27,830 --> 00:06:27,840
+you the developer. So you're still
+ 
+
+319
+00:06:27,840 --> 00:06:29,909
+you the developer. So you're still
+planning and reviewing the generated
+
+320
+00:06:29,909 --> 00:06:29,919
+planning and reviewing the generated
+ 
+
+321
+00:06:29,919 --> 00:06:32,790
+planning and reviewing the generated
+code but you offload a lot of the actual
+
+322
+00:06:32,790 --> 00:06:32,800
+code but you offload a lot of the actual
+ 
+
+323
+00:06:32,800 --> 00:06:34,710
+code but you offload a lot of the actual
+writing of the code to the agent. But
+
+324
+00:06:34,710 --> 00:06:34,720
+writing of the code to the agent. But
+ 
+
+325
+00:06:34,720 --> 00:06:37,110
+writing of the code to the agent. But
+you should still have a similar amount
+
+326
+00:06:37,110 --> 00:06:37,120
+you should still have a similar amount
+ 
+
+327
+00:06:37,120 --> 00:06:39,430
+you should still have a similar amount
+of knowledge of the code base and its
+
+328
+00:06:39,430 --> 00:06:39,440
+of knowledge of the code base and its
+ 
+
+329
+00:06:39,440 --> 00:06:41,189
+of knowledge of the code base and its
+architecture. The other fascinating
+
+330
+00:06:41,189 --> 00:06:41,199
+architecture. The other fascinating
+ 
+
+331
+00:06:41,199 --> 00:06:43,590
+architecture. The other fascinating
+thing is that you can see this process
+
+332
+00:06:43,590 --> 00:06:43,600
+thing is that you can see this process
+ 
+
+333
+00:06:43,600 --> 00:06:46,070
+thing is that you can see this process
+took only.3 credits. And when we look
+
+334
+00:06:46,070 --> 00:06:46,080
+took only.3 credits. And when we look
+ 
+
+335
+00:06:46,080 --> 00:06:48,469
+took only.3 credits. And when we look
+down at the actual execution here, we
+
+336
+00:06:48,469 --> 00:06:48,479
+down at the actual execution here, we
+ 
+
+337
+00:06:48,479 --> 00:06:51,110
+down at the actual execution here, we
+can see that it was 2.6 credits.
+
+338
+00:06:51,110 --> 00:06:51,120
+can see that it was 2.6 credits.
+ 
+
+339
+00:06:51,120 --> 00:06:53,430
+can see that it was 2.6 credits.
+Significantly less than the credit usage
+
+340
+00:06:53,430 --> 00:06:53,440
+Significantly less than the credit usage
+ 
+
+341
+00:06:53,440 --> 00:06:55,909
+Significantly less than the credit usage
+over here, almost three times as much.
+
+342
+00:06:55,909 --> 00:06:55,919
+over here, almost three times as much.
+ 
+
+343
+00:06:55,919 --> 00:06:57,749
+over here, almost three times as much.
+And so resolving those ambiguities
+
+344
+00:06:57,749 --> 00:06:57,759
+And so resolving those ambiguities
+ 
+
+345
+00:06:57,759 --> 00:06:59,990
+And so resolving those ambiguities
+allows the model to scope down because
+
+346
+00:06:59,990 --> 00:07:00,000
+allows the model to scope down because
+ 
+
+347
+00:07:00,000 --> 00:07:03,029
+allows the model to scope down because
+it'll be less eager in its execution.
+
+348
+00:07:03,029 --> 00:07:03,039
+it'll be less eager in its execution.
+ 
+
+349
+00:07:03,039 --> 00:07:04,870
+it'll be less eager in its execution.
+Now, this might just be the example for
+
+350
+00:07:04,870 --> 00:07:04,880
+Now, this might just be the example for
+ 
+
+351
+00:07:04,880 --> 00:07:06,870
+Now, this might just be the example for
+here, but I did also find it fascinating
+
+352
+00:07:06,870 --> 00:07:06,880
+here, but I did also find it fascinating
+ 
+
+353
+00:07:06,880 --> 00:07:09,749
+here, but I did also find it fascinating
+that the overall execution was much
+
+354
+00:07:09,749 --> 00:07:09,759
+that the overall execution was much
+ 
+
+355
+00:07:09,759 --> 00:07:11,270
+that the overall execution was much
+closer to the screenshot in this
+
+356
+00:07:11,270 --> 00:07:11,280
+closer to the screenshot in this
+ 
+
+357
+00:07:11,280 --> 00:07:13,029
+closer to the screenshot in this
+example. And I think this just has to do
+
+358
+00:07:13,029 --> 00:07:13,039
+example. And I think this just has to do
+ 
+
+359
+00:07:13,039 --> 00:07:15,430
+example. And I think this just has to do
+with the execution budget. That is to
+
+360
+00:07:15,430 --> 00:07:15,440
+with the execution budget. That is to
+ 
+
+361
+00:07:15,440 --> 00:07:18,230
+with the execution budget. That is to
+say, the model has internal metrics for
+
+362
+00:07:18,230 --> 00:07:18,240
+say, the model has internal metrics for
+ 
+
+363
+00:07:18,240 --> 00:07:21,029
+say, the model has internal metrics for
+how long, how much it's going to work.
+
+364
+00:07:21,029 --> 00:07:21,039
+how long, how much it's going to work.
+ 
+
+365
+00:07:21,039 --> 00:07:23,270
+how long, how much it's going to work.
+And if your prompt is clearer for the
+
+366
+00:07:23,270 --> 00:07:23,280
+And if your prompt is clearer for the
+ 
+
+367
+00:07:23,280 --> 00:07:26,230
+And if your prompt is clearer for the
+model, it won't spend extra token usage
+
+368
+00:07:26,230 --> 00:07:26,240
+model, it won't spend extra token usage
+ 
+
+369
+00:07:26,240 --> 00:07:27,909
+model, it won't spend extra token usage
+on things that it know you don't want,
+
+370
+00:07:27,909 --> 00:07:27,919
+on things that it know you don't want,
+ 
+
+371
+00:07:27,919 --> 00:07:30,150
+on things that it know you don't want,
+which means there's more token usage for
+
+372
+00:07:30,150 --> 00:07:30,160
+which means there's more token usage for
+ 
+
+373
+00:07:30,160 --> 00:07:32,150
+which means there's more token usage for
+things like visual fidelity. In the
+
+374
+00:07:32,150 --> 00:07:32,160
+things like visual fidelity. In the
+ 
+
+375
+00:07:32,160 --> 00:07:34,070
+things like visual fidelity. In the
+previous example, it may have
+
+376
+00:07:34,070 --> 00:07:34,080
+previous example, it may have
+ 
+
+377
+00:07:34,080 --> 00:07:36,629
+previous example, it may have
+substituted some of the visual design
+
+378
+00:07:36,629 --> 00:07:36,639
+substituted some of the visual design
+ 
+
+379
+00:07:36,639 --> 00:07:39,270
+substituted some of the visual design
+for other things like functionality that
+
+380
+00:07:39,270 --> 00:07:39,280
+for other things like functionality that
+ 
+
+381
+00:07:39,280 --> 00:07:41,189
+for other things like functionality that
+it assumed that it filled in that
+
+382
+00:07:41,189 --> 00:07:41,199
+it assumed that it filled in that
+ 
+
+383
+00:07:41,199 --> 00:07:42,950
+it assumed that it filled in that
+ambiguity that I wanted to build out.
+
+384
+00:07:42,950 --> 00:07:42,960
+ambiguity that I wanted to build out.
+ 
+
+385
+00:07:42,960 --> 00:07:44,390
+ambiguity that I wanted to build out.
+Now, of course, this isn't a real
+
+386
+00:07:44,390 --> 00:07:44,400
+Now, of course, this isn't a real
+ 
+
+387
+00:07:44,400 --> 00:07:46,469
+Now, of course, this isn't a real
+example. Like I said before, the scope
+
+388
+00:07:46,469 --> 00:07:46,479
+example. Like I said before, the scope
+ 
+
+389
+00:07:46,479 --> 00:07:48,150
+example. Like I said before, the scope
+of work that you want to offload to
+
+390
+00:07:48,150 --> 00:07:48,160
+of work that you want to offload to
+ 
+
+391
+00:07:48,160 --> 00:07:50,629
+of work that you want to offload to
+agents should be very small. So, let's
+
+392
+00:07:50,629 --> 00:07:50,639
+agents should be very small. So, let's
+ 
+
+393
+00:07:50,639 --> 00:07:52,629
+agents should be very small. So, let's
+look at a more real world example. In
+
+394
+00:07:52,629 --> 00:07:52,639
+look at a more real world example. In
+ 
+
+395
+00:07:52,639 --> 00:07:55,510
+look at a more real world example. In
+this example, I have a shaden showcase
+
+396
+00:07:55,510 --> 00:07:55,520
+this example, I have a shaden showcase
+ 
+
+397
+00:07:55,520 --> 00:07:57,589
+this example, I have a shaden showcase
+library right here. And I wanted to
+
+398
+00:07:57,589 --> 00:07:57,599
+library right here. And I wanted to
+ 
+
+399
+00:07:57,599 --> 00:07:59,909
+library right here. And I wanted to
+implement a bookmarking or favorite
+
+400
+00:07:59,909 --> 00:07:59,919
+implement a bookmarking or favorite
+ 
+
+401
+00:07:59,919 --> 00:08:02,309
+implement a bookmarking or favorite
+feature. So user can favorite it and
+
+402
+00:08:02,309 --> 00:08:02,319
+feature. So user can favorite it and
+ 
+
+403
+00:08:02,319 --> 00:08:03,430
+feature. So user can favorite it and
+then come back later and see their
+
+404
+00:08:03,430 --> 00:08:03,440
+then come back later and see their
+ 
+
+405
+00:08:03,440 --> 00:08:05,430
+then come back later and see their
+favorite components. So for this first
+
+406
+00:08:05,430 --> 00:08:05,440
+favorite components. So for this first
+ 
+
+407
+00:08:05,440 --> 00:08:07,350
+favorite components. So for this first
+example, I didn't ask it to clarify
+
+408
+00:08:07,350 --> 00:08:07,360
+example, I didn't ask it to clarify
+ 
+
+409
+00:08:07,360 --> 00:08:09,990
+example, I didn't ask it to clarify
+anything. And it did a good job. The
+
+410
+00:08:09,990 --> 00:08:10,000
+anything. And it did a good job. The
+ 
+
+411
+00:08:10,000 --> 00:08:11,430
+anything. And it did a good job. The
+feature works. You can see I've
+
+412
+00:08:11,430 --> 00:08:11,440
+feature works. You can see I've
+ 
+
+413
+00:08:11,440 --> 00:08:12,869
+feature works. You can see I've
+bookmarked one there. When I go to
+
+414
+00:08:12,869 --> 00:08:12,879
+bookmarked one there. When I go to
+ 
+
+415
+00:08:12,879 --> 00:08:14,869
+bookmarked one there. When I go to
+favorites, I can see it there. It has a
+
+416
+00:08:14,869 --> 00:08:14,879
+favorites, I can see it there. It has a
+ 
+
+417
+00:08:14,879 --> 00:08:16,390
+favorites, I can see it there. It has a
+routing correct. And that's great. And
+
+418
+00:08:16,390 --> 00:08:16,400
+routing correct. And that's great. And
+ 
+
+419
+00:08:16,400 --> 00:08:18,950
+routing correct. And that's great. And
+when we look at the code, we can see if
+
+420
+00:08:18,950 --> 00:08:18,960
+when we look at the code, we can see if
+ 
+
+421
+00:08:18,960 --> 00:08:21,350
+when we look at the code, we can see if
+we open up here, it implemented a
+
+422
+00:08:21,350 --> 00:08:21,360
+we open up here, it implemented a
+ 
+
+423
+00:08:21,360 --> 00:08:23,909
+we open up here, it implemented a
+favorite service right here. And it's
+
+424
+00:08:23,909 --> 00:08:23,919
+favorite service right here. And it's
+ 
+
+425
+00:08:23,919 --> 00:08:25,749
+favorite service right here. And it's
+pretty standard. Now once again when we
+
+426
+00:08:25,749 --> 00:08:25,759
+pretty standard. Now once again when we
+ 
+
+427
+00:08:25,759 --> 00:08:28,710
+pretty standard. Now once again when we
+look at the token usage here it was 9.1
+
+428
+00:08:28,710 --> 00:08:28,720
+look at the token usage here it was 9.1
+ 
+
+429
+00:08:28,720 --> 00:08:30,550
+look at the token usage here it was 9.1
+credits. That's quite a bit. When we
+
+430
+00:08:30,550 --> 00:08:30,560
+credits. That's quite a bit. When we
+ 
+
+431
+00:08:30,560 --> 00:08:32,550
+credits. That's quite a bit. When we
+look at our other example I asked it to
+
+432
+00:08:32,550 --> 00:08:32,560
+look at our other example I asked it to
+ 
+
+433
+00:08:32,560 --> 00:08:34,870
+look at our other example I asked it to
+implement the feature but I append this
+
+434
+00:08:34,870 --> 00:08:34,880
+implement the feature but I append this
+ 
+
+435
+00:08:34,880 --> 00:08:37,029
+implement the feature but I append this
+same thing to my request. Make sure you
+
+436
+00:08:37,029 --> 00:08:37,039
+same thing to my request. Make sure you
+ 
+
+437
+00:08:37,039 --> 00:08:39,269
+same thing to my request. Make sure you
+ask clarifying questions. So then it
+
+438
+00:08:39,269 --> 00:08:39,279
+ask clarifying questions. So then it
+ 
+
+439
+00:08:39,279 --> 00:08:41,350
+ask clarifying questions. So then it
+asked about the scope and at first I
+
+440
+00:08:41,350 --> 00:08:41,360
+asked about the scope and at first I
+ 
+
+441
+00:08:41,360 --> 00:08:43,190
+asked about the scope and at first I
+thought this was kind of a dumb question
+
+442
+00:08:43,190 --> 00:08:43,200
+thought this was kind of a dumb question
+ 
+
+443
+00:08:43,200 --> 00:08:44,790
+thought this was kind of a dumb question
+cuz it said should users be able to
+
+444
+00:08:44,790 --> 00:08:44,800
+cuz it said should users be able to
+ 
+
+445
+00:08:44,800 --> 00:08:47,110
+cuz it said should users be able to
+bookmark individual components for quick
+
+446
+00:08:47,110 --> 00:08:47,120
+bookmark individual components for quick
+ 
+
+447
+00:08:47,120 --> 00:08:49,430
+bookmark individual components for quick
+access? But then I realized it was
+
+448
+00:08:49,430 --> 00:08:49,440
+access? But then I realized it was
+ 
+
+449
+00:08:49,440 --> 00:08:52,790
+access? But then I realized it was
+asking this because my request is pretty
+
+450
+00:08:52,790 --> 00:08:52,800
+asking this because my request is pretty
+ 
+
+451
+00:08:52,800 --> 00:08:54,710
+asking this because my request is pretty
+thread there. It's pretty minimal and
+
+452
+00:08:54,710 --> 00:08:54,720
+thread there. It's pretty minimal and
+ 
+
+453
+00:08:54,720 --> 00:08:56,150
+thread there. It's pretty minimal and
+they wanted to and the model wanted to
+
+454
+00:08:56,150 --> 00:08:56,160
+they wanted to and the model wanted to
+ 
+
+455
+00:08:56,160 --> 00:08:58,230
+they wanted to and the model wanted to
+make sure that it understood the
+
+456
+00:08:58,230 --> 00:08:58,240
+make sure that it understood the
+ 
+
+457
+00:08:58,240 --> 00:09:00,710
+make sure that it understood the
+fundamental request and we're not even
+
+458
+00:09:00,710 --> 00:09:00,720
+fundamental request and we're not even
+ 
+
+459
+00:09:00,720 --> 00:09:02,550
+fundamental request and we're not even
+into questions about implementation.
+
+460
+00:09:02,550 --> 00:09:02,560
+into questions about implementation.
+ 
+
+461
+00:09:02,560 --> 00:09:03,750
+into questions about implementation.
+Then we get to questions about
+
+462
+00:09:03,750 --> 00:09:03,760
+Then we get to questions about
+ 
+
+463
+00:09:03,760 --> 00:09:05,910
+Then we get to questions about
+implementation about persistence and
+
+464
+00:09:05,910 --> 00:09:05,920
+implementation about persistence and
+ 
+
+465
+00:09:05,920 --> 00:09:07,670
+implementation about persistence and
+state. So should the bookmark components
+
+466
+00:09:07,670 --> 00:09:07,680
+state. So should the bookmark components
+ 
+
+467
+00:09:07,680 --> 00:09:10,470
+state. So should the bookmark components
+persist across app sessions? I said yes.
+
+468
+00:09:10,470 --> 00:09:10,480
+persist across app sessions? I said yes.
+ 
+
+469
+00:09:10,480 --> 00:09:12,070
+persist across app sessions? I said yes.
+It asked about where do you want them to
+
+470
+00:09:12,070 --> 00:09:12,080
+It asked about where do you want them to
+ 
+
+471
+00:09:12,080 --> 00:09:15,190
+It asked about where do you want them to
+be displayed? How should the UX work and
+
+472
+00:09:15,190 --> 00:09:15,200
+be displayed? How should the UX work and
+ 
+
+473
+00:09:15,200 --> 00:09:17,350
+be displayed? How should the UX work and
+any visual indicators? And once again
+
+474
+00:09:17,350 --> 00:09:17,360
+any visual indicators? And once again
+ 
+
+475
+00:09:17,360 --> 00:09:19,670
+any visual indicators? And once again
+this clarifying question is very light
+
+476
+00:09:19,670 --> 00:09:19,680
+this clarifying question is very light
+ 
+
+477
+00:09:19,680 --> 00:09:22,150
+this clarifying question is very light
+token usage. And when we go down to the
+
+478
+00:09:22,150 --> 00:09:22,160
+token usage. And when we go down to the
+ 
+
+479
+00:09:22,160 --> 00:09:25,110
+token usage. And when we go down to the
+final execution here, we can see that
+
+480
+00:09:25,110 --> 00:09:25,120
+final execution here, we can see that
+ 
+
+481
+00:09:25,120 --> 00:09:28,389
+final execution here, we can see that
+this was significantly less token usage
+
+482
+00:09:28,389 --> 00:09:28,399
+this was significantly less token usage
+ 
+
+483
+00:09:28,399 --> 00:09:31,350
+this was significantly less token usage
+and it works in a similar way. So I've
+
+484
+00:09:31,350 --> 00:09:31,360
+and it works in a similar way. So I've
+ 
+
+485
+00:09:31,360 --> 00:09:33,030
+and it works in a similar way. So I've
+harded these, I can go to the favorites,
+
+486
+00:09:33,030 --> 00:09:33,040
+harded these, I can go to the favorites,
+ 
+
+487
+00:09:33,040 --> 00:09:34,630
+harded these, I can go to the favorites,
+I can view them there and the routing
+
+488
+00:09:34,630 --> 00:09:34,640
+I can view them there and the routing
+ 
+
+489
+00:09:34,640 --> 00:09:36,550
+I can view them there and the routing
+works correctly and when we look at the
+
+490
+00:09:36,550 --> 00:09:36,560
+works correctly and when we look at the
+ 
+
+491
+00:09:36,560 --> 00:09:38,550
+works correctly and when we look at the
+service, it's implemented. It works in
+
+492
+00:09:38,550 --> 00:09:38,560
+service, it's implemented. It works in
+ 
+
+493
+00:09:38,560 --> 00:09:40,470
+service, it's implemented. It works in
+very similar ways. Okay, so to
+
+494
+00:09:40,470 --> 00:09:40,480
+very similar ways. Okay, so to
+ 
+
+495
+00:09:40,480 --> 00:09:43,190
+very similar ways. Okay, so to
+summarize, first you should absolutely
+
+496
+00:09:43,190 --> 00:09:43,200
+summarize, first you should absolutely
+ 
+
+497
+00:09:43,200 --> 00:09:44,870
+summarize, first you should absolutely
+instruct your coding agent to ask
+
+498
+00:09:44,870 --> 00:09:44,880
+instruct your coding agent to ask
+ 
+
+499
+00:09:44,880 --> 00:09:46,949
+instruct your coding agent to ask
+clarifying questions to resolve
+
+500
+00:09:46,949 --> 00:09:46,959
+clarifying questions to resolve
+ 
+
+501
+00:09:46,959 --> 00:09:49,590
+clarifying questions to resolve
+ambiguities before it writes code. This
+
+502
+00:09:49,590 --> 00:09:49,600
+ambiguities before it writes code. This
+ 
+
+503
+00:09:49,600 --> 00:09:51,509
+ambiguities before it writes code. This
+approach is backed by multiple studies
+
+504
+00:09:51,509 --> 00:09:51,519
+approach is backed by multiple studies
+ 
+
+505
+00:09:51,519 --> 00:09:54,470
+approach is backed by multiple studies
+showing improved outcomes. Second, you
+
+506
+00:09:54,470 --> 00:09:54,480
+showing improved outcomes. Second, you
+ 
+
+507
+00:09:54,480 --> 00:09:57,110
+showing improved outcomes. Second, you
+should not ask it to rely on an internal
+
+508
+00:09:57,110 --> 00:09:57,120
+should not ask it to rely on an internal
+ 
+
+509
+00:09:57,120 --> 00:10:00,150
+should not ask it to rely on an internal
+confidence score like 95% as research
+
+510
+00:10:00,150 --> 00:10:00,160
+confidence score like 95% as research
+ 
+
+511
+00:10:00,160 --> 00:10:02,389
+confidence score like 95% as research
+shows it's not a reliable metric for
+
+512
+00:10:02,389 --> 00:10:02,399
+shows it's not a reliable metric for
+ 
+
+513
+00:10:02,399 --> 00:10:05,110
+shows it's not a reliable metric for
+code correctness. Okay, so that's it for
+
+514
+00:10:05,110 --> 00:10:05,120
+code correctness. Okay, so that's it for
+ 
+
+515
+00:10:05,120 --> 00:10:07,670
+code correctness. Okay, so that's it for
+Dreamflow Tips. I'm John and I'll see
+
+516
+00:10:07,670 --> 00:10:07,680
+Dreamflow Tips. I'm John and I'll see
+ 
+
+517
+00:10:07,680 --> 00:10:11,240
+Dreamflow Tips. I'm John and I'll see
+you in the next video.
+

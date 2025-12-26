@@ -1,0 +1,1210 @@
+{
+  "video_info": {
+    "frames_directory": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes",
+    "transcript_file": "/Users/kcdacre8tor/veidotools/transcripts/1766661191-New_Feature__Git_Integration__Tutorial_.en.srt",
+    "total_frames": 150,
+    "total_transcript_segments": 276
+  },
+  "timeline": [
+    {
+      "frame_number": 1,
+      "timestamp": 0.0,
+      "timestamp_formatted": "00:00:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0001.png",
+      "transcript": "Let me show you how to use Dreamflow's Let me show you how to use Dreamflow's Git integration. First, we'll clone a",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 2,
+      "timestamp": 2.0,
+      "timestamp_formatted": "00:00:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0002.png",
+      "transcript": "Let me show you how to use Dreamflow's Let me show you how to use Dreamflow's Git integration. First, we'll clone a",
+      "segment_count": 2
+    },
+    {
+      "frame_number": 3,
+      "timestamp": 4.0,
+      "timestamp_formatted": "00:00:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0003.png",
+      "transcript": "Let me show you how to use Dreamflow's Git integration. First, we'll clone a Git integration. First, we'll clone a Git integration. First, we'll clone a repository from a private repo on repository from a private repo on repository from a private repo on GitHub. And then we'll walk through how",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 4,
+      "timestamp": 6.0,
+      "timestamp_formatted": "00:00:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0004.png",
+      "transcript": "Let me show you how to use Dreamflow's Git integration. First, we'll clone a Git integration. First, we'll clone a Git integration. First, we'll clone a repository from a private repo on repository from a private repo on repository from a private repo on GitHub. And then we'll walk through how GitHub. And then we'll walk through how GitHub. And then we'll walk through how to push a DreamFlow project you've been",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 5,
+      "timestamp": 8.0,
+      "timestamp_formatted": "00:00:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0005.png",
+      "transcript": "repository from a private repo on repository from a private repo on GitHub. And then we'll walk through how GitHub. And then we'll walk through how GitHub. And then we'll walk through how to push a DreamFlow project you've been to push a DreamFlow project you've been to push a DreamFlow project you've been working on to a new GitHub repo. For",
+      "segment_count": 6
+    },
+    {
+      "frame_number": 6,
+      "timestamp": 10.0,
+      "timestamp_formatted": "00:00:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0006.png",
+      "transcript": "GitHub. And then we'll walk through how to push a DreamFlow project you've been to push a DreamFlow project you've been to push a DreamFlow project you've been working on to a new GitHub repo. For working on to a new GitHub repo. For working on to a new GitHub repo. For this tutorial, we'll be using GitHub,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 7,
+      "timestamp": 12.0,
+      "timestamp_formatted": "00:00:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0007.png",
+      "transcript": "to push a DreamFlow project you've been working on to a new GitHub repo. For working on to a new GitHub repo. For working on to a new GitHub repo. For this tutorial, we'll be using GitHub, this tutorial, we'll be using GitHub, this tutorial, we'll be using GitHub, but this will work with any Git provider",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 8,
+      "timestamp": 14.0,
+      "timestamp_formatted": "00:00:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0008.png",
+      "transcript": "working on to a new GitHub repo. For this tutorial, we'll be using GitHub, this tutorial, we'll be using GitHub, this tutorial, we'll be using GitHub, but this will work with any Git provider but this will work with any Git provider but this will work with any Git provider like GitLab or Bitbucket. Okay, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 9,
+      "timestamp": 16.0,
+      "timestamp_formatted": "00:00:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0009.png",
+      "transcript": "this tutorial, we'll be using GitHub, but this will work with any Git provider but this will work with any Git provider but this will work with any Git provider like GitLab or Bitbucket. Okay, let's like GitLab or Bitbucket. Okay, let's like GitLab or Bitbucket. Okay, let's get started. So, to clone a repo, just",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 10,
+      "timestamp": 18.0,
+      "timestamp_formatted": "00:00:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0010.png",
+      "transcript": "but this will work with any Git provider like GitLab or Bitbucket. Okay, let's like GitLab or Bitbucket. Okay, let's like GitLab or Bitbucket. Okay, let's get started. So, to clone a repo, just get started. So, to clone a repo, just get started. So, to clone a repo, just come over here to clone codebase. Now,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 11,
+      "timestamp": 20.0,
+      "timestamp_formatted": "00:00:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0011.png",
+      "transcript": "like GitLab or Bitbucket. Okay, let's get started. So, to clone a repo, just get started. So, to clone a repo, just get started. So, to clone a repo, just come over here to clone codebase. Now, come over here to clone codebase. Now, come over here to clone codebase. Now, the repo I'm going to be using is the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 12,
+      "timestamp": 22.0,
+      "timestamp_formatted": "00:00:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0012.png",
+      "transcript": "get started. So, to clone a repo, just come over here to clone codebase. Now, come over here to clone codebase. Now, come over here to clone codebase. Now, the repo I'm going to be using is the the repo I'm going to be using is the the repo I'm going to be using is the Great Wondrous app that I forked from",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 13,
+      "timestamp": 24.0,
+      "timestamp_formatted": "00:00:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0013.png",
+      "transcript": "come over here to clone codebase. Now, the repo I'm going to be using is the the repo I'm going to be using is the the repo I'm going to be using is the Great Wondrous app that I forked from Great Wondrous app that I forked from Great Wondrous app that I forked from GSK. So, give it a name. And now we're",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 14,
+      "timestamp": 26.0,
+      "timestamp_formatted": "00:00:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0014.png",
+      "transcript": "the repo I'm going to be using is the Great Wondrous app that I forked from Great Wondrous app that I forked from Great Wondrous app that I forked from GSK. So, give it a name. And now we're GSK. So, give it a name. And now we're GSK. So, give it a name. And now we're going to go grab the repo URL and get",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 15,
+      "timestamp": 28.0,
+      "timestamp_formatted": "00:00:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0015.png",
+      "transcript": "Great Wondrous app that I forked from GSK. So, give it a name. And now we're GSK. So, give it a name. And now we're GSK. So, give it a name. And now we're going to go grab the repo URL and get",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 16,
+      "timestamp": 30.0,
+      "timestamp_formatted": "00:00:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0016.png",
+      "transcript": "GSK. So, give it a name. And now we're going to go grab the repo URL and get going to go grab the repo URL and get going to go grab the repo URL and get our access token. To get your URL, just",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 17,
+      "timestamp": 32.0,
+      "timestamp_formatted": "00:00:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0017.png",
+      "transcript": "GSK. So, give it a name. And now we're going to go grab the repo URL and get going to go grab the repo URL and get going to go grab the repo URL and get our access token. To get your URL, just our access token. To get your URL, just our access token. To get your URL, just come over here to code and in the HTTPS",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 18,
+      "timestamp": 34.0,
+      "timestamp_formatted": "00:00:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0018.png",
+      "transcript": "going to go grab the repo URL and get our access token. To get your URL, just our access token. To get your URL, just our access token. To get your URL, just come over here to code and in the HTTPS come over here to code and in the HTTPS come over here to code and in the HTTPS and just grab this. Let's paste that in.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 19,
+      "timestamp": 36.0,
+      "timestamp_formatted": "00:00:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0019.png",
+      "transcript": "our access token. To get your URL, just come over here to code and in the HTTPS come over here to code and in the HTTPS come over here to code and in the HTTPS and just grab this. Let's paste that in.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 20,
+      "timestamp": 38.0,
+      "timestamp_formatted": "00:00:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0020.png",
+      "transcript": "come over here to code and in the HTTPS and just grab this. Let's paste that in. and just grab this. Let's paste that in. and just grab this. Let's paste that in. And I'll get our access token. To get",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 21,
+      "timestamp": 40.0,
+      "timestamp_formatted": "00:00:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0021.png",
+      "transcript": "come over here to code and in the HTTPS and just grab this. Let's paste that in. and just grab this. Let's paste that in. and just grab this. Let's paste that in. And I'll get our access token. To get And I'll get our access token. To get And I'll get our access token. To get that, come over to your profile and into",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 22,
+      "timestamp": 42.0,
+      "timestamp_formatted": "00:00:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0022.png",
+      "transcript": "and just grab this. Let's paste that in. And I'll get our access token. To get And I'll get our access token. To get And I'll get our access token. To get that, come over to your profile and into that, come over to your profile and into that, come over to your profile and into settings and scroll down on the bottom",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 23,
+      "timestamp": 44.0,
+      "timestamp_formatted": "00:00:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0023.png",
+      "transcript": "And I'll get our access token. To get that, come over to your profile and into that, come over to your profile and into that, come over to your profile and into settings and scroll down on the bottom settings and scroll down on the bottom settings and scroll down on the bottom left here to developer settings. Then go",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 24,
+      "timestamp": 46.0,
+      "timestamp_formatted": "00:00:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0024.png",
+      "transcript": "that, come over to your profile and into settings and scroll down on the bottom settings and scroll down on the bottom settings and scroll down on the bottom left here to developer settings. Then go",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 25,
+      "timestamp": 48.0,
+      "timestamp_formatted": "00:00:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0025.png",
+      "transcript": "settings and scroll down on the bottom left here to developer settings. Then go left here to developer settings. Then go left here to developer settings. Then go to personal access tokens. And you can",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 26,
+      "timestamp": 50.0,
+      "timestamp_formatted": "00:00:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0026.png",
+      "transcript": "settings and scroll down on the bottom left here to developer settings. Then go left here to developer settings. Then go left here to developer settings. Then go to personal access tokens. And you can to personal access tokens. And you can to personal access tokens. And you can use either fine grain or the classic",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 27,
+      "timestamp": 52.0,
+      "timestamp_formatted": "00:00:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0027.png",
+      "transcript": "left here to developer settings. Then go to personal access tokens. And you can to personal access tokens. And you can to personal access tokens. And you can use either fine grain or the classic use either fine grain or the classic use either fine grain or the classic tokens. We've left a link to the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 28,
+      "timestamp": 54.0,
+      "timestamp_formatted": "00:00:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0028.png",
+      "transcript": "to personal access tokens. And you can use either fine grain or the classic use either fine grain or the classic use either fine grain or the classic tokens. We've left a link to the tokens. We've left a link to the tokens. We've left a link to the documentation below. We're just going to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 29,
+      "timestamp": 56.0,
+      "timestamp_formatted": "00:00:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0029.png",
+      "transcript": "use either fine grain or the classic tokens. We've left a link to the tokens. We've left a link to the tokens. We've left a link to the documentation below. We're just going to documentation below. We're just going to documentation below. We're just going to do classic tokens. Then let's generate a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 30,
+      "timestamp": 58.0,
+      "timestamp_formatted": "00:00:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0030.png",
+      "transcript": "tokens. We've left a link to the documentation below. We're just going to documentation below. We're just going to documentation below. We're just going to do classic tokens. Then let's generate a do classic tokens. Then let's generate a do classic tokens. Then let's generate a new token. Give it a name. Set your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 31,
+      "timestamp": 60.0,
+      "timestamp_formatted": "00:01:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0031.png",
+      "transcript": "documentation below. We're just going to do classic tokens. Then let's generate a do classic tokens. Then let's generate a do classic tokens. Then let's generate a new token. Give it a name. Set your new token. Give it a name. Set your new token. Give it a name. Set your expiration date. We'll just keep it at",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 32,
+      "timestamp": 62.0,
+      "timestamp_formatted": "00:01:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0032.png",
+      "transcript": "do classic tokens. Then let's generate a new token. Give it a name. Set your new token. Give it a name. Set your new token. Give it a name. Set your expiration date. We'll just keep it at expiration date. We'll just keep it at expiration date. We'll just keep it at the default. And select the scopes of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 33,
+      "timestamp": 64.0,
+      "timestamp_formatted": "00:01:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0033.png",
+      "transcript": "new token. Give it a name. Set your expiration date. We'll just keep it at expiration date. We'll just keep it at expiration date. We'll just keep it at the default. And select the scopes of the default. And select the scopes of the default. And select the scopes of permission that DreamFlow will have",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 34,
+      "timestamp": 66.0,
+      "timestamp_formatted": "00:01:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0034.png",
+      "transcript": "expiration date. We'll just keep it at the default. And select the scopes of the default. And select the scopes of the default. And select the scopes of permission that DreamFlow will have permission that DreamFlow will have permission that DreamFlow will have access to. You'll need to give it the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 35,
+      "timestamp": 68.0,
+      "timestamp_formatted": "00:01:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0035.png",
+      "transcript": "the default. And select the scopes of permission that DreamFlow will have permission that DreamFlow will have permission that DreamFlow will have access to. You'll need to give it the access to. You'll need to give it the access to. You'll need to give it the repo and workflow. Then you can scroll",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 36,
+      "timestamp": 70.0,
+      "timestamp_formatted": "00:01:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0036.png",
+      "transcript": "permission that DreamFlow will have access to. You'll need to give it the access to. You'll need to give it the access to. You'll need to give it the repo and workflow. Then you can scroll repo and workflow. Then you can scroll repo and workflow. Then you can scroll down and generate the token. Keep in",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 37,
+      "timestamp": 72.0,
+      "timestamp_formatted": "00:01:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0037.png",
+      "transcript": "access to. You'll need to give it the repo and workflow. Then you can scroll repo and workflow. Then you can scroll repo and workflow. Then you can scroll down and generate the token. Keep in down and generate the token. Keep in down and generate the token. Keep in mind that you only see this token once.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 38,
+      "timestamp": 74.0,
+      "timestamp_formatted": "00:01:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0038.png",
+      "transcript": "repo and workflow. Then you can scroll down and generate the token. Keep in down and generate the token. Keep in down and generate the token. Keep in mind that you only see this token once. mind that you only see this token once. mind that you only see this token once. So copy it and then go back to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 39,
+      "timestamp": 76.0,
+      "timestamp_formatted": "00:01:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0039.png",
+      "transcript": "down and generate the token. Keep in mind that you only see this token once. mind that you only see this token once. mind that you only see this token once. So copy it and then go back to So copy it and then go back to So copy it and then go back to DreamFlow. Paste in your token and clone",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 40,
+      "timestamp": 78.0,
+      "timestamp_formatted": "00:01:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0040.png",
+      "transcript": "mind that you only see this token once. So copy it and then go back to So copy it and then go back to So copy it and then go back to DreamFlow. Paste in your token and clone DreamFlow. Paste in your token and clone DreamFlow. Paste in your token and clone your repository. Now, how long this will",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 41,
+      "timestamp": 80.0,
+      "timestamp_formatted": "00:01:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0041.png",
+      "transcript": "So copy it and then go back to DreamFlow. Paste in your token and clone DreamFlow. Paste in your token and clone DreamFlow. Paste in your token and clone your repository. Now, how long this will your repository. Now, how long this will your repository. Now, how long this will take will depend on the size of the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 42,
+      "timestamp": 82.0,
+      "timestamp_formatted": "00:01:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0042.png",
+      "transcript": "DreamFlow. Paste in your token and clone your repository. Now, how long this will your repository. Now, how long this will your repository. Now, how long this will take will depend on the size of the take will depend on the size of the take will depend on the size of the project. So, just keep that in mind if",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 43,
+      "timestamp": 84.0,
+      "timestamp_formatted": "00:01:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0043.png",
+      "transcript": "your repository. Now, how long this will take will depend on the size of the take will depend on the size of the take will depend on the size of the project. So, just keep that in mind if project. So, just keep that in mind if project. So, just keep that in mind if you've got a larger project. Beautiful.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 44,
+      "timestamp": 86.0,
+      "timestamp_formatted": "00:01:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0044.png",
+      "transcript": "take will depend on the size of the project. So, just keep that in mind if project. So, just keep that in mind if project. So, just keep that in mind if you've got a larger project. Beautiful. you've got a larger project. Beautiful. you've got a larger project. Beautiful. Our app is loaded up and running. Okay,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 45,
+      "timestamp": 88.0,
+      "timestamp_formatted": "00:01:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0045.png",
+      "transcript": "project. So, just keep that in mind if you've got a larger project. Beautiful. you've got a larger project. Beautiful. you've got a larger project. Beautiful. Our app is loaded up and running. Okay, Our app is loaded up and running. Okay, Our app is loaded up and running. Okay, let's go over to our source control",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 46,
+      "timestamp": 90.0,
+      "timestamp_formatted": "00:01:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0046.png",
+      "transcript": "you've got a larger project. Beautiful. Our app is loaded up and running. Okay, Our app is loaded up and running. Okay, Our app is loaded up and running. Okay, let's go over to our source control let's go over to our source control let's go over to our source control section here where we can see the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 47,
+      "timestamp": 92.0,
+      "timestamp_formatted": "00:01:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0047.png",
+      "transcript": "Our app is loaded up and running. Okay, let's go over to our source control let's go over to our source control let's go over to our source control section here where we can see the section here where we can see the section here where we can see the history of our commits, any current",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 48,
+      "timestamp": 94.0,
+      "timestamp_formatted": "00:01:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0048.png",
+      "transcript": "let's go over to our source control section here where we can see the section here where we can see the section here where we can see the history of our commits, any current history of our commits, any current history of our commits, any current changes, and controls for branches and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 49,
+      "timestamp": 96.0,
+      "timestamp_formatted": "00:01:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0049.png",
+      "transcript": "section here where we can see the history of our commits, any current history of our commits, any current history of our commits, any current changes, and controls for branches and changes, and controls for branches and changes, and controls for branches and connections to our source. Okay, this is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 50,
+      "timestamp": 98.0,
+      "timestamp_formatted": "00:01:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0050.png",
+      "transcript": "history of our commits, any current changes, and controls for branches and changes, and controls for branches and changes, and controls for branches and connections to our source. Okay, this is",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 51,
+      "timestamp": 100.0,
+      "timestamp_formatted": "00:01:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0051.png",
+      "transcript": "changes, and controls for branches and connections to our source. Okay, this is connections to our source. Okay, this is connections to our source. Okay, this is looking good. So, let's make some",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 52,
+      "timestamp": 102.0,
+      "timestamp_formatted": "00:01:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0052.png",
+      "transcript": "changes, and controls for branches and connections to our source. Okay, this is connections to our source. Okay, this is connections to our source. Okay, this is looking good. So, let's make some looking good. So, let's make some looking good. So, let's make some changes here. I want to increase the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 53,
+      "timestamp": 104.0,
+      "timestamp_formatted": "00:01:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0053.png",
+      "transcript": "connections to our source. Okay, this is looking good. So, let's make some looking good. So, let's make some looking good. So, let's make some changes here. I want to increase the changes here. I want to increase the changes here. I want to increase the size of this text. It's a little bit",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 54,
+      "timestamp": 106.0,
+      "timestamp_formatted": "00:01:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0054.png",
+      "transcript": "looking good. So, let's make some changes here. I want to increase the changes here. I want to increase the changes here. I want to increase the size of this text. It's a little bit size of this text. It's a little bit size of this text. It's a little bit small. So, I'm going to go in here and",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 55,
+      "timestamp": 108.0,
+      "timestamp_formatted": "00:01:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0055.png",
+      "transcript": "changes here. I want to increase the size of this text. It's a little bit size of this text. It's a little bit size of this text. It's a little bit small. So, I'm going to go in here and small. So, I'm going to go in here and small. So, I'm going to go in here and doubleclick down through the widget tree",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 56,
+      "timestamp": 110.0,
+      "timestamp_formatted": "00:01:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0056.png",
+      "transcript": "size of this text. It's a little bit small. So, I'm going to go in here and small. So, I'm going to go in here and small. So, I'm going to go in here and doubleclick down through the widget tree",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 57,
+      "timestamp": 112.0,
+      "timestamp_formatted": "00:01:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0057.png",
+      "transcript": "small. So, I'm going to go in here and doubleclick down through the widget tree doubleclick down through the widget tree doubleclick down through the widget tree until I get to my component here. There",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 58,
+      "timestamp": 114.0,
+      "timestamp_formatted": "00:01:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0058.png",
+      "transcript": "small. So, I'm going to go in here and doubleclick down through the widget tree doubleclick down through the widget tree doubleclick down through the widget tree until I get to my component here. There until I get to my component here. There until I get to my component here. There it is. And I'm just going to do a quick",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 59,
+      "timestamp": 116.0,
+      "timestamp_formatted": "00:01:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0059.png",
+      "transcript": "doubleclick down through the widget tree until I get to my component here. There until I get to my component here. There until I get to my component here. There it is. And I'm just going to do a quick it is. And I'm just going to do a quick it is. And I'm just going to do a quick edit right here. Command K. Increase the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 60,
+      "timestamp": 118.0,
+      "timestamp_formatted": "00:01:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0060.png",
+      "transcript": "until I get to my component here. There it is. And I'm just going to do a quick it is. And I'm just going to do a quick it is. And I'm just going to do a quick edit right here. Command K. Increase the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 61,
+      "timestamp": 120.0,
+      "timestamp_formatted": "00:02:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0061.png",
+      "transcript": "it is. And I'm just going to do a quick edit right here. Command K. Increase the edit right here. Command K. Increase the edit right here. Command K. Increase the size of the font.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 62,
+      "timestamp": 122.0,
+      "timestamp_formatted": "00:02:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0062.png",
+      "transcript": "it is. And I'm just going to do a quick edit right here. Command K. Increase the edit right here. Command K. Increase the edit right here. Command K. Increase the size of the font.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 63,
+      "timestamp": 124.0,
+      "timestamp_formatted": "00:02:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0063.png",
+      "transcript": "edit right here. Command K. Increase the size of the font. size of the font. size of the font. Yeah, that's looking better. And you can Yeah, that's looking better. And you can Yeah, that's looking better. And you can see changes are automatically tracked",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 64,
+      "timestamp": 126.0,
+      "timestamp_formatted": "00:02:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0064.png",
+      "transcript": "edit right here. Command K. Increase the size of the font. size of the font. size of the font. Yeah, that's looking better. And you can Yeah, that's looking better. And you can Yeah, that's looking better. And you can see changes are automatically tracked",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 65,
+      "timestamp": 128.0,
+      "timestamp_formatted": "00:02:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0065.png",
+      "transcript": "Yeah, that's looking better. And you can see changes are automatically tracked see changes are automatically tracked see changes are automatically tracked here. So, when you're ready to commit,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 66,
+      "timestamp": 130.0,
+      "timestamp_formatted": "00:02:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0066.png",
+      "transcript": "Yeah, that's looking better. And you can see changes are automatically tracked see changes are automatically tracked see changes are automatically tracked here. So, when you're ready to commit, here. So, when you're ready to commit, here. So, when you're ready to commit, you can write a commit message right you can write a commit message right you can write a commit message right here. Or you can have the agent do it",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 67,
+      "timestamp": 132.0,
+      "timestamp_formatted": "00:02:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0067.png",
+      "transcript": "see changes are automatically tracked here. So, when you're ready to commit, here. So, when you're ready to commit, here. So, when you're ready to commit, you can write a commit message right you can write a commit message right you can write a commit message right here. Or you can have the agent do it here. Or you can have the agent do it here. Or you can have the agent do it simply by selecting this button right",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 68,
+      "timestamp": 134.0,
+      "timestamp_formatted": "00:02:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0068.png",
+      "transcript": "you can write a commit message right here. Or you can have the agent do it here. Or you can have the agent do it here. Or you can have the agent do it simply by selecting this button right",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 69,
+      "timestamp": 136.0,
+      "timestamp_formatted": "00:02:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0069.png",
+      "transcript": "here. Or you can have the agent do it here. Or you can have the agent do it simply by selecting this button right simply by selecting this button right simply by selecting this button right here. adjust drop cap sizing for better",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 70,
+      "timestamp": 138.0,
+      "timestamp_formatted": "00:02:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0070.png",
+      "transcript": "here. Or you can have the agent do it simply by selecting this button right simply by selecting this button right simply by selecting this button right here. adjust drop cap sizing for better here. adjust drop cap sizing for better here. adjust drop cap sizing for better readability. Yeah, that makes sense. But",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 71,
+      "timestamp": 140.0,
+      "timestamp_formatted": "00:02:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0071.png",
+      "transcript": "simply by selecting this button right here. adjust drop cap sizing for better here. adjust drop cap sizing for better here. adjust drop cap sizing for better readability. Yeah, that makes sense. But readability. Yeah, that makes sense. But readability. Yeah, that makes sense. But let's be a little bit cleaner with this",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 72,
+      "timestamp": 142.0,
+      "timestamp_formatted": "00:02:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0072.png",
+      "transcript": "here. adjust drop cap sizing for better readability. Yeah, that makes sense. But readability. Yeah, that makes sense. But readability. Yeah, that makes sense. But let's be a little bit cleaner with this let's be a little bit cleaner with this let's be a little bit cleaner with this and instead of committing it straight to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 73,
+      "timestamp": 144.0,
+      "timestamp_formatted": "00:02:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0073.png",
+      "transcript": "readability. Yeah, that makes sense. But let's be a little bit cleaner with this let's be a little bit cleaner with this let's be a little bit cleaner with this and instead of committing it straight to and instead of committing it straight to and instead of committing it straight to main, let's open up a new branch here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 74,
+      "timestamp": 146.0,
+      "timestamp_formatted": "00:02:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0074.png",
+      "transcript": "let's be a little bit cleaner with this and instead of committing it straight to and instead of committing it straight to and instead of committing it straight to main, let's open up a new branch here. main, let's open up a new branch here. main, let's open up a new branch here. We're going to call this font legibility",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 75,
+      "timestamp": 148.0,
+      "timestamp_formatted": "00:02:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0075.png",
+      "transcript": "and instead of committing it straight to main, let's open up a new branch here. main, let's open up a new branch here. main, let's open up a new branch here. We're going to call this font legibility",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 76,
+      "timestamp": 150.0,
+      "timestamp_formatted": "00:02:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0076.png",
+      "transcript": "main, let's open up a new branch here. We're going to call this font legibility We're going to call this font legibility We're going to call this font legibility and save. Now we've switched to this",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 77,
+      "timestamp": 152.0,
+      "timestamp_formatted": "00:02:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0077.png",
+      "transcript": "main, let's open up a new branch here. We're going to call this font legibility We're going to call this font legibility We're going to call this font legibility and save. Now we've switched to this and save. Now we've switched to this and save. Now we've switched to this branch right there. We can see and let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 78,
+      "timestamp": 154.0,
+      "timestamp_formatted": "00:02:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0078.png",
+      "transcript": "We're going to call this font legibility and save. Now we've switched to this and save. Now we've switched to this and save. Now we've switched to this branch right there. We can see and let's branch right there. We can see and let's branch right there. We can see and let's commit and push these changes. Here we",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 79,
+      "timestamp": 156.0,
+      "timestamp_formatted": "00:02:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0079.png",
+      "transcript": "and save. Now we've switched to this branch right there. We can see and let's branch right there. We can see and let's branch right there. We can see and let's commit and push these changes. Here we commit and push these changes. Here we commit and push these changes. Here we can see our commits been added. But",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 80,
+      "timestamp": 158.0,
+      "timestamp_formatted": "00:02:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0080.png",
+      "transcript": "branch right there. We can see and let's commit and push these changes. Here we commit and push these changes. Here we commit and push these changes. Here we can see our commits been added. But can see our commits been added. But can see our commits been added. But let's jump over to GitHub and take a",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 81,
+      "timestamp": 160.0,
+      "timestamp_formatted": "00:02:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0081.png",
+      "transcript": "commit and push these changes. Here we can see our commits been added. But can see our commits been added. But can see our commits been added. But let's jump over to GitHub and take a let's jump over to GitHub and take a let's jump over to GitHub and take a look. You can do so by just clicking on",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 82,
+      "timestamp": 162.0,
+      "timestamp_formatted": "00:02:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0082.png",
+      "transcript": "can see our commits been added. But let's jump over to GitHub and take a let's jump over to GitHub and take a let's jump over to GitHub and take a look. You can do so by just clicking on look. You can do so by just clicking on look. You can do so by just clicking on this right here. You can see we've got this right here. You can see we've got this right here. You can see we've got our two branches. And if we select them,",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 83,
+      "timestamp": 164.0,
+      "timestamp_formatted": "00:02:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0083.png",
+      "transcript": "let's jump over to GitHub and take a look. You can do so by just clicking on look. You can do so by just clicking on look. You can do so by just clicking on this right here. You can see we've got this right here. You can see we've got this right here. You can see we've got our two branches. And if we select them,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 84,
+      "timestamp": 166.0,
+      "timestamp_formatted": "00:02:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0084.png",
+      "transcript": "this right here. You can see we've got our two branches. And if we select them, our two branches. And if we select them, our two branches. And if we select them, you can see there's our commit we just",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 85,
+      "timestamp": 168.0,
+      "timestamp_formatted": "00:02:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0085.png",
+      "transcript": "this right here. You can see we've got our two branches. And if we select them, our two branches. And if we select them, our two branches. And if we select them, you can see there's our commit we just you can see there's our commit we just you can see there's our commit we just made. Now, as our team has been working,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 86,
+      "timestamp": 170.0,
+      "timestamp_formatted": "00:02:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0086.png",
+      "transcript": "our two branches. And if we select them, you can see there's our commit we just you can see there's our commit we just you can see there's our commit we just made. Now, as our team has been working, made. Now, as our team has been working, made. Now, as our team has been working, a colleague made some changes, too. A",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 87,
+      "timestamp": 172.0,
+      "timestamp_formatted": "00:02:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0087.png",
+      "transcript": "you can see there's our commit we just made. Now, as our team has been working, made. Now, as our team has been working, made. Now, as our team has been working, a colleague made some changes, too. A a colleague made some changes, too. A a colleague made some changes, too. A colleague was working on this, too. And",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 88,
+      "timestamp": 174.0,
+      "timestamp_formatted": "00:02:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0088.png",
+      "transcript": "made. Now, as our team has been working, a colleague made some changes, too. A a colleague made some changes, too. A a colleague made some changes, too. A colleague was working on this, too. And colleague was working on this, too. And colleague was working on this, too. And I'm going to pull in his changes. So,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 89,
+      "timestamp": 176.0,
+      "timestamp_formatted": "00:02:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0089.png",
+      "transcript": "a colleague made some changes, too. A colleague was working on this, too. And colleague was working on this, too. And colleague was working on this, too. And I'm going to pull in his changes. So, I'm going to pull in his changes. So, I'm going to pull in his changes. So, I'm going to go here and pull in changes",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 90,
+      "timestamp": 178.0,
+      "timestamp_formatted": "00:02:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0090.png",
+      "transcript": "colleague was working on this, too. And I'm going to pull in his changes. So, I'm going to pull in his changes. So, I'm going to pull in his changes. So, I'm going to go here and pull in changes I'm going to go here and pull in changes I'm going to go here and pull in changes from remote. And you can see down here,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 91,
+      "timestamp": 180.0,
+      "timestamp_formatted": "00:03:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0091.png",
+      "transcript": "I'm going to pull in his changes. So, I'm going to go here and pull in changes I'm going to go here and pull in changes I'm going to go here and pull in changes from remote. And you can see down here, from remote. And you can see down here, from remote. And you can see down here, we've got some conflicts. So, we can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 92,
+      "timestamp": 182.0,
+      "timestamp_formatted": "00:03:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0092.png",
+      "transcript": "I'm going to go here and pull in changes from remote. And you can see down here, from remote. And you can see down here, from remote. And you can see down here, we've got some conflicts. So, we can we've got some conflicts. So, we can we've got some conflicts. So, we can select it here. And if we scroll down,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 93,
+      "timestamp": 184.0,
+      "timestamp_formatted": "00:03:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0093.png",
+      "transcript": "from remote. And you can see down here, we've got some conflicts. So, we can we've got some conflicts. So, we can we've got some conflicts. So, we can select it here. And if we scroll down, select it here. And if we scroll down, select it here. And if we scroll down, we can see the familiar UI. And I'm",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 94,
+      "timestamp": 186.0,
+      "timestamp_formatted": "00:03:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0094.png",
+      "transcript": "we've got some conflicts. So, we can select it here. And if we scroll down, select it here. And if we scroll down, select it here. And if we scroll down, we can see the familiar UI. And I'm we can see the familiar UI. And I'm we can see the familiar UI. And I'm actually going to keep the ones that I'm",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 95,
+      "timestamp": 188.0,
+      "timestamp_formatted": "00:03:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0095.png",
+      "transcript": "select it here. And if we scroll down, we can see the familiar UI. And I'm we can see the familiar UI. And I'm we can see the familiar UI. And I'm actually going to keep the ones that I'm actually going to keep the ones that I'm actually going to keep the ones that I'm working with. Okay, great. That's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 96,
+      "timestamp": 190.0,
+      "timestamp_formatted": "00:03:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0096.png",
+      "transcript": "we can see the familiar UI. And I'm actually going to keep the ones that I'm actually going to keep the ones that I'm actually going to keep the ones that I'm working with. Okay, great. That's working with. Okay, great. That's working with. Okay, great. That's resolved. And if you want to see what",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 97,
+      "timestamp": 192.0,
+      "timestamp_formatted": "00:03:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0097.png",
+      "transcript": "actually going to keep the ones that I'm working with. Okay, great. That's working with. Okay, great. That's working with. Okay, great. That's resolved. And if you want to see what resolved. And if you want to see what resolved. And if you want to see what branches are available to you, you can",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 98,
+      "timestamp": 194.0,
+      "timestamp_formatted": "00:03:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0098.png",
+      "transcript": "working with. Okay, great. That's resolved. And if you want to see what resolved. And if you want to see what resolved. And if you want to see what branches are available to you, you can branches are available to you, you can branches are available to you, you can go in this dropown here and refresh your",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 99,
+      "timestamp": 196.0,
+      "timestamp_formatted": "00:03:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0099.png",
+      "transcript": "resolved. And if you want to see what branches are available to you, you can branches are available to you, you can branches are available to you, you can go in this dropown here and refresh your go in this dropown here and refresh your go in this dropown here and refresh your branches. Let's jump over to a new",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 100,
+      "timestamp": 198.0,
+      "timestamp_formatted": "00:03:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0100.png",
+      "transcript": "branches are available to you, you can go in this dropown here and refresh your go in this dropown here and refresh your go in this dropown here and refresh your branches. Let's jump over to a new branches. Let's jump over to a new branches. Let's jump over to a new project, one that we started in project, one that we started in project, one that we started in DreamFlow, and see how we get it into",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 101,
+      "timestamp": 200.0,
+      "timestamp_formatted": "00:03:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0101.png",
+      "transcript": "go in this dropown here and refresh your branches. Let's jump over to a new branches. Let's jump over to a new branches. Let's jump over to a new project, one that we started in project, one that we started in project, one that we started in DreamFlow, and see how we get it into DreamFlow, and see how we get it into DreamFlow, and see how we get it into version control. So I've got this",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 102,
+      "timestamp": 202.0,
+      "timestamp_formatted": "00:03:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0102.png",
+      "transcript": "project, one that we started in DreamFlow, and see how we get it into DreamFlow, and see how we get it into DreamFlow, and see how we get it into version control. So I've got this version control. So I've got this version control. So I've got this dashboard app, and I want to hook it up",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 103,
+      "timestamp": 204.0,
+      "timestamp_formatted": "00:03:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0103.png",
+      "transcript": "DreamFlow, and see how we get it into version control. So I've got this version control. So I've got this version control. So I've got this dashboard app, and I want to hook it up dashboard app, and I want to hook it up dashboard app, and I want to hook it up to version control here. So I want to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 104,
+      "timestamp": 206.0,
+      "timestamp_formatted": "00:03:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0104.png",
+      "transcript": "version control. So I've got this dashboard app, and I want to hook it up dashboard app, and I want to hook it up dashboard app, and I want to hook it up to version control here. So I want to to version control here. So I want to to version control here. So I want to connect a repository, and I need the",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 105,
+      "timestamp": 208.0,
+      "timestamp_formatted": "00:03:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0105.png",
+      "transcript": "dashboard app, and I want to hook it up to version control here. So I want to to version control here. So I want to to version control here. So I want to connect a repository, and I need the",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 106,
+      "timestamp": 210.0,
+      "timestamp_formatted": "00:03:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0106.png",
+      "transcript": "to version control here. So I want to to version control here. So I want to connect a repository, and I need the connect a repository, and I need the connect a repository, and I need the same information as before. So let's go",
+      "segment_count": 4
+    },
+    {
+      "frame_number": 107,
+      "timestamp": 212.0,
+      "timestamp_formatted": "00:03:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0107.png",
+      "transcript": "to version control here. So I want to connect a repository, and I need the connect a repository, and I need the connect a repository, and I need the same information as before. So let's go same information as before. So let's go same information as before. So let's go set that up in GitHub. So let's come",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 108,
+      "timestamp": 214.0,
+      "timestamp_formatted": "00:03:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0108.png",
+      "transcript": "connect a repository, and I need the same information as before. So let's go same information as before. So let's go same information as before. So let's go set that up in GitHub. So let's come set that up in GitHub. So let's come set that up in GitHub. So let's come over here to add a new repo. Choose an",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 109,
+      "timestamp": 216.0,
+      "timestamp_formatted": "00:03:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0109.png",
+      "transcript": "same information as before. So let's go set that up in GitHub. So let's come set that up in GitHub. So let's come set that up in GitHub. So let's come over here to add a new repo. Choose an over here to add a new repo. Choose an over here to add a new repo. Choose an owner, a repo name, and make sure to add",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 110,
+      "timestamp": 218.0,
+      "timestamp_formatted": "00:03:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0110.png",
+      "transcript": "set that up in GitHub. So let's come over here to add a new repo. Choose an over here to add a new repo. Choose an over here to add a new repo. Choose an owner, a repo name, and make sure to add owner, a repo name, and make sure to add owner, a repo name, and make sure to add a read or a license. the repo can't be",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 111,
+      "timestamp": 220.0,
+      "timestamp_formatted": "00:03:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0111.png",
+      "transcript": "over here to add a new repo. Choose an owner, a repo name, and make sure to add owner, a repo name, and make sure to add owner, a repo name, and make sure to add a read or a license. the repo can't be a read or a license. the repo can't be a read or a license. the repo can't be empty. So, I'm going to add a readme",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 112,
+      "timestamp": 222.0,
+      "timestamp_formatted": "00:03:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0112.png",
+      "transcript": "owner, a repo name, and make sure to add a read or a license. the repo can't be a read or a license. the repo can't be a read or a license. the repo can't be empty. So, I'm going to add a readme empty. So, I'm going to add a readme empty. So, I'm going to add a readme right here and create the repository.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 113,
+      "timestamp": 224.0,
+      "timestamp_formatted": "00:03:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0113.png",
+      "transcript": "a read or a license. the repo can't be empty. So, I'm going to add a readme empty. So, I'm going to add a readme empty. So, I'm going to add a readme right here and create the repository. right here and create the repository. right here and create the repository. Okay. Then we go through the same",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 114,
+      "timestamp": 226.0,
+      "timestamp_formatted": "00:03:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0114.png",
+      "transcript": "empty. So, I'm going to add a readme right here and create the repository. right here and create the repository. right here and create the repository. Okay. Then we go through the same Okay. Then we go through the same Okay. Then we go through the same process right here. So, I'm going to",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 115,
+      "timestamp": 228.0,
+      "timestamp_formatted": "00:03:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0115.png",
+      "transcript": "right here and create the repository. right here and create the repository. Okay. Then we go through the same Okay. Then we go through the same Okay. Then we go through the same process right here. So, I'm going to process right here. So, I'm going to process right here. So, I'm going to grab the URL and paste in our access",
+      "segment_count": 6
+    },
+    {
+      "frame_number": 116,
+      "timestamp": 230.0,
+      "timestamp_formatted": "00:03:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0116.png",
+      "transcript": "Okay. Then we go through the same process right here. So, I'm going to process right here. So, I'm going to process right here. So, I'm going to grab the URL and paste in our access",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 117,
+      "timestamp": 232.0,
+      "timestamp_formatted": "00:03:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0117.png",
+      "transcript": "process right here. So, I'm going to grab the URL and paste in our access grab the URL and paste in our access grab the URL and paste in our access token and connect. All right. Great. We",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 118,
+      "timestamp": 234.0,
+      "timestamp_formatted": "00:03:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0118.png",
+      "transcript": "process right here. So, I'm going to grab the URL and paste in our access grab the URL and paste in our access grab the URL and paste in our access token and connect. All right. Great. We token and connect. All right. Great. We token and connect. All right. Great. We are connected now. So, let's make our",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 119,
+      "timestamp": 236.0,
+      "timestamp_formatted": "00:03:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0119.png",
+      "transcript": "grab the URL and paste in our access token and connect. All right. Great. We token and connect. All right. Great. We token and connect. All right. Great. We are connected now. So, let's make our are connected now. So, let's make our are connected now. So, let's make our first commit. We'll use it with the AI",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 120,
+      "timestamp": 238.0,
+      "timestamp_formatted": "00:03:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0120.png",
+      "transcript": "token and connect. All right. Great. We are connected now. So, let's make our are connected now. So, let's make our are connected now. So, let's make our first commit. We'll use it with the AI first commit. We'll use it with the AI first commit. We'll use it with the AI and push our changes. Okay. Next, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 121,
+      "timestamp": 240.0,
+      "timestamp_formatted": "00:04:00",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0121.png",
+      "transcript": "are connected now. So, let's make our first commit. We'll use it with the AI first commit. We'll use it with the AI first commit. We'll use it with the AI and push our changes. Okay. Next, let's",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 122,
+      "timestamp": 242.0,
+      "timestamp_formatted": "00:04:02",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0122.png",
+      "transcript": "first commit. We'll use it with the AI and push our changes. Okay. Next, let's and push our changes. Okay. Next, let's and push our changes. Okay. Next, let's add a feature here. And we'll use one of",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 123,
+      "timestamp": 244.0,
+      "timestamp_formatted": "00:04:04",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0123.png",
+      "transcript": "first commit. We'll use it with the AI and push our changes. Okay. Next, let's and push our changes. Okay. Next, let's and push our changes. Okay. Next, let's add a feature here. And we'll use one of add a feature here. And we'll use one of add a feature here. And we'll use one of the features generated from the agent",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 124,
+      "timestamp": 246.0,
+      "timestamp_formatted": "00:04:06",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0124.png",
+      "transcript": "and push our changes. Okay. Next, let's add a feature here. And we'll use one of add a feature here. And we'll use one of add a feature here. And we'll use one of the features generated from the agent the features generated from the agent the features generated from the agent already. So, we're going to add a already. So, we're going to add a already. So, we're going to add a settings page. And you can see while the",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 125,
+      "timestamp": 248.0,
+      "timestamp_formatted": "00:04:08",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0125.png",
+      "transcript": "add a feature here. And we'll use one of the features generated from the agent the features generated from the agent the features generated from the agent already. So, we're going to add a already. So, we're going to add a already. So, we're going to add a settings page. And you can see while the settings page. And you can see while the settings page. And you can see while the agent is working, it's automatically",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 126,
+      "timestamp": 250.0,
+      "timestamp_formatted": "00:04:10",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0126.png",
+      "transcript": "already. So, we're going to add a settings page. And you can see while the settings page. And you can see while the settings page. And you can see while the agent is working, it's automatically agent is working, it's automatically agent is working, it's automatically tracking changes. Okay, the agent is",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 127,
+      "timestamp": 252.0,
+      "timestamp_formatted": "00:04:12",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0127.png",
+      "transcript": "settings page. And you can see while the agent is working, it's automatically agent is working, it's automatically agent is working, it's automatically tracking changes. Okay, the agent is tracking changes. Okay, the agent is tracking changes. Okay, the agent is done. We've got our changes tracked",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 128,
+      "timestamp": 254.0,
+      "timestamp_formatted": "00:04:14",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0128.png",
+      "transcript": "agent is working, it's automatically tracking changes. Okay, the agent is tracking changes. Okay, the agent is tracking changes. Okay, the agent is done. We've got our changes tracked done. We've got our changes tracked done. We've got our changes tracked here. Let's go look at the feature.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 129,
+      "timestamp": 256.0,
+      "timestamp_formatted": "00:04:16",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0129.png",
+      "transcript": "tracking changes. Okay, the agent is done. We've got our changes tracked done. We've got our changes tracked done. We've got our changes tracked here. Let's go look at the feature.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 130,
+      "timestamp": 258.0,
+      "timestamp_formatted": "00:04:18",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0130.png",
+      "transcript": "done. We've got our changes tracked here. Let's go look at the feature. here. Let's go look at the feature. here. Let's go look at the feature. Okay, this is looking good except for we",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 131,
+      "timestamp": 260.0,
+      "timestamp_formatted": "00:04:20",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0131.png",
+      "transcript": "done. We've got our changes tracked here. Let's go look at the feature. here. Let's go look at the feature. here. Let's go look at the feature. Okay, this is looking good except for we Okay, this is looking good except for we Okay, this is looking good except for we just got this border here. So, let's",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 132,
+      "timestamp": 262.0,
+      "timestamp_formatted": "00:04:22",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0132.png",
+      "transcript": "here. Let's go look at the feature. Okay, this is looking good except for we Okay, this is looking good except for we Okay, this is looking good except for we just got this border here. So, let's just got this border here. So, let's just got this border here. So, let's just remove this real quick. I'm going",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 133,
+      "timestamp": 264.0,
+      "timestamp_formatted": "00:04:24",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0133.png",
+      "transcript": "Okay, this is looking good except for we just got this border here. So, let's just got this border here. So, let's just got this border here. So, let's just remove this real quick. I'm going just remove this real quick. I'm going just remove this real quick. I'm going to click into here, go up to my card, do",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 134,
+      "timestamp": 266.0,
+      "timestamp_formatted": "00:04:26",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0134.png",
+      "transcript": "just got this border here. So, let's just remove this real quick. I'm going just remove this real quick. I'm going just remove this real quick. I'm going to click into here, go up to my card, do to click into here, go up to my card, do to click into here, go up to my card, do a quick edit, remove border. Okay,",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 135,
+      "timestamp": 268.0,
+      "timestamp_formatted": "00:04:28",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0135.png",
+      "transcript": "just remove this real quick. I'm going to click into here, go up to my card, do to click into here, go up to my card, do to click into here, go up to my card, do a quick edit, remove border. Okay,",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 136,
+      "timestamp": 270.0,
+      "timestamp_formatted": "00:04:30",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0136.png",
+      "transcript": "to click into here, go up to my card, do a quick edit, remove border. Okay, a quick edit, remove border. Okay, a quick edit, remove border. Okay, that's great.",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 137,
+      "timestamp": 272.0,
+      "timestamp_formatted": "00:04:32",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0137.png",
+      "transcript": "to click into here, go up to my card, do a quick edit, remove border. Okay, a quick edit, remove border. Okay, a quick edit, remove border. Okay, that's great. that's great. that's great. And let's remove one other border right",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 138,
+      "timestamp": 274.0,
+      "timestamp_formatted": "00:04:34",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0138.png",
+      "transcript": "a quick edit, remove border. Okay, that's great. that's great. that's great. And let's remove one other border right And let's remove one other border right And let's remove one other border right here.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 139,
+      "timestamp": 276.0,
+      "timestamp_formatted": "00:04:36",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0139.png",
+      "transcript": "that's great. And let's remove one other border right And let's remove one other border right And let's remove one other border right here. here. here. remove border. Okay, that's great. All",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 140,
+      "timestamp": 278.0,
+      "timestamp_formatted": "00:04:38",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0140.png",
+      "transcript": "And let's remove one other border right here. here. here. remove border. Okay, that's great. All",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 141,
+      "timestamp": 280.0,
+      "timestamp_formatted": "00:04:40",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0141.png",
+      "transcript": "here. remove border. Okay, that's great. All remove border. Okay, that's great. All remove border. Okay, that's great. All right, let's generate our commit message",
+      "segment_count": 3
+    },
+    {
+      "frame_number": 142,
+      "timestamp": 282.0,
+      "timestamp_formatted": "00:04:42",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0142.png",
+      "transcript": "here. remove border. Okay, that's great. All remove border. Okay, that's great. All remove border. Okay, that's great. All right, let's generate our commit message right, let's generate our commit message right, let's generate our commit message and push our changes. This way of",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 143,
+      "timestamp": 284.0,
+      "timestamp_formatted": "00:04:44",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0143.png",
+      "transcript": "remove border. Okay, that's great. All right, let's generate our commit message right, let's generate our commit message right, let's generate our commit message and push our changes. This way of and push our changes. This way of and push our changes. This way of working with Git allows you to manage",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 144,
+      "timestamp": 286.0,
+      "timestamp_formatted": "00:04:46",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0144.png",
+      "transcript": "right, let's generate our commit message and push our changes. This way of and push our changes. This way of and push our changes. This way of working with Git allows you to manage working with Git allows you to manage working with Git allows you to manage your projects efficiently. And if you",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 145,
+      "timestamp": 288.0,
+      "timestamp_formatted": "00:04:48",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0145.png",
+      "transcript": "and push our changes. This way of working with Git allows you to manage working with Git allows you to manage working with Git allows you to manage your projects efficiently. And if you your projects efficiently. And if you your projects efficiently. And if you need to run external scripts like buildr",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 146,
+      "timestamp": 290.0,
+      "timestamp_formatted": "00:04:50",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0146.png",
+      "transcript": "working with Git allows you to manage your projects efficiently. And if you your projects efficiently. And if you your projects efficiently. And if you need to run external scripts like buildr need to run external scripts like buildr need to run external scripts like buildr runner, you can do that in your editor runner, you can do that in your editor runner, you can do that in your editor of choice and just pull those changes",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 147,
+      "timestamp": 292.0,
+      "timestamp_formatted": "00:04:52",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0147.png",
+      "transcript": "your projects efficiently. And if you need to run external scripts like buildr need to run external scripts like buildr need to run external scripts like buildr runner, you can do that in your editor runner, you can do that in your editor runner, you can do that in your editor of choice and just pull those changes of choice and just pull those changes of choice and just pull those changes in. Let us know if you have any",
+      "segment_count": 7
+    },
+    {
+      "frame_number": 148,
+      "timestamp": 294.0,
+      "timestamp_formatted": "00:04:54",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0148.png",
+      "transcript": "runner, you can do that in your editor of choice and just pull those changes of choice and just pull those changes of choice and just pull those changes in. Let us know if you have any in. Let us know if you have any in. Let us know if you have any questions and we'll see you in the next",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 149,
+      "timestamp": 296.0,
+      "timestamp_formatted": "00:04:56",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0149.png",
+      "transcript": "of choice and just pull those changes in. Let us know if you have any in. Let us know if you have any in. Let us know if you have any questions and we'll see you in the next questions and we'll see you in the next questions and we'll see you in the next video.",
+      "segment_count": 5
+    },
+    {
+      "frame_number": 150,
+      "timestamp": 298.0,
+      "timestamp_formatted": "00:04:58",
+      "frame_path": "/Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/frame_0150.png",
+      "transcript": "in. Let us know if you have any questions and we'll see you in the next questions and we'll see you in the next questions and we'll see you in the next video.",
+      "segment_count": 3
+    }
+  ]
+}

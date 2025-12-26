@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649374-Stop_Vibe_Coding._Start_Architecting.
+Title: Stop Vibe Coding. Start Architecting.
+URL: https://www.youtube.com/watch?v=XMZPvBxXHP8
+Index: 3 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649374-Stop_Vibe_Coding._Start_Architecting..mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649374-Stop_Vibe_Coding._Start_Architecting._keyframes (     203 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649374-Stop_Vibe_Coding._Start_Architecting._keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:56:34 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649374-Stop_Vibe_Coding._Start_Architecting._keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

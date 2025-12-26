@@ -1,0 +1,22 @@
+Video Processing Summary
+========================
+
+Video ID: 1766649505-New_Feature__Git_Integration__Tutorial_
+Title: New Feature: Git Integration (Tutorial)
+URL: https://www.youtube.com/watch?v=pRC6bU8_XgA&pp=0gcJCU0KAYcqIYzv
+Index: 8 of 10
+
+Files:
+- Video: /Users/kcdacre8tor/veidotools/downloads/1766649505-New_Feature__Git_Integration__Tutorial_.mp4
+- Frames: /Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes (     150 frames)
+- Metadata: /Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes/metadata.json
+
+Processing Date: Thu Dec 25 02:58:45 EST 2025
+
+Status: ✓ Complete
+
+Next Steps:
+1. Review frames in: /Users/kcdacre8tor/veidotools/frames/1766649505-New_Feature__Git_Integration__Tutorial__keyframes
+2. Use Claude Code to analyze UI patterns
+3. Generate detailed analysis document
+

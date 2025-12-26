@@ -1,0 +1,746 @@
+
+We've shipped a bunch of new features at
+We've shipped a bunch of new features at
+ 
+We've shipped a bunch of new features at
+DreamFlow. So, let's take a look. First,
+DreamFlow. So, let's take a look. First,
+ 
+DreamFlow. So, let's take a look. First,
+we've shipped a whole new properties
+we've shipped a whole new properties
+ 
+we've shipped a whole new properties
+panel. Now, the properties panel is one
+panel. Now, the properties panel is one
+ 
+panel. Now, the properties panel is one
+of the mostused parts of Dreamflow. It's
+of the mostused parts of Dreamflow. It's
+ 
+of the mostused parts of Dreamflow. It's
+where you configure, style, and
+where you configure, style, and
+ 
+where you configure, style, and
+fine-tune every widget in your app. And
+fine-tune every widget in your app. And
+ 
+fine-tune every widget in your app. And
+today, we're excited to walk you through
+today, we're excited to walk you through
+ 
+today, we're excited to walk you through
+the new properties panel, a groundup
+the new properties panel, a groundup
+ 
+the new properties panel, a groundup
+rebuild that makes property editing
+rebuild that makes property editing
+ 
+rebuild that makes property editing
+faster and more intuitive. The new
+faster and more intuitive. The new
+ 
+faster and more intuitive. The new
+properties panel introduces bespoke
+properties panel introduces bespoke
+ 
+properties panel introduces bespoke
+editors for tons of property types.
+editors for tons of property types.
+ 
+editors for tons of property types.
+Colors get pickers with theme
+Colors get pickers with theme
+ 
+Colors get pickers with theme
+integration. Numbers get dragged to
+integration. Numbers get dragged to
+ 
+integration. Numbers get dragged to
+adjust scrub controls. Complex types
+adjust scrub controls. Complex types
+ 
+adjust scrub controls. Complex types
+like padding, alignment, and shadows get
+like padding, alignment, and shadows get
+ 
+like padding, alignment, and shadows get
+visual interfaces that show you exactly
+visual interfaces that show you exactly
+ 
+visual interfaces that show you exactly
+what you're changing. It's property
+what you're changing. It's property
+ 
+what you're changing. It's property
+editing that finally feels native to
+editing that finally feels native to
+ 
+editing that finally feels native to
+each data type. So, let's take a look.
+each data type. So, let's take a look.
+ 
+each data type. So, let's take a look.
+Okay, let's open up my properties panel
+Okay, let's open up my properties panel
+ 
+Okay, let's open up my properties panel
+right here. And I want to go into my
+right here. And I want to go into my
+ 
+right here. And I want to go into my
+profile here. And I've got this image
+profile here. And I've got this image
+ 
+profile here. And I've got this image
+that I want to change the fit right
+that I want to change the fit right
+ 
+that I want to change the fit right
+here. And down here I've got this new UI
+here. And down here I've got this new UI
+ 
+here. And down here I've got this new UI
+that recognizes enums. And I want to
+that recognizes enums. And I want to
+ 
+that recognizes enums. And I want to
+change it to cover. Yeah, that looks
+change it to cover. Yeah, that looks
+ 
+change it to cover. Yeah, that looks
+better. Next, I want to make this image
+better. Next, I want to make this image
+ 
+better. Next, I want to make this image
+a little bit bigger. So here I when I
+a little bit bigger. So here I when I
+ 
+a little bit bigger. So here I when I
+hover over this property right here, you
+hover over this property right here, you
+ 
+hover over this property right here, you
+can see I've got a couple of new options
+can see I've got a couple of new options
+ 
+can see I've got a couple of new options
+right here. I can clear the value, set
+right here. I can clear the value, set
+ 
+right here. I can clear the value, set
+it to infinity, or set it to a theme
+it to infinity, or set it to a theme
+ 
+it to infinity, or set it to a theme
+variable. So when I bring that up, I
+variable. So when I bring that up, I
+ 
+variable. So when I bring that up, I
+have all of my theme variables that are
+have all of my theme variables that are
+ 
+have all of my theme variables that are
+coming from my theme module right here
+coming from my theme module right here
+ 
+coming from my theme module right here
+that I can bind these to. Or if I want
+that I can bind these to. Or if I want
+ 
+that I can bind these to. Or if I want
+to make this a little bit bigger, let's
+to make this a little bit bigger, let's
+ 
+to make this a little bit bigger, let's
+just scrub a little bit. I think like
+just scrub a little bit. I think like
+ 
+just scrub a little bit. I think like
+160 will be about good. Yeah, that's
+160 will be about good. Yeah, that's
+ 
+160 will be about good. Yeah, that's
+good. And then I'll just copy this value
+good. And then I'll just copy this value
+ 
+good. And then I'll just copy this value
+over right here. Okay, that's great. But
+over right here. Okay, that's great. But
+ 
+over right here. Okay, that's great. But
+now that I'm looking at this, I realize
+now that I'm looking at this, I realize
+ 
+now that I'm looking at this, I realize
+this is slightly overkill and we've got
+this is slightly overkill and we've got
+ 
+this is slightly overkill and we've got
+a perfectly good widget for this, the
+a perfectly good widget for this, the
+ 
+a perfectly good widget for this, the
+avatar widget. So, I'm actually going to
+avatar widget. So, I'm actually going to
+ 
+avatar widget. So, I'm actually going to
+come up to my stack right here. And in
+come up to my stack right here. And in
+ 
+come up to my stack right here. And in
+my list of widgets, I'm going to in my
+my list of widgets, I'm going to in my
+ 
+my list of widgets, I'm going to in my
+new editor right here, I'm just going to
+new editor right here, I'm just going to
+ 
+new editor right here, I'm just going to
+I want to switch up that clip oval right
+I want to switch up that clip oval right
+ 
+I want to switch up that clip oval right
+here, change the clip oval with an
+here, change the clip oval with an
+ 
+here, change the clip oval with an
+avatar widget. Now, sometimes this will
+avatar widget. Now, sometimes this will
+ 
+avatar widget. Now, sometimes this will
+make the modification in line or if it's
+make the modification in line or if it's
+ 
+make the modification in line or if it's
+a larger task, it will delegate it over
+a larger task, it will delegate it over
+ 
+a larger task, it will delegate it over
+to the agent right here. Okay, great.
+to the agent right here. Okay, great.
+ 
+to the agent right here. Okay, great.
+And there it did it. And it kept the
+And there it did it. And it kept the
+ 
+And there it did it. And it kept the
+path, which is cool. Next, I want to
+path, which is cool. Next, I want to
+ 
+path, which is cool. Next, I want to
+make a change to this guy right here.
+make a change to this guy right here.
+ 
+make a change to this guy right here.
+So, let me zoom in a little bit and I'm
+So, let me zoom in a little bit and I'm
+ 
+So, let me zoom in a little bit and I'm
+going to select it right here. And I
+going to select it right here. And I
+ 
+going to select it right here. And I
+want to give it a little border. And
+want to give it a little border. And
+ 
+want to give it a little border. And
+we've got a new color picker right here.
+we've got a new color picker right here.
+ 
+we've got a new color picker right here.
+So, you can grab a color right here. See
+So, you can grab a color right here. See
+ 
+So, you can grab a color right here. See
+your recently used ones. We also show
+your recently used ones. We also show
+ 
+your recently used ones. We also show
+you if you're on a color that closely
+you if you're on a color that closely
+ 
+you if you're on a color that closely
+matches one from your design system. You
+matches one from your design system. You
+ 
+matches one from your design system. You
+can apply it. Here are all your theme
+can apply it. Here are all your theme
+ 
+can apply it. Here are all your theme
+colors right here. And we provided some
+colors right here. And we provided some
+ 
+colors right here. And we provided some
+out of the box theming palettes for
+out of the box theming palettes for
+ 
+out of the box theming palettes for
+material, Certino, and Tailwind. So, I'm
+material, Certino, and Tailwind. So, I'm
+ 
+material, Certino, and Tailwind. So, I'm
+just going to go to my theme right here.
+just going to go to my theme right here.
+ 
+just going to go to my theme right here.
+and give it a slight border right there.
+and give it a slight border right there.
+ 
+and give it a slight border right there.
+And I want it to be um Okay, great. That
+And I want it to be um Okay, great. That
+ 
+And I want it to be um Okay, great. That
+looks good. I also want to take a look
+looks good. I also want to take a look
+ 
+looks good. I also want to take a look
+at this icon right here because we've
+at this icon right here because we've
+ 
+at this icon right here because we've
+got some new conditional UI that's
+got some new conditional UI that's
+ 
+got some new conditional UI that's
+helpful. So, if we open up the code
+helpful. So, if we open up the code
+ 
+helpful. So, if we open up the code
+right here, you can see that we've got a
+right here, you can see that we've got a
+ 
+right here, you can see that we've got a
+terminary operator that we've got some
+terminary operator that we've got some
+ 
+terminary operator that we've got some
+nice UI here for. So, we're checking for
+nice UI here for. So, we're checking for
+ 
+nice UI here for. So, we're checking for
+the is positive value. And if it's true,
+the is positive value. And if it's true,
+ 
+the is positive value. And if it's true,
+we come in here and we can select this
+we come in here and we can select this
+ 
+we come in here and we can select this
+icon, which is another one of our new
+icon, which is another one of our new
+ 
+icon, which is another one of our new
+UIs. And if it's false, we use this icon
+UIs. And if it's false, we use this icon
+ 
+UIs. And if it's false, we use this icon
+right here. We also have this UI for
+right here. We also have this UI for
+ 
+right here. We also have this UI for
+null coalesing operators. If you want to
+null coalesing operators. If you want to
+ 
+null coalesing operators. If you want to
+introduce shadows, you have a new shadow
+introduce shadows, you have a new shadow
+ 
+introduce shadows, you have a new shadow
+UI that allows us to add multiple
+UI that allows us to add multiple
+ 
+UI that allows us to add multiple
+shadows. So if we come in here, we can
+shadows. So if we come in here, we can
+ 
+shadows. So if we come in here, we can
+see that we've got a bunch of different
+see that we've got a bunch of different
+ 
+see that we've got a bunch of different
+recently used shadows. And so if we
+recently used shadows. And so if we
+ 
+recently used shadows. And so if we
+select one right here, you see that we
+select one right here, you see that we
+ 
+select one right here, you see that we
+can stack multiple shadows on top of one
+can stack multiple shadows on top of one
+ 
+can stack multiple shadows on top of one
+another, which makes for some really
+another, which makes for some really
+ 
+another, which makes for some really
+elegant UI. Finally, we have new UI for
+elegant UI. Finally, we have new UI for
+ 
+elegant UI. Finally, we have new UI for
+common modifiers like padding. So here
+common modifiers like padding. So here
+ 
+common modifiers like padding. So here
+we can switch to symmetric or individual
+we can switch to symmetric or individual
+ 
+we can switch to symmetric or individual
+or back to all if we want to add an
+or back to all if we want to add an
+ 
+or back to all if we want to add an
+alignment. We've got a nice alignment UI
+alignment. We've got a nice alignment UI
+ 
+alignment. We've got a nice alignment UI
+and expansion. Next, we've shipped a
+and expansion. Next, we've shipped a
+ 
+and expansion. Next, we've shipped a
+whole new theme module. The new theme
+whole new theme module. The new theme
+ 
+whole new theme module. The new theme
+module provides intelligent LLM powered
+module provides intelligent LLM powered
+ 
+module provides intelligent LLM powered
+theme parsing. So this doesn't rely on
+theme parsing. So this doesn't rely on
+ 
+theme parsing. So this doesn't rely on
+hard-coded patterns, but instead uses an
+hard-coded patterns, but instead uses an
+ 
+hard-coded patterns, but instead uses an
+LLM to intelligently understand your
+LLM to intelligently understand your
+ 
+LLM to intelligently understand your
+theme structure. This means it works
+theme structure. This means it works
+ 
+theme structure. This means it works
+with standard material themes, custom
+with standard material themes, custom
+ 
+with standard material themes, custom
+theme classes, and any other theme
+theme classes, and any other theme
+ 
+theme classes, and any other theme
+organization pattern. So once it
+organization pattern. So once it
+ 
+organization pattern. So once it
+understands it, you can visually edit
+understands it, you can visually edit
+ 
+understands it, you can visually edit
+colors, typography, and style constants.
+colors, typography, and style constants.
+ 
+colors, typography, and style constants.
+So let me show you how it works. To
+So let me show you how it works. To
+ 
+So let me show you how it works. To
+access the new theme module, come over
+access the new theme module, come over
+ 
+access the new theme module, come over
+here and click on this theme editor
+here and click on this theme editor
+ 
+here and click on this theme editor
+right here. You can see all the theme
+right here. You can see all the theme
+ 
+right here. You can see all the theme
+variables and their types populated.
+variables and their types populated.
+ 
+variables and their types populated.
+Now, when you click into each one of
+Now, when you click into each one of
+ 
+Now, when you click into each one of
+these values, you can see what it's
+these values, you can see what it's
+ 
+these values, you can see what it's
+populated with. You can select the
+populated with. You can select the
+ 
+populated with. You can select the
+colors. You can change them. You can see
+colors. You can change them. You can see
+ 
+colors. You can change them. You can see
+whether it's dark or light and you can
+whether it's dark or light and you can
+ 
+whether it's dark or light and you can
+switch that here or switch that here and
+switch that here or switch that here and
+ 
+switch that here or switch that here and
+it's synced with your app. So you can
+it's synced with your app. So you can
+ 
+it's synced with your app. So you can
+see it in the context of the application
+see it in the context of the application
+ 
+see it in the context of the application
+of your design. Now notice here that the
+of your design. Now notice here that the
+ 
+of your design. Now notice here that the
+new theming system is type aware. So it
+new theming system is type aware. So it
+ 
+new theming system is type aware. So it
+understands what's typography, what's
+understands what's typography, what's
+ 
+understands what's typography, what's
+colors, padding values and much more.
+colors, padding values and much more.
+ 
+colors, padding values and much more.
+And when you want to apply these values,
+And when you want to apply these values,
+ 
+And when you want to apply these values,
+let's come in here. Let's wrap this with
+let's come in here. Let's wrap this with
+ 
+let's come in here. Let's wrap this with
+padding. You can come into this value
+padding. You can come into this value
+ 
+padding. You can come into this value
+right here and apply the value that you
+right here and apply the value that you
+ 
+right here and apply the value that you
+want. Now, for this project, if you go
+want. Now, for this project, if you go
+ 
+want. Now, for this project, if you go
+in and take a look at our theme, we have
+in and take a look at our theme, we have
+ 
+in and take a look at our theme, we have
+all of our theming in one file. But this
+all of our theming in one file. But this
+ 
+all of our theming in one file. But this
+theme module is intelligent. So, in this
+theme module is intelligent. So, in this
+ 
+theme module is intelligent. So, in this
+project, I've got a different theme
+project, I've got a different theme
+ 
+project, I've got a different theme
+architecture. So, if I look in here,
+architecture. So, if I look in here,
+ 
+architecture. So, if I look in here,
+I've got a theme folder with different
+I've got a theme folder with different
+ 
+I've got a theme folder with different
+files for colors, dark theme, light
+files for colors, dark theme, light
+ 
+files for colors, dark theme, light
+theme, and typography. And when I come
+theme, and typography. And when I come
+ 
+theme, and typography. And when I come
+in here, you can see that it's
+in here, you can see that it's
+ 
+in here, you can see that it's
+recognized a structure, and it's able to
+recognized a structure, and it's able to
+ 
+recognized a structure, and it's able to
+pull in all the values. And I'm able to
+pull in all the values. And I'm able to
+ 
+pull in all the values. And I'm able to
+apply these values in the same way that
+apply these values in the same way that
+ 
+apply these values in the same way that
+I would with any other structure.
+I would with any other structure.
+ 
+I would with any other structure.
+Finally, we've made multiple updates to
+Finally, we've made multiple updates to
+ 
+Finally, we've made multiple updates to
+our agent. Dreamflow now supports
+our agent. Dreamflow now supports
+ 
+our agent. Dreamflow now supports
+agents.md rules. Agents.mmd has become
+agents.md rules. Agents.mmd has become
+ 
+agents.md rules. Agents.mmd has become
+the industry standard model for
+the industry standard model for
+ 
+the industry standard model for
+directing agents. It was created by a
+directing agents. It was created by a
+ 
+directing agents. It was created by a
+collaboration between openai codecs,
+collaboration between openai codecs,
+ 
+collaboration between openai codecs,
+AMP, jewels from Google, cursor, and
+AMP, jewels from Google, cursor, and
+ 
+AMP, jewels from Google, cursor, and
+factory and is now overseen by the AI
+factory and is now overseen by the AI
+ 
+factory and is now overseen by the AI
+agentic foundation. Agents.md is like a
+agentic foundation. Agents.md is like a
+ 
+agentic foundation. Agents.md is like a
+readme for your agents. a dedicated,
+readme for your agents. a dedicated,
+ 
+readme for your agents. a dedicated,
+predictable place to provide the context
+predictable place to provide the context
+ 
+predictable place to provide the context
+and instructions to help AI coding
+and instructions to help AI coding
+ 
+and instructions to help AI coding
+agents work on your project. It defines
+agents work on your project. It defines
+ 
+agents work on your project. It defines
+your codebases patterns, conventions,
+your codebases patterns, conventions,
+ 
+your codebases patterns, conventions,
+and architectural decisions in one
+and architectural decisions in one
+ 
+and architectural decisions in one
+place, and the agent will follow them
+place, and the agent will follow them
+ 
+place, and the agent will follow them
+when generating and modifying code.
+when generating and modifying code.
+ 
+when generating and modifying code.
+Here's how you set it up. In order to
+Here's how you set it up. In order to
+ 
+Here's how you set it up. In order to
+get started with agents.md, you can just
+get started with agents.md, you can just
+ 
+get started with agents.md, you can just
+come down here to rules, and when I
+come down here to rules, and when I
+ 
+come down here to rules, and when I
+select it here, I can autogenerate this
+select it here, I can autogenerate this
+ 
+select it here, I can autogenerate this
+file. It'll ask the agent to generate
+file. It'll ask the agent to generate
+ 
+file. It'll ask the agent to generate
+this and the agent will scan your
+this and the agent will scan your
+ 
+this and the agent will scan your
+project to understand the codebase so
+project to understand the codebase so
+ 
+project to understand the codebase so
+that it can intelligently compose this
+that it can intelligently compose this
+ 
+that it can intelligently compose this
+file. Great. It's created this file. So,
+file. Great. It's created this file. So,
+ 
+file. Great. It's created this file. So,
+let's open it up. We've got a project
+let's open it up. We've got a project
+ 
+let's open it up. We've got a project
+overview, architectural patterns, and
+overview, architectural patterns, and
+ 
+overview, architectural patterns, and
+let's see here. File structure, code
+let's see here. File structure, code
+ 
+let's see here. File structure, code
+style. Yeah, this is great. This will
+style. Yeah, this is great. This will
+ 
+style. Yeah, this is great. This will
+help your agent be much more consistent
+help your agent be much more consistent
+ 
+help your agent be much more consistent
+and higher quality in its generations.
+and higher quality in its generations.
+ 
+and higher quality in its generations.
+Also, we've added Gemini 3.0 Flash, a
+Also, we've added Gemini 3.0 Flash, a
+ 
+Also, we've added Gemini 3.0 Flash, a
+super fast, costefficient, and high
+super fast, costefficient, and high
+ 
+super fast, costefficient, and high
+quality coding model. Remember that all
+quality coding model. Remember that all
+ 
+quality coding model. Remember that all
+the models are down here in this menu,
+the models are down here in this menu,
+ 
+the models are down here in this menu,
+so you can just open it up and select
+so you can just open it up and select
+ 
+so you can just open it up and select
+it. Those are the updates for this
+it. Those are the updates for this
+ 
+it. Those are the updates for this
+December. Leave us any questions you
+December. Leave us any questions you
+ 
+December. Leave us any questions you
+have below and we'll see you in the next
