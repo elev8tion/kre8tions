@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 2 * * 0'  # Weekly on Sundays at 2 AM
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   performance-tests:
     name: Run Performance Benchmarks

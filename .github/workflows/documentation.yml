@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 3 * * 1'  # Weekly on Mondays at 3 AM
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   documentation-check:
     name: Check Documentation Coverage

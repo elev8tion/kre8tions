@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 4 * * 1'  # Weekly on Mondays at 4 AM
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   dependency-check:
     name: Check Outdated Dependencies

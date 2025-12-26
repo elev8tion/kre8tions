@@ -8,6 +8,10 @@ on:
   schedule:
     - cron: '0 0 * * 1'  # Weekly on Mondays
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   deprecated-api-check:
     name: Check for Deprecated APIs
