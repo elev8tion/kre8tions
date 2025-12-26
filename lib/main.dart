@@ -37,11 +37,9 @@ class _MyAppState extends State<MyApp> {
           home: Focus(
             autofocus: true,
             onKeyEvent: (node, event) {
-              // Global keyboard shortcut: Ctrl+Shift+I to toggle IDE inspector
+              // Global keyboard shortcut: F2 to toggle IDE inspector
               if (event is KeyDownEvent &&
-                  event.logicalKey == LogicalKeyboardKey.keyI &&
-                  HardwareKeyboard.instance.isControlPressed &&
-                  HardwareKeyboard.instance.isShiftPressed) {
+                  event.logicalKey == LogicalKeyboardKey.f2) {
                 _ideInspector.toggle();
                 return KeyEventResult.handled;
               }

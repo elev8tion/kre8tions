@@ -10,10 +10,6 @@ import 'package:kre8tions/services/flutter_analyzer.dart';
 import 'package:kre8tions/services/service_orchestrator.dart';
 import 'package:kre8tions/services/visual_property_manager.dart';
 import 'package:kre8tions/services/widget_reconstructor_service.dart';
-import 'package:kre8tions/services/widget_inspector_service.dart' as widget_inspector;
-import 'package:kre8tions/services/widget_note_service.dart';
-import 'package:kre8tions/widgets/widget_inspector_panel.dart';
-import 'package:kre8tions/widgets/widget_inspector_overlay.dart';
 
 class UIPreviewPanel extends StatefulWidget {
   final FlutterProject project;
@@ -55,8 +51,6 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
 
   // 🎯 Inspect Mode & Zoom State
   bool _inspectMode = false;
-  final widget_inspector.WidgetInspectorService _widgetInspectorService = widget_inspector.WidgetInspectorService();
-  final WidgetNoteService _noteService = WidgetNoteService();
   double _zoomLevel = 1.0;
   Rect? _hoveredWidgetBounds;
   String? _hoveredWidgetType;
@@ -171,13 +165,8 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
               ],
             ),
           ),
-          // Widget Inspector Panel (slides in from the right)
-          if (widget.selectedWidget != null && _showInspectorPanel())
-            WidgetInspectorPanel(
-              selectedWidget: widget.selectedWidget!,
-              onPropertyChanged: _handlePropertyChange,
-              onClose: () => widget.onWidgetSelected(null),
-            ),
+          // Widget Inspector Panel removed (old implementation deleted)
+          // Selected widget details are shown in the bottom panel instead
         ],
       ),
     );
@@ -374,14 +363,13 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
         ),
         const SizedBox(width: 12),
 
-        // Inspect Mode Toggle
+        // Inspect Mode Toggle (uses IDE Inspector service now)
         Tooltip(
           message: 'Widget Inspector ${_inspectMode ? 'On' : 'Off'}',
           child: IconButton(
             icon: Icon(_inspectMode ? Icons.touch_app : Icons.touch_app_outlined),
             onPressed: () {
               setState(() => _inspectMode = !_inspectMode);
-              _widgetInspectorService.toggleInspectionMode();
             },
             color: _inspectMode ? theme.colorScheme.primary : theme.colorScheme.onSurface.withValues(alpha: 0.7),
             iconSize: 18,
@@ -1215,10 +1203,14 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
   /// 🎯 **INSPECT MODE WRAPPER**
   /// Wraps the preview with inspect mode capabilities (hover detection, click to select)
   Widget _buildInspectModeWrapper(Widget preview, ThemeData theme) {
-    // Wrap with the new widget inspector overlay
-    return WidgetInspectorOverlay(
-      child: preview,
-    );
+    // The PreciseWidgetSelector in home_page.dart now handles inspection
+    // This wrapper just returns the preview directly
+    if (!_inspectMode) {
+      return preview;
+    }
+
+    // When inspect mode is active, use the old fallback wrapper
+    return _buildOldInspectModeWrapper(preview, theme);
   }
 
   // Legacy inspect mode wrapper (kept for backwards compatibility)

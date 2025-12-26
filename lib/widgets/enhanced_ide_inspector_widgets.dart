@@ -55,7 +55,7 @@ class InspectorBanner extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: const Text(
-                'Ctrl+Shift+I to exit',
+                'F2 to exit',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 10,

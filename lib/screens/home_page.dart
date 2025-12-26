@@ -18,7 +18,7 @@ import 'package:kre8tions/widgets/import_shared_project_dialog.dart';
 import 'package:kre8tions/widgets/kre8tions_logo.dart';
 import 'package:kre8tions/widgets/new_project_dialog.dart';
 import 'package:kre8tions/widgets/widget_tree_navigator.dart';
-import 'package:kre8tions/widgets/widget_inspector_panel.dart';
+import 'package:kre8tions/services/ide_inspector_service.dart';
 import 'package:kre8tions/widgets/ui_preview_panel.dart';
 import 'package:kre8tions/services/bidirectional_sync_manager.dart';
 import 'package:kre8tions/services/code_sync_service.dart';
@@ -930,6 +930,33 @@ flutter:
                                 borderRadius: BorderRadius.circular(8),
                               ),
                             ),
+                          ),
+                          const SizedBox(width: 12),
+                          // IDE Inspector Toggle Button
+                          StreamBuilder<bool>(
+                            stream: IDEInspectorService().activeStream,
+                            initialData: false,
+                            builder: (context, snapshot) {
+                              final isActive = snapshot.data ?? false;
+                              return ElevatedButton.icon(
+                                onPressed: () => IDEInspectorService().toggle(),
+                                icon: Icon(
+                                  isActive ? Icons.search_off : Icons.search,
+                                  size: 20,
+                                ),
+                                label: Text(isActive ? 'Exit Inspector' : 'Inspect UI'),
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: isActive
+                                    ? Colors.orange.shade600
+                                    : theme.colorScheme.secondary,
+                                  foregroundColor: Colors.white,
+                                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                ),
+                              );
+                            },
                           ),
                         ],
                       ),
@@ -1942,14 +1969,36 @@ flutter:
       child: DeviceFrame(
         device: Devices.ios.iPhone13,
         screen: _selectedWidget != null
-          ? WidgetInspectorPanel(
-              selectedWidget: _selectedWidget!,
-              onPropertyChanged: (propertyName, propertyValue) {
-                _syncManager.updateProperty(propertyName, propertyValue);
-              },
-              onClose: () {
-                _syncManager.selectWidget(null);
-              },
+          ? Container(
+              color: Theme.of(context).colorScheme.surface,
+              padding: const EdgeInsets.all(16),
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.widgets,
+                      size: 48,
+                      color: Theme.of(context).colorScheme.primary,
+                    ),
+                    const SizedBox(height: 16),
+                    Text(
+                      'Selected: ${_selectedWidget!.widgetType}',
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: Theme.of(context).colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Use Properties Panel to edit',
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.6),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             )
           : Container(
               color: Theme.of(context).colorScheme.surface,
