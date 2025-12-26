@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 /// Service for inspecting the KRE8TIONS IDE itself
 /// Allows clicking on any part of the IDE to identify widgets and send notes to AI
@@ -45,7 +46,7 @@ class IDEInspectorService {
     debugPrint('📍 Selected: ${info.widgetType} at ${info.location}');
   }
 
-  void sendNoteToAI(IDEWidgetInfo widget, String note, {NoteAction action = NoteAction.discuss}) {
+  Future<bool> sendNoteToAI(IDEWidgetInfo widget, String note, {NoteAction action = NoteAction.discuss}) async {
     final widgetNote = IDEWidgetNote(
       widget: widget,
       userNote: note,
@@ -56,9 +57,18 @@ class IDEInspectorService {
     _notes.add(widgetNote);
     _noteToAIController.add(widgetNote);
 
-    debugPrint('💬 Note sent to AI: $note');
-    debugPrint('   Widget: ${widget.widgetType}');
-    debugPrint('   Action: ${action.name}');
+    // Copy to clipboard
+    try {
+      await Clipboard.setData(ClipboardData(text: widgetNote.formattedForClipboard));
+      debugPrint('💬 Note copied to clipboard successfully');
+      debugPrint('   Widget: ${widget.widgetType}');
+      debugPrint('   Action: ${action.name}');
+      debugPrint('   Note: $note');
+      return true;
+    } catch (e) {
+      debugPrint('❌ Failed to copy to clipboard: $e');
+      return false;
+    }
   }
 
   String formatNoteForAI(IDEWidgetNote note) {
@@ -170,20 +180,58 @@ class IDEWidgetNote {
   };
 
   String get formattedForClipboard {
-    return '''
-IDE Widget Note
-===============
-Location: ${widget.location}
-Widget: ${widget.widgetType}
-File: ${widget.sourceFile}:${widget.lineNumber ?? '?'}
-Action: ${action.description}
+    final buffer = StringBuffer();
+    buffer.writeln('=== IDE WIDGET INSPECTOR ===');
+    buffer.writeln();
 
-Note:
-${userNote}
+    // Most important: EXACT SOURCE LOCATION
+    if (widget.lineNumber != null) {
+      buffer.writeln('EXACT SOURCE LOCATION:');
+      buffer.writeln('  ${widget.sourceFile}:${widget.lineNumber}');
+    } else {
+      buffer.writeln('LIKELY SOURCE FILE:');
+      buffer.writeln('  ${widget.sourceFile}');
+    }
+    buffer.writeln();
 
----
-Generated at $timestamp
-''';
+    // Widget identification
+    buffer.writeln('WIDGET: ${widget.widgetType}');
+    buffer.writeln('ACTION: ${action.description}');
+    buffer.writeln();
+
+    // User's request
+    buffer.writeln('USER REQUEST:');
+    buffer.writeln(userNote);
+    buffer.writeln();
+
+    // Widget details
+    buffer.writeln('--- Widget Details ---');
+    buffer.writeln('Size: ${widget.size.width.toInt()} x ${widget.size.height.toInt()} px');
+    buffer.writeln('Position: (${widget.position.dx.toInt()}, ${widget.position.dy.toInt()})');
+    buffer.writeln('UI Panel: ${widget.location}');
+
+    if (widget.properties.isNotEmpty) {
+      buffer.writeln();
+      buffer.writeln('Properties:');
+      widget.properties.forEach((key, value) {
+        final valueStr = value.toString();
+        final displayValue = valueStr.length > 100 ? '${valueStr.substring(0, 100)}...' : valueStr;
+        buffer.writeln('  $key: $displayValue');
+      });
+    }
+
+    if (widget.parentChain.isNotEmpty) {
+      buffer.writeln();
+      buffer.writeln('Widget Hierarchy (selected -> parent):');
+      for (int i = 0; i < widget.parentChain.length && i < 8; i++) {
+        buffer.writeln('  ${i == 0 ? ">" : " "} ${widget.parentChain[i]}');
+      }
+      if (widget.parentChain.length > 8) {
+        buffer.writeln('  ... +${widget.parentChain.length - 8} more ancestors');
+      }
+    }
+
+    return buffer.toString();
   }
 }
 

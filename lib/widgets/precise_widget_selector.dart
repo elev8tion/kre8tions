@@ -1,7 +1,175 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/foundation.dart';
 import '../services/ide_inspector_service.dart';
 import 'enhanced_ide_inspector_widgets.dart';
+
+/// Holds exact source location for a widget
+class WidgetSourceLocation {
+  final String file;
+  final int line;
+  final int? column;
+
+  WidgetSourceLocation({required this.file, required this.line, this.column});
+
+  @override
+  String toString() => '$file:$line${column != null ? ':$column' : ''}';
+
+  /// Get just the filename without the full path
+  String get shortFile {
+    final parts = file.split('/');
+    return parts.length > 1 ? parts.sublist(parts.length - 2).join('/') : file;
+  }
+}
+
+/// Try to extract widget creation location using multiple methods
+WidgetSourceLocation? _extractWidgetSourceLocation(Widget widget, Element? element) {
+  debugPrint('🔍 Attempting source location extraction for: ${widget.runtimeType}');
+
+  // Method 1: Try via DiagnosticsNode JSON (works with --track-widget-creation)
+  try {
+    final node = widget.toDiagnosticsNode();
+    final json = node.toJsonMap(const DiagnosticsSerializationDelegate(
+      subtreeDepth: 0,
+      includeProperties: true,
+    ));
+
+    // Debug: Show what keys are available in the JSON
+    debugPrint('  JSON keys: ${json.keys.take(10).join(", ")}${json.keys.length > 10 ? "..." : ""}');
+
+    if (json.containsKey('creationLocation')) {
+      final loc = json['creationLocation'] as Map<String, dynamic>?;
+      if (loc != null) {
+        final file = loc['file'] as String?;
+        final line = loc['line'] as int?;
+        final column = loc['column'] as int?;
+        if (file != null && line != null) {
+          debugPrint('📍 Found location via JSON: $file:$line');
+          return WidgetSourceLocation(file: file, line: line, column: column);
+        }
+      }
+    }
+
+    // Check properties for location info
+    final props = node.getProperties();
+    debugPrint('  Properties count: ${props.length}');
+    for (final prop in props) {
+      final name = prop.name?.toLowerCase() ?? '';
+      if (name.contains('location') || name.contains('source') || name.contains('file')) {
+        debugPrint('  Found prop: ${prop.name} = ${prop.value}');
+        final value = prop.value;
+        if (value != null) {
+          final str = value.toString();
+          final match = RegExp(r'([^:]+\.dart):(\d+)(?::(\d+))?').firstMatch(str);
+          if (match != null) {
+            debugPrint('📍 Found location via property: $str');
+            return WidgetSourceLocation(
+              file: match.group(1)!,
+              line: int.parse(match.group(2)!),
+              column: match.group(3) != null ? int.parse(match.group(3)!) : null,
+            );
+          }
+        }
+      }
+    }
+  } catch (e) {
+    debugPrint('Method 1 (JSON) failed: $e');
+  }
+
+  // Method 2: Try via Element's widget debug info
+  if (element != null) {
+    try {
+      final widgetNode = element.widget.toDiagnosticsNode();
+      final desc = widgetNode.toDescription();
+      // Sometimes description contains location info
+      final match = RegExp(r'([^:]+\.dart):(\d+)(?::(\d+))?').firstMatch(desc);
+      if (match != null) {
+        debugPrint('📍 Found location via description: $desc');
+        return WidgetSourceLocation(
+          file: match.group(1)!,
+          line: int.parse(match.group(2)!),
+          column: match.group(3) != null ? int.parse(match.group(3)!) : null,
+        );
+      }
+    } catch (e) {
+      debugPrint('Method 2 (description) failed: $e');
+    }
+  }
+
+  // Method 3: Check if widget has any debug properties with location
+  try {
+    final props = widget.toDiagnosticsNode().getProperties();
+    for (final prop in props) {
+      try {
+        // prop is already a DiagnosticsNode
+        final propJson = prop.toJsonMap(const DiagnosticsSerializationDelegate());
+        if (propJson.containsKey('locationUri') || propJson.containsKey('file')) {
+          final file = propJson['locationUri'] ?? propJson['file'];
+          final line = propJson['locationLine'] ?? propJson['line'];
+          if (file != null && line != null) {
+            debugPrint('📍 Found location via prop JSON: $file:$line');
+            return WidgetSourceLocation(file: file.toString(), line: line as int);
+          }
+        }
+      } catch (_) {}
+    }
+  } catch (e) {
+    debugPrint('Method 3 (prop JSON) failed: $e');
+  }
+
+  // Method 4: Parse from widget's debug representation (e.g., "Text:file:///.../file.dart:123:45")
+  try {
+    final widgetString = widget.toString();
+    // Match pattern like: "file:///path/to/file.dart:123:45" or "file.dart:123:45"
+    final fileMatch = RegExp(r'(?:file:\/\/\/)?([^:]+\.dart):(\d+)(?::(\d+))?').firstMatch(widgetString);
+    if (fileMatch != null) {
+      final file = fileMatch.group(1)!;
+      final line = int.parse(fileMatch.group(2)!);
+      final column = fileMatch.group(3) != null ? int.parse(fileMatch.group(3)!) : null;
+      debugPrint('📍 Found location via toString: $file:$line');
+      return WidgetSourceLocation(file: file, line: line, column: column);
+    }
+  } catch (e) {
+    debugPrint('Method 4 (toString) failed: $e');
+  }
+
+  // Method 5: Try accessing widget's debugLabel or toStringShort
+  if (element != null) {
+    try {
+      final elementDesc = element.toStringShort();
+      final match = RegExp(r'(?:file:\/\/\/)?([^:]+\.dart):(\d+)(?::(\d+))?').firstMatch(elementDesc);
+      if (match != null) {
+        debugPrint('📍 Found location via element toStringShort: ${match.group(0)}');
+        return WidgetSourceLocation(
+          file: match.group(1)!,
+          line: int.parse(match.group(2)!),
+          column: match.group(3) != null ? int.parse(match.group(3)!) : null,
+        );
+      }
+    } catch (e) {
+      debugPrint('Method 5 (toStringShort) failed: $e');
+    }
+
+    // Method 6: Try full toString representation which includes locations in debug mode
+    try {
+      // Use toStringDeep which includes more detailed debug info
+      final deepString = element.toStringDeep();
+      final match = RegExp(r'(?:file:\/\/\/)?([^:\s]+\.dart):(\d+)(?::(\d+))?').firstMatch(deepString);
+      if (match != null) {
+        debugPrint('📍 Found location via toStringDeep: ${match.group(0)}');
+        return WidgetSourceLocation(
+          file: match.group(1)!,
+          line: int.parse(match.group(2)!),
+          column: match.group(3) != null ? int.parse(match.group(3)!) : null,
+        );
+      }
+    } catch (e) {
+      debugPrint('Method 6 (toStringDeep) failed: $e');
+    }
+  }
+
+  return null;
+}
 
 /// Precise widget selector that wraps EXACTLY around selected widgets
 /// Shows hover highlighting and precise borders for individual widgets
@@ -87,15 +255,6 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
       });
       _inspector.selectWidget(widgetBounds.info);
     }
-  }
-
-  // Keep legacy methods for compatibility
-  void _handleHover(PointerEvent event) {
-    _handlePointerHover(event.localPosition);
-  }
-
-  void _handleTap(TapDownDetails details) {
-    _handlePointerDown(details.localPosition);
   }
 
   List<IDEWidgetInfo> _buildWidgetPath(IDEWidgetInfo widget) {
@@ -234,8 +393,9 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
     final size = box.size;
     final position = box.localToGlobal(Offset.zero);
 
-    String location = _detectLocation(hierarchy, position);
-    String sourceFile = _detectSourceFile(location);
+    String uiLocation = _detectLocation(hierarchy, position);
+    String sourceFile = _detectSourceFile(uiLocation);
+    int? lineNumber;
 
     final properties = <String, dynamic>{};
 
@@ -251,23 +411,205 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
       }
     }
 
-    String widgetType = _getCleanWidgetName(box);
-    if (widgetType.isEmpty) widgetType = hierarchy.isNotEmpty ? hierarchy.last : 'Widget';
+    // Get actual Widget name from Element tree (not just RenderObject name)
+    String widgetType = _getActualWidgetName(box);
+    Element? targetElement;
+    Widget? targetWidget;
+
+    // Try to get Element via DebugCreator for source location extraction
+    final creator = box.debugCreator;
+    if (creator is DebugCreator) {
+      targetElement = creator.element;
+      targetWidget = targetElement.widget;
+
+      // Try to extract exact source file and line number
+      final sourceLocation = _extractWidgetSourceLocation(targetWidget, targetElement);
+      if (sourceLocation != null) {
+        sourceFile = sourceLocation.file;
+        lineNumber = sourceLocation.line;
+        debugPrint('🎯 EXACT LOCATION: ${sourceLocation.shortFile}:$lineNumber');
+      }
+    }
+
+    if (widgetType.isEmpty) {
+      widgetType = _getCleanWidgetName(box);
+    }
+    if (widgetType.isEmpty) {
+      widgetType = hierarchy.isNotEmpty ? hierarchy.last : 'Widget';
+    }
+
+    // Get widget hierarchy with actual widget names
+    final widgetHierarchy = _getWidgetHierarchy(box);
 
     final info = IDEWidgetInfo(
       widgetType: widgetType,
-      location: location,
+      location: uiLocation,
       sourceFile: sourceFile,
+      lineNumber: lineNumber,
       size: size,
       position: position,
       properties: properties,
-      parentChain: hierarchy,
+      parentChain: widgetHierarchy.isNotEmpty ? widgetHierarchy : hierarchy,
     );
 
     return WidgetBounds(
       rect: Rect.fromLTWH(position.dx, position.dy, size.width, size.height),
       info: info,
     );
+  }
+
+  /// Get the actual Widget class name from the RenderObject using DebugCreator
+  /// Reference: https://api.flutter.dev/flutter/widgets/DebugCreator-class.html
+  String _getActualWidgetName(RenderObject renderObject) {
+    // Use debugCreator to get the Element that created this RenderObject
+    final creator = renderObject.debugCreator;
+    if (creator is DebugCreator) {
+      Element element = creator.element;
+
+      // Walk up the Element tree to find a user-facing widget
+      Element? current = element;
+      while (current != null) {
+        final widgetName = current.widget.runtimeType.toString();
+        if (_isUserFacingWidget(widgetName)) {
+          debugPrint('🎯 Found widget via DebugCreator: $widgetName');
+          return widgetName;
+        }
+        current = _getParentElement(current);
+      }
+
+      // If no user-facing widget found, return the direct widget name
+      return element.widget.runtimeType.toString();
+    }
+
+    // Fallback: map RenderObject names to Widget names
+    debugPrint('⚠️ No DebugCreator found, using fallback mapping');
+    return _mapRenderToWidgetName(renderObject);
+  }
+
+  /// Get the widget hierarchy with actual Widget names using DebugCreator
+  List<String> _getWidgetHierarchy(RenderObject renderObject) {
+    final hierarchy = <String>[];
+
+    final creator = renderObject.debugCreator;
+    if (creator is DebugCreator) {
+      Element? element = creator.element;
+      int depth = 0;
+
+      while (element != null && depth < 25) {
+        final widgetName = element.widget.runtimeType.toString();
+
+        // Only include user-facing widgets
+        if (_isUserFacingWidget(widgetName)) {
+          hierarchy.add(widgetName);
+        }
+
+        element = _getParentElement(element);
+        depth++;
+      }
+    }
+
+    // If no hierarchy found via DebugCreator, build from RenderObject names
+    if (hierarchy.isEmpty) {
+      debugPrint('⚠️ Building fallback hierarchy from RenderObject');
+    }
+
+    return hierarchy;
+  }
+
+  Element? _getParentElement(Element element) {
+    Element? parent;
+    element.visitAncestorElements((ancestor) {
+      parent = ancestor;
+      return false;
+    });
+    return parent;
+  }
+
+  /// Map common RenderObject names to their Widget equivalents
+  String _mapRenderToWidgetName(RenderObject renderObject) {
+    final renderName = renderObject.runtimeType.toString();
+
+    // Common mappings
+    const mappings = {
+      'RenderParagraph': 'Text',
+      'RenderFlex': 'Row/Column',
+      'RenderDecoratedBox': 'Container/DecoratedBox',
+      'RenderPadding': 'Padding',
+      'RenderConstrainedBox': 'SizedBox/ConstrainedBox',
+      'RenderPositionedBox': 'Center/Align',
+      'RenderClipRRect': 'ClipRRect',
+      'RenderClipOval': 'ClipOval',
+      'RenderClipRect': 'ClipRect',
+      'RenderOpacity': 'Opacity',
+      'RenderAnimatedOpacity': 'AnimatedOpacity',
+      'RenderTransform': 'Transform',
+      'RenderImage': 'Image',
+      'RenderPhysicalModel': 'Material/PhysicalModel',
+      'RenderPhysicalShape': 'PhysicalShape',
+      'RenderSliverList': 'ListView',
+      'RenderSliverGrid': 'GridView',
+      'RenderStack': 'Stack',
+      'RenderIndexedStack': 'IndexedStack',
+      'RenderWrap': 'Wrap',
+      'RenderFlow': 'Flow',
+      'RenderTable': 'Table',
+      'RenderEditable': 'TextField',
+      'RenderListBody': 'ListBody',
+    };
+
+    return mappings[renderName] ?? renderName.replaceFirst('Render', '');
+  }
+
+  bool _isUserFacingWidget(String name) {
+    if (name.startsWith('_')) return false;
+
+    // Skip internal/implementation Flutter widgets
+    // These are low-level widgets that users don't write directly
+    const internalWidgets = {
+      // Framework internals
+      'RenderObjectToWidgetAdapter', 'View', 'RawView',
+      'Semantics', 'MergeSemantics', 'BlockSemantics',
+      'ExcludeSemantics', 'IndexedSemantics',
+      'Focus', 'FocusScope', 'FocusTrap', 'TapRegionSurface',
+      'Actions', 'Shortcuts', 'DefaultTextEditingShortcuts',
+      'CallbackShortcuts', 'PrimaryScrollController',
+      'ScrollConfiguration', 'ScrollNotificationObserver',
+      'NotificationListener', 'RepaintBoundary',
+      'KeepAlive', 'AutomaticKeepAlive', 'SliverKeepAlive',
+      'KeyedSubtree', 'Builder', 'StatefulBuilder',
+      'IgnorePointer', 'AbsorbPointer', 'MetaData',
+      'Listener', 'MouseRegion', 'RawGestureDetector',
+      'CustomPaint', 'CustomSingleChildLayout', 'CustomMultiChildLayout',
+      'LayoutBuilder', 'OrientationBuilder', 'MediaQuery',
+      'InheritedElement', 'InheritedWidget', 'InheritedTheme',
+      'TickerMode', 'Offstage', 'Visibility',
+      'Directionality',
+
+      // Low-level rendering widgets (Container uses these internally)
+      'DecoratedBox', 'ColoredBox', 'ConstrainedBox', 'LimitedBox',
+      'OverflowBox', 'SizedOverflowBox', 'FractionallySizedBox',
+      'Padding', 'Align', 'Center', 'FittedBox', 'AspectRatio',
+      'IntrinsicWidth', 'IntrinsicHeight', 'Baseline',
+      'ClipRect', 'ClipRRect', 'ClipOval', 'ClipPath',
+      'PhysicalModel', 'PhysicalShape', 'Transform',
+      'CompositedTransformTarget', 'CompositedTransformFollower',
+      'FadeTransition', 'ScaleTransition', 'RotationTransition',
+      'SlideTransition', 'SizeTransition', 'PositionedTransition',
+      'DecoratedBoxTransition', 'AlignTransition', 'DefaultTextStyleTransition',
+
+      // Text rendering internals
+      'RichText', 'RawImage',
+
+      // Layout internals
+      'Expanded', 'Flexible', 'Spacer', 'SizedBox',
+      'Positioned', 'PositionedDirectional',
+
+      // Scroll internals
+      'Scrollable', 'Viewport', 'ShrinkWrappingViewport',
+      'SingleChildScrollView',
+    };
+
+    return !internalWidgets.contains(name);
   }
 
   String _detectLocation(List<String> hierarchy, Offset position) {
@@ -313,7 +655,7 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
     );
   }
 
-  void _sendNoteToAI() {
+  Future<void> _sendNoteToAI() async {
     if (_selectedWidget == null || _noteController.text.trim().isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Please enter a note about what you want changed')),
@@ -321,28 +663,49 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
       return;
     }
 
-    _inspector.sendNoteToAI(
+    final success = await _inspector.sendNoteToAI(
       _selectedWidget!.info,
       _noteController.text.trim(),
       action: _selectedAction,
     );
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Row(
-          children: [
-            Icon(Icons.check_circle, color: Colors.green.shade700),
-            const SizedBox(width: 8),
-            const Expanded(
-              child: Text('Note copied! Paste it to Claude for precise changes.'),
-            ),
-          ],
+    if (!mounted) return;
+
+    if (success) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Row(
+            children: [
+              Icon(Icons.check_circle, color: Colors.green.shade700),
+              const SizedBox(width: 8),
+              const Expanded(
+                child: Text('Note copied! Paste it to Claude for precise changes.'),
+              ),
+            ],
+          ),
+          duration: const Duration(seconds: 3),
+          backgroundColor: Colors.green.withValues(alpha: 0.15),
+          behavior: SnackBarBehavior.floating,
         ),
-        duration: const Duration(seconds: 3),
-        backgroundColor: Colors.green.withValues(alpha: 0.15),
-        behavior: SnackBarBehavior.floating,
-      ),
-    );
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Row(
+            children: [
+              Icon(Icons.error, color: Colors.red.shade700),
+              const SizedBox(width: 8),
+              const Expanded(
+                child: Text('Failed to copy to clipboard. Try again.'),
+              ),
+            ],
+          ),
+          duration: const Duration(seconds: 3),
+          backgroundColor: Colors.red.withValues(alpha: 0.15),
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    }
 
     _noteController.clear();
   }
@@ -384,7 +747,7 @@ class _PreciseWidgetSelectorState extends State<PreciseWidgetSelector> {
                 onHover: (event) => _handlePointerHover(event.localPosition),
                 onExit: (_) => setState(() => _hoveredWidget = null),
                 // Slightly visible for debugging - remove later
-                child: Container(color: Colors.black.withOpacity(0.01)),
+                child: Container(color: Colors.black.withValues(alpha: 0.01)),
               ),
             ),
           ),
