@@ -1,0 +1,248 @@
+name: Code Quality & Architecture Checks
+
+on:
+  push:
+    branches: [ main, develop, sleepy-bartik ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly on Mondays
+
+jobs:
+  deprecated-api-check:
+    name: Check for Deprecated APIs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for withOpacity() usage
+        id: deprecated-opacity
+        run: |
+          echo "Checking for deprecated withOpacity() calls..."
+          MATCHES=$(grep -r "\.withOpacity(" lib/ assets/ide_source/ --include="*.dart" || true)
+          COUNT=$(echo "$MATCHES" | grep -c "withOpacity" || true)
+
+          if [ "$COUNT" -gt 0 ]; then
+            echo "::warning::Found $COUNT instances of deprecated withOpacity(). Should use .withValues(alpha: X) instead."
+            echo "$MATCHES"
+            echo "deprecated_found=true" >> $GITHUB_OUTPUT
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+          else
+            echo "✅ No deprecated withOpacity() calls found!"
+            echo "deprecated_found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check for other deprecated APIs
+        run: |
+          echo "Checking for other deprecated Flutter APIs..."
+          # Add more deprecated API patterns here
+          grep -r "ScaffoldMessenger.of(context).showSnackBar" lib/ --include="*.dart" || echo "✅ No deprecated SnackBar usage"
+
+      - name: Create issue if deprecated APIs found
+        if: steps.deprecated-opacity.outputs.deprecated_found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const count = '${{ steps.deprecated-opacity.outputs.count }}';
+            const title = `🚨 Architecture: Fix ${count} Deprecated API Calls`;
+            const body = `## Immediate Action Required
+
+            Found **${count} instances** of deprecated \`withOpacity()\` calls.
+
+            ### Fix Required:
+            \`\`\`dart
+            // ❌ Deprecated
+            color.withOpacity(0.3)
+
+            // ✅ Use instead
+            color.withValues(alpha: 0.3)
+            \`\`\`
+
+            ### Priority: HIGH (blocks future Flutter upgrades)
+            ### Estimated Time: 30 minutes
+
+            Related to: Architecture Recommendations - Immediate Tasks
+            `;
+
+            // Check if issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'tech-debt,deprecated-api'
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['tech-debt', 'deprecated-api', 'priority-high']
+              });
+            }
+
+  architecture-checks:
+    name: Architecture & Code Size Checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for monolithic files
+        id: large-files
+        run: |
+          echo "Checking for files >1000 lines..."
+          LARGE_FILES=$(find lib/ -name "*.dart" -exec wc -l {} + | awk '$1 > 1000 {print $2 " (" $1 " lines)"}' || true)
+
+          if [ -n "$LARGE_FILES" ]; then
+            echo "::warning::Found files exceeding 1000 lines:"
+            echo "$LARGE_FILES"
+            echo "large_files_found=true" >> $GITHUB_OUTPUT
+            echo "$LARGE_FILES" > large_files.txt
+          else
+            echo "✅ No monolithic files found!"
+            echo "large_files_found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check dependency versions
+        run: |
+          echo "Checking for outdated dependencies..."
+          flutter pub outdated --json > outdated.json || true
+          cat outdated.json
+
+      - name: Check for hard-coded singletons
+        run: |
+          echo "Checking for hard-coded singleton usage..."
+          SINGLETON_COUNT=$(grep -r "\.instance" lib/services/ --include="*.dart" | grep -c "instance" || true)
+          echo "::notice::Found $SINGLETON_COUNT singleton references. Consider dependency injection."
+
+      - name: Check code duplication
+        run: |
+          echo "Scanning for potential code duplication patterns..."
+          # Look for similar error handling patterns
+          grep -r "try {" lib/ --include="*.dart" | wc -l
+
+      - name: Create issue for large files
+        if: steps.large-files.outputs.large_files_found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let largeFiles = '';
+            try {
+              largeFiles = fs.readFileSync('large_files.txt', 'utf8');
+            } catch (e) {
+              largeFiles = 'Unable to read file list';
+            }
+
+            const title = '🏗️ Architecture: Refactor Monolithic Services';
+            const body = `## Short-term Refactoring Required
+
+            Found files exceeding 1,000 lines that should be modularized:
+
+            \`\`\`
+            ${largeFiles}
+            \`\`\`
+
+            ### Recommendation:
+            Split these files into domain-specific modules for better maintainability.
+
+            ### Priority: MEDIUM
+            ### Estimated Time: 2-4 weeks
+
+            Related to: Architecture Recommendations - Short-term Tasks
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'tech-debt,architecture'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Refactor Monolithic Services')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['tech-debt', 'architecture', 'priority-medium']
+              });
+            }
+
+  dependency-injection-check:
+    name: Check for Dependency Injection
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check if get_it or provider is used
+        id: di-check
+        run: |
+          if grep -q "get_it:" pubspec.yaml || grep -q "provider:" pubspec.yaml; then
+            echo "✅ Dependency injection package found!"
+            echo "di_found=true" >> $GITHUB_OUTPUT
+          else
+            echo "::warning::No dependency injection package found. Consider adding get_it or provider."
+            echo "di_found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create DI recommendation issue
+        if: steps.di-check.outputs.di_found == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '🔧 Architecture: Implement Dependency Injection';
+            const body = `## Short-term Architecture Improvement
+
+            Currently using hard-coded singletons throughout the codebase.
+
+            ### Recommendation:
+            Add dependency injection using \`get_it\` or \`provider\`:
+
+            \`\`\`yaml
+            dependencies:
+              get_it: ^7.6.0
+            \`\`\`
+
+            ### Benefits:
+            - Better testability (easy mocking)
+            - Cleaner service management
+            - Reduced coupling
+
+            ### Priority: MEDIUM
+            ### Estimated Time: 1-2 weeks
+
+            Related to: Architecture Recommendations - Short-term Tasks
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'enhancement,architecture'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Implement Dependency Injection')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['enhancement', 'architecture', 'priority-medium']
+              });
+            }

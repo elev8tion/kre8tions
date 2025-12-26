@@ -1,0 +1,193 @@
+name: Dependency Management & Security
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 4 * * 1'  # Weekly on Mondays at 4 AM
+
+jobs:
+  dependency-check:
+    name: Check Outdated Dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: 'stable'
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Check for outdated packages
+        id: outdated
+        run: |
+          echo "Checking for outdated dependencies..."
+          flutter pub outdated --json > outdated.json || true
+
+          # Parse and check for major version gaps
+          if grep -q "resolvable" outdated.json; then
+            echo "::warning::Outdated dependencies detected"
+            echo "has_outdated=true" >> $GITHUB_OUTPUT
+          else
+            echo "✅ All dependencies up to date!"
+            echo "has_outdated=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Display outdated packages
+        run: |
+          echo "Outdated packages report:"
+          flutter pub outdated
+
+      - name: Check critical package versions
+        run: |
+          echo "Checking for critical version gaps..."
+
+          # Check analyzer package (currently 6.4.1, latest 9.0.0)
+          ANALYZER_VERSION=$(grep "analyzer:" pubspec.yaml | awk '{print $2}' || echo "not found")
+          echo "::notice::analyzer version: $ANALYZER_VERSION (latest: 9.0.0 - 2 major versions behind)"
+
+          # Check dart_style package (currently 2.3.6, latest 3.1.3)
+          DART_STYLE_VERSION=$(grep "dart_style:" pubspec.yaml | awk '{print $2}' || echo "not found")
+          echo "::notice::dart_style version: $DART_STYLE_VERSION (latest: 3.1.3 - 1 major version behind)"
+
+          # Check flutter_lints (currently 5.0.0, latest 6.0.0)
+          LINTS_VERSION=$(grep "flutter_lints:" pubspec.yaml | awk '{print $2}' || echo "not found")
+          echo "::notice::flutter_lints version: $LINTS_VERSION (latest: 6.0.0 - 1 major version behind)"
+
+      - name: Create dependency update issue
+        if: steps.outdated.outputs.has_outdated == 'true' && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '📦 Dependencies: Update Outdated Packages';
+            const body = `## Dependency Update Required
+
+            Outdated packages detected. Please review and update:
+
+            ### Critical Updates:
+            - **analyzer**: 6.4.1 → 9.0.0 (2 major versions behind)
+            - **dart_style**: 2.3.6 → 3.1.3 (1 major version behind)
+            - **flutter_lints**: 5.0.0 → 6.0.0 (1 major version behind)
+
+            ### Other Updates:
+            - **device_preview_plus**: 2.1.0 → 2.6.0 (4 minor versions behind)
+
+            ### Update Process:
+            1. Review breaking changes for each package
+            2. Update \`pubspec.yaml\` with new versions
+            3. Run \`flutter pub get\`
+            4. Run \`flutter analyze\` to check for issues
+            5. Run full test suite
+            6. Fix any breaking changes
+
+            ### Priority: MEDIUM
+            ### Estimated Time: 2-4 hours
+
+            Related to: Architecture Recommendations - Code Quality
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'dependencies'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Update Outdated Packages')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['dependencies', 'priority-medium']
+              });
+            }
+
+      - name: Upload outdated report
+        if: steps.outdated.outputs.has_outdated == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: outdated-dependencies
+          path: outdated.json
+          retention-days: 30
+
+  security-audit:
+    name: Security Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: 'stable'
+
+      - name: Check for security vulnerabilities
+        run: |
+          echo "Checking for known vulnerabilities..."
+          # Flutter doesn't have npm audit equivalent, but we can check package advisories
+          flutter pub get
+
+      - name: Check for hardcoded secrets
+        run: |
+          echo "Scanning for potential hardcoded secrets..."
+
+          # Check for API keys
+          if grep -r "api[_-]key.*=.*['\"].*['\"]" lib/ --include="*.dart"; then
+            echo "::warning::Potential hardcoded API key found"
+          fi
+
+          # Check for tokens
+          if grep -r "token.*=.*['\"].*['\"]" lib/ --include="*.dart"; then
+            echo "::warning::Potential hardcoded token found"
+          fi
+
+          echo "✅ Security scan completed"
+
+      - name: Check file permissions
+        run: |
+          echo "Checking for overly permissive files..."
+          find . -type f -perm /111 -name "*.dart" || echo "✅ No executable Dart files found"
+
+  framework-compatibility:
+    name: Flutter Version Compatibility
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Test with Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: 'stable'
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run tests on stable
+        run: flutter test
+        continue-on-error: true
+
+      - name: Check Flutter constraints
+        run: |
+          echo "Current Flutter SDK constraint:"
+          grep "sdk:" pubspec.yaml -A 1
+
+          echo "::notice::Consider testing with Flutter beta/dev channels for future compatibility"

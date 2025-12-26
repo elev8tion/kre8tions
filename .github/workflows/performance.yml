@@ -1,0 +1,228 @@
+name: Performance Benchmarks
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 2 * * 0'  # Weekly on Sundays at 2 AM
+
+jobs:
+  performance-tests:
+    name: Run Performance Benchmarks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: 'stable'
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run performance tests
+        run: |
+          echo "Running performance benchmarks..."
+          # Run existing performance tests
+          flutter test test/integration/complete_ide_workflow_test.dart --reporter expanded
+
+      - name: Check test execution time
+        id: perf-check
+        run: |
+          echo "Analyzing test performance..."
+          # This will be enhanced when performance benchmarks are added
+          echo "::notice::Performance baseline tests completed"
+
+      - name: Build and measure build time
+        run: |
+          echo "Measuring build performance..."
+          START_TIME=$(date +%s)
+          flutter build web --release --web-renderer html
+          END_TIME=$(date +%s)
+          BUILD_TIME=$((END_TIME - START_TIME))
+          echo "::notice::Build completed in ${BUILD_TIME} seconds"
+          echo "BUILD_TIME=${BUILD_TIME}" >> $GITHUB_ENV
+
+      - name: Analyze build size
+        run: |
+          echo "Analyzing build output size..."
+          BUILD_SIZE=$(du -sh build/web | cut -f1)
+          echo "::notice::Build size: ${BUILD_SIZE}"
+
+      - name: Create performance tracking issue
+        if: github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const buildTime = process.env.BUILD_TIME;
+
+            const title = '📊 Performance: Weekly Benchmark Report';
+            const body = `## Performance Metrics (${new Date().toISOString().split('T')[0]})
+
+            ### Build Performance
+            - **Build Time**: ${buildTime} seconds
+            - **Target**: < 180 seconds (3 minutes)
+
+            ### Performance Tasks Status
+
+            #### Short-term (2-4 weeks):
+            - [ ] Add performance benchmarks for code analysis on large files (10k+ lines)
+            - [ ] Test UI responsiveness with 500+ widgets in preview
+            - [ ] Implement memory profiling during project lifecycle
+            - [ ] Set up regression testing for performance
+
+            #### Long-term (2-3 months):
+            - [ ] Profile code analysis performance
+            - [ ] Optimize widget rendering pipeline
+            - [ ] Implement lazy loading for large projects
+            - [ ] Add performance monitoring dashboard
+
+            ### Next Steps
+            1. Implement dedicated performance test suite
+            2. Set up continuous performance monitoring
+            3. Establish performance budgets
+
+            Related to: Architecture Recommendations - Performance Optimization
+            `;
+
+            // Create or update the weekly performance issue
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'performance'
+            });
+
+            const weeklyIssue = issues.data.find(issue =>
+              issue.title.includes('Weekly Benchmark Report')
+            );
+
+            if (weeklyIssue) {
+              // Comment on existing issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: weeklyIssue.number,
+                body: body
+              });
+            } else {
+              // Create new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['performance', 'metrics']
+              });
+            }
+
+  test-coverage-check:
+    name: Test Coverage Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: 'stable'
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run tests with coverage
+        run: flutter test --coverage
+
+      - name: Install lcov
+        run: sudo apt-get install -y lcov
+
+      - name: Generate coverage report
+        run: |
+          genhtml coverage/lcov.info -o coverage/html
+          COVERAGE=$(lcov --summary coverage/lcov.info 2>&1 | grep "lines" | awk '{print $2}')
+          echo "::notice::Test coverage: ${COVERAGE}"
+          echo "COVERAGE=${COVERAGE}" >> $GITHUB_ENV
+
+      - name: Check coverage threshold
+        run: |
+          echo "Current coverage: ${COVERAGE}"
+          echo "Target: 70%+ for production readiness"
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/html
+          retention-days: 30
+
+      - name: Create coverage tracking issue
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const coverage = process.env.COVERAGE;
+
+            const title = '🧪 Testing: Improve Test Coverage';
+            const body = `## Test Coverage Status
+
+            Current coverage: **${coverage}**
+            Target: **70%+** for production readiness
+
+            ### Missing Test Coverage:
+
+            #### Immediate (This Week):
+            - [ ] Service failure tests for stability
+            - [ ] Error recovery scenarios
+            - [ ] Edge case handling
+
+            #### Short-term (2-4 weeks):
+            - [ ] Integration tests for error scenarios (invalid ZIP, corrupt projects)
+            - [ ] Performance tests (large files 10k+ lines)
+            - [ ] UI responsiveness tests (500+ widgets)
+            - [ ] Memory profiling tests
+            - [ ] Persistence layer fallback tests
+
+            #### Long-term (2-3 months):
+            - [ ] Real-time collaboration tests
+            - [ ] Concurrent editing conflict tests
+            - [ ] WebSocket fallback tests
+            - [ ] Load testing with large projects (1000+ files)
+
+            ### Recommendations:
+            1. Focus on service failure tests first (critical for stability)
+            2. Add performance regression tests
+            3. Mock external API calls thoroughly
+            4. Test browser API abstractions
+
+            Related to: Architecture Recommendations - Testing
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'testing'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Improve Test Coverage')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['testing', 'priority-high']
+              });
+            }

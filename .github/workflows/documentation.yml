@@ -1,0 +1,272 @@
+name: Documentation & API Contracts
+
+on:
+  push:
+    branches: [ main, develop, sleepy-bartik ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    - cron: '0 3 * * 1'  # Weekly on Mondays at 3 AM
+
+jobs:
+  documentation-check:
+    name: Check Documentation Coverage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for missing public API docs
+        id: doc-check
+        run: |
+          echo "Checking for undocumented public APIs..."
+
+          # Find public classes without documentation
+          UNDOCUMENTED=$(grep -rn "^class [A-Z]" lib/ --include="*.dart" | \
+            while read -r line; do
+              FILE=$(echo "$line" | cut -d: -f1)
+              LINE_NUM=$(echo "$line" | cut -d: -f2)
+              PREV_LINE=$((LINE_NUM - 1))
+              if ! sed -n "${PREV_LINE}p" "$FILE" | grep -q "///"; then
+                echo "$line"
+              fi
+            done || true)
+
+          if [ -n "$UNDOCUMENTED" ]; then
+            COUNT=$(echo "$UNDOCUMENTED" | wc -l)
+            echo "::warning::Found $COUNT classes without documentation"
+            echo "undocumented_found=true" >> $GITHUB_OUTPUT
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+          else
+            echo "✅ All public classes documented!"
+            echo "undocumented_found=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check for TODO comments
+        run: |
+          echo "Scanning for TODO/FIXME comments..."
+          TODO_COUNT=$(grep -r "TODO\|FIXME" lib/ --include="*.dart" | wc -l || true)
+          echo "::notice::Found $TODO_COUNT TODO/FIXME comments in codebase"
+
+          if [ "$TODO_COUNT" -gt 100 ]; then
+            echo "::warning::High number of TODO comments ($TODO_COUNT). Consider addressing technical debt."
+          fi
+
+      - name: Check README completeness
+        run: |
+          echo "Checking README.md completeness..."
+          if [ ! -f README.md ]; then
+            echo "::error::README.md not found!"
+            exit 1
+          fi
+
+          # Check for essential sections
+          for section in "Installation" "Usage" "Architecture" "Contributing"; do
+            if ! grep -qi "$section" README.md; then
+              echo "::warning::README.md missing '$section' section"
+            fi
+          done
+
+      - name: Check for architecture documentation
+        run: |
+          echo "Checking for architecture documentation..."
+
+          if [ ! -f docs/ARCHITECTURE.md ]; then
+            echo "::warning::Missing docs/ARCHITECTURE.md - should document key design decisions"
+          fi
+
+          if [ ! -f docs/API.md ]; then
+            echo "::warning::Missing docs/API.md - should document public API contracts"
+          fi
+
+      - name: Create documentation issue
+        if: steps.doc-check.outputs.undocumented_found == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const count = '${{ steps.doc-check.outputs.count }}';
+
+            const title = '📚 Documentation: Document Public API Contracts';
+            const body = `## Immediate Documentation Task
+
+            Found **${count} classes** without documentation comments.
+
+            ### Action Required:
+            Add documentation to all public classes, methods, and properties:
+
+            \`\`\`dart
+            /// Manages the state of the application including panel visibility
+            /// and user preferences.
+            ///
+            /// This service automatically persists state changes to localStorage
+            /// with a 500ms debounce to reduce I/O operations.
+            class AppStateManager extends ChangeNotifier {
+              // ...
+            }
+            \`\`\`
+
+            ### Documentation Checklist:
+            - [ ] Add class-level documentation for all public classes
+            - [ ] Document public methods with parameters and return values
+            - [ ] Add examples for complex APIs
+            - [ ] Document error conditions and exceptions
+            - [ ] Create ARCHITECTURE.md explaining design decisions
+            - [ ] Create API.md documenting public contracts
+
+            ### Priority: HIGH (improves maintainability)
+            ### Estimated Time: 1-2 hours
+
+            Related to: Architecture Recommendations - Immediate Tasks
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'documentation'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Document Public API Contracts')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['documentation', 'priority-high']
+              });
+            }
+
+  long-term-architecture-tracking:
+    name: Track Long-term Architecture Goals
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for browser API abstraction
+        id: browser-check
+        run: |
+          # Check if dart:html is used directly in multiple files
+          DIRECT_HTML=$(grep -r "import 'dart:html'" lib/ --include="*.dart" | wc -l || true)
+
+          if [ "$DIRECT_HTML" -gt 5 ]; then
+            echo "::warning::dart:html used directly in $DIRECT_HTML files. Consider abstraction layer."
+            echo "needs_abstraction=true" >> $GITHUB_OUTPUT
+          else
+            echo "needs_abstraction=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check WebSocket implementation status
+        run: |
+          echo "Checking WebSocket implementation..."
+          if grep -q "WebSocketChannel" lib/ --include="*.dart"; then
+            echo "::notice::WebSocket infrastructure detected - check if fully implemented"
+          else
+            echo "::warning::WebSocket not implemented yet"
+          fi
+
+      - name: Create long-term architecture tracking issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const needsAbstraction = '${{ steps.browser-check.outputs.needs_abstraction }}';
+
+            const title = '🚀 Long-term Architecture Roadmap (2-3 Months)';
+            const body = `## Long-term Architecture Improvements
+
+            Status check: ${new Date().toISOString().split('T')[0]}
+
+            ### 1. Browser API Abstraction Layer
+            ${needsAbstraction === 'true' ? '❌ **Needs Implementation**' : '✅ Implemented'}
+
+            **Goal**: Create testable wrappers for dart:html
+            - [ ] Create \`PersistenceProvider\` interface
+            - [ ] Implement \`LocalStorageProvider\`
+            - [ ] Create \`WindowProvider\` abstraction
+            - [ ] Add unit tests for abstractions
+            - [ ] Migrate existing code to use providers
+
+            **Benefits**: Better testability, easier migration
+
+            ---
+
+            ### 2. Real-time Collaboration
+            **Status**: WebSocket infrastructure present, needs completion
+
+            - [ ] Complete WebSocket connection logic
+            - [ ] Implement operational transformation (OT) for concurrent editing
+            - [ ] Add conflict resolution
+            - [ ] Create collaboration session management
+            - [ ] Add user presence indicators
+            - [ ] Test concurrent editing scenarios
+
+            **Benefits**: Multi-user development support
+
+            ---
+
+            ### 3. Automated Refactoring System
+            **Status**: Dart analyzer available, refactoring logic minimal
+
+            - [ ] Leverage \`analyzer\` package for AST manipulation
+            - [ ] Implement common refactorings:
+              - Extract method
+              - Rename symbol
+              - Extract widget
+              - Convert to StatelessWidget/StatefulWidget
+            - [ ] Add refactoring preview UI
+            - [ ] Implement undo/redo for refactorings
+            - [ ] Add safety checks (type preservation, scope analysis)
+
+            **Benefits**: Intelligent code transformations
+
+            ---
+
+            ### 4. AI Integration Completion
+            **Status**: Scaffolding exists, needs real implementation
+
+            - [ ] Complete OpenAI API integration
+            - [ ] Implement context-aware code generation
+            - [ ] Add code explanation features
+            - [ ] Create AI-powered bug detection
+            - [ ] Add intelligent code suggestions
+            - [ ] Implement usage cost tracking
+
+            **Benefits**: Powerful AI-assisted development
+
+            ---
+
+            ### Quarterly Review
+            This issue tracks long-term architectural goals. Review quarterly and update progress.
+
+            **Next Review**: ${new Date(Date.now() + 90*24*60*60*1000).toISOString().split('T')[0]}
+
+            Related to: Architecture Recommendations - Long-term Tasks
+            `;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'architecture,long-term'
+            });
+
+            const exists = issues.data.some(issue =>
+              issue.title.includes('Long-term Architecture Roadmap')
+            );
+
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['architecture', 'long-term', 'roadmap']
+              });
+            }
