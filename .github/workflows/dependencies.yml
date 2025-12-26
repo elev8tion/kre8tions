@@ -20,7 +20,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.27.3'
           channel: 'stable'
 
       - name: Get dependencies
@@ -134,7 +134,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.27.3'
           channel: 'stable'
 
       - name: Check for security vulnerabilities
@@ -175,7 +175,7 @@ jobs:
       - name: Test with Flutter stable
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
+          flutter-version: '3.27.3'
           channel: 'stable'
 
       - name: Get dependencies
