@@ -28,7 +28,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
         color: theme.colorScheme.surface,
         border: Border(
           left: BorderSide(
-            color: theme.colorScheme.outlineVariant.withOpacity(0.3),
+            color: theme.colorScheme.outlineVariant.withValues(alpha: 0.3),
           ),
         ),
       ),
@@ -51,10 +51,10 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: theme.colorScheme.surfaceContainerHighest.withOpacity(0.3),
+        color: theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.3),
         border: Border(
           bottom: BorderSide(
-            color: theme.colorScheme.outlineVariant.withOpacity(0.3),
+            color: theme.colorScheme.outlineVariant.withValues(alpha: 0.3),
           ),
         ),
       ),
@@ -78,7 +78,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
               decoration: BoxDecoration(
-                color: theme.colorScheme.primary.withOpacity(0.1),
+                color: theme.colorScheme.primary.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(4),
               ),
               child: Text(
@@ -104,13 +104,13 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
           Icon(
             Icons.touch_app,
             size: 48,
-            color: theme.colorScheme.onSurface.withOpacity(0.3),
+            color: theme.colorScheme.onSurface.withValues(alpha: 0.3),
           ),
           const SizedBox(height: 16),
           Text(
             'No Widget Selected',
             style: theme.textTheme.titleMedium?.copyWith(
-              color: theme.colorScheme.onSurface.withOpacity(0.5),
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.5),
             ),
           ),
           const SizedBox(height: 8),
@@ -118,7 +118,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
             'Select a widget from the tree\nor click on the preview',
             textAlign: TextAlign.center,
             style: theme.textTheme.bodySmall?.copyWith(
-              color: theme.colorScheme.onSurface.withOpacity(0.4),
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
             ),
           ),
         ],
@@ -150,7 +150,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
           child: Text(
             title,
             style: theme.textTheme.labelLarge?.copyWith(
-              color: theme.colorScheme.onSurface.withOpacity(0.7),
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -158,7 +158,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
         Card(
           margin: EdgeInsets.zero,
           elevation: 0,
-          color: theme.colorScheme.surfaceContainerHighest.withOpacity(0.2),
+          color: theme.colorScheme.surfaceContainerHighest.withValues(alpha: 0.2),
           child: Padding(
             padding: const EdgeInsets.all(12),
             child: Column(
@@ -188,7 +188,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
             child: Text(
               property,
               style: theme.textTheme.bodySmall?.copyWith(
-                color: theme.colorScheme.onSurface.withOpacity(0.6),
+                color: theme.colorScheme.onSurface.withValues(alpha: 0.6),
               ),
             ),
           ),
@@ -199,7 +199,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
                 color: theme.colorScheme.surface,
                 borderRadius: BorderRadius.circular(4),
                 border: Border.all(
-                  color: theme.colorScheme.outline.withOpacity(0.3),
+                  color: theme.colorScheme.outline.withValues(alpha: 0.3),
                 ),
               ),
               alignment: Alignment.centerLeft,
@@ -207,7 +207,7 @@ class _PropertiesPanelState extends State<PropertiesPanel> {
               child: Text(
                 '--',
                 style: theme.textTheme.bodySmall?.copyWith(
-                  color: theme.colorScheme.onSurface.withOpacity(0.4),
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.4),
                 ),
               ),
             ),

@@ -627,7 +627,7 @@ class _FileTreeViewState extends State<FileTreeView> {
               if (templates != null) ...[
                 const SizedBox(height: 16),
                 DropdownButtonFormField<String>(
-                  initialValue: selectedTemplate,
+                  value: selectedTemplate,
                   decoration: const InputDecoration(
                     labelText: 'Template (Optional)',
                     border: OutlineInputBorder(),
