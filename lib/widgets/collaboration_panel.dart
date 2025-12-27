@@ -917,7 +917,7 @@ class _CreateSessionDialogState extends State<CreateSessionDialog> {
             ),
             const SizedBox(height: 16),
             DropdownButtonFormField<SharePermission>(
-              initialValue: _defaultPermission,
+              value: _defaultPermission,
               decoration: const InputDecoration(
                 labelText: 'Default Permission',
               ),

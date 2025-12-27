@@ -701,7 +701,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
               line: 0,
               properties: {
                 'title': 'Widget Reconstruction Demo',
-                'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+                'backgroundColor': '0x${theme.colorScheme.primary.value.toRadixString(16)}',
               },
               children: [],
             ),
@@ -727,7 +727,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
                       properties: {
                         'icon': 'widgets',
                         'size': 64.0,
-                        'color': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+                        'color': '0x${theme.colorScheme.primary.value.toRadixString(16)}',
                       },
                       children: [],
                     ),
@@ -746,7 +746,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
                         'data': 'Live Widget Reconstruction',
                         'fontSize': 24.0,
                         'fontWeight': 'bold',
-                        'color': '0x${theme.colorScheme.onSurface.toARGB32().toRadixString(16)}',
+                        'color': '0x${theme.colorScheme.onSurface.value.toRadixString(16)}',
                       },
                       children: [],
                     ),
@@ -764,7 +764,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
                       properties: {
                         'data': 'Upload a project to see your widgets rendered live!',
                         'fontSize': 14.0,
-                        'color': '0x${theme.colorScheme.onSurface.withValues(alpha: 0.7).toARGB32().toRadixString(16)}',
+                        'color': '0x${theme.colorScheme.onSurface.withValues(alpha: 0.7).value.toRadixString(16)}',
                       },
                       children: [],
                     ),
@@ -781,7 +781,7 @@ class _UIPreviewPanelState extends State<UIPreviewPanel> {
                       line: 0,
                       properties: {
                         'text': 'Get Started',
-                        'backgroundColor': '0x${theme.colorScheme.primary.toARGB32().toRadixString(16)}',
+                        'backgroundColor': '0x${theme.colorScheme.primary.value.toRadixString(16)}',
                       },
                       children: [],
                     ),
