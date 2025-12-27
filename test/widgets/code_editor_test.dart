@@ -9,7 +9,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: EnhancedCodeEditor(
+            body: EnhancedEnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: 'void main() {}',
@@ -30,7 +30,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: testContent,
@@ -49,7 +49,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: null,
               onContentChanged: (path, content) {},
             ),
@@ -65,7 +65,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'assets/image.png',
                 content: 'binary content',
@@ -85,7 +85,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/models/user.dart',
                 content: 'class User {}',
@@ -107,7 +107,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: 'initial content',
@@ -139,7 +139,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: multiLineContent,
@@ -174,7 +174,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: file1,
               onContentChanged: (path, content) {},
             ),
@@ -188,7 +188,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: file2,
               onContentChanged: (path, content) {},
             ),
@@ -210,7 +210,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: yamlFile,
               onContentChanged: (path, content) {},
             ),
