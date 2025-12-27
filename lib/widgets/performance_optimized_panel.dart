@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kre8tions/theme.dart';
+import 'package:kre8tions/utils/glass_morphism_helper.dart';
 
 /// Performance-optimized panel with caching and efficient rendering
 class PerformanceOptimizedPanel extends StatefulWidget {

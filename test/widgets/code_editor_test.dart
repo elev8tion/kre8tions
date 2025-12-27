@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:kre8tions/widgets/code_editor.dart';
+import 'package:kre8tions/widgets/enhanced_code_editor.dart';
 import 'package:kre8tions/models/project_file.dart';
 
 void main() {
-  group('CodeEditor Widget Tests', () {
-    testWidgets('should render CodeEditor widget', (WidgetTester tester) async {
+  group('EnhancedCodeEditor Widget Tests', () {
+    testWidgets('should render EnhancedCodeEditor widget', (WidgetTester tester) async {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: CodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: 'void main() {}',
@@ -21,7 +21,7 @@ void main() {
         ),
       );
 
-      expect(find.byType(CodeEditor), findsOneWidget);
+      expect(find.byType(EnhancedCodeEditor), findsOneWidget);
     });
 
     testWidgets('should display file content', (WidgetTester tester) async {

@@ -27,6 +27,9 @@ class Kre8tionsColors {
   static const accentPink = Color(0xFFFF4DA6);        // Neon pink
   static const accentGreen = Color(0xFF00F5A0);       // Neon green (new)
 
+  // 🔮 Glass Morphism Colors
+  static const glassPrimary = Color(0x1A5E9CFF);      // Glass effect with accent blue
+
   // 🎯 Semantic Colors
   static const success = Color(0xFF10B981);           // Success green
   static const warning = Color(0xFFF59E0B);           // Warning amber
