@@ -1,5 +1,5 @@
-import '../models/flutter_project.dart';
-import '../models/project_file.dart' show ProjectFile, FileType;
+import 'package:kre8tions/models/flutter_project.dart';
+import 'package:kre8tions/models/project_file.dart' show ProjectFile, FileType;
 import 'source_code_correlator.dart';
 import 'ide_source_service.dart';
 
