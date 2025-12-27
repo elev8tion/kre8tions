@@ -9,7 +9,7 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(
           home: Scaffold(
-            body: EnhancedEnhancedCodeEditor(
+            body: EnhancedCodeEditor(
               file: ProjectFile(
                 path: 'lib/main.dart',
                 content: 'void main() {}',
